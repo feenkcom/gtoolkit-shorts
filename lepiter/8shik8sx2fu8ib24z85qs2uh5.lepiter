@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:40.947764+02:00"
+						"dateAndTimeString" : "2022-10-17T18:17:31.664484+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "An idea is to implement an RPN calculator as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
+				"string" : "An idea is to implement an [[RPN calculator]] as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
 			},
 			{
 				"__type" : "textSnippet",
@@ -373,6 +373,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Using announcements."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-17T18:14:25.204507+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-17T18:14:25.204507+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "NbmRAZ+nDQC9A4UkBA5+dw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
