@@ -9,6 +9,7 @@ Metacello new
 	load
 ```
 
+See the lepiter database for further details.
 ```
 BaselineOfGtoolkitShorts loadLepiter
 ```
