@@ -218,7 +218,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-17T18:33:16.321201+02:00"
+															"dateAndTimeString" : "2022-10-18T16:08:57.794282+02:00"
 														}
 													},
 													"editEmail" : {
@@ -229,7 +229,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-17T18:33:16.321201+02:00"
+															"dateAndTimeString" : "2022-10-18T16:08:58.961332+02:00"
 														}
 													},
 													"uid" : {
@@ -239,7 +239,44 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : ""
+													"string" : "[[Prototype the stack machine]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-10-18T16:09:51.719986+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-10-18T16:09:52.361429+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "cC3XYbGnDQCbGzo2C4wwnw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Implementing examples]] "
 												}
 											]
 										},

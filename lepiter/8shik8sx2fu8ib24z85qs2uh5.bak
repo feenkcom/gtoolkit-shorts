@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T09:56:42.811264+02:00"
+						"dateAndTimeString" : "2022-10-18T09:56:44.970585+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]  [["
+				"string" : "[[todo]]  [[rpn]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -156,7 +156,156 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:11:39.117387+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:11:47.372339+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DbUzaLGnDQCbOlYQC4wwnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "initializing a git repo"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:11:53.30677+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:11:57.164954+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oRroaLGnDQCbQINeC4wwnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "programming in notebooks"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:12:09.225199+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:12:18.006198+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "gwglarGnDQCbRAyHC4wwnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "creating moldable views"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:11:59.729387+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:12:06.638137+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "uXtzabGnDQCbQljcC4wwnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "working with examples"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -166,7 +315,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:46.298706+02:00"
+						"dateAndTimeString" : "2022-10-18T16:11:33.67507+02:00"
 					}
 				},
 				"editEmail" : {
@@ -177,7 +326,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:42:09.162911+02:00"
+						"dateAndTimeString" : "2022-10-18T16:11:36.118894+02:00"
 					}
 				},
 				"uid" : {
@@ -187,192 +336,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Some topics to cover:"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:50.811061+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:55.594958+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "fAresp2nDQCh5E00Adl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Creating a github repo"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:59.724621+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:28.850622+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "zDpUs52nDQCh5lH/Adl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Using lepiter to start programming in notebook pages while logging tasks and progress."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:30.052691+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:33.718019+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Jrk1tZ2nDQCh6KrtAdl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Implementing examples."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:36.331065+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:43.417126+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "wZuRtZ2nDQCh6rUhAdl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Implementing moldable views."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:48.345422+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:41:53.018576+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "eKsTtp2nDQCh7EGFAdl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Using announcements."
+				"string" : "#Stuff to cover"
 			},
 			{
 				"__type" : "textSnippet",

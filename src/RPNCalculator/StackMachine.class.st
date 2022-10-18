@@ -37,6 +37,23 @@ StackMachine >> changed [
 ]
 
 { #category : #accessing }
+StackMachine >> div [
+	| denominator numerator |
+	self assertTwoArgs.
+	denominator := self top.
+	self assert: denominator ~= 0 description: 'Can''t divide by zero'.
+	self pop.
+	numerator := self pop.
+	self push: (numerator / denominator) asFloat
+]
+
+{ #category : #accessing }
+StackMachine >> dup [
+	self assertNotEmpty.
+	self push: self top
+]
+
+{ #category : #accessing }
 StackMachine >> gtItemsFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -58,6 +75,12 @@ StackMachine >> initialize [
 ]
 
 { #category : #accessing }
+StackMachine >> mul [
+	self assertTwoArgs.
+	self push: self pop * self pop
+]
+
+{ #category : #accessing }
 StackMachine >> pop [
 	| result |
 	self assertNotEmpty.
@@ -73,11 +96,38 @@ StackMachine >> push: anInteger [
 ]
 
 { #category : #accessing }
+StackMachine >> sqrt [
+	self assertNotEmpty.
+	self push: self pop sqrt
+]
+
+{ #category : #accessing }
 StackMachine >> stack [
 	^ stack
 ]
 
 { #category : #accessing }
+StackMachine >> sub [
+	| subtrahend minuend |
+	self assertTwoArgs.
+	subtrahend := self pop.
+	minuend := self pop.
+	self push: minuend - subtrahend
+]
+
+{ #category : #accessing }
+StackMachine >> swap [
+	| top next |
+	self assertTwoArgs.
+	top := self pop.
+	next := self pop.
+	self
+		push: top;
+		push: next
+]
+
+{ #category : #accessing }
 StackMachine >> top [
+	self assertNotEmpty.
 	^ self stack last
 ]
