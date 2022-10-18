@@ -13,8 +13,11 @@ BaselineOfGtoolkitShorts class >> loadLepiter [
 	LeDatabasesRegistry default defaultLogicalDatabase reload
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 BaselineOfGtoolkitShorts >> baseline: spec [
 	<baseline>
-	spec for: #common do: [ spec package: 'GtoolkitShorts' ]
+	spec
+		for: #common
+		do: [ spec package: 'GtoolkitShorts'.
+			spec package: 'RPNCalculator' ]
 ]
