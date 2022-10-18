@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:17:45.356497+02:00"
+						"dateAndTimeString" : "2022-10-18T09:56:27.723685+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] "
+				"string" : "[[todo]]  [[rpn]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -357,7 +357,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:38.05202+02:00"
+									"dateAndTimeString" : "2022-10-18T09:56:14.189711+02:00"
 								}
 							},
 							"editEmail" : {
@@ -368,7 +368,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:38.05202+02:00"
+									"dateAndTimeString" : "2022-10-18T09:56:22.196467+02:00"
 								}
 							},
 							"uid" : {
@@ -378,7 +378,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "[[Prototype the stack machine]] "
 						}
 					]
 				},

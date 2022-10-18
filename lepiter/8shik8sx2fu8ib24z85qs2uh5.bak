@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:39:20.606297+02:00"
+						"dateAndTimeString" : "2022-10-18T09:56:42.811264+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] "
+				"string" : "[[todo]]  [["
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:40:40.947764+02:00"
+						"dateAndTimeString" : "2022-10-17T18:17:31.664484+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "An idea is to implement an RPN calculator as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
+				"string" : "An idea is to implement an [[RPN calculator]] as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
 			},
 			{
 				"__type" : "textSnippet",
