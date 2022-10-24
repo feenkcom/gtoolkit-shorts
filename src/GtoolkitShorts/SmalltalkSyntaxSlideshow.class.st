@@ -11,11 +11,37 @@ SmalltalkSyntaxSlideshow class >> show [
 ]
 
 { #category : #accessing }
+SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
+	<gtSlide>
+	^ aSlide paragraph
+		priority: (self priorityFor: #expressionsHeading:);
+		subtitleWithFormat: (self asSubtitle: 'Expressions');
+		paragraphWithFormat: (self
+				asBigText: '
+3 + 4
+') 
+]
+
+{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #literalArrays:);
 		pageNamed: 'Literal arrays' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
+	<gtSlide>
+	^ aSlide paragraph
+		priority: (self priorityFor: #literalsHeading:);
+		subtitleWithFormat: (self asSubtitle: 'Literals');
+		paragraphWithFormat: (self
+				asBigText: '
+3 
+''hello'' 
+#foo
+') 
 ]
 
 { #category : #accessing }
@@ -38,11 +64,14 @@ SmalltalkSyntaxSlideshow >> pages [
 	^ #( 
 		#titleSlide:
 		#postCardImageSlide:
-		#numbers:
-		#stringsAndCharacters:
-		#symbols:
-		#literalArrays:
-		#reservedWords:
+		literalsHeading:
+			#numbers:
+			#stringsAndCharacters:
+			#symbols:
+			#literalArrays:
+			#reservedWords:
+		#expressionsHeading:
+		#statementsHeading:
 		)
 ]
 
@@ -69,6 +98,19 @@ true false nil
 self super
 
 thisContext')
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
+	<gtSlide>
+	^ aSlide paragraph
+		priority: (self priorityFor: #statementsHeading:);
+		subtitleWithFormat: (self asSubtitle: 'Statements');
+		paragraphWithFormat: (self
+				asBigText: '
+x := 3+4.
+y := 3*4
+') 
 ]
 
 { #category : #accessing }
