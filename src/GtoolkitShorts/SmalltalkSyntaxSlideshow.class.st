@@ -58,24 +58,6 @@ SmalltalkSyntaxSlideshow >> numbers: aSlide [
 ]
 
 { #category : #accessing }
-SmalltalkSyntaxSlideshow >> pages [
-	"Instead of manually setting priorities, just list the slides in order here."
-	<gtExample>
-	^ #( 
-		#titleSlide:
-		#postCardImageSlide:
-		literalsHeading:
-			#numbers:
-			#stringsAndCharacters:
-			#symbols:
-			#literalArrays:
-			#reservedWords:
-		#expressionsHeading:
-		#statementsHeading:
-		)
-]
-
-{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 	<gtSlide>
 	^ aSlide filePicture
@@ -98,6 +80,24 @@ true false nil
 self super
 
 thisContext')
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> slidePriorities [
+	"Instead of manually setting priorities, just list the slides in order here."
+	<gtExample>
+	^ #( 
+		#titleSlide:
+		#postCardImageSlide:
+		literalsHeading:
+			#numbers:
+			#stringsAndCharacters:
+			#symbols:
+			#literalArrays:
+			#reservedWords:
+		#expressionsHeading:
+		#statementsHeading:
+		)
 ]
 
 { #category : #accessing }
