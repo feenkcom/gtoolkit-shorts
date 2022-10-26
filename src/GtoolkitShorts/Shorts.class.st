@@ -5,6 +5,11 @@ Class {
 }
 
 { #category : #accessing }
+Shorts class >> fileIn: aFilename [
+	(self new fileOuts / aFilename) fileIn
+]
+
+{ #category : #accessing }
 Shorts >> fileOuts [
 	"The directory where the fileOuts are stored."
 
