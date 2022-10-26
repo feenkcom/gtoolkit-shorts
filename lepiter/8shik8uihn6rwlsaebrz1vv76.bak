@@ -216,7 +216,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-26T11:51:09.214752+02:00"
+									"dateAndTimeString" : "2022-10-26T11:51:23.524383+02:00"
 								}
 							},
 							"uid" : {
@@ -226,7 +226,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Save the snapshots of the HelloWor"
+							"string" : "Save the snapshots of the HelloWorld class as fileOuts in the git repo."
 						},
 						{
 							"__type" : "textSnippet",
