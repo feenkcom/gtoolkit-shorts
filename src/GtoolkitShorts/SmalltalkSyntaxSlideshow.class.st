@@ -32,6 +32,30 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 ]
 
 { #category : #accessing }
+SmalltalkSyntaxSlideshow >> blocksAgain: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #blocksAgain:);
+		pageNamed: 'Blocks again' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #blocksWithArguments:);
+		pageNamed: 'Blocks with arguments' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #blocksWithMultipleArguments:);
+		pageNamed: 'Blocks with multiple arguments' from: self myLepiterDB
+]
+
+{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -61,6 +85,31 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #characters:);
 		pageNamed: 'Characters' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> classesHeading: aSlide [
+	<gtSlide>
+	^ aSlide paragraph
+		priority: (self priorityFor: #classesHeading:);
+		subtitleWithFormat: (self asSubtitle: 'Classes');
+		paragraphWithFormat: (self
+				asBigText: '
+				
+Object
+	subclass: #HelloWorld
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: #Hello
+') 
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #controlConstructs:);
+		pageNamed: 'Control constructs' from: self myLepiterDB
 ]
 
 { #category : #accessing }
@@ -231,7 +280,13 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 		
 		statementsHeading:
 			statements:
-			blocksAgain:
+	
+		blocksAgain:
+			blocksWithArguments:
+			blocksWithMultipleArguments
+			controlConstructs:
+		
+		classesHeading:
 		
 	)
 ]
