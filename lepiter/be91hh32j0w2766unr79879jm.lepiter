@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:18.827983+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:39.141191+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:22.978526+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:39.625035+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "7DfMJbioDQCD0WDGAmd9wA=="
+					"uidString" : "YK9Uq7ioDQCFE1FrAmd9wA=="
 				},
-				"code" : "#a"
+				"code" : "3 factorial "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -52,7 +52,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:23.360876+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:48.963226+01:00"
 					}
 				},
 				"editEmail" : {
@@ -63,14 +63,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:25.599524+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:49.817422+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "hWIRJrioDQCD1GnyAmd9wA=="
+					"uidString" : "so7qq7ioDQCFFu3FAmd9wA=="
 				},
-				"code" : "#foo"
+				"code" : "true not"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -86,7 +86,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:26.39704+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:51.04456+01:00"
 					}
 				},
 				"editEmail" : {
@@ -97,17 +97,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:29.783565+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:55.433003+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "i7Y/JrioDQCD1ziTAmd9wA=="
+					"uidString" : "6lAKrLioDQCFGOntAmd9wA=="
 				},
-				"code" : "#Smalltalk"
+				"code" : "'Hello' asUppercase "
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -120,7 +120,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:19:44.473498+01:00"
+						"dateAndTimeString" : "2022-10-31T17:16:56.567521+01:00"
 					}
 				},
 				"editEmail" : {
@@ -131,91 +131,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:19:44.473498+01:00"
+						"dateAndTimeString" : "2022-10-31T17:17:00.85449+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "vf3M37eoDQCDA5XmAmd9wA=="
+					"uidString" : "/ZZerLioDQCFGrncAmd9wA=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:42:18.477469+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:42:52.390663+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Ew3U37eoDQCDCZOoAmd9wA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T15:31:25.494539+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T15:31:25.494539+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "KtGKiymoDQCEHDZ6DGVrLw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "Character plusOrMinus"
 			}
 		]
 	},
@@ -227,7 +150,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-24T15:31:20.670845+02:00"
+			"dateAndTimeString" : "2022-10-31T17:16:31.176809+01:00"
 		}
 	},
 	"editEmail" : {
@@ -238,15 +161,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-24T15:31:20.670845+02:00"
+			"dateAndTimeString" : "2022-10-31T17:16:31.176809+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Symbols"
+		"title" : "Unary messages"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "f335418b-29a8-0d00-840f-00160c656b2f"
+		"uuid" : "1228dbaa-b8a8-0d00-8510-86d702677dc0"
 	}
 }
