@@ -88,19 +88,15 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 ]
 
 { #category : #accessing }
-SmalltalkSyntaxSlideshow >> classesHeading: aSlide [
+SmalltalkSyntaxSlideshow >> classesAndMethodsHeading: aSlide [
 	<gtSlide>
 	^ aSlide paragraph
-		priority: (self priorityFor: #classesHeading:);
-		subtitleWithFormat: (self asSubtitle: 'Classes');
+		priority: (self priorityFor: #classesAndMethodsHeading:);
+		subtitleWithFormat: (self asSubtitle: 'Classes and Methods');
 		paragraphWithFormat: (self
 				asBigText: '
-				
-Object
-	subclass: #HelloWorld
-	instanceVariableNames: ''
-	classVariableNames: ''
-	package: #Hello
+
+HelloWorld new hello
 ') 
 ]
 
@@ -110,6 +106,30 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #controlConstructs:);
 		pageNamed: 'Control constructs' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #creatingClasses:);
+		pageNamed: 'Creating classes' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #definingKeywordMethods:);
+		pageNamed: 'Defining keyword methods' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #definingMethods:);
+		pageNamed: 'Defining methods' from: self myLepiterDB
 ]
 
 { #category : #accessing }
@@ -206,6 +226,27 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 ]
 
 { #category : #accessing }
+SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
+	<gtSlide>
+	^ aSlide labelAndElement
+		priority: 39;
+		element: [
+			((Postcard>>#exampleWithNumber:) 
+				gtViewNodesExplanationWithLinksFor: GtPhlowEmptyView new) 
+					asElementDo: [:e | e ]]
+					";
+		newFadedText: ('Let''s put it all together. Take a look at the method below. Hover over the syntactical parts on the left to understand how they map on the different parts of the method.' asRopedText fontSize: 70)"
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> pragmas: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #pragmas:);
+		pageNamed: 'Pragmas' from: self myLepiterDB
+]
+
+{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -280,14 +321,18 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 		
 		statementsHeading:
 			statements:
-	
-		blocksAgain:
+			blocksAgain:
 			blocksWithArguments:
 			blocksWithMultipleArguments
 			controlConstructs:
 		
-		classesHeading:
-		
+		classesAndMethodsHeading:
+			creatingClasses:
+			definingMethods:
+			definingKeywordMethods:
+			pragmas:
+
+		postcardSyntaxExplanation:
 	)
 ]
 
@@ -307,6 +352,7 @@ SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
 		subtitleWithFormat: (self asSubtitle: 'Statements');
 		paragraphWithFormat: (self
 				asBigText: '
+
 x := 3+4.
 y := 3*4
 ') 
