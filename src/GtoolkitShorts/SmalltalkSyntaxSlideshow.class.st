@@ -230,8 +230,18 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			dynamicArrays:
 		
 		statementsHeading:
+			statements:
+			blocksAgain:
 		
 	)
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> statements: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #statements:);
+		pageNamed: 'Statements' from: self myLepiterDB
 ]
 
 { #category : #accessing }
