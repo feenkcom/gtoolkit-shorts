@@ -63,7 +63,7 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 	^ aSlide filePicture
 		priority: (self priorityFor: #postCardImageSlide:);
 		fileReference: (GtResourcesUtility
-				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/Pharo_syntax_postcard.svg.png')
+				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/postcardsyntax.png')
 ]
 
 { #category : #accessing }

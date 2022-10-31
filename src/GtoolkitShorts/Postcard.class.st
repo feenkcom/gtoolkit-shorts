@@ -6,6 +6,7 @@ Class {
 
 { #category : #accessing }
 Postcard >> exampleWithNumber: x [
+
 	"A ""complete"" Pharo syntax"
 
 	<syntaxOn: #postcard>
