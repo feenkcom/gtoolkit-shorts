@@ -88,6 +88,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 	<gtExample>
 	^ #( 
 		#titleSlide:
+		#titleSlideV2:
 		#postCardImageSlide:
 		literalsHeading:
 			#numbers:
@@ -138,4 +139,13 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 		titleWithFormat: (self asTitle: 'A Guided Tour of Smalltalk Syntax')
 		";
 		subtitleWithFormat: (self asBigText: '@onierstrasz — feenk.com')"
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> titleSlideV2: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #titleSlideV2:);
+		titleBottomPadding: 60;
+		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7"')
 ]

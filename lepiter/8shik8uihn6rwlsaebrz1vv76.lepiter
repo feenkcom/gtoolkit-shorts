@@ -153,40 +153,6 @@
 				"string" : "Running example: HelloWorld"
 			},
 			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T14:16:39.359312+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T08:59:57.713465+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "a9MlgCioDQCDOW4bDGVrLw=="
-				},
-				"code" : "SmalltalkSyntaxSlideshow show"
-			},
-			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -232,255 +198,7 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:20:14.783416+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:20:41.543155+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "ZFvfojeoDQCgKDO3BHVQIw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "EOG suggests to try using `fontSize:`. See [slack thread](https://feenk.slack.com/archives/CNT0ZB7T9/p1666627036418079?thread_ts=1666617142.589249&cid=CNT0ZB7T9)."
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:27:03.904729+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:34:48.99357+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "mdmquzeoDQCgSgd7BHVQIw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "It turns out the Cmd-= activates `self increaseFontSize` — but what to invoke it on?"
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:34:54.927955+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:35:00.308284+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "dGjU1zeoDQCgZP1NBHVQIw=="
-										},
-										"code" : "#increaseFontSize gtImplementors"
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:30:06.074456+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:30:21.272889+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "dNqcxjeoDQCgUqoUBHVQIw=="
-										},
-										"code" : "TLeWithFontSize gtTraitUsers"
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:35:24.871628+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:35:39.328441+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "5E+d2TeoDQCgZfulBHVQIw=="
-										},
-										"code" : "LePageToolContentTreeElement gtReferences "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:36:43.795062+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:37:25.966188+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "xRFA3jeoDQCgZkhLBHVQIw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "How to get to the tree element? This only creates a new one."
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:31:20.859393+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-25T08:37:07.504325+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "HPsRyzeoDQCgWeyHBHVQIw=="
-										},
-										"code" : "thisSnippet page asPreviewElement increaseFontSize "
-									}
-								]
+								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -490,7 +208,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:16:01.856773+02:00"
+									"dateAndTimeString" : "2022-10-31T10:49:34.149099+01:00"
 								}
 							},
 							"editEmail" : {
@@ -501,17 +219,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-25T08:34:25.179171+02:00"
+									"dateAndTimeString" : "2022-10-31T10:51:13.235856+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "XgtSVCmoDQCDmdVnDGVrLw=="
+								"uidString" : "3B67QrOoDQCMjVTAD6Whig=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Q]] *How to programmatically zoom into a lepiter page included in a slide?* "
+							"string" : "[[How to programmatically zoom into a slide?]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -589,6 +307,40 @@
 					"__type" : "snippets",
 					"items" : [
 						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-31T10:54:03.790096+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-31T10:54:22.970814+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "KtMVU7OoDQCMsYO/D6Whig=="
+							},
+							"code" : "SmalltalkSyntaxSlideshow show"
+						},
+						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -629,6 +381,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*Hello. My name is Oscar Nierstrasz. In this short video I'd like to give you quick guided tour of the syntax of Smalltalk.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-10-31T10:59:09.23603+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-10-31T10:59:23.484394+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "v775X7OoDQCMtAqAD6Whig=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*SLIDE: Postcard*  "
 									},
 									{
 										"__type" : "textSnippet",

@@ -10,9 +10,11 @@ Postcard >> exampleWithNumber: x [
 
 	<syntaxOn: #postcard>
 	| y byteArray |
-	true & false not & nil isNil ifFalse: [ self perform: #add: with: x ].
+	true & false not & nil isNil 
+		ifFalse: [ self perform: #add: with: x ].
 
-	y := thisContext stack size + super class methods size.
+	y := thisContext stack size 
+		+ super class methods size.
 
 	byteArray := #[2 2r100 8r20 16rFF].
 
