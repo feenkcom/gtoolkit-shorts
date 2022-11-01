@@ -73,7 +73,7 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> changingEvaluationOrder: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #changingEvaluationOrder:);
 		pageNamed: 'Changing evaluation order' from: self myLepiterDB
@@ -158,22 +158,6 @@ SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
 ]
 
 { #category : #accessing }
-SmalltalkSyntaxSlideshow >> floats: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #floats:);
-		pageNamed: 'Floats' from: self myLepiterDB
-]
-
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow >> integers: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #integers:);
-		pageNamed: 'Integers' from: self myLepiterDB
-]
-
-{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -197,8 +181,11 @@ SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
 		subtitleWithFormat: (self asSubtitle: 'Literals');
 		paragraphWithFormat: (self
 				asBigCode: '
+				
 3 
+
 ''hello'' 
+
 #foo
 ') 
 ]
@@ -210,10 +197,18 @@ SmalltalkSyntaxSlideshow >> myLepiterDB [
 
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> nestedLiteralArrays: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #nestedLiteralArrays:);
 		pageNamed: 'Nested literal arrays' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> numbers: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #numbers:);
+		pageNamed: 'Numbers' from: self myLepiterDB
 ]
 
 { #category : #accessing }
@@ -260,14 +255,6 @@ SmalltalkSyntaxSlideshow >> precedence: aSlide [
 ]
 
 { #category : #accessing }
-SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #radixNumbers:);
-		pageNamed: 'Radix numbers' from: self myLepiterDB
-]
-
-{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -303,29 +290,27 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 		readAloud:
 
 		literalsHeading:
-			integers:
-			floats:
-			radixNumbers:
+			numbers:
 			strings:
 			characters:
 			symbols:
 			literalArrays:
-			nestedLiteralArrays:
+			"nestedLiteralArrays:"
 			byteArrays:
 			reservedWords:
-			blocks:
 
 		expressionsHeading:
 			unaryMessages:
 			binaryMessages:
 			keywordMessages:
 			precedence:
-			changingEvaluationOrder:
+			"changingEvaluationOrder:"
 			cascades:
 			dynamicArrays:
 		
 		statementsHeading:
 			statements:
+			blocks:
 			blocksAgain:
 			blocksWithArguments:
 			blocksWithMultipleArguments:

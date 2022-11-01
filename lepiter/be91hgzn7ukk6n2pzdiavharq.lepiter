@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:03.25477+01:00"
+						"dateAndTimeString" : "2022-10-31T17:04:16.715656+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:03.752133+01:00"
+						"dateAndTimeString" : "2022-11-01T15:07:20.13327+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "C1EbAbioDQCDYCLAAmd9wA=="
+					"uidString" : "qisUf7ioDQCE31rEAmd9wA=="
 				},
-				"code" : "2r101010 "
+				"code" : "[ 3 + 4 ]"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -52,7 +52,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:54.342514+01:00"
+						"dateAndTimeString" : "2022-10-31T17:04:46.144175+01:00"
 					}
 				},
 				"editEmail" : {
@@ -63,48 +63,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:58.121464+01:00"
+						"dateAndTimeString" : "2022-11-01T15:07:25.844121+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ldomBLioDQCDZNsuAmd9wA=="
+					"uidString" : "yDbVgLioDQCE4pQtAmd9wA=="
 				},
-				"code" : "8r52"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:32.785854+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:29:37.996276+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "1+zdArioDQCDYlv2Amd9wA=="
-				},
-				"code" : "16r2A"
+				"code" : "[ 3 + 4 ] value"
 			}
 		]
 	},
@@ -116,7 +82,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T16:28:59.442509+01:00"
+			"dateAndTimeString" : "2022-10-31T17:04:01.801256+01:00"
 		}
 	},
 	"editEmail" : {
@@ -127,15 +93,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T16:28:59.442509+01:00"
+			"dateAndTimeString" : "2022-10-31T17:04:01.801256+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Radix numbers"
+		"title" : "Blocks"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "ef24e100-b8a8-0d00-835d-f85402677dc0"
+		"uuid" : "c697307e-b8a8-0d00-84dc-5d6502677dc0"
 	}
 }
