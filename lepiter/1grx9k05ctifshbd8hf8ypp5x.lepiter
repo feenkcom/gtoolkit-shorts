@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:34.500811+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.870223+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:35.522044+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.870223+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "U5/+pp2nDQChxJkeAdl+lA=="
+					"uidString" : "b7rtH8eoDQC5tDxrDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T10:32:55.369232+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.871519+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,49 +66,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T10:33:04.402981+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.871519+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "W2pFJceoDQC6hVZ/DynDGA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "This version is too long (13\")."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:38:26.899538+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:38:38.348566+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "41dPp52nDQChyLueAdl+lA=="
+					"uidString" : "ar/tH8eoDQC5tj00DynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -129,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:02:56.425605+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.872105+01:00"
 					}
 				},
 				"editEmail" : {
@@ -140,12 +103,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:04:01.30428+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.872105+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WeZRxbGoDQCcOC6SBkE3kA=="
+					"uidString" : "uMHtH8eoDQC5t1CsDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -171,7 +134,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:39:19.969962+01:00"
+									"dateAndTimeString" : "2022-11-01T10:33:27.366816+01:00"
 								}
 							},
 							"editEmail" : {
@@ -182,17 +145,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:39:23.459733+01:00"
+									"dateAndTimeString" : "2022-11-01T10:34:21.783317+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "rr4KgLuoDQCUembKCI4Y7A=="
+								"uidString" : "r8ntH8eoDQC5ug43DynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Time the presentation"
+							"string" : "Edit this down — 13\" is too long. Original version [[Smalltalk Syntax v1 — too long]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -208,7 +171,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:39:24.767705+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874175+01:00"
 								}
 							},
 							"editEmail" : {
@@ -219,12 +182,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:39:34.145586+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874175+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Aw9ngLuoDQCUe3itCI4Y7A=="
+								"uidString" : "w8ntH8eoDQC5u1pxDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -245,7 +208,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T10:49:34.149099+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874182+01:00"
 								}
 							},
 							"editEmail" : {
@@ -256,12 +219,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T10:51:13.235856+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874182+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "3B67QrOoDQCMjVTAD6Whig=="
+								"uidString" : "yMntH8eoDQC5vNJgDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -282,7 +245,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:20:35.932937+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874186+01:00"
 								}
 							},
 							"editEmail" : {
@@ -293,12 +256,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:20:45.882109+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.874186+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "bIxTZCmoDQCDwxtJDGVrLw=="
+								"uidString" : "zMntH8eoDQC5vcGrDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -315,7 +278,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T15:15:56.311774+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.874082+01:00"
 					}
 				},
 				"editEmail" : {
@@ -326,12 +289,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T15:15:58.369968+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.874082+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "4DoUVCmoDQCDmLCEDGVrLw=="
+					"uidString" : "d8ntH8eoDQC5uRg4DynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -367,7 +330,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:02:13.807597+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
 														}
 													},
 													"editEmail" : {
@@ -378,12 +341,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:02:22.25842+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "BRotobeoDQCBYzgOAmd9wA=="
+														"uidString" : "ZBDuH8eoDQC5wmcgDynDGA=="
 													},
 													"code" : "SmalltalkSyntaxSlideshow show"
 												},
@@ -401,7 +364,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:28:00.772084+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892264+01:00"
 														}
 													},
 													"editEmail" : {
@@ -412,17 +375,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:28:56.192943+02:00"
+															"dateAndTimeString" : "2022-11-01T10:38:53.780791+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "E+crpyioDQCDR0+PDGVrLw=="
+														"uidString" : "ahDuH8eoDQC5w42tDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Hello. My name is Oscar Nierstrasz. In this short video I'd like to give you quick guided tour of the syntax of Smalltalk.* "
+													"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to give you quick guided tour of the Smalltalk language.* "
 												}
 											]
 										},
@@ -434,7 +397,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:03:05.628756+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
 											}
 										},
 										"editEmail" : {
@@ -445,12 +408,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:03:07.401482+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "m+MspLeoDQCBZ8i3Amd9wA=="
+											"uidString" : "XRDuH8eoDQC5wbHODynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -476,7 +439,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:09:45.231442+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892273+01:00"
 														}
 													},
 													"editEmail" : {
@@ -487,12 +450,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:10:03.15154+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892273+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "bkgVvLeoDQCBx/otAmd9wA=="
+														"uidString" : "chDuH8eoDQC5xRMCDynDGA=="
 													},
 													"code" : "SmalltalkSyntaxSlideshow show: #postCardImageSlide: "
 												},
@@ -510,7 +473,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:50:36.452399+02:00"
+															"dateAndTimeString" : "2022-11-01T10:37:11.071386+01:00"
 														}
 													},
 													"editEmail" : {
@@ -521,54 +484,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:51:46.027067+02:00"
+															"dateAndTimeString" : "2022-11-01T10:37:32.580651+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "K7lbqyioDQCDS9EJDGVrLw=="
+														"uidString" : "TsP3LceoDQC6i4AGDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Famously, the syntax of Smalltalk is quite compact, and can fit on a postcard. Nevertheless, it can take a bit of getting used to.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:05:13.824854+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:06:09.43502+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ISScq7eoDQCBnKlOAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Since the postcard example consists mainly of nonsense code, let's work through some real examples instead, and focus especially on the parts of Smalltalk that are different from other programming languages we know.* "
+													"string" : "*The syntax of Smalltalk is quite compact, and famously fits on a postcard.* "
 												}
 											]
 										},
@@ -580,7 +506,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:03:22.553736+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892269+01:00"
 											}
 										},
 										"editEmail" : {
@@ -591,12 +517,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:03:24.619556+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892269+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "VNMPpbeoDQCBboPyAmd9wA=="
+											"uidString" : "bxDuH8eoDQC5xIPkDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -622,7 +548,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:06:31.840497+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892294+01:00"
 														}
 													},
 													"editEmail" : {
@@ -633,12 +559,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:56:56.775278+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892294+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "d1V2sLeoDQCBnnedAmd9wA=="
+														"uidString" : "hxDuH8eoDQC5yV53DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -659,7 +585,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:51:52.302478+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892296+01:00"
 														}
 													},
 													"editEmail" : {
@@ -670,17 +596,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:52:42.948877+02:00"
+															"dateAndTimeString" : "2022-11-01T10:39:07.237148+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "IqNg/SioDQCDaYOJDGVrLw=="
+														"uidString" : "ihDuH8eoDQC5ygtVDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*The key thing is, Smalltalk syntax is designed so that you can read it aloud, and it should make sense.* "
+													"string" : "*Smalltalk syntax is designed so that you can read it aloud, and it should make sense.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -696,7 +622,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:08:15.224543+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.8923+01:00"
 														}
 													},
 													"editEmail" : {
@@ -707,17 +633,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:08:47.546234+01:00"
+															"dateAndTimeString" : "2022-11-01T10:40:05.498794+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "i06qtreoDQCBw3rgAmd9wA=="
+														"uidString" : "jhDuH8eoDQC5ywpxDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*For example:* `thisSnippet database pages select: [ :page | page hasTitle ]` "
+													"string" : "*For example:* `thisSnippet database pages select: [ :page | page hasTitle ]`  *returns all the notebook database pages with titles.* "
 												}
 											]
 										},
@@ -729,7 +655,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:06:26.294788+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892289+01:00"
 											}
 										},
 										"editEmail" : {
@@ -740,12 +666,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:06:29.681828+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892289+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "gLz0r7eoDQCBnUINAmd9wA=="
+											"uidString" : "gxDuH8eoDQC5yL9wDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -762,7 +688,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T14:27:27.982834+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892244+01:00"
 								}
 							},
 							"editEmail" : {
@@ -773,12 +699,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T14:27:32.416561+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892244+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "crnJhSioDQCDPtd6DGVrLw=="
+								"uidString" : "VxDuH8eoDQC5wOpKDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -809,7 +735,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:31:04.809967+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892311+01:00"
 														}
 													},
 													"editEmail" : {
@@ -820,12 +746,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:31:21.256654+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892311+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "+cTEB7ioDQCDeWwkAmd9wA=="
+														"uidString" : "mBDuH8eoDQC5zqz0DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -842,7 +768,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:14:00.157575+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892306+01:00"
 											}
 										},
 										"editEmail" : {
@@ -853,12 +779,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:30:52.511479+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892306+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "oSVHy7eoDQCC0Vv2Amd9wA=="
+											"uidString" : "lBDuH8eoDQC5zQmHDynDGA=="
 										},
 										"code" : "SmalltalkSyntaxSlideshow show: #literalsHeading: "
 									},
@@ -881,7 +807,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:18:41.107035+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892317+01:00"
 														}
 													},
 													"editEmail" : {
@@ -892,17 +818,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:18:52.466493+01:00"
+															"dateAndTimeString" : "2022-11-01T10:41:07.033404+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "EBIG3LeoDQCC91K5Amd9wA=="
+														"uidString" : "nhDuH8eoDQC50D0PDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Smalltalk not only has the usual integers*"
+													"string" : "*As you would expect, Smalltalk not only supports integers* "
 												}
 											]
 										},
@@ -914,7 +840,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T15:06:19.263704+02:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892313+01:00"
 											}
 										},
 										"editEmail" : {
@@ -925,12 +851,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:23:37.197909+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892313+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "xM+bMSmoDQCDcYKxDGVrLw=="
+											"uidString" : "mxDuH8eoDQC5z/BUDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -956,7 +882,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:18:59.666308+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892327+01:00"
 														}
 													},
 													"editEmail" : {
@@ -967,12 +893,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:18:59.666308+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892327+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "DUYh3beoDQCC+Bx6Amd9wA=="
+														"uidString" : "qBDuH8eoDQC50ranDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -989,7 +915,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:23:47.346288+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.89232+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1000,12 +926,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:30:20.271967+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.89232+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "sVwz7reoDQCDLqd7Amd9wA=="
+											"uidString" : "oRDuH8eoDQC50bKDDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1031,7 +957,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T14:59:48.349081+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892335+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1042,17 +968,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:18:59.666999+01:00"
+															"dateAndTimeString" : "2022-11-01T10:41:12.736767+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "BWhOGimoDQCDbhXQDGVrLw=="
+														"uidString" : "sBDuH8eoDQC51OiNDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*but also radix numbers. with an explicit base.* "
+													"string" : "*but also radix numbers with an explicit base.* "
 												}
 											]
 										},
@@ -1064,7 +990,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:28:49.601065+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.89233+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1075,12 +1001,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:30:34.617206+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.89233+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "ABQhALioDQCDWvvvAmd9wA=="
+											"uidString" : "qxDuH8eoDQC507bTDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1106,7 +1032,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:19:21.288756+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892345+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1117,12 +1043,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:34:44.492915+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892345+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "oTVr3reoDQCC+Z9dAmd9wA=="
+														"uidString" : "uhDuH8eoDQC51uCxDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -1143,7 +1069,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T15:21:19.341227+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892348+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1154,12 +1080,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:19:21.28944+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892348+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "9qxk056nDQC8XGMNBA5+dw=="
+														"uidString" : "vRDuH8eoDQC516CtDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -1176,7 +1102,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T15:23:37.429831+02:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892339+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1187,12 +1113,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:34:13.960414+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892339+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "ISJ0bymoDQCDx1RNDGVrLw=="
+											"uidString" : "tBDuH8eoDQC51bH7DynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1218,7 +1144,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:19:29.49034+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892355+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1229,12 +1155,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:19:29.49034+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892355+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "11bo3reoDQCC+rrHAmd9wA=="
+														"uidString" : "xRDuH8eoDQC52bmFDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -1255,7 +1181,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T15:22:51.552821+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892358+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1266,12 +1192,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:19:29.491221+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892358+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "SZLUbCmoDQCDxdtqDGVrLw=="
+														"uidString" : "xxDuH8eoDQC52tC8DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -1288,7 +1214,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:34:30.926689+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892353+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1299,12 +1225,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:34:34.930746+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892353+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "NyFkFLioDQCDi/twAmd9wA=="
+											"uidString" : "whDuH8eoDQC52O0vDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1330,7 +1256,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:40:15.009197+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892366+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1341,17 +1267,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:41:38.055399+01:00"
+															"dateAndTimeString" : "2022-11-01T10:43:42.108367+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "Ps/fJ7ioDQCD2vAiAmd9wA=="
+														"uidString" : "0BDuH8eoDQC53J+KDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*A symbol is a sequence of a characters starting with a hash. It behaves very much like a string, except it is guaranteed to be unique.* "
+													"string" : "*A symbol is a sequence of a characters starting with a hash. Symbols are much like strings, except that they are unique. You can have many strings with the same value, but only one symbol.* "
 												}
 											]
 										},
@@ -1363,7 +1289,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-17T18:01:38.30972+02:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892362+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1374,12 +1300,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T15:30:07.768558+02:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892362+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "aJHN056nDQC8X+87BA5+dw=="
+											"uidString" : "zBDuH8eoDQC52/3UDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1405,7 +1331,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:43:15.791091+01:00"
+															"dateAndTimeString" : "2022-11-01T10:53:21.464353+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1416,17 +1342,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:43:33.803158+01:00"
+															"dateAndTimeString" : "2022-11-01T10:53:28.022042+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "F92XM7ioDQCEEJ5FAmd9wA=="
+														"uidString" : "kVlnbseoDQC6vVDEDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Symbols and strings are considered to be equal as values, but not as objects.*"
+													"string" : "*A literal array starts with a hash and matching parentheses enclosing any sequence of literal values.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -1442,7 +1368,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:45:38.92767+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892387+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1453,54 +1379,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:45:58.148087+01:00"
+															"dateAndTimeString" : "2022-11-01T10:51:31.598664+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "uICIhimoDQCECb0EDGVrLw=="
+														"uidString" : "5RDuH8eoDQC54nJfDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*If we convert a string to symbol, then there is only one of them.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:46:06.574144+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:46:30.232717+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "owS8PbioDQCEHRdAAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*But if we convert a symbol to a string, we get a new string.* "
+													"string" : "*Literal arrays can be nested.* "
 												}
 											]
 										},
@@ -1512,7 +1401,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:41:45.289178+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892385+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1523,87 +1412,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:42:07.102625+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892385+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "sBsvLrioDQCD23RAAmd9wA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Symbols and Strings]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:47:31.97174+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:50:35.464864+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "PvcwQ7ioDQCELNlCAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*A literal array consists of a sequence of any kind of literal values. It starts with a hash followed by matching parentheses. It is static, so its value is known at compile time.*"
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T15:34:59.935204+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T15:35:04.703331+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "JLVmlymoDQCEIlqTDGVrLw=="
+											"uidString" : "4hDuH8eoDQC54e8CDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1629,7 +1443,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T15:33:25.860926+02:00"
+															"dateAndTimeString" : "2022-11-01T10:54:09.487224+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1640,17 +1454,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:47:31.972612+01:00"
+															"dateAndTimeString" : "2022-11-01T10:57:56.511826+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "vGX8056nDQC8YeuvBA5+dw=="
+														"uidString" : "Fh9EcceoDQC6wDZHDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Literal arrays can be nested.* "
+													"string" : "*A byte array is similar but uses square brackets, and can only contain 8-bit integers.* "
 												}
 											]
 										},
@@ -1662,7 +1476,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:47:38.035176+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892397+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1673,87 +1487,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:47:45.397814+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892397+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "s8tYQ7ioDQCEMLdTAmd9wA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Nested literal arrays]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:51:48.139471+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:29:08.06229+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ARLiTLioDQCEakBZAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*There is also a notation for byte arrays using square brackets instead of parethentheses. In contrast to literal arrays, they can only hold byte-sized literals.* "
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:50:12.92401+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:50:13.910934+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "rRx7TLioDQCEZBBKAmd9wA=="
+											"uidString" : "7hDuH8eoDQC55YbaDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -1779,7 +1518,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:04:05.05007+02:00"
+															"dateAndTimeString" : "2022-11-01T10:55:44.038359+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1790,17 +1529,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:54:16.38921+01:00"
+															"dateAndTimeString" : "2022-11-01T10:57:45.351396+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "Fd51kimoDQCEIG28DGVrLw=="
+														"uidString" : "G9vmdseoDQC6xik+DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Pharo Smalltalk has just six reserved words: true, false, nil, self, super and thisContext. The first five should be obvious, and the last one is only needed for metaprogramming to get access to the run-time stack.* "
+													"string" : "*Pharo Smalltalk has just six reserved keywords, whose meanings should be obvious, except for* `thisContext`*, which is used in metaprogramming to get access to the run-time stack.* "
 												}
 											]
 										},
@@ -1812,7 +1551,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:53:46.947344+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892402+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1823,89 +1562,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T16:53:53.00166+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892402+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "KKuKWbioDQCEduAOAmd9wA=="
+											"uidString" : "9BDuH8eoDQC556QMDynDGA=="
 										},
 										"code" : "SmalltalkSyntaxSlideshow show: #reservedWords: "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:44:38.347352+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:45:50.44531+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "IqlShCqoDQC+ChpuCo8fxA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Blocks are snippets of code within square brackets. Here's an empty block that just returns nil. We'll take a closer look at blocks in a minute, after we've explored expressions and statements.* "
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:03:55.018366+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:03:57.976732+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "J9jPliqoDQC+uKEqCo8fxA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Blocks]] "
 									}
 								]
 							},
@@ -1917,7 +1581,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T14:59:41.006539+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892303+01:00"
 								}
 							},
 							"editEmail" : {
@@ -1928,12 +1592,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T14:59:43.973159+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892303+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "RpsYz56nDQC8TM9aBA5+dw=="
+								"uidString" : "kRDuH8eoDQC5zIDvDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -1964,7 +1628,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:47:40.579653+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892432+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1975,12 +1639,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:14:03.033728+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892432+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "692ImiqoDQC+udRUCo8fxA=="
+														"uidString" : "ERHuH8eoDQC57RrCDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -1997,7 +1661,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:14:16.294796+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892428+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2008,12 +1672,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:14:22.53049+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892428+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "pAXRorioDQCFBpZnAmd9wA=="
+											"uidString" : "DRHuH8eoDQC57LNiDynDGA=="
 										},
 										"code" : "SmalltalkSyntaxSlideshow show: #expressionsHeading: "
 									},
@@ -2036,7 +1700,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:48:26.230639+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892441+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2047,12 +1711,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:54:10.332795+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892441+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "fXGIniqoDQC+u/31Co8fxA=="
+														"uidString" : "GhHuH8eoDQC57204DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2073,7 +1737,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:20:11.659835+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892446+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2084,49 +1748,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:20:11.659835+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892446+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "Z3H/t7ioDQCFLIfKAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Here are some more examples.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:49:20.129624+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:20:11.660971+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "FLrNoSqoDQC+wMFlCo8fxA=="
+														"uidString" : "IBHuH8eoDQC58STLDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2147,7 +1774,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:20:20.760057+01:00"
+															"dateAndTimeString" : "2022-11-01T11:05:21.715504+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2158,54 +1785,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:21:36.483508+01:00"
+															"dateAndTimeString" : "2022-11-01T11:06:24.150305+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "vZUquLioDQCFLQMOAmd9wA=="
+														"uidString" : "IxHuH8eoDQC58skdDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "`'Hello' asUppercase` *sends the unary message* `asUppercase` *to the string* `'Hello'`. "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:21:40.048485+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:21:46.662234+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ekJuvLioDQCFLq+VAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*(... and so on)* "
+													"string" : "`Character plusOrMinus` *sends* `plusOrMinus` *to the* `Character` *class (an object), yielding the plus-or-minus character.* "
 												}
 											]
 										},
@@ -2217,7 +1807,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:16:25.25147+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892435+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2228,12 +1818,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:16:29.547549+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892435+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "QvcxqbioDQCFCoDRAmd9wA=="
+											"uidString" : "FBHuH8eoDQC57slyDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2259,7 +1849,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:51:41.320258+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892466+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2270,12 +1860,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:23:09.666613+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892466+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "iX5xwCmoDQCEZCwGDGVrLw=="
+														"uidString" : "NBHuH8eoDQC59XSYDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2296,7 +1886,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:23:12.023897+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892471+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2307,12 +1897,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:23:46.303935+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892471+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "eIalwrioDQCFQbOsAmd9wA=="
+														"uidString" : "OBHuH8eoDQC59sbqDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2333,7 +1923,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:23:54.081212+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892474+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2344,17 +1934,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:25:58.204697+01:00"
+															"dateAndTimeString" : "2022-11-01T11:07:25.708436+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "xh3nxLioDQCFQhQIAmd9wA=="
+														"uidString" : "OxHuH8eoDQC592WBDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "`'hello', '!'` *sends the message* \"comma\" *to the string* `'hello'` *with argument string` *\"exclamation\" (or \"bang\")*."
+													"string" : "`'hello', '!'` *sends the message* \"comma\" *to the string* `'hello'` *with argument string \"exclamation\" (or \"bang\")*."
 												}
 											]
 										},
@@ -2366,7 +1956,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:21:54.630747+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892463+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2377,12 +1967,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:22:03.560848+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892463+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "L6B/vLioDQCFL3qQAmd9wA=="
+											"uidString" : "MRHuH8eoDQC59MZeDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2408,7 +1998,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:53:25.82969+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892494+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2419,17 +2009,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T16:56:22.768258+02:00"
+															"dateAndTimeString" : "2022-11-01T11:07:54.867798+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "oIxzwCmoDQCEZVCIDGVrLw=="
+														"uidString" : "UBHuH8eoDQC5+fwEDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Finally there are keyword messages, consisting of a number of keywords, each followed by a colon and an argument.* "
+													"string" : "*Finally keyword messages consist of a number of keywords, each followed by a colon and an argument.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -2445,7 +2035,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:28:07.598248+01:00"
+															"dateAndTimeString" : "2022-11-01T11:16:20.802391+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2456,54 +2046,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:29:11.090426+01:00"
+															"dateAndTimeString" : "2022-11-01T11:17:45.344089+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "EQFB1LioDQCFWjQvAmd9wA=="
+														"uidString" : "ew2IwMeoDQC7KxDdDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*The first example sends the message* `raisedTo:` *to the object* `2` *with argument* `3`. *Notice how keyword messages are designed so you can be read aloud.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:29:14.746701+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:30:34.939127+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "u71L2LioDQCFWwknAmd9wA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*The second example  sends the message* `#copyReplaceAll:with:` *to the string* `'Hello there'` *with two arguments,* `'Hello'` *and* `'Hi'`."
+													"string" : "`'Hello world' copyReplaceAll: 'world' with: 'folks'` *sends the message* `#copyReplaceAll:with:` *to the string* `'Hello world'` *with arguments* `'world'` *and* `'folks'` "
 												}
 											]
 										},
@@ -2515,7 +2068,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:26:08.642258+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892478+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2526,12 +2079,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:26:13.505471+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892478+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "lqHkwLioDQCFQKONAmd9wA=="
+											"uidString" : "PxHuH8eoDQC5+Cf3DynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2557,7 +2110,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:33:31.50334+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892509+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2568,12 +2121,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:33:31.50334+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892509+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "XRis57ioDQCFc7LnAmd9wA=="
+														"uidString" : "XhHuH8eoDQC5/bMEDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2594,7 +2147,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:33:40.391545+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892512+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2605,12 +2158,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:34:09.297429+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892512+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "TY9g57ioDQCFb4ewAmd9wA=="
+														"uidString" : "YRHuH8eoDQC5/u/hDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2627,7 +2180,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:30:40.514242+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892504+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2638,12 +2191,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:30:46.679682+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892504+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "kypN3bioDQCFXPuhAmd9wA=="
+											"uidString" : "WRHuH8eoDQC5/HYODynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2669,7 +2222,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:08:22.668944+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892531+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2680,87 +2233,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:37:25.62436+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892531+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "ZlAQ5iqoDQC+5wZhCo8fxA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*You can always add parentheses to change the order of evaluation. Since all binary operators have the same precedence,* `1+2*3` *is 9, but* `1+(2*3)` *is 7. This may seem odd, but it is rarely an issue in practice.*"
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:34:25.700443+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:34:32.704429+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "uZfT6rioDQCFd5P4Amd9wA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Changing evaluation order]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:09:24.306986+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:12:48.193783+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "XbIU5iqoDQC+6OOdCo8fxA=="
+														"uidString" : "dRHuH8eoDQC6AkpzDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2781,7 +2259,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:39:22.046747+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892534+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2792,12 +2270,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:40:12.359305+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892534+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "JKV9/LioDQCFmE0nAmd9wA=="
+														"uidString" : "eBHuH8eoDQC6AwO3DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2814,7 +2292,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:37:31.622329+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892528+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2825,12 +2303,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:37:34.99648+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892528+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Smbo9bioDQCFhVNMAmd9wA=="
+											"uidString" : "chHuH8eoDQC6AVzXDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2856,7 +2334,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:12:56.101067+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89254+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2867,17 +2345,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:44:53.269779+01:00"
+															"dateAndTimeString" : "2022-11-01T11:19:27.701545+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "g1Hw2p6nDQC8jP6hBA5+dw=="
+														"uidString" : "fhHuH8eoDQC6BQqgDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Lastly, we have dynamic arrays. A dynamic array consists of arbitrary expressions in curly braces separated by periods:* "
+													"string" : "*Lastly, a dynamic array consists of arbitrary expressions in curly braces separated by periods:* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -2893,7 +2371,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:17:35.403531+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892544+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2904,12 +2382,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:45:19.209479+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892544+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "76ckByuoDQC/sGpXCo8fxA=="
+														"uidString" : "ghHuH8eoDQC6Bq9HDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -2926,7 +2404,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:38:55.566012+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892537+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2937,12 +2415,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:38:59.323807+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892537+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "a2Ph+rioDQCFkDXnAmd9wA=="
+											"uidString" : "exHuH8eoDQC6BOXRDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2959,7 +2437,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:43:09.536145+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892424+01:00"
 								}
 							},
 							"editEmail" : {
@@ -2970,12 +2448,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:43:13.36281+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892424+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "VxxZtSmoDQCEVbCoDGVrLw=="
+								"uidString" : "ChHuH8eoDQC56wsFDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -2987,40 +2465,6 @@
 							"children" : {
 								"__type" : "snippets",
 								"items" : [
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:51:13.75123+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:51:25.580212+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "17j8JrmoDQCjjqF9CKWrjw=="
-										},
-										"code" : "SmalltalkSyntaxSlideshow show: #statementsHeading: "
-									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
@@ -3040,7 +2484,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:20:04.434179+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892559+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3051,17 +2495,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:21:32.05091+02:00"
+															"dateAndTimeString" : "2022-11-01T11:21:32.223615+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "nHZJCyuoDQC/sbMhCo8fxA=="
+														"uidString" : "kBHuH8eoDQC6CuVsDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Statements in Smalltalk are just expressions separated by periods. In addition, we can declare temporary variables in between or-bars, and we can assign values to variables with the := operator.* "
+													"string" : "*Statements in Smalltalk are expressions separated by periods. We can also declare temporaries variables and assign values to them.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3077,7 +2521,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:54:15.313978+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892562+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3088,54 +2532,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T17:55:16.109105+01:00"
+															"dateAndTimeString" : "2022-11-01T11:22:16.673917+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "DuLGMbmoDQCjni2DCKWrjw=="
+														"uidString" : "kxHuH8eoDQC6C07ADynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Here we have temporaries* `a`, `b` *and* `c`. *Each is assigned the value of an expression.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:22:34.699752+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:23:12.260886+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "p5qPGCuoDQC/tItlCo8fxA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Note that the period is a statement separator, not a terminator, so you don't need to put one at the end of the last statement in a sequence.* "
+													"string" : "*Here we have temporaries* `a`, `b` *and* `c` *each of which is assigned the value of an expression.* "
 												}
 											]
 										},
@@ -3147,7 +2554,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:51:38.413184+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892556+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3158,12 +2565,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:51:42.13727+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892556+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Dh6xJrmoDQCjja7TCKWrjw=="
+											"uidString" : "jRHuH8eoDQC6CTb0DynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -3180,7 +2587,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:46:24.344517+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892547+01:00"
 								}
 							},
 							"editEmail" : {
@@ -3191,12 +2598,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:46:26.482052+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892547+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "ypUa2p6nDQC8hg3kBA5+dw=="
+								"uidString" : "hRHuH8eoDQC6B18XDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -3227,7 +2634,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:23:19.699694+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892419+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3238,17 +2645,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:25:11.860797+01:00"
+															"dateAndTimeString" : "2022-11-01T11:28:04.925407+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "EVrImbmoDQCkLdIcAjoi3A=="
+														"uidString" : "BBHuH8eoDQC56na3DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Now let's take a closer look at blocks. Recall that a block is a code snippet within square brackets. This can be an arbitrary sequence of statements.* "
+													"string" : "*A block closure is a snippet of code within square brackets. It's essentially a lambda, or an anonymous function.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3264,7 +2671,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:25:01.3768+01:00"
+															"dateAndTimeString" : "2022-11-01T11:28:46.582759+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3275,54 +2682,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:26:11.824204+01:00"
+															"dateAndTimeString" : "2022-11-01T11:28:46.582759+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "ge2+n7moDQCkPLJOAjoi3A=="
+														"uidString" : "oBQS7ceoDQC7W6wXDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*We can evaluate a block by sending it the message* `value`. *The value returned is the value of the last statement in the block.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:26:39.873009+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:26:56.081572+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "9pozIyuoDQC/vDI+Co8fxA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*The value of this block is the result of evaluating* `3+4`"
+													"string" : "*You can evaluate a block by sending it the message* `value`. *The value returned is the value of the last statement in the block, in this case, the value of* `3+4`."
 												}
 											]
 										},
@@ -3334,7 +2704,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T17:57:01.355366+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892416+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3345,12 +2715,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T11:24:49.927311+01:00"
+												"dateAndTimeString" : "2022-11-01T11:23:44.542053+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "8FyQwymoDQCEcAyQDGVrLw=="
+											"uidString" : "ARHuH8eoDQC56XJxDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -3376,7 +2746,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:23:30.055134+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892594+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3387,17 +2757,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:23:19.700762+01:00"
+															"dateAndTimeString" : "2022-11-01T11:30:00.807511+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "2uvwGyuoDQC/u8YjCo8fxA=="
+														"uidString" : "tBHuH8eoDQC6E//gDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*In addition, a block can take arguments, which are declared at the beginning with colons.* "
+													"string" : "*A block can take arguments, which are declared at the beginning of the block with a colon, followed by an or-bar.*  "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3413,7 +2783,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:26:38.874479+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.8926+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3424,17 +2794,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:29:46.708032+01:00"
+															"dateAndTimeString" : "2022-11-01T11:30:26.972538+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "M2VaJyuoDQC/wYXfCo8fxA=="
+														"uidString" : "uRHuH8eoDQC6FODeDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*This block takes one argument. We evaluate it by sending the message* `value:` *with an argument.* "
+													"string" : "*This block increments its argument. We evaluate it by sending the message* `value:` *with an argument.* "
 												}
 											]
 										},
@@ -3446,7 +2816,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:27:00.064065+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892589+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3457,12 +2827,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:27:07.568609+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892589+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "1U9dnrmoDQCkOLfzAjoi3A=="
+											"uidString" : "rxHuH8eoDQC6EjU8DynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -3488,7 +2858,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:27:55.605977+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892608+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3499,17 +2869,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:30:58.573632+01:00"
+															"dateAndTimeString" : "2022-11-01T11:30:57.652842+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "wdRdJyuoDQC/wvkkCo8fxA=="
+														"uidString" : "wRHuH8eoDQC6Fjj+DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Here's a block with two arguments,* `a` *and* `b`*, and a temporary variable,* `c`. "
+													"string" : "*This block has two arguments,* `a` *and* `b`*, and a temporary variable,* `c`. "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3525,7 +2895,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:31:09.880657+01:00"
+															"dateAndTimeString" : "2022-11-01T11:31:18.832576+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3536,17 +2906,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:31:59.436662+01:00"
+															"dateAndTimeString" : "2022-11-01T11:31:43.009073+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "EgWxtbmoDQCkY80vAjoi3A=="
+														"uidString" : "yBHuH8eoDQC6F8AgDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Instead of sending the unary message* `value` *or the keyword message* `value:`, we send it `value:value:` *with two arguments*."
+													"string" : "*To evalute it, we send it* `value:value:` *with two arguments.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3562,7 +2932,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:32:03.836573+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892617+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3573,17 +2943,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:35:57.09129+01:00"
+															"dateAndTimeString" : "2022-11-01T11:31:51.277634+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "f3z0uLmoDQCkZW+/Ajoi3A=="
+														"uidString" : "yhHuH8eoDQC6GKa9DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*As you can imagine, this generalizes to more arguments.* "
+													"string" : "*As you might guess, this generalizes to more arguments.* "
 												}
 											]
 										},
@@ -3595,7 +2965,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:28:49.615446+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892603+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3606,12 +2976,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:28:59.122062+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892603+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Mu7Np7moDQCkQshPAjoi3A=="
+											"uidString" : "vBHuH8eoDQC6FRSQDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -3637,7 +3007,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:38:42.642124+01:00"
+															"dateAndTimeString" : "2022-11-01T11:33:58.568811+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3648,17 +3018,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:38:42.642124+01:00"
+															"dateAndTimeString" : "2022-11-01T11:34:38.931543+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "Z1XL0LmoDQCkmhjbAjoi3A=="
+														"uidString" : "+eKH/8eoDQC7Z8EhDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Now, one of the suprising parts of the Smalltalk syntax is that the language doesn't define any control constructs at all. Instead all control constructs are realized as messages to objects.*"
+													"string" : "*Interestingly, Smalltalk has no syntax for control constructs,  but instead implements them as messages to objects.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3674,7 +3044,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:31:32.286906+02:00"
+															"dateAndTimeString" : "2022-11-01T11:35:06.302712+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3685,54 +3055,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T18:39:44.877583+01:00"
+															"dateAndTimeString" : "2022-11-01T11:36:28.302749+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "jZBOvymoDQCEYDy4DGVrLw=="
+														"uidString" : "snawAcioDQC7aHaHDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*For example, here we have a block that will return the absolute value of its argument. It checks whether n is non-negative, and then sends the boolean the message* `ifTrue:ifFalse:`*. If it's true, it will return* `n`*, else the negation of* `n`. "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:37:03.469172+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:38:02.28886+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "xH6VTCuoDQC/2tJNCo8fxA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*There are many such messages that, for example, implement various kinds of loops, and iterations over collections.* "
+													"string" : "*Here we ask if there are fewer than a 1000 classes in the system, and then we send that boolean object the message* `#ifTrue:ifFalse`*. If it's true, we get one string back, else the other.* "
 												}
 											]
 										},
@@ -3744,7 +3077,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-24T17:31:01.176104+02:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892622+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3755,12 +3088,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:37:20.423114+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892622+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "LwE/NyuoDQC/0rZfCo8fxA=="
+											"uidString" : "zxHuH8eoDQC6GcwdDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -3777,7 +3110,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T18:34:02.249123+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892573+01:00"
 								}
 							},
 							"editEmail" : {
@@ -3788,12 +3121,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T18:34:09.764424+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892573+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "JTePv7moDQCkeRsUAjoi3A=="
+								"uidString" : "nxHuH8eoDQC6DYL0DynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -3806,40 +3139,6 @@
 								"__type" : "snippets",
 								"items" : [
 									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T18:40:36.073421+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:45:16.145516+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "5iuO17moDQCknF5fAjoi3A=="
-										},
-										"code" : "SmalltalkSyntaxSlideshow show: #classesAndMethodsHeading:"
-									},
-									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -3848,7 +3147,45 @@
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
-														"items" : [ ]
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-01T11:42:36.796953+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-01T11:42:59.915031+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "KJZRHcioDQC7cWiEDynDGA=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "*Of course we can also create classes using the coding tools.* "
+															}
+														]
 													},
 													"createEmail" : {
 														"__type" : "email",
@@ -3858,7 +3195,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:38:20.22161+02:00"
+															"dateAndTimeString" : "2022-11-01T11:39:30.410971+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3869,17 +3206,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:39:41.012396+02:00"
+															"dateAndTimeString" : "2022-11-01T11:40:39.889466+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "iypYUSuoDQC/3tvgCo8fxA=="
+														"uidString" : "b21UE8ioDQC7byqUDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Just like there is no built-in syntax for control constructs, there is no syntax for defining new classes. Instead we just send a message to a superclass, asking it to create a subclass.* "
+													"string" : "*There is also no syntax for defining classes. Here we send a message to the class* `Object`*, asking it to create the* `HelloWorld` *subclass for us.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3895,7 +3232,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:40:07.528575+02:00"
+															"dateAndTimeString" : "2022-11-01T11:40:56.935152+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3906,91 +3243,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:46:56.393315+01:00"
+															"dateAndTimeString" : "2022-11-01T11:41:49.670936+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "kA+8VyuoDQC/4ORWCo8fxA=="
+														"uidString" : "VDxZE8ioDQC7cGCHDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Here we create a \"HelloWorld\" class by sending a message to the* `Object` *class, asking it to create a subclass in the* `Hello` *package.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:33:53.566513+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:34:38.721204+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "5Yg5lbqoDQCRbXIDCI4Y7A=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Of course there are other ways to create classes using the tools, but we'll just focus on the syntax here.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T18:16:13.439035+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:41:12.12852+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "Z214FFSoDQC7RTAfArfY5A=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Variables names that begin with a capital letter (like HelloWorld) are globals, while those starting with a lower case letter are temporary variables, instance variables (also known as \"slots\"), or reserved words, like \"self\". Globals are almost always class names, though there exist a small number of globals that are not classes, such as *`Smalltalk`*, an instance of {{gtClass:name=SmalltalkImage}}.* "
+													"string" : "*Class names start with an upper-case letter, and are globally visible.* "
 												}
 											]
 										},
@@ -4002,7 +3265,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:30:50.441254+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892641+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4013,12 +3276,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:30:56.190023+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892641+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "CVUkhLqoDQCRXUbwCI4Y7A=="
+											"uidString" : "4hHuH8eoDQC6HyoqDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4035,7 +3298,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:50:00.494499+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892635+01:00"
 								}
 							},
 							"editEmail" : {
@@ -4046,12 +3309,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T19:43:38.160767+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892635+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "sPe+yimoDQCEg2wzDGVrLw=="
+								"uidString" : "3RHuH8eoDQC6Hb/PDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -4082,7 +3345,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:48:43.108976+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892678+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4093,12 +3356,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:29:08.06521+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892678+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "R5d2diuoDQC/+V7rCo8fxA=="
+														"uidString" : "BxLuH8eoDQC6JmCSDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4119,7 +3382,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:50:10.446775+02:00"
+															"dateAndTimeString" : "2022-11-01T11:45:41.695669+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4130,12 +3393,160 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:50:37.317992+01:00"
+															"dateAndTimeString" : "2022-11-01T11:45:41.695669+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "iNpMeiuoDQC//30XCo8fxA=="
+														"uidString" : "13yTKcioDQCHwgKVCs0z6w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : ""
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:44.082145+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:54.534241+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Uh6XKcioDQCHw5eYCs0z6w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "***CONTINUE HERE*** "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:42.157094+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:42.157094+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Q4eaKcioDQCHxJtxCs0z6w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : ""
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:42.370899+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T11:45:42.370899+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "ccqdKcioDQCHxVIfCs0z6w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : ""
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T10:31:24.892682+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T10:31:24.892682+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "CxLuH8eoDQC6JzS2DynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4156,7 +3567,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:50:39.253621+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89269+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4167,12 +3578,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:52:50.796763+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89269+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "JTr/0bqoDQCSrHvQCI4Y7A=="
+														"uidString" : "FBLuH8eoDQC6KMjeDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4193,7 +3604,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:43:57.553198+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892694+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4204,12 +3615,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:45:30.883072+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892694+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "R1o0oVOoDQC45QZLArfY5A=="
+														"uidString" : "GBLuH8eoDQC6KXlNDynDGA=="
 													},
 													"code" : "Shorts fileIn: 'Hello-1-HelloWithHelloMethod.st'"
 												},
@@ -4227,7 +3638,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:53:49.137543+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892708+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4238,12 +3649,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:53:49.137543+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892708+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "a/pm3bqoDQCSt2W5CI4Y7A=="
+														"uidString" : "JRLuH8eoDQC6Ks1hDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4264,7 +3675,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:51:56.000331+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892711+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4275,12 +3686,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:53:49.139171+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892711+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "0M0BeiuoDQC/+p2WCo8fxA=="
+														"uidString" : "KRLuH8eoDQC6K7gMDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4301,7 +3712,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:47:15.68478+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892714+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4312,12 +3723,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:55:43.143519+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892714+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "zGXhrFOoDQC47CoOArfY5A=="
+														"uidString" : "LBLuH8eoDQC6LE9JDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4334,7 +3745,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:47:54.207217+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892675+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4345,12 +3756,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:47:59.798318+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892675+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Lu0vyLqoDQCSn6j9CI4Y7A=="
+											"uidString" : "BBLuH8eoDQC6JWhMDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4376,7 +3787,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:44:42.762137+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892721+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4387,12 +3798,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:45:34.965981+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892721+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "JKPTniuoDQCAAQq9Co8fxA=="
+														"uidString" : "MxLuH8eoDQC6LtNhDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4413,7 +3824,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:58:54.922407+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892726+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4424,12 +3835,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T19:59:29.646238+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892726+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "sSCN77qoDQCS2CCvCI4Y7A=="
+														"uidString" : "OBLuH8eoDQC6L5lIDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4450,7 +3861,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:50:22.746722+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89273+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4461,12 +3872,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:50:42.009147+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89273+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "hvApuFOoDQC5BYTKArfY5A=="
+														"uidString" : "OxLuH8eoDQC6MHvADynDGA=="
 													},
 													"code" : "Shorts fileIn: 'Hello-2-HelloWithArgument.st'"
 												}
@@ -4480,7 +3891,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:57:01.44129+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892718+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4491,12 +3902,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T19:57:09.833888+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892718+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Jz7Hr1OoDQC4+RPIArfY5A=="
+											"uidString" : "LxLuH8eoDQC6LVx4DynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4522,7 +3933,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T18:15:08.015573+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89274+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4533,12 +3944,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T18:15:19.374015+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.89274+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "71exEFSoDQC7N0UuArfY5A=="
+														"uidString" : "RRLuH8eoDQC6Mjn7DynDGA=="
 													},
 													"code" : "Shorts fileIn: 'Hello-3-HelloGtExample.st'"
 												},
@@ -4556,7 +3967,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T17:56:16.801219+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892743+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4567,12 +3978,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T18:09:59.783008+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892743+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "K70bzFOoDQC7KfEMArfY5A=="
+														"uidString" : "SBLuH8eoDQC6M80sDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4593,7 +4004,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-26T18:12:22.17662+02:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892749+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4604,12 +4015,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:05:42.397844+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892749+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "N/CX/lOoDQC7NtEuArfY5A=="
+														"uidString" : "TxLuH8eoDQC6NDrHDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4630,7 +4041,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:07:15.604968+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892757+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4641,12 +4052,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:07:42.299929+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892757+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "CgRhDbuoDQCS8jCbCI4Y7A=="
+														"uidString" : "VhLuH8eoDQC6Ne9aDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4663,7 +4074,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:00:58.378392+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892732+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4674,12 +4085,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:00:58.378392+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892732+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Q4jXniuoDQCAAijxCo8fxA=="
+											"uidString" : "PhLuH8eoDQC6MbEKDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4696,7 +4107,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:03:45.894405+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892672+01:00"
 								}
 							},
 							"editEmail" : {
@@ -4707,12 +4118,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:50:26.654439+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892672+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "3lkm256nDQC8jnYfBA5+dw=="
+								"uidString" : "ARLuH8eoDQC6JC0yDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -4743,7 +4154,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:35:18.716276+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892777+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4754,12 +4165,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:36:03.979861+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892777+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "fMIM2CmoDQCEoPgZDGVrLw=="
+														"uidString" : "ahLuH8eoDQC6OMZXDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4780,7 +4191,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:36:49.264576+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892782+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4791,12 +4202,12 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T20:36:56.859746+01:00"
+															"dateAndTimeString" : "2022-11-01T10:31:24.892782+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "QMzCdruoDQCUbyRwCI4Y7A=="
+														"uidString" : "cBLuH8eoDQC6Oa9UDynDGA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
@@ -4813,7 +4224,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:15:08.72574+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892773+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4824,12 +4235,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:15:32.952271+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892773+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "BPqrKbuoDQCURiXHCI4Y7A=="
+											"uidString" : "ZhLuH8eoDQC6N3dGDynDGA=="
 										},
 										"code" : "SmalltalkSyntaxSlideshow show: #postcardSyntaxExplanation:"
 									},
@@ -4847,7 +4258,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:36:57.230877+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892785+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4858,12 +4269,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:36:57.230877+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892785+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Qi6qd7uoDQCUcGAmCI4Y7A=="
+											"uidString" : "cxLuH8eoDQC6OrhaDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4884,7 +4295,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:11:36.240142+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892791+01:00"
 											}
 										},
 										"editEmail" : {
@@ -4895,12 +4306,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-31T20:11:36.240142+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892791+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "J7QBHbuoDQCUPRVaCI4Y7A=="
+											"uidString" : "eRLuH8eoDQC6O0sTDynDGA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -4917,7 +4328,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:52:45.0021+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892769+01:00"
 								}
 							},
 							"editEmail" : {
@@ -4928,12 +4339,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-24T15:52:56.023422+02:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.892769+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "9YG31ymoDQCEnms5DGVrLw=="
+								"uidString" : "YhLuH8eoDQC6NimTDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -4950,7 +4361,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:00:13.76714+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.892228+01:00"
 					}
 				},
 				"editEmail" : {
@@ -4961,12 +4372,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T16:53:13.305806+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.892228+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "44Vkq52nDQCh1S5/Adl+lA=="
+					"uidString" : "ThDuH8eoDQC5vxPrDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -4987,7 +4398,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:10.594146+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897715+01:00"
 					}
 				},
 				"editEmail" : {
@@ -4998,12 +4409,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:10.594146+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897715+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "gxZ2eLuoDQCUdyw1CI4Y7A=="
+					"uidString" : "uiXuH8eoDQC6WEqeDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5024,7 +4435,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:10.844669+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897831+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5035,12 +4446,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:10.844669+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897831+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "del5eLuoDQCUeHb7CI4Y7A=="
+					"uidString" : "LCbuH8eoDQC6WdCODynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5061,7 +4472,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:11.066317+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897908+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5072,12 +4483,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:37:11.066317+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.897908+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "+kp9eLuoDQCUeWnZCI4Y7A=="
+					"uidString" : "eCbuH8eoDQC6WjsTDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5103,7 +4514,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:33:05.689226+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.89818+01:00"
 								}
 							},
 							"editEmail" : {
@@ -5114,12 +4525,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:33:25.699048+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.89818+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "tR8sHbuoDQCUP68sCI4Y7A=="
+								"uidString" : "hyfuH8eoDQC6XJDdDynDGA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -5140,7 +4551,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:11:32.426572+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.898186+01:00"
 								}
 							},
 							"editEmail" : {
@@ -5151,12 +4562,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-31T20:27:36.280531+01:00"
+									"dateAndTimeString" : "2022-11-01T10:31:24.898186+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "boPHHLuoDQCUPCpvCI4Y7A=="
+								"uidString" : "jSfuH8eoDQC6XbV2DynDGA=="
 							},
 							"code" : "GtPharo101 >> #syntaxExplanationWithLinksSlideFor:"
 						}
@@ -5170,7 +4581,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:32:52.505437+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898171+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5181,12 +4592,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:32:54.188458+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898171+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "/aYoHbuoDQCUPuplCI4Y7A=="
+					"uidString" : "gifuH8eoDQC6W3k8DynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5207,7 +4618,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:09:21.899207+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898287+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5218,12 +4629,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:25:38.084999+01:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898287+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "aVwE2Z6nDQC8fudxBA5+dw=="
+					"uidString" : "9CfuH8eoDQC6XmpmDynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5244,7 +4655,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:47.694587+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898365+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5255,12 +4666,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:47.694587+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898365+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Eb4CqJ2nDQChzpFrAdl+lA=="
+					"uidString" : "QijuH8eoDQC6X2u2DynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5281,7 +4692,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:47.908453+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898465+01:00"
 					}
 				},
 				"editEmail" : {
@@ -5292,12 +4703,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:47.908453+02:00"
+						"dateAndTimeString" : "2022-11-01T10:31:24.898465+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fgEGqJ2nDQCh0PgDAdl+lA=="
+					"uidString" : "pijuH8eoDQC6YIS1DynDGA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -5314,7 +4725,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T16:37:30.618169+02:00"
+			"dateAndTimeString" : "2022-11-01T10:29:46.387837+01:00"
 		}
 	},
 	"editEmail" : {
@@ -5325,15 +4736,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-01T10:34:01.019567+01:00"
+			"dateAndTimeString" : "2022-11-01T10:33:19.928134+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Smalltalk Syntax v1 — too long"
+		"title" : "A brief tour of Smalltalk Syntax "
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "b22cfea6-9da7-0d00-a1c3-fa6b01d97e94"
+		"uuid" : "a5fd0e1a-c7a8-0d00-b9b1-36910f29c318"
 	}
 }

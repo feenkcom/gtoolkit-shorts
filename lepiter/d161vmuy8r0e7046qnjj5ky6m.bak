@@ -29,14 +29,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:38:09.041439+01:00"
+						"dateAndTimeString" : "2022-10-31T18:38:58.012425+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "oMc7zrmoDQCkldomAjoi3A=="
 				},
-				"code" : "[ :n | \r\tn >= 0 \r\tifTrue: [ n ] \r\tifFalse: [ n negated ] ] value: -10"
+				"code" : "[ :n | \r\tn >= 0 \r\t\tifTrue: [ n ] \r\t\tifFalse: [ n negated ] ] value: -10"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T11:32:27.797286+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T11:33:12.881793+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "To9B+seoDQC7YhEzDynDGA=="
+				},
+				"code" : "Smalltalk allClasses size > 1000\r\tifTrue: [ 'not so many' ]\r\tifFalse: "
 			},
 			{
 				"__type" : "textSnippet",

@@ -97,14 +97,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:02:45.508797+01:00"
+						"dateAndTimeString" : "2022-11-01T10:55:02.538857+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "AbsnS7ioDQCET29vAmd9wA=="
 				},
-				"code" : "#[1 $a foo 'Hello World']"
+				"code" : "#[1 $a foo 'Hello World'] \"Not valid\""
 			}
 		]
 	},

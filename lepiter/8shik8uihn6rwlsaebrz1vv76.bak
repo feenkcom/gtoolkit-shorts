@@ -55,6 +55,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T10:32:55.369232+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T10:33:04.402981+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "W2pFJceoDQC6hVZ/DynDGA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This version is too long (13\")."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-10-17T16:38:26.899538+02:00"
 					}
 				},
@@ -77,80 +114,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Show all the syntax parts of Smalltalk with examples."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:02:45.671819+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:39:40.184558+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "AcKb156nDQC8d+GgBA5+dw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "See also {{gtPage:Smalltalk method syntax on a postcard|db=2j9m7db2i4oz116bexd7wbdxo}}      "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T14:11:40.171076+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-24T14:11:45.716852+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "B25KbiioDQCer22TDGVrLw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Running example: HelloWorld"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1752,7 +1715,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-31T16:52:29.888304+01:00"
+															"dateAndTimeString" : "2022-11-01T10:29:08.06229+01:00"
 														}
 													},
 													"uid" : {
@@ -4130,7 +4093,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-24T17:49:44.289514+02:00"
+															"dateAndTimeString" : "2022-11-01T10:29:08.06521+01:00"
 														}
 													},
 													"uid" : {
@@ -5362,12 +5325,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T16:37:30.618169+02:00"
+			"dateAndTimeString" : "2022-11-01T10:34:01.019567+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "A brief tour of Smalltalk Syntax"
+		"title" : "Smalltalk Syntax v1 — too long"
 	},
 	"uid" : {
 		"__type" : "uuid",

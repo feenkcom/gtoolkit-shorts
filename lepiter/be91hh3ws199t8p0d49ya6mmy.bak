@@ -97,7 +97,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:49:49.128244+01:00"
+						"dateAndTimeString" : "2022-10-31T17:02:45.508797+01:00"
 					}
 				},
 				"uid" : {
@@ -105,6 +105,40 @@
 					"uidString" : "AbsnS7ioDQCET29vAmd9wA=="
 				},
 				"code" : "#[1 $a foo 'Hello World']"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T10:54:37.112436+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-01T10:54:39.11934+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jKjpcseoDQC6wat5DynDGA=="
+				},
+				"code" : "#["
 			}
 		]
 	},

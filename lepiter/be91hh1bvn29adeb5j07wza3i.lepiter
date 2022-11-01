@@ -29,48 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:27:48.461137+01:00"
+						"dateAndTimeString" : "2022-11-01T11:16:11.498974+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Jb4B07ioDQCFUvheAmd9wA=="
 				},
-				"code" : "2 raisedTo: 3 "
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:27:56.818244+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:27:57.394778+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "eje507ioDQCFV7pJAmd9wA=="
-				},
-				"code" : "'Hello there' copyReplaceAll: 'Hello' with: 'Hi'"
+				"code" : "'Hello world' copyReplaceAll: 'world' with: 'folks'"
 			}
 		]
 	},

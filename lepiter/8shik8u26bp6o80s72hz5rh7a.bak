@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:32:58.163087+02:00"
+									"dateAndTimeString" : "2022-11-01T10:32:46.924216+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[A brief tour of Smalltalk Syntax]] "
+							"string" : "[[A brief tour of Smalltalk Syntax v1]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-01T10:32:35.875652+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-01T10:33:19.930923+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "G3f1I8eoDQC6gJKzDynDGA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[A brief tour of Smalltalk Syntax ]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -402,7 +439,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T07:40:58.885637+02:00"
+						"dateAndTimeString" : "2022-10-26T08:58:29.716421+02:00"
 					}
 				},
 				"uid" : {
@@ -412,7 +449,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[A tour of Lepiter]]  "
+				"string" : "[[Understanding Lepiter]]  "
 			}
 		]
 	},
