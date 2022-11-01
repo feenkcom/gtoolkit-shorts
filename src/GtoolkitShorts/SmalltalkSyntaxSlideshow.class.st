@@ -94,7 +94,7 @@ SmalltalkSyntaxSlideshow >> classesAndMethodsHeading: aSlide [
 		priority: (self priorityFor: #classesAndMethodsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Classes and Methods');
 		paragraphWithFormat: (self
-				asBigText: '
+				asBigCode: '
 
 HelloWorld new hello
 ') 
@@ -147,7 +147,7 @@ SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
 		priority: (self priorityFor: #expressionsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Expressions');
 		paragraphWithFormat: (self
-				asBigText: '
+				asBigCode: '
 
 3 factorial
 
@@ -196,7 +196,7 @@ SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
 		priority: (self priorityFor: #literalsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Literals');
 		paragraphWithFormat: (self
-				asBigText: '
+				asBigCode: '
 3 
 ''hello'' 
 #foo
@@ -214,6 +214,11 @@ SmalltalkSyntaxSlideshow >> nestedLiteralArrays: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #nestedLiteralArrays:);
 		pageNamed: 'Nested literal arrays' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> picturesDirectoryPath [
+	^ Path * 'feenkcom' / 'gtoolkit-shorts' / 'doc'
 ]
 
 { #category : #accessing }
@@ -277,7 +282,7 @@ SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 		priority: (self priorityFor: #reservedWords:);
 		subtitleWithFormat: (self asSubtitle: 'Reserved words');
 		paragraphWithFormat: (self
-				asBigText: '
+				asBigCode: '
 
 true false nil
 
@@ -323,7 +328,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			statements:
 			blocksAgain:
 			blocksWithArguments:
-			blocksWithMultipleArguments
+			blocksWithMultipleArguments:
 			controlConstructs:
 		
 		classesAndMethodsHeading:
@@ -333,6 +338,8 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			pragmas:
 
 		postcardSyntaxExplanation:
+		
+		#whatsNext:
 	)
 ]
 
@@ -400,4 +407,22 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #unaryMessages:);
 		pageNamed: 'Unary messages' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> whatsNext: aSlide [
+	<gtSlide>
+	^ aSlide textAndElement
+		elementWeight: 0.5;
+		priority: (self priorityFor: #whatsNext:);
+		newTextWithFormat: (self asHeader: 'What''s next?') bold
+				, (self
+						asText: '
+
+See more GT in 7" videos on YouTube.
+Explore GT at gtoolkit.com');
+		"element: [ aSlide world ]"
+		element: [ GtFilePictureLiveSlide new
+				fileReference: (GtResourcesUtility
+						resourceAtPath: self picturesDirectoryPath / 'gt-shorts-playlist.png') ]
 ]
