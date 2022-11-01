@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:29:17.547436+01:00"
+						"dateAndTimeString" : "2022-11-01T15:35:34.493792+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "o7UXr7moDQCkVqeYAjoi3A=="
 				},
-				"code" : "[ :a :b |\r\t| c |\r\tc := (a squared + b squared) sqrt ] \r\tvalue: 3 value: 4"
+				"code" : "[ :a :b |\r\t| c |\r\tc := (a squared + b squared) sqrt \r] value: 3 value: 4"
 			},
 			{
 				"__type" : "textSnippet",

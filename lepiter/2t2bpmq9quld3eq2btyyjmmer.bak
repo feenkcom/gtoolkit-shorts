@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:22.978526+01:00"
+						"dateAndTimeString" : "2022-11-01T14:58:14.523095+01:00"
 					}
 				},
 				"uid" : {
@@ -37,40 +37,6 @@
 					"uidString" : "7DfMJbioDQCD0WDGAmd9wA=="
 				},
 				"code" : "#a"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:23.360876+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T16:39:25.599524+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "hWIRJrioDQCD1GnyAmd9wA=="
-				},
-				"code" : "#foo"
 			},
 			{
 				"__type" : "pharoSnippet",

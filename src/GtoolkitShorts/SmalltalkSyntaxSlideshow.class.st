@@ -32,14 +32,6 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 ]
 
 { #category : #accessing }
-SmalltalkSyntaxSlideshow >> blocksAgain: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #blocksAgain:);
-		pageNamed: 'Blocks again' from: self myLepiterDB
-]
-
-{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -229,7 +221,7 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 	<gtSlide>
 	^ aSlide labelAndElement
-		priority: 39;
+		priority: (self priorityFor: #postcardSyntaxExplanation:);
 		element: [
 			((Postcard>>#exampleWithNumber:) 
 				gtViewNodesExplanationWithLinksFor: GtPhlowEmptyView new) 
@@ -311,7 +303,6 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 		statementsHeading:
 			statements:
 			blocks:
-			blocksAgain:
 			blocksWithArguments:
 			blocksWithMultipleArguments:
 			controlConstructs:
@@ -324,7 +315,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 
 		postcardSyntaxExplanation:
 		
-		#whatsNext:
+		whatsNext:
 	)
 ]
 
@@ -343,7 +334,7 @@ SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
 		priority: (self priorityFor: #statementsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Statements');
 		paragraphWithFormat: (self
-				asBigText: '
+				asBigCode: '
 
 x := 3+4.
 y := 3*4
