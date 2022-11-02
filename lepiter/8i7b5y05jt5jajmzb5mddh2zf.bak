@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:56:13.833667+01:00"
+						"dateAndTimeString" : "2022-11-01T11:20:18.92532+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "tRMuKbmoDQCjl8huCKWrjw=="
 				},
-				"code" : "\r| a b c |\t\"temporaries (local variables)\"\ra := 3.      \"assignments using := \"\rb := 4.      \"periods as statement separators\"\rc := (a squared + b squared) sqrt"
+				"code" : "| a b c |\t\"temporaries (local variables)\"\ra := 3.      \"assignments using := \"\rb := 4.      \"periods as statement separators\"\rc := (a squared + b squared) sqrt"
 			},
 			{
 				"__type" : "textSnippet",

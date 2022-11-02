@@ -37,43 +37,6 @@
 					"uidString" : "tRMuKbmoDQCjl8huCKWrjw=="
 				},
 				"code" : "| a b c |\t\"temporaries (local variables)\"\ra := 3.      \"assignments using := \"\rb := 4.      \"periods as statement separators\"\rc := (a squared + b squared) sqrt"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:51:44.230136+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:51:44.230136+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "E8vNKLmoDQCjkoDVCKWrjw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

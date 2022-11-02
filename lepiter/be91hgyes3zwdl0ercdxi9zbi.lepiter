@@ -145,43 +145,6 @@
 					"uidString" : "Akk85bioDQCFa0nIAmd9wA=="
 				},
 				"code" : "2 raisedTo: (1 + (3 factorial))"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:34:15.923504+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:34:20.417212+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "41Ip6rioDQCFdIP6Amd9wA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

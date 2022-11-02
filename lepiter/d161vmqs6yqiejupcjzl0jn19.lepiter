@@ -37,43 +37,6 @@
 					"uidString" : "4caVrrmoDQCkUK7wAjoi3A=="
 				},
 				"code" : "[ :n | n + 1 ] value: 41"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:27:10.612096+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:27:10.612096+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "l86Lp7moDQCkQF3fAjoi3A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

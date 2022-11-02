@@ -37,43 +37,6 @@
 					"uidString" : "To9B+seoDQC7YhEzDynDGA=="
 				},
 				"code" : "Smalltalk allClasses size < 1000\r\tifTrue: [ 'not so many' ]\r\tifFalse: [ 'quite a few!' ]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:37:03.440115+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T18:37:03.440115+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "A6XhyrmoDQCkjsuDAjoi3A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

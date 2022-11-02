@@ -37,43 +37,6 @@
 					"uidString" : "UiFPjLqoDQCRZjriCI4Y7A=="
 				},
 				"code" : "Object\r\tsubclass: #HelloWorld\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: #Hello"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:31:02.041147+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:31:02.041147+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "V8bqi7qoDQCRZIGiCI4Y7A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

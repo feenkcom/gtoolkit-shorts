@@ -81,7 +81,7 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> classesAndMethodsHeading: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ aSlide paragraph
 		priority: (self priorityFor: #classesAndMethodsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Classes and Methods');
@@ -277,7 +277,6 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
-			titleSlideV2:
 		postCardImageSlide:
 		readAloud:
 
@@ -300,14 +299,14 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			cascades:
 			dynamicArrays:
 		
-		statementsHeading:
+		"statementsHeading:"
 			statements:
 			blocks:
 			blocksWithArguments:
 			blocksWithMultipleArguments:
 			controlConstructs:
 		
-		classesAndMethodsHeading:
+		"classesAndMethodsHeading:"
 			creatingClasses:
 			definingMethods:
 			definingKeywordMethods:
@@ -329,7 +328,7 @@ SmalltalkSyntaxSlideshow >> statements: aSlide [
 
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ aSlide paragraph
 		priority: (self priorityFor: #statementsHeading:);
 		subtitleWithFormat: (self asSubtitle: 'Statements');
@@ -363,18 +362,7 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleBottomPadding: 60;
-		titleWithFormat: (self asTitle: 'A Guided Tour of Smalltalk Syntax')
-		";
-		subtitleWithFormat: (self asBigText: '@onierstrasz — feenk.com')"
-]
-
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow >> titleSlideV2: aSlide [
-	<gtSlide>
-	^ aSlide title
-		priority: (self priorityFor: #titleSlideV2:);
-		titleBottomPadding: 60;
-		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7"')
+		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7''')
 ]
 
 { #category : #accessing }
@@ -395,8 +383,8 @@ SmalltalkSyntaxSlideshow >> whatsNext: aSlide [
 				, (self
 						asText: '
 
-See more GT in 7" videos on YouTube.
-Explore GT at gtoolkit.com');
+See more GT in 7'' videos on YouTube.
+Explore GT at gtoolkit.com.');
 		"element: [ aSlide world ]"
 		element: [ GtFilePictureLiveSlide new
 				fileReference: (GtResourcesUtility

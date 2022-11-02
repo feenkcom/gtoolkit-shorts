@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:58:11.156214+01:00"
+						"dateAndTimeString" : "2022-10-31T19:31:08.618036+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:58:11.540059+01:00"
+						"dateAndTimeString" : "2022-10-31T19:31:09.204995+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "EBkF7bqoDQCS0xg3CI4Y7A=="
+					"uidString" : "UiFPjLqoDQCRZjriCI4Y7A=="
 				},
-				"code" : "HelloWorld new hello: 'Oscar'"
+				"code" : "Object\r\tsubclass: #HelloWorld\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: #Hello"
 			},
 			{
 				"__type" : "textSnippet",
@@ -52,7 +52,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:57:11.800964+01:00"
+						"dateAndTimeString" : "2022-10-31T19:31:02.041147+01:00"
 					}
 				},
 				"editEmail" : {
@@ -63,12 +63,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:57:11.800964+01:00"
+						"dateAndTimeString" : "2022-10-31T19:31:02.041147+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "l2h76bqoDQCS0E+QCI4Y7A=="
+					"uidString" : "V8bqi7qoDQCRZIGiCI4Y7A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -85,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T19:57:11.768769+01:00"
+			"dateAndTimeString" : "2022-10-31T19:31:02.006372+01:00"
 		}
 	},
 	"editEmail" : {
@@ -96,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T19:57:11.768769+01:00"
+			"dateAndTimeString" : "2022-10-31T19:31:02.006372+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Defining keyword methods"
+		"title" : "Creating classes"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "66ea7ae9-baa8-0d00-92cf-13ca088e18ec"
+		"uuid" : "ba3dea8b-baa8-0d00-9163-cbd2088e18ec"
 	}
 }

@@ -124,192 +124,6 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:33:27.366816+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:34:21.783317+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "r8ntH8eoDQC5ug43DynDGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Edit this down — 13\" is too long. Original version [[Smalltalk Syntax v1 — too long]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874175+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874175+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "w8ntH8eoDQC5u1pxDynDGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Add a concluding slide (QR code?)"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874182+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874182+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "yMntH8eoDQC5vNJgDynDGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[How to programmatically zoom into a slide?]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874186+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-01T10:31:24.874186+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "zMntH8eoDQC5vcGrDynDGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Find better example of speaking syntax aloud."
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T10:31:24.874082+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T10:31:24.874082+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "d8ntH8eoDQC5uRg4DynDGA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "#Todos"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
 								"items" : [
 									{
 										"__type" : "textSnippet",
@@ -375,7 +189,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T15:03:10.015874+01:00"
+															"dateAndTimeString" : "2022-11-02T16:29:01.088748+01:00"
 														}
 													},
 													"uid" : {
@@ -2156,7 +1970,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T11:19:27.701545+01:00"
+															"dateAndTimeString" : "2022-11-01T16:10:04.367837+01:00"
 														}
 													},
 													"uid" : {
@@ -2166,7 +1980,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Lastly, a dynamic array consists of arbitrary expressions in curly braces separated by periods:* "
+													"string" : "*Lastly, a dynamic array consists of arbitrary expressions in curly braces separated by periods.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3900,7 +3714,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T16:05:32.549181+01:00"
+															"dateAndTimeString" : "2022-11-02T16:28:25.003105+01:00"
 														}
 													},
 													"uid" : {
@@ -3910,7 +3724,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*You'll find more GT in 7\" videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.*"
+													"string" : "*You'll find more GT in 7' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.*"
 												},
 												{
 													"__type" : "textSnippet",
