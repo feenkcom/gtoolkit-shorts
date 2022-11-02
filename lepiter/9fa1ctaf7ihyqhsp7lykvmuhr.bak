@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T10:02:54.249502+02:00"
+						"dateAndTimeString" : "2022-11-02T16:51:52.995868+01:00"
 					}
 				},
 				"uid" : {
@@ -612,7 +612,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T16:07:47.428239+02:00"
+						"dateAndTimeString" : "2022-10-18T16:07:58.431442+02:00"
 					}
 				},
 				"uid" : {
@@ -622,7 +622,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Now we can "
+				"string" : "Now we can push and add directly in the inspector."
 			}
 		]
 	},

@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T10:02:54.249502+02:00"
+						"dateAndTimeString" : "2022-11-02T16:52:03.155291+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "There is a {{gtClass:name=Stack}} class, but it seems to be just a skeleton."
+				"string" : "There is a {{gtClass:name=Stack}}  class, but it seems to be just a skeleton."
 			},
 			{
 				"__type" : "textSnippet",
