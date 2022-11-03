@@ -93,6 +93,42 @@ HelloWorld new hello
 ]
 
 { #category : #accessing }
+SmalltalkSyntaxSlideshow >> coderElementExample [
+	<gtExample>
+	^ self coderElementFor: '3+4'
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> coderElementFor: defaultCode [
+	| coder editor preview container |
+	coder := GtPharoSnippetCoder new forSource: defaultCode.
+	editor := (coder asElement query
+			// GtSourceCoderExpandedContentElement;
+			anyOne)
+			removeFromParent;
+			hMatchParent;
+			vFitContent;
+			when: GtPhlowObjectToSpawn
+				do: [ :e | 
+					preview removeChildren
+						addChild: ((e object gtViewsFor: GtPhlowView empty)
+								asElementDo: [ :x | 
+									BrVerticalPane new matchParent
+										margin: (BlInsets all: 10);
+										aptitude: BrShadowAptitude;
+										background: Color white;
+										addChild: x ]).
+					e consumed: true ].
+	preview := BrVerticalPane new matchParent.
+	container := BrHorizontalPane new
+			hExact: 500;
+			vExact: 300;
+			addChild: editor;
+			addChild: preview.
+	^ container asScalableElement size: 750 @ 450
+]
+
+{ #category : #accessing }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -276,6 +312,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 	<gtExample>
 	
 	^ #( 
+		testEditor:
 		titleSlide:
 		postCardImageSlide:
 		readAloud:
@@ -354,6 +391,19 @@ SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #symbols:);
 		pageNamed: 'Symbols' from: self myLepiterDB
+]
+
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> testEditor: aSlide [
+	"Testing TG's editor+preview widget in a slide"
+
+	<gtSlide>
+
+	^ aSlide textAndElement
+		elementWeight: 0.60;
+		priority: (self priorityFor: #smalltalk80:);
+		newTextWithFormat: (self asText: 'Experimental coder slide');
+		element: [ self coderElementFor: '3+4' ]
 ]
 
 { #category : #accessing }
