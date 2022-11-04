@@ -4,7 +4,6 @@ Class {
 	#instVars : [
 		'snippets',
 		'heading',
-		'snippetsElement',
 		'elementWeight',
 		'inspectorElement'
 	],
@@ -17,7 +16,7 @@ GtHeadingAndCodeSnippets >> addSnippet: aString [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [
+GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [ 
 	| coder editor container |
 	coder := GtPharoSnippetCoder new forSource: defaultCode.
 	editor := (coder asElement query
@@ -37,32 +36,45 @@ GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [
 										background: Color white;
 										addChild: x ]).
 					e consumed: true ].
-
 	container := BrHorizontalPane new
-			hExact: 500;
-			vExact: 300;
+			hExact: 200;
+			vExact: 100;
 			addChild: editor.
-	^ container asScalableElement size: 750 @ 450
+	^ container asScalableElement size: 400 @ 200
 ]
 
 { #category : #'api - instantiation' }
 GtHeadingAndCodeSnippets >> create [
-	"We have a container holding two elements.
+	"The container holds vertical heading and body elements.
+	The body holds horizontal snippets and inspector elements.
+	The snippets element holds the snippets.
 	At the left is a content element with a heading and snippets.
 	At the right is a preview element. 
 	The percentage of space for the preview can be adjusted.
 	See GtTextAndElementLiveSlide."
 
-	| container |
+	| container bodyElement snippetsElement headingElement |
 	container := BlElement new
-		constraintsDo: [:c |
-			c horizontal matchParent.
-			c vertical matchParent ];
-		padding: (BlInsets top: 20 bottom: 20);
-		layout: BlFrameLayout new.
+			constraintsDo: [ :c | 
+				c vertical matchParent.
+				c horizontal matchParent ];
+			padding: (BlInsets top: 20 bottom: 20);
+			layout: BlLinearLayout vertical alignTopLeft.
 
-	inspectorElement := BrVerticalPane new matchParent.
+	headingElement := BlTextElement new
+			margin: (BlInsets all: 1);
+			constraintsDo: [ :c | 
+				c vertical fitContent.
+				c horizontal fitContent.
+				c linear horizontal ];
+			text: self heading.
 
+	bodyElement := BlElement new
+			constraintsDo: [ :c | 
+				c horizontal matchParent.
+				c vertical matchParent ];
+			padding: (BlInsets top: 20 bottom: 20);
+			layout: BlFrameLayout new.
 
 	snippetsElement := BlElement new
 			constraintsDo: [ :c | 
@@ -74,39 +86,37 @@ GtHeadingAndCodeSnippets >> create [
 					left: 50
 					bottom: 10
 					right: 50);
-			layout: BlLinearLayout vertical ;
+			layout: BlLinearLayout vertical;
 			margin: (BlInsets all: 20).
 
-
-
-	snippetsElement
-		addChild: (BlTextElement new
-				margin: (BlInsets all: 1);
-				constraintsDo: [ :c | 
-					c vertical fitContent.
-					c horizontal fitContent.
-					c linear horizontal  ];
-				text: self heading).
+	inspectorElement := BrVerticalPane new matchParent.
 
 
 	self snippets
 		do: [ :snippet | 
-			self snippetsElement
+			snippetsElement
 				addChild: ((self coderElementFor: snippet)
 						constraintsDo: [ :c | 
 							c horizontal matchParent.
 							c vertical matchParent ]) ].
 
-	container
+	bodyElement
 		addChild: snippetsElement;
 		addChild: (inspectorElement
 				constraintsDo: [ :c | 
 					c frame horizontal weight: elementWeight.
-					c frame horizontal alignRight.
+					c frame horizontal alignLeft.
 					c vertical matchParent.
-					c horizontal matchParent ]).
+					c horizontal matchParent ]
+				).
 
-	
+
+	container
+		addChild: headingElement;
+		addChild: bodyElement.
+
+
+
 	^ container
 ]
 
@@ -145,7 +155,7 @@ GtHeadingAndCodeSnippets >> headingWithFormat: aRopedText [
 GtHeadingAndCodeSnippets >> initialize [
 	super initialize.
 	self heading: ''.
-	self snippets: OrderedCollection new.
+	snippets := OrderedCollection new.
 	self elementWeight: 0.5
 ]
 
@@ -159,16 +169,4 @@ GtHeadingAndCodeSnippets >> inspectorElement [
 GtHeadingAndCodeSnippets >> snippets [
 
 	^ snippets
-]
-
-{ #category : #accessing }
-GtHeadingAndCodeSnippets >> snippets: anObject [
-
-	snippets := anObject
-]
-
-{ #category : #accessing }
-GtHeadingAndCodeSnippets >> snippetsElement [
-
-	^ snippetsElement
 ]
