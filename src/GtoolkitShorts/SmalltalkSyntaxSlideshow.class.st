@@ -271,26 +271,12 @@ self super
 thisContext')
 ]
 
-{ #category : #slides }
-SmalltalkSyntaxSlideshow >> singleSnippetSlide: aSlide [
-	"Testing TG's editor+preview widget in a slide"
-
-	<gtSlide>
-
-	^ aSlide textAndElement
-		elementWeight: 0.60;
-		priority: (self priorityFor: #smalltalk80:);
-		newTextWithFormat: (self asText: 'Experimental coder slide');
-		element: [ self coderElementFor: '3+4' ]
-]
-
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
 	
 	^ #( 
-		#singleSnippetSlide:
 		titleSlide:
 		postCardImageSlide:
 		readAloud:
