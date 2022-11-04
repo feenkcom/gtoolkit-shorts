@@ -16,7 +16,7 @@ GtHeadingAndCodeSnippets >> addSnippet: aString [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [ 
+GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [
 	| coder editor container |
 	coder := GtPharoSnippetCoder new forSource: defaultCode.
 	editor := (coder asElement query
@@ -31,16 +31,17 @@ GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [
 						addChild: ((e object gtViewsFor: GtPhlowView empty)
 								asElementDo: [ :x | 
 									BrVerticalPane new matchParent
-										margin: (BlInsets all: 10);
 										aptitude: BrShadowAptitude;
 										background: Color white;
 										addChild: x ]).
 					e consumed: true ].
-	container := BrHorizontalPane new
+	^ editor	
+	
+	"container := BrHorizontalPane new
 			hExact: 200;
 			vExact: 100;
 			addChild: editor.
-	^ container asScalableElement size: 400 @ 200
+	^ container asScalableElement size: 400 @ 200"
 ]
 
 { #category : #'api - instantiation' }
@@ -69,25 +70,17 @@ GtHeadingAndCodeSnippets >> create [
 				c linear horizontal ];
 			text: self heading.
 
-	bodyElement := BlElement new
-			constraintsDo: [ :c | 
-				c horizontal matchParent.
-				c vertical matchParent ];
-			padding: (BlInsets top: 20 bottom: 20);
-			layout: BlFrameLayout new.
+	bodyElement := BrHorizontalPane new
+			 matchParent ;
+			padding: (BlInsets top: 20 bottom: 20).
 
 	snippetsElement := BlElement new
 			constraintsDo: [ :c | 
 				c frame horizontal weight: 1 - elementWeight.
 				c vertical matchParent.
 				c horizontal matchParent ];
-			padding: (BlInsets
-					top: 10
-					left: 50
-					bottom: 10
-					right: 50);
-			layout: BlLinearLayout vertical;
-			margin: (BlInsets all: 20).
+
+			layout: BlLinearLayout vertical.
 
 	inspectorElement := BrVerticalPane new matchParent.
 
