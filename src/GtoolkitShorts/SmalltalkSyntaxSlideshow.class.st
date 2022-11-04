@@ -4,18 +4,13 @@ Class {
 	#category : #'GtoolkitShorts-Slideshows'
 }
 
-{ #category : #accessing }
+{ #category : #utility }
 SmalltalkSyntaxSlideshow class >> show [
 	"Implement this here just so we can run it directly from the Coder."
 	super show
 ]
 
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow class >> show: aSelector [
-	^ self new perform: aSelector with: GtLiveSlide new
-]
-
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -23,7 +18,7 @@ SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 		pageNamed: 'Binary messages' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> blocks: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -31,7 +26,7 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 		pageNamed: 'Blocks' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -39,7 +34,7 @@ SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 		pageNamed: 'Blocks with arguments' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -47,7 +42,7 @@ SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 		pageNamed: 'Blocks with multiple arguments' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -55,7 +50,7 @@ SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 		pageNamed: 'Byte arrays' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> cascades: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -63,7 +58,7 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 		pageNamed: 'Cascades' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #dormant }
 SmalltalkSyntaxSlideshow >> changingEvaluationOrder: aSlide [
 	"<gtSlide>"
 	^ aSlide lepiterPage
@@ -71,7 +66,7 @@ SmalltalkSyntaxSlideshow >> changingEvaluationOrder: aSlide [
 		pageNamed: 'Changing evaluation order' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> characters: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -79,7 +74,7 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 		pageNamed: 'Characters' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #dormant }
 SmalltalkSyntaxSlideshow >> classesAndMethodsHeading: aSlide [
 	"<gtSlide>"
 	^ aSlide paragraph
@@ -92,43 +87,13 @@ HelloWorld new hello
 ') 
 ]
 
-{ #category : #accessing }
+{ #category : #example }
 SmalltalkSyntaxSlideshow >> coderElementExample [
 	<gtExample>
 	^ self coderElementFor: '3+4'
 ]
 
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow >> coderElementFor: defaultCode [
-	| coder editor preview container |
-	coder := GtPharoSnippetCoder new forSource: defaultCode.
-	editor := (coder asElement query
-			// GtSourceCoderExpandedContentElement;
-			anyOne)
-			removeFromParent;
-			hMatchParent;
-			vFitContent;
-			when: GtPhlowObjectToSpawn
-				do: [ :e | 
-					preview removeChildren
-						addChild: ((e object gtViewsFor: GtPhlowView empty)
-								asElementDo: [ :x | 
-									BrVerticalPane new matchParent
-										margin: (BlInsets all: 10);
-										aptitude: BrShadowAptitude;
-										background: Color white;
-										addChild: x ]).
-					e consumed: true ].
-	preview := BrVerticalPane new matchParent.
-	container := BrHorizontalPane new
-			hExact: 500;
-			vExact: 300;
-			addChild: editor;
-			addChild: preview.
-	^ container asScalableElement size: 750 @ 450
-]
-
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -136,7 +101,7 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 		pageNamed: 'Control constructs' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -144,7 +109,7 @@ SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 		pageNamed: 'Creating classes' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -152,7 +117,7 @@ SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 		pageNamed: 'Defining keyword methods' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -160,7 +125,7 @@ SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 		pageNamed: 'Defining methods' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -168,7 +133,7 @@ SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 		pageNamed: 'Dynamic arrays' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
 	<gtSlide>
 	^ aSlide paragraph
@@ -185,7 +150,7 @@ SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
 ') 
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -193,7 +158,7 @@ SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 		pageNamed: 'Keyword messages' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -201,7 +166,7 @@ SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 		pageNamed: 'Literal arrays' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
 	<gtSlide>
 	^ aSlide paragraph
@@ -218,12 +183,12 @@ SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
 ') 
 ]
 
-{ #category : #accessing }
+{ #category : #constants }
 SmalltalkSyntaxSlideshow >> myLepiterDB [
 	^ 'feenkcom/gtoolkit-shorts/lepiter'
 ]
 
-{ #category : #accessing }
+{ #category : #dormant }
 SmalltalkSyntaxSlideshow >> nestedLiteralArrays: aSlide [
 	"<gtSlide>"
 	^ aSlide lepiterPage
@@ -231,7 +196,7 @@ SmalltalkSyntaxSlideshow >> nestedLiteralArrays: aSlide [
 		pageNamed: 'Nested literal arrays' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> numbers: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -239,12 +204,12 @@ SmalltalkSyntaxSlideshow >> numbers: aSlide [
 		pageNamed: 'Numbers' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #constants }
 SmalltalkSyntaxSlideshow >> picturesDirectoryPath [
 	^ Path * 'feenkcom' / 'gtoolkit-shorts' / 'doc'
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 	<gtSlide>
 	^ aSlide filePicture
@@ -253,7 +218,7 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/postcardsyntax.png')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 	<gtSlide>
 	^ aSlide labelAndElement
@@ -266,7 +231,7 @@ SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 		newFadedText: ('Let''s put it all together. Take a look at the method below. Hover over the syntactical parts on the left to understand how they map on the different parts of the method.' asRopedText fontSize: 70)"
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -274,7 +239,7 @@ SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 		pageNamed: 'Pragmas' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -282,7 +247,7 @@ SmalltalkSyntaxSlideshow >> precedence: aSlide [
 		pageNamed: 'Precedence' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -290,7 +255,7 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 		pageNamed: 'Smalltalk is designed to be read aloud' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	<gtSlide>
 	^ aSlide paragraph
@@ -306,13 +271,26 @@ self super
 thisContext')
 ]
 
+{ #category : #slides }
+SmalltalkSyntaxSlideshow >> singleSnippetSlide: aSlide [
+	"Testing TG's editor+preview widget in a slide"
+
+	<gtSlide>
+
+	^ aSlide textAndElement
+		elementWeight: 0.60;
+		priority: (self priorityFor: #smalltalk80:);
+		newTextWithFormat: (self asText: 'Experimental coder slide');
+		element: [ self coderElementFor: '3+4' ]
+]
+
 { #category : #accessing }
 SmalltalkSyntaxSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
 	
 	^ #( 
-		testEditor:
+		#singleSnippetSlide:
 		titleSlide:
 		postCardImageSlide:
 		readAloud:
@@ -355,7 +333,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 	)
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> statements: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -363,7 +341,7 @@ SmalltalkSyntaxSlideshow >> statements: aSlide [
 		pageNamed: 'Statements' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #dormant }
 SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
 	"<gtSlide>"
 	^ aSlide paragraph
@@ -377,7 +355,7 @@ y := 3*4
 ') 
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> strings: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -385,7 +363,7 @@ SmalltalkSyntaxSlideshow >> strings: aSlide [
 		pageNamed: 'Strings' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -393,20 +371,7 @@ SmalltalkSyntaxSlideshow >> symbols: aSlide [
 		pageNamed: 'Symbols' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow >> testEditor: aSlide [
-	"Testing TG's editor+preview widget in a slide"
-
-	<gtSlide>
-
-	^ aSlide textAndElement
-		elementWeight: 0.60;
-		priority: (self priorityFor: #smalltalk80:);
-		newTextWithFormat: (self asText: 'Experimental coder slide');
-		element: [ self coderElementFor: '3+4' ]
-]
-
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -415,7 +380,7 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7''')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -423,7 +388,7 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 		pageNamed: 'Unary messages' from: self myLepiterDB
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> whatsNext: aSlide [
 	<gtSlide>
 	^ aSlide textAndElement
