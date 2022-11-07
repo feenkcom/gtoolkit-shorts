@@ -199,6 +199,43 @@
 													"code" : "BlGlutinHostSpace zoomFactor: 1.5"
 												},
 												{
+													"__type" : "elementSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-07T08:32:15.093524+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-07T08:32:22.789008+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "MAvRKD6pDQCFFxmtDeA4bw=="
+													},
+													"code" : "(SmalltalkSyntaxSlideshow show: #titleSlide:) asElement",
+													"elementHeight" : 296,
+													"codeHeight" : 50,
+													"codeVisible" : false
+												},
+												{
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
@@ -274,7 +311,7 @@
 											"__type" : "snippets",
 											"items" : [
 												{
-													"__type" : "pharoSnippet",
+													"__type" : "elementSnippet",
 													"children" : {
 														"__type" : "snippets",
 														"items" : [ ]
@@ -287,7 +324,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892273+01:00"
+															"dateAndTimeString" : "2022-11-07T08:30:24.304939+01:00"
 														}
 													},
 													"editEmail" : {
@@ -298,14 +335,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892273+01:00"
+															"dateAndTimeString" : "2022-11-07T08:31:46.901498+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "chDuH8eoDQC5xRMCDynDGA=="
+														"uidString" : "Q4s2Ij6pDQCFFRF/DeA4bw=="
 													},
-													"code" : "SmalltalkSyntaxSlideshow show: #postCardImageSlide: "
+													"code" : "(SmalltalkSyntaxSlideshow show: #postCardImageSlide:) asElement",
+													"elementHeight" : 485,
+													"codeHeight" : 61,
+													"codeVisible" : false
 												},
 												{
 													"__type" : "textSnippet",
@@ -387,6 +427,43 @@
 													"children" : {
 														"__type" : "snippets",
 														"items" : [
+															{
+																"__type" : "elementSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-07T08:33:02.704897+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-07T08:33:12.90692+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "JImnKz6pDQCFGOf4DeA4bw=="
+																},
+																"code" : "(SmalltalkSyntaxSlideshow show: #readAloud:) asElement",
+																"elementHeight" : 309,
+																"codeHeight" : 50,
+																"codeVisible" : false
+															},
 															{
 																"__type" : "textSnippet",
 																"children" : {
@@ -570,6 +647,43 @@
 										"children" : {
 											"__type" : "snippets",
 											"items" : [
+												{
+													"__type" : "elementSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-07T08:37:53.770393+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-07T08:38:00.250076+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "s9cAPT6pDQCFI4ESDeA4bw=="
+													},
+													"code" : "(SmalltalkSyntaxSlideshow show: #literals:) asElement",
+													"elementHeight" : 284,
+													"codeHeight" : 50,
+													"codeVisible" : false
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -4174,12 +4288,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-01T10:33:19.928134+01:00"
+			"dateAndTimeString" : "2022-11-02T16:51:12.641873+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "A brief tour of Smalltalk Syntax "
+		"title" : "Smalltalk Syntax in 7'"
 	},
 	"uid" : {
 		"__type" : "uuid",

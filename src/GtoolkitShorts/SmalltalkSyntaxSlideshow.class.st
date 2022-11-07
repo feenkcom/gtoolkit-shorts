@@ -45,9 +45,11 @@ SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #byteArrays:);
-		pageNamed: 'Byte arrays' from: self myLepiterDB
+		heading: 'Byte arrays';
+		addSnippet: '#[1 2 2r11]';
+		addSnippet: '#[1 $a foo ''Hello World''] "Not valid"'
 ]
 
 { #category : #slides }
@@ -58,33 +60,14 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 		pageNamed: 'Cascades' from: self myLepiterDB
 ]
 
-{ #category : #dormant }
-SmalltalkSyntaxSlideshow >> changingEvaluationOrder: aSlide [
-	"<gtSlide>"
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #changingEvaluationOrder:);
-		pageNamed: 'Changing evaluation order' from: self myLepiterDB
-]
-
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> characters: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #characters:);
-		pageNamed: 'Characters' from: self myLepiterDB
-]
-
-{ #category : #dormant }
-SmalltalkSyntaxSlideshow >> classesAndMethodsHeading: aSlide [
-	"<gtSlide>"
-	^ aSlide paragraph
-		priority: (self priorityFor: #classesAndMethodsHeading:);
-		subtitleWithFormat: (self asSubtitle: 'Classes and Methods');
-		paragraphWithFormat: (self
-				asBigCode: '
-
-HelloWorld new hello
-') 
+		heading: 'Characters';
+		addSnippet: '$a';
+		addSnippet: 'Character tab '
 ]
 
 { #category : #example }
@@ -151,6 +134,27 @@ SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
 ]
 
 { #category : #slides }
+SmalltalkSyntaxSlideshow >> floats: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #floats:);
+		heading: 'Floats';
+		addSnippet: '3.14';
+		addSnippet: '3.14e2';
+		addSnippet: '3.14s2'
+]
+
+{ #category : #slides }
+SmalltalkSyntaxSlideshow >> integers: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #integers:);
+		heading: 'Integers';
+		addSnippet: '1';
+		addSnippet: '42'
+]
+
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -161,47 +165,32 @@ SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #literalArrays:);
-		pageNamed: 'Literal arrays' from: self myLepiterDB
+		heading: 'Literal arrays';
+		addSnippet: '#(1 2 3)';
+		addSnippet: '#(1 $a foo ''Hello World'')';
+		addSnippet: '#(1 3.14 2r101010 
+	#(''hello'' goodbye 
+		#($a #b)
+	)
+)'
 ]
 
 { #category : #slides }
-SmalltalkSyntaxSlideshow >> literalsHeading: aSlide [
+SmalltalkSyntaxSlideshow >> literals: aSlide [
 	<gtSlide>
-	^ aSlide paragraph
-		priority: (self priorityFor: #literalsHeading:);
-		subtitleWithFormat: (self asSubtitle: 'Literals');
-		paragraphWithFormat: (self
-				asBigCode: '
-				
-3 
-
-''hello'' 
-
-#foo
-') 
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #literals:);
+		heading: 'Literals';
+		addSnippet: '3';
+		addSnippet: '''hello''';
+		addSnippet: '#foo'
 ]
 
 { #category : #constants }
 SmalltalkSyntaxSlideshow >> myLepiterDB [
 	^ 'feenkcom/gtoolkit-shorts/lepiter'
-]
-
-{ #category : #dormant }
-SmalltalkSyntaxSlideshow >> nestedLiteralArrays: aSlide [
-	"<gtSlide>"
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #nestedLiteralArrays:);
-		pageNamed: 'Nested literal arrays' from: self myLepiterDB
-]
-
-{ #category : #slides }
-SmalltalkSyntaxSlideshow >> numbers: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #numbers:);
-		pageNamed: 'Numbers' from: self myLepiterDB
 ]
 
 { #category : #constants }
@@ -248,11 +237,25 @@ SmalltalkSyntaxSlideshow >> precedence: aSlide [
 ]
 
 { #category : #slides }
+SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #radixNumbers:);
+		heading: 'Radix numbers';
+		addSnippet: '2r101010';
+		addSnippet: '8r52';
+		addSnippet: '16r2A'
+]
+
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #readAloud:);
-		pageNamed: 'Smalltalk is designed to be read aloud' from: self myLepiterDB
+		heading: 'Smalltalk is designed to be read aloud';
+		addSnippet: '''I need another example ...''';
+		addSnippet: 'thisSnippet database pages 
+	select: [ :page | page hasTitle ]'
 ]
 
 { #category : #slides }
@@ -281,14 +284,16 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 		postCardImageSlide:
 		readAloud:
 
-		literalsHeading:
-			numbers:
+		#literals:
+			integers:
+			floats:
+			radixNumbers:
 			strings:
 			characters:
 			symbols:
 			literalArrays:
-			"nestedLiteralArrays:"
 			byteArrays:
+
 			reservedWords:
 
 		expressionsHeading:
@@ -296,19 +301,17 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			binaryMessages:
 			keywordMessages:
 			precedence:
-			"changingEvaluationOrder:"
 			cascades:
 			dynamicArrays:
 		
-		"statementsHeading:"
-			statements:
+		statements:
 			blocks:
 			blocksWithArguments:
 			blocksWithMultipleArguments:
 			controlConstructs:
 		
-		"classesAndMethodsHeading:"
-			creatingClasses:
+
+		creatingClasses:
 			definingMethods:
 			definingKeywordMethods:
 			pragmas:
@@ -327,34 +330,24 @@ SmalltalkSyntaxSlideshow >> statements: aSlide [
 		pageNamed: 'Statements' from: self myLepiterDB
 ]
 
-{ #category : #dormant }
-SmalltalkSyntaxSlideshow >> statementsHeading: aSlide [
-	"<gtSlide>"
-	^ aSlide paragraph
-		priority: (self priorityFor: #statementsHeading:);
-		subtitleWithFormat: (self asSubtitle: 'Statements');
-		paragraphWithFormat: (self
-				asBigCode: '
-
-x := 3+4.
-y := 3*4
-') 
-]
-
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> strings: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #strings:);
-		pageNamed: 'Strings' from: self myLepiterDB
+		heading: 'Strings';
+		addSnippet: '''Hello world''';
+		addSnippet: '''That''''s right'''
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #symbols:);
-		pageNamed: 'Symbols' from: self myLepiterDB
+		heading: 'Symbols' ;
+		addSnippet: '#a';
+		addSnippet: '#HelloWorld'
 ]
 
 { #category : #slides }

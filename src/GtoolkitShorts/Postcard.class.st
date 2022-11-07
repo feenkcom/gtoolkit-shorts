@@ -1,7 +1,7 @@
 Class {
 	#name : #Postcard,
 	#superclass : #Object,
-	#category : #GtoolkitShorts
+	#category : #'GtoolkitShorts-Examples'
 }
 
 { #category : #accessing }
