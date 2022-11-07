@@ -22,25 +22,32 @@ SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocks: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocks:);
-		pageNamed: 'Blocks' from: self myLepiterDB
+		heading: 'Blocks';
+		addSnippet: '[ 3 + 4 ]';
+		addSnippet: '[ 3 + 4 ] value '
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithArguments:);
-		pageNamed: 'Blocks with arguments' from: self myLepiterDB
+		heading: 'Blocks with arguments';
+		addSnippet: '[ :n | n + 1 ] value: 41'
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithMultipleArguments:);
-		pageNamed: 'Blocks with multiple arguments' from: self myLepiterDB
+		heading: 'Blocks with multiple arguments';
+		addSnippet: '[ :a :b |
+	| c |
+	c := (a squared + b squared) sqrt 
+] value: 3 value: 4'
 ]
 
 { #category : #slides }
@@ -85,17 +92,26 @@ SmalltalkSyntaxSlideshow >> coderElementExample [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #controlConstructs:);
-		pageNamed: 'Control constructs' from: self myLepiterDB
+		heading: 'Control constructs';
+		addSnippet: 'Smalltalk allClasses size < 1000
+	ifTrue: [ ''not so many'' ]
+	ifFalse: [ ''quite a few!'' ]'
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	self removeClass: #HellowWorld.
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
-		pageNamed: 'Creating classes' from: self myLepiterDB
+		heading: 'Creating classes' ;
+		addSnippet: 'Object
+	subclass: #HelloWorld
+	instanceVariableNames: ''''
+	classVariableNames: ''''
+	package: #Hello'
 ]
 
 { #category : #slides }
@@ -109,9 +125,36 @@ SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	self removeClass: #HellowWorld.
+	Object
+		subclass: #HelloWorld
+		instanceVariableNames: ''
+		classVariableNames: ''
+		package: #Hello.	"Shorts fileIn: 'Hello-1-HelloWithHelloMethod.st'."
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
-		pageNamed: 'Defining methods' from: self myLepiterDB
+		heading: 'Defining methods';
+		addSnippet: 'HelloWorld new hello '
+]
+
+{ #category : #slides }
+SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
+	<gtSlide>
+	"NB: we should open the hello world method code. 
+	This can only be done programmatically with a Scripter script.
+	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks
+	"
+	self removeClass: #HellowWorld.
+	Object
+		subclass: #HelloWorld
+		instanceVariableNames: ''
+		classVariableNames: ''
+		package: #Hello.
+	self fileIn: 'Hello-1-HelloWithHelloMethod.st'.
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #definingMethodsAfter:);
+		heading: 'Defining methods';
+		addSnippet: 'HelloWorld new hello '
 ]
 
 { #category : #slides }
@@ -133,6 +176,20 @@ SmalltalkSyntaxSlideshow >> expressions: aSlide [
 		addSnippet: '3 factorial';
 		addSnippet: '3 + 4';
 		addSnippet: '2 raisedTo: 3'
+]
+
+{ #category : #utilities }
+SmalltalkSyntaxSlideshow >> fileIn: aFilename [
+	(self fileOuts / aFilename) fileIn
+]
+
+{ #category : #utilities }
+SmalltalkSyntaxSlideshow >> fileOuts [
+	"The directory where the fileOuts are stored."
+
+	<gtExample>
+	^ FileLocator localDirectory / 'iceberg' / 'feenkcom' / 'gtoolkit-shorts'
+		/ 'fileOuts'
 ]
 
 { #category : #slides }
@@ -215,6 +272,7 @@ SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 	<gtSlide>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #postcardSyntaxExplanation:);
+		newFadedText: 'The postcard again';
 		element: [
 			((Postcard>>#exampleWithNumber:) 
 				gtViewNodesExplanationWithLinksFor: GtPhlowEmptyView new) 
@@ -225,10 +283,14 @@ SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> pragmas: aSlide [
+	"TO FIX -- we want something like the headingAndCode slide, but instead of a snippet, it should be an example method."
 	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #pragmas:);
-		pageNamed: 'Pragmas' from: self myLepiterDB
+	self fileIn: 'Hello-3-HelloGtExample.st'.
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #pragmas2:);
+		newTextWithFormat: (self asHeader: 'Pragmas');
+		element: [ (HelloWorld >> #helloExample gtSourceFor: GtPhlowEmptyView new)
+				asElementDo: [ :e | e ] ]
 ]
 
 { #category : #slides }
@@ -261,6 +323,11 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 		addSnippet: '''I need another example ...''';
 		addSnippet: 'thisSnippet database pages 
 	select: [ :page | page hasTitle ]'
+]
+
+{ #category : #slides }
+SmalltalkSyntaxSlideshow >> removeClass: aSymbol [
+	[ aSymbol asClass removeFromSystem ] onErrorDo: [  ]
 ]
 
 { #category : #slides }
@@ -306,7 +373,6 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			cascades:
 			dynamicArrays:
 		
-		"CONTINUE HERE"
 		statements:
 			blocks:
 			blocksWithArguments:
@@ -316,7 +382,10 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 
 		creatingClasses:
 			definingMethods:
+			definingMethodsAfter:
 			definingKeywordMethods:
+			
+			"FIX THIS to be a method on a slide!"
 			pragmas:
 
 		postcardSyntaxExplanation:
@@ -328,9 +397,13 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> statements: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #statements:);
-		pageNamed: 'Statements' from: self myLepiterDB
+		heading: 'Statements' ;
+		addSnippet: '| a b c |	"temporaries (local variables)"
+a := 3.      "assignments using := "
+b := 4.      "periods as statement separators"
+c := (a squared + b squared) sqrt'
 ]
 
 { #category : #slides }
