@@ -13,9 +13,10 @@ SmalltalkSyntaxSlideshow class >> show [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #binaryMessages:);
-		pageNamed: 'Binary messages' from: self myLepiterDB
+		heading: 'Binary messages';
+		addSnippet: '3 + 4 '
 ]
 
 { #category : #slides }
@@ -55,9 +56,14 @@ SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> cascades: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #cascades:);
-		pageNamed: 'Cascades' from: self myLepiterDB
+		heading: 'Cascades' ;
+		addSnippet: 'OrderedCollection new
+	add: 3;
+	add: 4;
+	add: 6;
+	reversed '
 ]
 
 { #category : #slides }
@@ -111,26 +117,22 @@ SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #dynamicArrays:);
-		pageNamed: 'Dynamic arrays' from: self myLepiterDB
+		heading: 'Dynamic arrays' ;
+		addSnippet: '{ 3 + 4 . 2 raisedTo: 10 }' ;
+		addSnippet: '#( 3 + 4 . 2 raisedTo: 10 ) '
 ]
 
 { #category : #slides }
-SmalltalkSyntaxSlideshow >> expressionsHeading: aSlide [
+SmalltalkSyntaxSlideshow >> expressions: aSlide [
 	<gtSlide>
-	^ aSlide paragraph
-		priority: (self priorityFor: #expressionsHeading:);
-		subtitleWithFormat: (self asSubtitle: 'Expressions');
-		paragraphWithFormat: (self
-				asBigCode: '
-
-3 factorial
-
-3 + 4
-
-2 raisedTo: 3
-') 
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #expressions:);
+		heading: 'Expressions';
+		addSnippet: '3 factorial';
+		addSnippet: '3 + 4';
+		addSnippet: '2 raisedTo: 3'
 ]
 
 { #category : #slides }
@@ -157,9 +159,10 @@ SmalltalkSyntaxSlideshow >> integers: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #keywordMessages:);
-		pageNamed: 'Keyword messages' from: self myLepiterDB
+		heading: 'Keyword messages';
+		addSnippet: '''Hello world'' copyReplaceAll: ''world'' with: ''folks'''
 ]
 
 { #category : #slides }
@@ -231,9 +234,11 @@ SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #precedence:);
-		pageNamed: 'Precedence' from: self myLepiterDB
+		heading: 'Precedence';
+		addSnippet: '2 raisedTo: 1 + 3 factorial ';
+		addSnippet: '2 raisedTo: (1 + (3 factorial))'
 ]
 
 { #category : #slides }
@@ -261,17 +266,15 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	<gtSlide>
-	^ aSlide paragraph
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #reservedWords:);
-		subtitleWithFormat: (self asSubtitle: 'Reserved words');
-		paragraphWithFormat: (self
-				asBigCode: '
-
-true false nil
-
-self super
-
-thisContext')
+		heading: 'Reserved words';
+		addSnippet: 'true';
+		addSnippet: 'false';
+		addSnippet: 'nil';
+		addSnippet: 'self';
+		addSnippet: 'super';
+		addSnippet: 'thisContext'
 ]
 
 { #category : #accessing }
@@ -293,10 +296,9 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			symbols:
 			literalArrays:
 			byteArrays:
-
 			reservedWords:
 
-		expressionsHeading:
+		#expressions:
 			unaryMessages:
 			binaryMessages:
 			keywordMessages:
@@ -304,6 +306,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			cascades:
 			dynamicArrays:
 		
+		"CONTINUE HERE"
 		statements:
 			blocks:
 			blocksWithArguments:
@@ -362,9 +365,10 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #unaryMessages:);
-		pageNamed: 'Unary messages' from: self myLepiterDB
+		heading: 'Unary messages';
+		addSnippet: '3 factorial '
 ]
 
 { #category : #slides }
