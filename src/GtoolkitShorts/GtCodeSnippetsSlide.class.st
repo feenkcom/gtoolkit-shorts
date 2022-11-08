@@ -3,6 +3,9 @@ I am a live slide that holds a heading, a collection of text, code and example s
 
 See {{gtMethod:name=GtCodeSnippetsSlide>>exampleSlide:}} for usage examples.
 
+```
+GtPresenterSlideShow openInSpace: GtCodeSnippetsSlide
+```
 
 "
 Class {
@@ -122,15 +125,15 @@ GtCodeSnippetsSlide >> defaultBodyPadding [
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultMargin [
 	^ BlInsets
-		top: 100
-		right: 50
-		bottom: 100
-		left: 50
+		top: 200
+		right: 100
+		bottom: 200
+		left: 100
 ]
 
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultSnippetPadding [
-	^ 20
+	^ 10
 ]
 
 { #category : #accessing }
@@ -172,6 +175,7 @@ GtCodeSnippetsSlide >> exampleMethod [
 
 { #category : #accessing }
 GtCodeSnippetsSlide >> exampleSlide: aSlide [
+	"GtPresenterSlideShow openInSpace: GtCodeSnippetsSlide"
 	<gtSlide>
 	^ aSlide headingAndCode
 		priority: 10;
@@ -185,11 +189,20 @@ GtCodeSnippetsSlide >> exampleSlide: aSlide [
 3+4';
 		addCodeSnippet: '"Another code snippet"
 2r101010';
-		addExampleSnippet: self class >> #exampleMethod;
-		leftMargin: 200; "left margin of whole slide"
-		snippetPadding: 5; "padding between snippets"
-		bodyPadding: 5; "padding above and below snippets/inspector body"
-		elementWeight: 0.6 "percentage horizontal for inspector vs snippets"
+		addExampleSnippet: self class >> #exampleMethod
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> exampleSlideWithOverrides: aSlide [
+	"GtPresenterSlideShow openInSpace: GtCodeSnippetsSlide"
+
+	<gtSlide>
+	^ (self exampleSlide: aSlide)
+		priority: 20;
+		leftMargin: 10;
+		snippetPadding: 20;
+		bodyPadding: 0;
+		elementWeight: 0.75
 ]
 
 { #category : #accessing }
@@ -225,7 +238,7 @@ GtCodeSnippetsSlide >> heading: aString [
 		headingWithFormat: (aString asRopedText
 				glamorousRegularFont;
 				bold;
-				fontSize: 40)
+				fontSize: 50)
 ]
 
 { #category : #accessing }
@@ -239,10 +252,9 @@ GtCodeSnippetsSlide >> initialize [
 	self heading: ''.
 	snippets := OrderedCollection new.
 	self elementWeight: 0.5.
-	self
-		margin: self defaultMargin .
-		self snippetPadding:  self defaultSnippetPadding.
-		self bodyPadding:  self defaultBodyPadding.
+	self margin: self defaultMargin.
+	self snippetPadding: self defaultSnippetPadding.
+	self bodyPadding: self defaultBodyPadding
 ]
 
 { #category : #accessing }
