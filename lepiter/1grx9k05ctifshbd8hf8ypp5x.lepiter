@@ -119,6 +119,43 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-08T17:37:07.916031+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-08T17:37:11.788046+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nWnd4lmpDQC0HFE9DgtBBg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See [[Playing with a slimmer Pharo editor for slides]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
 					"items" : [
 						{
 							"__type" : "textSnippet",
@@ -126,113 +163,7 @@
 								"__type" : "snippets",
 								"items" : [
 									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "pharoSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ZBDuH8eoDQC5wmcgDynDGA=="
-													},
-													"code" : "SmalltalkSyntaxSlideshow show"
-												},
-												{
-													"__type" : "pharoSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T15:03:07.057912+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-02T16:47:52.355768+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "D1+d68qoDQCNl+YGB3W7aA=="
-													},
-													"code" : "BlGlutinHostSpace zoomFactor: 1.5"
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "XRDuH8eoDQC5wbHODynDGA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "###Title"
-									},
-									{
-										"__type" : "textSnippet",
+										"__type" : "pharoSnippet",
 										"children" : {
 											"__type" : "snippets",
 											"items" : [ ]
@@ -245,7 +176,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-08T17:20:16.441587+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
 											}
 										},
 										"editEmail" : {
@@ -256,23 +187,88 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-08T17:20:16.441587+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "H20Dp1mpDQCSwICoBjR/WA=="
+											"uidString" : "ZBDuH8eoDQC5wmcgDynDGA=="
 										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
+										"code" : "SmalltalkSyntaxSlideshow show"
 									},
 									{
 										"__type" : "pharoSnippet",
 										"children" : {
 											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-01T15:03:07.057912+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-02T16:47:52.355768+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "D1+d68qoDQCNl+YGB3W7aA=="
+										},
+										"code" : "BlGlutinHostSpace zoomFactor: 1.5"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
 											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:20:20.534172+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:29:14.33206+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "t99Bp1mpDQCSwbvWBjR/WA=="
+													},
+													"code" : "SmalltalkSyntaxSlideshow <> #titleSlide: "
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -320,7 +316,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-08T17:20:20.534172+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
 											}
 										},
 										"editEmail" : {
@@ -331,14 +327,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-08T17:20:38.602669+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892251+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "t99Bp1mpDQCSwbvWBjR/WA=="
+											"uidString" : "XRDuH8eoDQC5wbHODynDGA=="
 										},
-										"code" : "SmalltalkSyntaxSlideshow show: #titleSlide: "
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "###Title"
 									},
 									{
 										"__type" : "textSnippet",
@@ -458,122 +457,10 @@
 											"__type" : "snippets",
 											"items" : [
 												{
-													"__type" : "textSnippet",
+													"__type" : "pharoSnippet",
 													"children" : {
 														"__type" : "snippets",
-														"items" : [
-															{
-																"__type" : "elementSnippet",
-																"children" : {
-																	"__type" : "snippets",
-																	"items" : [ ]
-																},
-																"createEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"createTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-07T08:33:02.704897+01:00"
-																	}
-																},
-																"editEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"editTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-07T08:33:12.90692+01:00"
-																	}
-																},
-																"uid" : {
-																	"__type" : "uid",
-																	"uidString" : "JImnKz6pDQCFGOf4DeA4bw=="
-																},
-																"code" : "(SmalltalkSyntaxSlideshow show: #readAloud:) asElement",
-																"elementHeight" : 669,
-																"codeHeight" : 50,
-																"codeVisible" : false
-															},
-															{
-																"__type" : "textSnippet",
-																"children" : {
-																	"__type" : "snippets",
-																	"items" : [ ]
-																},
-																"createEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"createTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-01T10:31:24.892296+01:00"
-																	}
-																},
-																"editEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"editTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-01T10:39:07.237148+01:00"
-																	}
-																},
-																"uid" : {
-																	"__type" : "uid",
-																	"uidString" : "ihDuH8eoDQC5ygtVDynDGA=="
-																},
-																"paragraphStyle" : {
-																	"__type" : "textStyle"
-																},
-																"string" : "*Smalltalk syntax is designed so that you can read it aloud, and it should make sense.* "
-															},
-															{
-																"__type" : "textSnippet",
-																"children" : {
-																	"__type" : "snippets",
-																	"items" : [ ]
-																},
-																"createEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"createTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-01T10:31:24.8923+01:00"
-																	}
-																},
-																"editEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"editTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-08T17:18:51.945706+01:00"
-																	}
-																},
-																"uid" : {
-																	"__type" : "uid",
-																	"uidString" : "jhDuH8eoDQC5ywpxDynDGA=="
-																},
-																"paragraphStyle" : {
-																	"__type" : "textStyle"
-																},
-																"string" : "*For example:* `Smalltalk allClasses select: #isDeprecated`  *returns all the deprecated classes in the system.* "
-															}
-														]
+														"items" : [ ]
 													},
 													"createEmail" : {
 														"__type" : "email",
@@ -583,7 +470,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892294+01:00"
+															"dateAndTimeString" : "2022-11-08T17:26:35.555595+01:00"
 														}
 													},
 													"editEmail" : {
@@ -594,17 +481,88 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892294+01:00"
+															"dateAndTimeString" : "2022-11-08T17:29:09.158922+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "hxDuH8eoDQC5yV53DynDGA=="
+														"uidString" : "IT+cvVmpDQC0Agn9DgtBBg=="
+													},
+													"code" : "SmalltalkSyntaxSlideshow <>  #readAloud: "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:30:28.162645+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:30:28.162645+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "hWgky1mpDQC0BlTqDgtBBg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Smalltalk is designed to be read aloud]] "
+													"string" : "*Smalltalk syntax is designed so that you can read it aloud, and it should make sense.* "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:30:34.657426+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:31:14.636861+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "gFePy1mpDQC0B/RMDgtBBg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*For example:* `Smalltalk allClasses select: #isAbstract`  *returns all the abstract classes in the Smalltalk system.* "
 												}
 											]
 										},
@@ -740,20 +698,196 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-07T08:49:57.032883+01:00"
+												"dateAndTimeString" : "2022-11-08T17:31:44.537759+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "/fuWZz6pDQC1xR1ZDa1oBg=="
 										},
-										"code" : "SmalltalkSyntaxSlideshow show: #literalsHeading: \n"
+										"code" : "SmalltalkSyntaxSlideshow <> #literals:\n"
 									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
 											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:32:35.78155+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:33:00.543907+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "xdsU01mpDQC0DCOxDgtBBg=="
+													},
+													"code" : "SmalltalkSyntaxSlideshow <> #integers:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:06.713899+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:06.713899+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "R12A2FmpDQC0FpiJDgtBBg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*As you would expect, Smalltalk not only supports integers*"
+												},
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:18.301358+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:23.228706+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "yi8x2VmpDQC0GLZJDgtBBg=="
+													},
+													"code" : "SmalltalkSyntaxSlideshow <> #floats:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:39.283299+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:39.283299+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "+FFx2lmpDQC0GYzyDgtBBg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*and various kinds of floats,*"
+												},
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:45.289543+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:34:58.633082+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Y/7M2lmpDQC0GqTFDgtBBg=="
+													},
+													"code" : "SmalltalkSyntaxSlideshow <> #radixNumbers:"
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -779,7 +913,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T14:56:58.850887+01:00"
+															"dateAndTimeString" : "2022-11-08T17:35:27.500036+01:00"
 														}
 													},
 													"uid" : {
@@ -789,10 +923,48 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*As you would expect, Smalltalk not only supports integers and various kinds of floats, but also radix numbers with an explicit base.* "
-												},
+													"string" : "*but also radix numbers with an explicit base. Here we see the number 42 in binary, octal and hex.* "
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:33:27.395298+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:35:44.284882+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "mxDuH8eoDQC5z/BUDynDGA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "##Integers, Floats and Radix numbers"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
-													"__type" : "textSnippet",
+													"__type" : "pharoSnippet",
 													"children" : {
 														"__type" : "snippets",
 														"items" : [ ]
@@ -805,7 +977,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T14:56:16.531069+01:00"
+															"dateAndTimeString" : "2022-11-08T17:35:54.813139+01:00"
 														}
 													},
 													"editEmail" : {
@@ -816,56 +988,15 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T14:56:39.120407+01:00"
+															"dateAndTimeString" : "2022-11-08T17:36:01.340312+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "0vod08qoDQCNeWkCB3W7aA=="
+														"uidString" : "7dbx3lmpDQC0G8EFDgtBBg=="
 													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Here we see the number 42 in binary, octal and hex.* "
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892313+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T14:50:11.773944+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "mxDuH8eoDQC5z/BUDynDGA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Numbers]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
+													"code" : "SmalltalkSyntaxSlideshow <> #strings:"
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -950,7 +1081,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892339+01:00"
+												"dateAndTimeString" : "2022-11-08T17:35:50.269674+01:00"
 											}
 										},
 										"editEmail" : {
@@ -961,7 +1092,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892339+01:00"
+												"dateAndTimeString" : "2022-11-08T17:35:53.016347+01:00"
 											}
 										},
 										"uid" : {
@@ -971,7 +1102,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Strings]] "
+										"string" : "##Strings"
 									},
 									{
 										"__type" : "textSnippet",

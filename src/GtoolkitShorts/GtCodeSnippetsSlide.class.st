@@ -119,7 +119,7 @@ GtCodeSnippetsSlide >> create [
 
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultBodyPadding [
-	^ 10
+	^ 20
 ]
 
 { #category : #initialization }

@@ -4,6 +4,11 @@ Class {
 	#category : #'GtoolkitShorts-Slideshows'
 }
 
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow class >> <> aSymbol [
+	^ self show: aSymbol
+]
+
 { #category : #utility }
 SmalltalkSyntaxSlideshow class >> show [
 	"Implement this here just so we can run it directly from the Coder."
@@ -312,7 +317,7 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #readAloud:);
 		heading: 'Smalltalk is designed to be read aloud';
-		addCodeSnippet: 'Smalltalk allClasses select: #isDeprecated'
+		addCodeSnippet: 'Smalltalk allClasses select: #isAbstract'
 ]
 
 { #category : #slides }
