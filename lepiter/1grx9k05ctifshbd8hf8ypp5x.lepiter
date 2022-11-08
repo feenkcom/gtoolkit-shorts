@@ -197,80 +197,6 @@
 														"uidString" : "D1+d68qoDQCNl+YGB3W7aA=="
 													},
 													"code" : "BlGlutinHostSpace zoomFactor: 1.5"
-												},
-												{
-													"__type" : "elementSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-07T08:32:15.093524+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-07T08:32:22.789008+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "MAvRKD6pDQCFFxmtDeA4bw=="
-													},
-													"code" : "(SmalltalkSyntaxSlideshow show: #titleSlide:) asElement",
-													"elementHeight" : 296,
-													"codeHeight" : 50,
-													"codeVisible" : false
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.892264+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T14:48:34.998232+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ahDuH8eoDQC5w42tDynDGA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to give you quick guided tour of the syntax of Smalltalk.* "
 												}
 											]
 										},
@@ -304,6 +230,115 @@
 											"__type" : "textStyle"
 										},
 										"string" : "###Title"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:20:16.441587+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:20:16.441587+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "H20Dp1mpDQCSwICoBjR/WA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-01T10:31:24.892264+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-08T17:20:55.310074+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "ahDuH8eoDQC5w42tDynDGA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to give you quick guided tour of the syntax of Smalltalk.* "
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:20:20.534172+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-08T17:20:38.602669+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "t99Bp1mpDQCSwbvWBjR/WA=="
+										},
+										"code" : "SmalltalkSyntaxSlideshow show: #titleSlide: "
 									},
 									{
 										"__type" : "textSnippet",
@@ -343,7 +378,7 @@
 														"uidString" : "Q4s2Ij6pDQCFFRF/DeA4bw=="
 													},
 													"code" : "(SmalltalkSyntaxSlideshow show: #postCardImageSlide:) asElement",
-													"elementHeight" : 485,
+													"elementHeight" : 293,
 													"codeHeight" : 61,
 													"codeVisible" : false
 												},
@@ -460,7 +495,7 @@
 																	"uidString" : "JImnKz6pDQCFGOf4DeA4bw=="
 																},
 																"code" : "(SmalltalkSyntaxSlideshow show: #readAloud:) asElement",
-																"elementHeight" : 309,
+																"elementHeight" : 669,
 																"codeHeight" : 50,
 																"codeVisible" : false
 															},
@@ -526,7 +561,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-11-01T10:40:05.498794+01:00"
+																		"dateAndTimeString" : "2022-11-08T17:18:51.945706+01:00"
 																	}
 																},
 																"uid" : {
@@ -536,7 +571,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*For example:* `thisSnippet database pages select: [ :page | page hasTitle ]`  *returns all the notebook database pages with titles.* "
+																"string" : "*For example:* `Smalltalk allClasses select: #isDeprecated`  *returns all the deprecated classes in the system.* "
 															}
 														]
 													},

@@ -312,9 +312,7 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #readAloud:);
 		heading: 'Smalltalk is designed to be read aloud';
-		addCodeSnippet: '''I need another example ...''';
-		addCodeSnippet: 'thisSnippet database pages 
-	select: [ :page | page hasTitle ]'
+		addCodeSnippet: 'Smalltalk allClasses select: #isDeprecated'
 ]
 
 { #category : #slides }
