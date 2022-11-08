@@ -16,7 +16,7 @@ SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #binaryMessages:);
 		heading: 'Binary messages';
-		addSnippet: '3 + 4 '
+		addCodeSnippet: '3 + 4 '
 ]
 
 { #category : #slides }
@@ -25,8 +25,8 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocks:);
 		heading: 'Blocks';
-		addSnippet: '[ 3 + 4 ]';
-		addSnippet: '[ 3 + 4 ] value '
+		addCodeSnippet: '[ 3 + 4 ]';
+		addCodeSnippet: '[ 3 + 4 ] value '
 ]
 
 { #category : #slides }
@@ -35,7 +35,7 @@ SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithArguments:);
 		heading: 'Blocks with arguments';
-		addSnippet: '[ :n | n + 1 ] value: 41'
+		addCodeSnippet: '[ :n | n + 1 ] value: 41'
 ]
 
 { #category : #slides }
@@ -44,7 +44,7 @@ SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithMultipleArguments:);
 		heading: 'Blocks with multiple arguments';
-		addSnippet: '[ :a :b |
+		addCodeSnippet: '[ :a :b |
 	| c |
 	c := (a squared + b squared) sqrt 
 ] value: 3 value: 4'
@@ -56,8 +56,8 @@ SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #byteArrays:);
 		heading: 'Byte arrays';
-		addSnippet: '#[1 2 2r11]';
-		addSnippet: '#[1 $a foo ''Hello World''] "Not valid"'
+		addCodeSnippet: '#[1 2 2r11]';
+		addCodeSnippet: '#[1 $a foo ''Hello World''] "Not valid"'
 ]
 
 { #category : #slides }
@@ -66,7 +66,7 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #cascades:);
 		heading: 'Cascades' ;
-		addSnippet: 'OrderedCollection new
+		addCodeSnippet: 'OrderedCollection new
 	add: 3;
 	add: 4;
 	add: 6;
@@ -79,8 +79,8 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #characters:);
 		heading: 'Characters';
-		addSnippet: '$a';
-		addSnippet: 'Character tab '
+		addCodeSnippet: '$a';
+		addCodeSnippet: 'Character tab '
 ]
 
 { #category : #slides }
@@ -89,7 +89,7 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #controlConstructs:);
 		heading: 'Control constructs';
-		addSnippet: 'Smalltalk allClasses size < 1000
+		addCodeSnippet: 'Smalltalk allClasses size < 1000
 	ifTrue: [ ''not so many'' ]
 	ifFalse: [ ''quite a few!'' ]'
 ]
@@ -101,7 +101,7 @@ SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
 		heading: 'Creating classes' ;
-		addSnippet: 'Object
+		addCodeSnippet: 'Object
 	subclass: #HelloWorld
 	instanceVariableNames: ''''
 	classVariableNames: ''''
@@ -128,7 +128,7 @@ SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
 		heading: 'Defining methods';
-		addSnippet: 'HelloWorld new hello '
+		addCodeSnippet: 'HelloWorld new hello '
 ]
 
 { #category : #slides }
@@ -148,7 +148,7 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethodsAfter:);
 		heading: 'Defining methods';
-		addSnippet: 'HelloWorld new hello '
+		addCodeSnippet: 'HelloWorld new hello '
 ]
 
 { #category : #slides }
@@ -157,8 +157,8 @@ SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #dynamicArrays:);
 		heading: 'Dynamic arrays' ;
-		addSnippet: '{ 3 + 4 . 2 raisedTo: 10 }' ;
-		addSnippet: '#( 3 + 4 . 2 raisedTo: 10 ) '
+		addCodeSnippet: '{ 3 + 4 . 2 raisedTo: 10 }' ;
+		addCodeSnippet: '#( 3 + 4 . 2 raisedTo: 10 ) '
 ]
 
 { #category : #slides }
@@ -167,9 +167,9 @@ SmalltalkSyntaxSlideshow >> expressions: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #expressions:);
 		heading: 'Expressions';
-		addSnippet: '3 factorial';
-		addSnippet: '3 + 4';
-		addSnippet: '2 raisedTo: 3'
+		addCodeSnippet: '3 factorial';
+		addCodeSnippet: '3 + 4';
+		addCodeSnippet: '2 raisedTo: 3'
 ]
 
 { #category : #utilities }
@@ -192,9 +192,9 @@ SmalltalkSyntaxSlideshow >> floats: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #floats:);
 		heading: 'Floats';
-		addSnippet: '3.14';
-		addSnippet: '3.14e2';
-		addSnippet: '3.14s2'
+		addCodeSnippet: '3.14';
+		addCodeSnippet: '3.14e2';
+		addCodeSnippet: '3.14s2'
 ]
 
 { #category : #slides }
@@ -203,8 +203,8 @@ SmalltalkSyntaxSlideshow >> integers: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #integers:);
 		heading: 'Integers';
-		addSnippet: '1';
-		addSnippet: '42'
+		addCodeSnippet: '1';
+		addCodeSnippet: '42'
 ]
 
 { #category : #slides }
@@ -213,7 +213,7 @@ SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #keywordMessages:);
 		heading: 'Keyword messages';
-		addSnippet: '''Hello world'' copyReplaceAll: ''world'' with: ''folks'''
+		addCodeSnippet: '''Hello world'' copyReplaceAll: ''world'' with: ''folks'''
 ]
 
 { #category : #slides }
@@ -222,9 +222,9 @@ SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #literalArrays:);
 		heading: 'Literal arrays';
-		addSnippet: '#(1 2 3)';
-		addSnippet: '#(1 $a foo ''Hello World'')';
-		addSnippet: '#(1 3.14 2r101010 
+		addCodeSnippet: '#(1 2 3)';
+		addCodeSnippet: '#(1 $a foo ''Hello World'')';
+		addCodeSnippet: '#(1 3.14 2r101010 
 	#(''hello'' goodbye 
 		#($a #b)
 	)
@@ -237,9 +237,9 @@ SmalltalkSyntaxSlideshow >> literals: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #literals:);
 		heading: 'Literals';
-		addSnippet: '3';
-		addSnippet: '''hello''';
-		addSnippet: '#foo'
+		addCodeSnippet: '3';
+		addCodeSnippet: '''hello''';
+		addCodeSnippet: '#foo'
 ]
 
 { #category : #constants }
@@ -277,14 +277,12 @@ SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> pragmas: aSlide [
-	"TO FIX -- we want something like the headingAndCode slide, but instead of a snippet, it should be an example method."
 	<gtSlide>
 	self fileIn: 'Hello-3-HelloGtExample.st'.
-	^ aSlide labelAndElement
-		priority: (self priorityFor: #pragmas2:);
-		newTextWithFormat: (self asHeader: 'Pragmas');
-		element: [ (HelloWorld >> #helloExample gtSourceFor: GtPhlowEmptyView new)
-				asElementDo: [ :e | e ] ]
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #pragmas:);
+		heading: 'Pragmas';
+		addExampleSnippet: HelloWorld >> #helloExample
 ]
 
 { #category : #slides }
@@ -293,8 +291,8 @@ SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #precedence:);
 		heading: 'Precedence';
-		addSnippet: '2 raisedTo: 1 + 3 factorial ';
-		addSnippet: '2 raisedTo: (1 + (3 factorial))'
+		addCodeSnippet: '2 raisedTo: 1 + 3 factorial ';
+		addCodeSnippet: '2 raisedTo: (1 + (3 factorial))'
 ]
 
 { #category : #slides }
@@ -303,9 +301,9 @@ SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #radixNumbers:);
 		heading: 'Radix numbers';
-		addSnippet: '2r101010';
-		addSnippet: '8r52';
-		addSnippet: '16r2A'
+		addCodeSnippet: '2r101010';
+		addCodeSnippet: '8r52';
+		addCodeSnippet: '16r2A'
 ]
 
 { #category : #slides }
@@ -314,8 +312,8 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #readAloud:);
 		heading: 'Smalltalk is designed to be read aloud';
-		addSnippet: '''I need another example ...''';
-		addSnippet: 'thisSnippet database pages 
+		addCodeSnippet: '''I need another example ...''';
+		addCodeSnippet: 'thisSnippet database pages 
 	select: [ :page | page hasTitle ]'
 ]
 
@@ -330,12 +328,12 @@ SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #reservedWords:);
 		heading: 'Reserved words';
-		addSnippet: 'true';
-		addSnippet: 'false';
-		addSnippet: 'nil';
-		addSnippet: 'self';
-		addSnippet: 'super';
-		addSnippet: 'thisContext'
+		addCodeSnippet: 'true';
+		addCodeSnippet: 'false';
+		addCodeSnippet: 'nil';
+		addCodeSnippet: 'self';
+		addCodeSnippet: 'super';
+		addCodeSnippet: 'thisContext'
 ]
 
 { #category : #accessing }
@@ -394,7 +392,7 @@ SmalltalkSyntaxSlideshow >> statements: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #statements:);
 		heading: 'Statements' ;
-		addSnippet: '| a b c |	"temporaries (local variables)"
+		addCodeSnippet: '| a b c |	"temporaries (local variables)"
 a := 3.      "assignments using := "
 b := 4.      "periods as statement separators"
 c := (a squared + b squared) sqrt'
@@ -406,8 +404,8 @@ SmalltalkSyntaxSlideshow >> strings: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #strings:);
 		heading: 'Strings';
-		addSnippet: '''Hello world''';
-		addSnippet: '''That''''s right'''
+		addCodeSnippet: '''Hello world''';
+		addCodeSnippet: '''That''''s right'''
 ]
 
 { #category : #slides }
@@ -416,8 +414,8 @@ SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #symbols:);
 		heading: 'Symbols' ;
-		addSnippet: '#a';
-		addSnippet: '#HelloWorld'
+		addCodeSnippet: '#a';
+		addCodeSnippet: '#HelloWorld'
 ]
 
 { #category : #slides }
@@ -435,7 +433,7 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #unaryMessages:);
 		heading: 'Unary messages';
-		addSnippet: '3 factorial '
+		addCodeSnippet: '3 factorial '
 ]
 
 { #category : #slides }

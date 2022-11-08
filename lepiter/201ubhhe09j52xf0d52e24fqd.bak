@@ -490,7 +490,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T11:02:57.969444+01:00"
+						"dateAndTimeString" : "2022-11-08T14:06:04.589231+01:00"
 					}
 				},
 				"editEmail" : {
@@ -501,14 +501,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T13:49:07.75407+01:00"
+						"dateAndTimeString" : "2022-11-08T14:23:44.781565+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "PcGnYVSpDQCKkZeBC8tLwA=="
+					"uidString" : "z0SC8FapDQCJRmBEAKC2RQ=="
 				},
-				"code" : "heading := 'Slide heading' asRopedText\r\t\tglamorousRegularFont;\r\t\tbold;\r\t\tfontSize: 40.\t\"We need to support also text and example snippets\"\rsnippets := {textElementFor\r\t\t\tvalue: ('A roped text snippet' asRopedText\r\t\t\t\t\tglamorousRegularFont;\r\t\t\t\t\tbold;\r\t\t\t\t\tfontSize: 24).\r\t\ttextElementFor value: 'A plain text snippet'.\r\t\tcoderElementFor value: '\"A code snippet\"\r3 + 4'.\r\t\tcoderElementFor value: '42'.\r\t\texampleElementFor value: BlTextElementExamples >> #helloText}.\relementWeight := 0.5.\rcontainer := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical matchParent.\r\t\t\t\"c vertical fitContent.\"\r\t\t\tc horizontal matchParent ];\r\t\tpadding: (BlInsets\r\t\t\t\ttop: 20\r\t\t\t\tright: 20\r\t\t\t\tbottom: 20\r\t\t\t\tleft: 20);\r\t\tlayout: BlLinearLayout vertical alignTopLeft.\"\r\rheadingElement := BlTextElement new\r\t\tmargin: (BlInsets top: 1 bottom: 1);\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical fitContent.\r\t\t\tc horizontal fitContent.\r\t\t\tc linear horizontal ];\r\t\ttext: heading.\t\"The body is below the heading and holds the snippets on the left and the inspector at the right\"\rbodyElement := BrHorizontalPane new\r\t\tmatchParent;\r\t\tpadding: (BlInsets top: 20 bottom: 20).\r\rsnippetsElement := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc frame horizontal weight: 1 - elementWeight.\r\t\t\tc vertical matchParent.\r\t\t\tc horizontal matchParent ];\r\t\tlayout: BlLinearLayout vertical.\r\rinspectorElement := BrVerticalPane new matchParent.\t\"Snippets should not just be textual code snippets, but can be text,  code or examples.\rSo we don't want to get the coderElement here.\"\rsnippets\r\tdo: [ :snippet | \r\t\tsnippetsElement\r\t\t\taddChild: (snippet\r\t\t\t\t\tpadding: (BlInsets top: 10 bottom: 10);\r\t\t\t\t\tconstraintsDo: [ :c | \r\t\t\t\t\t\tc horizontal matchParent.\r\t\t\t\t\t\tc vertical fitContent ]) ].\r\rbodyElement\r\taddChild: snippetsElement;\r\taddChild: (inspectorElement\r\t\t\tconstraintsDo: [ :c | \r\t\t\t\tc frame horizontal weight: elementWeight.\r\t\t\t\tc frame horizontal alignLeft.\r\t\t\t\tc vertical matchParent.\r\t\t\t\tc horizontal matchParent ]).\r\rcontainer\r\taddChild: headingElement;\r\taddChild: bodyElement.\r\rcontainer"
+				"code" : "heading := 'Slide heading' asRopedText\r\t\tglamorousRegularFont;\r\t\tbold;\r\t\tfontSize: 40.\t\"We need to support also text and example snippets\"\rsnippets := {textElementFor\r\t\t\tvalue: ('A roped text snippet' asRopedText\r\t\t\t\t\tglamorousRegularFont;\r\t\t\t\t\tbold;\r\t\t\t\t\tfontSize: 24).\r\t\ttextElementFor value: 'A plain text snippet'.\r\t\tcoderElementFor\r\t\t\tvalue: '\"A code snippet\"\r3 + 4'.\r\t\tcoderElementFor value: '42'.\r\t\texampleElementFor value: BlTextElementExamples >> #helloText}.\relementWeight := 0.2.\rcontainer := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical matchParent.\t\"c vertical fitContent.\"\r\t\t\tc horizontal matchParent.\r\t\t\t];\r\t\tpadding: (BlInsets\r\t\t\t\ttop: 20\r\t\t\t\tright: 20\r\t\t\t\tbottom: 20\r\t\t\t\tleft: 20);\r\t\tlayout: BlLinearLayout vertical alignTopLeft.\r\rheadingElement := BlTextElement new\r\t\tmargin: (BlInsets top: 1 bottom: 1);\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical fitContent.\r\t\t\tc horizontal fitContent.\r\t\t\tc linear horizontal ];\r\t\ttext: heading.\t\"The body is below the heading and holds the snippets on the left and the inspector at the right\"\rbodyElement := BrHorizontalPane new\r\t\tmatchParent;\r\t\tpadding: (BlInsets top: 20 bottom: 200).\r\rsnippetsElement := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc linear weight: 1 - elementWeight.\r\t\t\tc vertical matchParent.\r\t\t\tc horizontal matchParent ];\r\t\tlayout: BlLinearLayout vertical.\r\rinspectorElement := BrVerticalPane new matchParent.\t\"Snippets should not just be textual code snippets, but can be text,  code or examples.\rSo we don't want to get the coderElement here.\"\rsnippets\r\tdo: [ :snippet | \r\t\tsnippetsElement\r\t\t\taddChild: (snippet\r\t\t\t\t\tpadding: (BlInsets top: 10 bottom: 10);\r\t\t\t\t\tconstraintsDo: [ :c | \r\t\t\t\t\t\tc horizontal matchParent.\r\t\t\t\t\t\tc vertical fitContent ]) ].\r\rbodyElement\r\taddChild: snippetsElement;\r\taddChild: (inspectorElement\r\t\t\tconstraintsDo: [ :c | \r\t\t\t\tc linear horizontal weight: elementWeight.\r\t\t\t\tc vertical matchParent.\r\t\t\t\tc horizontal matchParent ]).\r\rcontainer\r\taddChild: headingElement;\r\taddChild: bodyElement.\r\rcontainer"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-08T14:22:10.776035+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-08T14:22:13.781996+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CxwZKlepDQCJSfzTAKC2RQ=="
+				},
+				"code" : "BlLinearLayoutUsageExamples>>#exampleHorizontalUsingWeightLTR"
 			}
 		]
 	},

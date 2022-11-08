@@ -49,9 +49,9 @@ GtHeadingAndCodeSnippets >> create [
 				c horizontal matchParent ];
 		padding: (BlInsets
 				top: 20
-				right: 20
+				right: 50
 				bottom: 20
-				left: 20);
+				left: 50);
 			layout: BlLinearLayout vertical alignTopLeft.
 
 	headingElement := BlTextElement new
@@ -68,7 +68,7 @@ GtHeadingAndCodeSnippets >> create [
 
 	snippetsElement := BlElement new
 			constraintsDo: [ :c | 
-				c frame horizontal weight: 1 - elementWeight.
+				c linear weight: 1 - elementWeight.
 				c vertical matchParent.
 				c horizontal matchParent ];
 
@@ -90,8 +90,7 @@ GtHeadingAndCodeSnippets >> create [
 		addChild: snippetsElement;
 		addChild: (inspectorElement
 				constraintsDo: [ :c | 
-					c frame horizontal weight: elementWeight.
-					c frame horizontal alignLeft.
+					c linear weight: elementWeight.
 					c vertical matchParent.
 					c horizontal matchParent ]
 				).
