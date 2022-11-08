@@ -83,12 +83,6 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 		addSnippet: 'Character tab '
 ]
 
-{ #category : #example }
-SmalltalkSyntaxSlideshow >> coderElementExample [
-	<gtExample>
-	^ self coderElementFor: '3+4'
-]
-
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>

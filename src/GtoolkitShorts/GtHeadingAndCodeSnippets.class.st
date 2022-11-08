@@ -11,37 +11,25 @@ Class {
 }
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> addSnippet: aString [
-	self snippets add: aString
+GtHeadingAndCodeSnippets >> addCodeSnippet: aSourceString [
+	self
+		addSnippet: (self extractCoderElementFor: (GtPharoSnippetCoder forSource: aSourceString))
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> coderElementFor: defaultCode [
-	| coder editor container |
-	coder := GtPharoSnippetCoder new forSource: defaultCode.
-	editor := (coder asElement query
-			// GtSourceCoderExpandedContentElement;
-			anyOne)
-			removeFromParent;
-			hMatchParent;
-			vFitContent;
-			when: GtPhlowObjectToSpawn
-				do: [ :e | 
-					self inspectorElement removeChildren
-						addChild: ((e object gtViewsFor: GtPhlowView empty)
-								asElementDo: [ :x | 
-									BrVerticalPane new matchParent
-										aptitude: BrShadowAptitude;
-										background: Color white;
-										addChild: x ]).
-					e consumed: true ].
-	^ editor	
-	
-	"container := BrHorizontalPane new
-			hExact: 200;
-			vExact: 100;
-			addChild: editor.
-	^ container asScalableElement size: 400 @ 200"
+GtHeadingAndCodeSnippets >> addExampleSnippet: exampleMethod [
+	self
+		addSnippet: (self extractCoderElementFor: (GtPharoMethodCoder forMethod: exampleMethod))
+]
+
+{ #category : #accessing }
+GtHeadingAndCodeSnippets >> addSnippet: aSnippetElement [
+	self snippets add: aSnippetElement
+]
+
+{ #category : #accessing }
+GtHeadingAndCodeSnippets >> addTextSnippet: aString [
+	self addSnippet: (BlTextElement new text: aString asRopedText)
 ]
 
 { #category : #'api - instantiation' }
@@ -59,7 +47,11 @@ GtHeadingAndCodeSnippets >> create [
 			constraintsDo: [ :c | 
 				c vertical matchParent.
 				c horizontal matchParent ];
-			padding: (BlInsets top: 20 bottom: 20);
+		padding: (BlInsets
+				top: 20
+				right: 20
+				bottom: 20
+				left: 20);
 			layout: BlLinearLayout vertical alignTopLeft.
 
 	headingElement := BlTextElement new
@@ -86,12 +78,13 @@ GtHeadingAndCodeSnippets >> create [
 
 
 	self snippets
-		do: [ :snippet | 
-			snippetsElement
-				addChild: ((self coderElementFor: snippet)
-						constraintsDo: [ :c | 
-							c horizontal matchParent.
-							c vertical matchParent ]) ].
+	do: [ :snippet | 
+		snippetsElement
+			addChild: (snippet
+					padding: (BlInsets top: 10 bottom: 10);
+					constraintsDo: [ :c | 
+						c horizontal matchParent.
+						c vertical fitContent ]) ].
 
 	bodyElement
 		addChild: snippetsElement;
@@ -123,6 +116,28 @@ GtHeadingAndCodeSnippets >> elementWeight [
 GtHeadingAndCodeSnippets >> elementWeight: anObject [
 
 	elementWeight := anObject
+]
+
+{ #category : #accessing }
+GtHeadingAndCodeSnippets >> extractCoderElementFor: aCoder [
+	| editor |
+	editor := (aCoder asElement query
+			// GtSourceCoderExpandedContentElement;
+			anyOne)
+			removeFromParent;
+			hMatchParent;
+			vFitContent;
+			when: GtPhlowObjectToSpawn
+				do: [ :e | 
+					self inspectorElement removeChildren
+						addChild: ((e object gtViewsFor: GtPhlowView empty)
+								asElementDo: [ :x | 
+									BrVerticalPane new matchParent
+										aptitude: BrShadowAptitude;
+										background: Color white;
+										addChild: x ]).
+					e consumed: true ].
+	^ editor
 ]
 
 { #category : #accessing }

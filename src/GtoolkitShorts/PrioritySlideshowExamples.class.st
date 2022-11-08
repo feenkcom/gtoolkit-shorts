@@ -11,13 +11,30 @@ PrioritySlideshowExamples class >> show [
 ]
 
 { #category : #accessing }
-PrioritySlideshowExamples >> singleSnippetSlide: aSlide [
+PrioritySlideshowExamples >> exampleExample [
+	"This is an example of an example method"
+
+	<gtExample>
+	^ 'I am an example of a string'
+]
+
+{ #category : #accessing }
+PrioritySlideshowExamples >> exampleSnippetSlide: aSlide [
 	"Testing TG's editor+preview widget in a slide"
 
 	<gtSlide>
 	^ GtHeadingAndCodeSnippets new
-		heading: 'Experimental snippet slide';
-		addSnippet: '3+4'
+		heading: 'Slide Heading';
+		addTextSnippet: 'A plain text snippet';
+		addTextSnippet: ('A formatted text snippet' asRopedText
+				glamorousRegularFont;
+				bold;
+				fontSize: 24);
+		addCodeSnippet: '"A code snippet"
+3+4';
+		addCodeSnippet: '"Another code snippet"
+2r101010';
+		addExampleSnippet: self class >> #exampleExample
 ]
 
 { #category : #accessing }
@@ -25,16 +42,5 @@ PrioritySlideshowExamples >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 
 	<gtExample>
-	^ #(singleSnippetSlide: twoSnippetSlide:)
-]
-
-{ #category : #accessing }
-PrioritySlideshowExamples >> twoSnippetSlide: aSlide [
-	"Testing TG's editor+preview widget in a slide"
-
-	<gtSlide>
-	^ GtHeadingAndCodeSnippets new
-		heading: 'Experimental snippet slide';
-		addSnippet: '3+4';
-		addSnippet: '2r101010'
+	^ #(singleSnippetSlide: #exampleSnippetSlide:)
 ]
