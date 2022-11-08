@@ -2,7 +2,7 @@ Extension { #name : #GtProtoLiveSlide }
 
 { #category : #'*GtoolkitShorts' }
 GtProtoLiveSlide >> headingAndCode [
-	^ GtHeadingAndCodeSnippets new
+	^ GtCodeSnippetsSlide new
 		definingMethod: (GtPhlowDefiningMethodsCollector new
 				stack: thisContext stack;
 				collect)

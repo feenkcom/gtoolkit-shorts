@@ -1,5 +1,12 @@
+"
+I am a live slide that holds a heading, a collection of text, code and example snippets, and an inspector widget for displaying the results.
+
+See {{gtMethod:name=GtCodeSnippetsSlide>>exampleSlide:}} for usage examples.
+
+
+"
 Class {
-	#name : #GtHeadingAndCodeSnippets,
+	#name : #GtCodeSnippetsSlide,
 	#superclass : #GtLiveSlide,
 	#instVars : [
 		'snippets',
@@ -14,45 +21,45 @@ Class {
 }
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> addCodeSnippet: aSourceString [
+GtCodeSnippetsSlide >> addCodeSnippet: aSourceString [
 	self
 		addSnippet: (self extractCoderElementFor: (GtPharoSnippetCoder forSource: aSourceString))
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> addExampleSnippet: exampleMethod [
+GtCodeSnippetsSlide >> addExampleSnippet: exampleMethod [
 	self
 		addSnippet: (self extractCoderElementFor: (GtPharoMethodCoder forMethod: exampleMethod))
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> addSnippet: aSnippetElement [
+GtCodeSnippetsSlide >> addSnippet: aSnippetElement [
 	self snippets add: aSnippetElement
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> addTextSnippet: aString [
+GtCodeSnippetsSlide >> addTextSnippet: aString [
 	self addSnippet: (BlTextElement new text: aString asRopedText)
 ]
 
 { #category : #'api - instantiation' }
-GtHeadingAndCodeSnippets >> bodyPadding [
+GtCodeSnippetsSlide >> bodyPadding [
 	^ bodyPadding
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> bodyPadding: aNumber [
+GtCodeSnippetsSlide >> bodyPadding: aNumber [
 
 	bodyPadding := aNumber
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> bottomMargin: aNumber [
+GtCodeSnippetsSlide >> bottomMargin: aNumber [
 	self margin: (self margin withBottom: aNumber)
 ]
 
 { #category : #'api - instantiation' }
-GtHeadingAndCodeSnippets >> create [
+GtCodeSnippetsSlide >> create [
 	| container bodyElement snippetsElement headingElement |
 	container := BlElement new
 			constraintsDo: [ :c | 
@@ -108,12 +115,12 @@ GtHeadingAndCodeSnippets >> create [
 ]
 
 { #category : #initialization }
-GtHeadingAndCodeSnippets >> defaultBodyPadding [
+GtCodeSnippetsSlide >> defaultBodyPadding [
 	^ 10
 ]
 
 { #category : #initialization }
-GtHeadingAndCodeSnippets >> defaultMargin [
+GtCodeSnippetsSlide >> defaultMargin [
 	^ BlInsets
 		top: 100
 		right: 50
@@ -122,26 +129,26 @@ GtHeadingAndCodeSnippets >> defaultMargin [
 ]
 
 { #category : #initialization }
-GtHeadingAndCodeSnippets >> defaultSnippetPadding [
+GtCodeSnippetsSlide >> defaultSnippetPadding [
 	^ 20
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> elementWeight [
+GtCodeSnippetsSlide >> elementWeight [
 
 	^ elementWeight
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> elementWeight: anObject [
+GtCodeSnippetsSlide >> elementWeight: anObject [
 
 	elementWeight := anObject
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> example [
+GtCodeSnippetsSlide >> example [
 	<gtExample>
-	^ GtHeadingAndCodeSnippets new
+	^ GtCodeSnippetsSlide new
 		heading: 'Slide Heading';
 		addTextSnippet: 'A plain text snippet';
 		addTextSnippet: ('A formatted text snippet' asRopedText
@@ -156,7 +163,7 @@ GtHeadingAndCodeSnippets >> example [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> exampleMethod [
+GtCodeSnippetsSlide >> exampleMethod [
 	"This is an example of an example method"
 
 	<gtExample>
@@ -164,7 +171,7 @@ GtHeadingAndCodeSnippets >> exampleMethod [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> exampleSlide: aSlide [
+GtCodeSnippetsSlide >> exampleSlide: aSlide [
 	<gtSlide>
 	^ aSlide headingAndCode
 		priority: 10;
@@ -186,7 +193,7 @@ GtHeadingAndCodeSnippets >> exampleSlide: aSlide [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> extractCoderElementFor: aCoder [
+GtCodeSnippetsSlide >> extractCoderElementFor: aCoder [
 	| editor |
 	editor := (aCoder asElement query
 			// GtSourceCoderExpandedContentElement;
@@ -208,12 +215,12 @@ GtHeadingAndCodeSnippets >> extractCoderElementFor: aCoder [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> heading [
+GtCodeSnippetsSlide >> heading [
 	^ heading
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> heading: aString [
+GtCodeSnippetsSlide >> heading: aString [
 	self
 		headingWithFormat: (aString asRopedText
 				glamorousRegularFont;
@@ -222,12 +229,12 @@ GtHeadingAndCodeSnippets >> heading: aString [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> headingWithFormat: aRopedText [
+GtCodeSnippetsSlide >> headingWithFormat: aRopedText [
 	heading := aRopedText
 ]
 
 { #category : #initialization }
-GtHeadingAndCodeSnippets >> initialize [
+GtCodeSnippetsSlide >> initialize [
 	super initialize.
 	self heading: ''.
 	snippets := OrderedCollection new.
@@ -239,50 +246,50 @@ GtHeadingAndCodeSnippets >> initialize [
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> inspectorElement [
+GtCodeSnippetsSlide >> inspectorElement [
 
 	^ inspectorElement
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> leftMargin: aNumber [
+GtCodeSnippetsSlide >> leftMargin: aNumber [
 	self margin: (self margin withLeft: aNumber)
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> margin [
+GtCodeSnippetsSlide >> margin [
 	^ margin
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> margin: anObject [
+GtCodeSnippetsSlide >> margin: anObject [
 
 	margin := anObject
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> rightMargin: aNumber [
+GtCodeSnippetsSlide >> rightMargin: aNumber [
 	self margin: (self margin withRight: aNumber)
 ]
 
 { #category : #'api - instantiation' }
-GtHeadingAndCodeSnippets >> snippetPadding [
+GtCodeSnippetsSlide >> snippetPadding [
 	"Top and bottom padding between snippets"
 	^ snippetPadding
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> snippetPadding: aNumber [
+GtCodeSnippetsSlide >> snippetPadding: aNumber [
 	snippetPadding := aNumber
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> snippets [
+GtCodeSnippetsSlide >> snippets [
 
 	^ snippets
 ]
 
 { #category : #accessing }
-GtHeadingAndCodeSnippets >> topMargin: aNumber [
+GtCodeSnippetsSlide >> topMargin: aNumber [
 	self margin: (self margin withTop: aNumber)
 ]
