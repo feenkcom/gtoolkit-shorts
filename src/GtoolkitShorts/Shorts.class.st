@@ -6,14 +6,19 @@ Class {
 
 { #category : #accessing }
 Shorts class >> fileIn: aFilename [
-	(self new fileOuts / aFilename) fileIn
+	(self fileOuts / aFilename) fileIn
 ]
 
 { #category : #accessing }
-Shorts >> fileOuts [
+Shorts class >> fileOuts [
 	"The directory where the fileOuts are stored."
 
 	<gtExample>
 	^ FileLocator localDirectory / 'iceberg' / 'feenkcom' / 'gtoolkit-shorts'
 		/ 'fileOuts'
+]
+
+{ #category : #accessing }
+Shorts class >> removeClass: aSymbol [
+	[ aSymbol asClass removeFromSystem ] onErrorDo: [  ]
 ]

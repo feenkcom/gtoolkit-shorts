@@ -1,3 +1,9 @@
+"
+```
+SmalltalkSyntaxSlideshow show
+```
+
+"
 Class {
 	#name : #SmalltalkSyntaxSlideshow,
 	#superclass : #PrioritySlideshow,
@@ -116,33 +122,36 @@ SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
+	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingKeywordMethods:);
-		pageNamed: 'Defining keyword methods' from: self myLepiterDB
+		heading: 'Defining keyword methods' ;
+		addCodeSnippet: 'HelloWorld new hello: ''Oscar'''  
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
 	self removeClass: #HelloWorld.
-	Object
-		subclass: #HelloWorld
-		instanceVariableNames: ''
-		classVariableNames: ''
-		package: #Hello.	"Shorts fileIn: 'Hello-1-HelloWithHelloMethod.st'."
+			Object
+				subclass: #HelloWorld
+				instanceVariableNames: ''
+				classVariableNames: ''
+				package: #Hello.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
 		heading: 'Defining methods';
-		addCodeSnippet: 'HelloWorld new hello '
+		addCodeSnippet: 'HelloWorld new hello ';
+		onEveryAddToSceneGraphDo: [  ]
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
-	<gtSlide>
 	"NB: we should open the hello world method code. 
 	This can only be done programmatically with a Scripter script.
 	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks
 	"
+
+	<gtSlide>
 	self removeClass: #HelloWorld.
 	Object
 		subclass: #HelloWorld
@@ -153,7 +162,8 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethodsAfter:);
 		heading: 'Defining methods';
-		addCodeSnippet: 'HelloWorld new hello '
+		addCodeSnippet: 'HelloWorld new hello ';
+		onEveryAddToSceneGraphDo: [  ]
 ]
 
 { #category : #slides }
