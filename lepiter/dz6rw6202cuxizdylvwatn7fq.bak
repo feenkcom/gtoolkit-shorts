@@ -37,43 +37,6 @@
 					"uidString" : "EBkF7bqoDQCS0xg3CI4Y7A=="
 				},
 				"code" : "HelloWorld new hello: 'Oscar'"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:57:11.800964+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T19:57:11.800964+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "l2h76bqoDQCS0E+QCI4Y7A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			}
 		]
 	},

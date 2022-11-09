@@ -133,7 +133,7 @@ GtCodeSnippetsSlide >> defaultMargin [
 
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultSnippetPadding [
-	^ 10
+	^ 15
 ]
 
 { #category : #accessing }
@@ -202,7 +202,7 @@ GtCodeSnippetsSlide >> exampleSlideWithOverrides: aSlide [
 		leftMargin: 10;
 		snippetPadding: 20;
 		bodyPadding: 0;
-		elementWeight: 0.75
+		elementWeight: 0.4
 ]
 
 { #category : #accessing }

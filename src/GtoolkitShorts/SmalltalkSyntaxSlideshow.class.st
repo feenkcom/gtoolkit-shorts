@@ -378,8 +378,6 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			definingMethods:
 			definingMethodsAfter:
 			definingKeywordMethods:
-			
-			"FIX THIS to be a method on a slide!"
 			pragmas:
 
 		postcardSyntaxExplanation:
