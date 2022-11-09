@@ -102,7 +102,7 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
-	self removeClass: #HellowWorld.
+	self removeClass: #HelloWorld.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
 		heading: 'Creating classes' ;
@@ -124,7 +124,7 @@ SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
-	self removeClass: #HellowWorld.
+	self removeClass: #HelloWorld.
 	Object
 		subclass: #HelloWorld
 		instanceVariableNames: ''
@@ -143,7 +143,7 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	This can only be done programmatically with a Scripter script.
 	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks
 	"
-	self removeClass: #HellowWorld.
+	self removeClass: #HelloWorld.
 	Object
 		subclass: #HelloWorld
 		instanceVariableNames: ''
@@ -374,7 +374,6 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 			blocksWithMultipleArguments:
 			controlConstructs:
 		
-
 		creatingClasses:
 			definingMethods:
 			definingMethodsAfter:
