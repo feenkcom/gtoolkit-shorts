@@ -125,15 +125,15 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
-	self removeClass: #HelloWorld.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
-		heading: 'Creating classes' ;
+		heading: 'Creating classes';
 		addCodeSnippet: 'Object
 	subclass: #HelloWorld
 	instanceVariableNames: ''''
 	classVariableNames: ''''
-	package: #Hello'
+	package: #Hello';
+		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld ]
 ]
 
 { #category : #slides }
@@ -141,46 +141,45 @@ SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 	<gtSlide>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingKeywordMethods:);
-		heading: 'Defining keyword methods' ;
-		addCodeSnippet: 'HelloWorld new hello: ''Oscar'''  
+		heading: 'Defining keyword methods';
+		addCodeSnippet: 'HelloWorld new hello: ''Oscar''';
+		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
+			Shorts fileIn: 'Hello-2-HelloWithArgument.st' ]
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
-	self removeClass: #HelloWorld.
-			Object
-				subclass: #HelloWorld
-				instanceVariableNames: ''
-				classVariableNames: ''
-				package: #Hello.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
-		onEveryAddToSceneGraphDo: [  ]
+		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
+			Object
+				subclass: #HelloWorld
+				instanceVariableNames: ''
+				classVariableNames: ''
+				package: #Hello ]
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	"NB: we should open the hello world method code. 
 	This can only be done programmatically with a Scripter script.
-	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks
-	"
+	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks"
 
 	<gtSlide>
-	self removeClass: #HelloWorld.
-	Object
-		subclass: #HelloWorld
-		instanceVariableNames: ''
-		classVariableNames: ''
-		package: #Hello.
-	self fileIn: 'Hello-1-HelloWithHelloMethod.st'.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethodsAfter:);
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
-		onEveryAddToSceneGraphDo: [  ]
+		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
+			Object
+				subclass: #HelloWorld
+				instanceVariableNames: ''
+				classVariableNames: ''
+				package: #Hello.
+			self fileIn: 'Hello-1-HelloWithHelloMethod.st' ]
 ]
 
 { #category : #slides }

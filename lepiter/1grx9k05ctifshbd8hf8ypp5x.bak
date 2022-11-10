@@ -4887,7 +4887,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-09T16:55:34.904288+01:00"
+															"dateAndTimeString" : "2022-11-09T16:56:02.037976+01:00"
 														}
 													},
 													"uid" : {
@@ -4897,7 +4897,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*we have both dynamic and literal arrays, integers"
+													"string" : "*we have both dynamic and literal arrays, integers, floats, characters, and so on.* "
 												},
 												{
 													"__type" : "textSnippet",

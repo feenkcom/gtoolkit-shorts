@@ -75,7 +75,7 @@ GtCodeSnippetsSlide >> create [
 	headingElement := BlTextElement new
 			margin: (BlInsets all: 1);
 			constraintsDo: [ :c | 
-				c vertical exact: 50.
+				c vertical exact: 40.
 				c horizontal fitContent.
 				c linear horizontal ];
 			text: self heading.	"The heading sits atthe top of the page by itself"
@@ -122,7 +122,7 @@ GtCodeSnippetsSlide >> create [
 
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultBodyPadding [
-	^ 20
+	^ 0
 ]
 
 { #category : #initialization }
