@@ -18,7 +18,8 @@ Class {
 		'inspectorElement',
 		'margin',
 		'snippetPadding',
-		'bodyPadding'
+		'bodyPadding',
+		'containerSize'
 	],
 	#category : #'GtoolkitShorts-Slideshows'
 }
@@ -62,14 +63,25 @@ GtCodeSnippetsSlide >> bottomMargin: aNumber [
 ]
 
 { #category : #'api - instantiation' }
+GtCodeSnippetsSlide >> containerSize [
+	^ containerSize
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> containerSize: anObject [
+
+	containerSize := anObject
+]
+
+{ #category : #'api - instantiation' }
 GtCodeSnippetsSlide >> create [
 	| container bodyElement snippetsElement headingElement |
 	container := BrVerticalPane new
-			exact: 900 @ 600;
+			exact: self containerSize;
 			padding: (BlInsets
-					top: 30
+					top: 40
 					right: 20
-					bottom: 30
+					bottom: 40
 					left: 20).	"The container holds vertical heading and body elements."
 
 	headingElement := BlTextElement new
@@ -78,7 +90,7 @@ GtCodeSnippetsSlide >> create [
 				c vertical exact: 40.
 				c horizontal fitContent.
 				c linear horizontal ];
-			text: self heading.	"The heading sits atthe top of the page by itself"
+			text: self heading.	"The heading sits at the top of the page by itself"
 
 	bodyElement := BrHorizontalPane new
 			matchParent;
@@ -123,6 +135,16 @@ GtCodeSnippetsSlide >> create [
 { #category : #initialization }
 GtCodeSnippetsSlide >> defaultBodyPadding [
 	^ 0
+]
+
+{ #category : #initialization }
+GtCodeSnippetsSlide >> defaultContainerSize [
+	^ 900 @ 600
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> defaultHeadingFontSize [
+	^ 24
 ]
 
 { #category : #initialization }
@@ -187,7 +209,7 @@ GtCodeSnippetsSlide >> exampleSlide: aSlide [
 		addTextSnippet: ('A formatted text snippet' asRopedText
 				glamorousRegularFont;
 				bold;
-				fontSize: 24);
+				fontSize: 18);
 		addCodeSnippet: '"A code snippet"
 3+4';
 		addCodeSnippet: '"Another code snippet"
@@ -242,7 +264,7 @@ GtCodeSnippetsSlide >> heading: aString [
 		headingWithFormat: (aString asRopedText
 				glamorousRegularFont;
 				bold;
-				fontSize: 20)
+				fontSize: self defaultHeadingFontSize)
 ]
 
 { #category : #accessing }
@@ -257,6 +279,7 @@ GtCodeSnippetsSlide >> initialize [
 	snippets := OrderedCollection new.
 	self elementWeight: 0.5.
 	self margin: self defaultMargin.
+	self containerSize: self defaultContainerSize.
 	self snippetPadding: self defaultSnippetPadding.
 	self bodyPadding: self defaultBodyPadding
 ]

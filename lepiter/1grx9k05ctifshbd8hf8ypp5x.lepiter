@@ -210,7 +210,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
+												"dateAndTimeString" : "2022-11-10T13:49:46.526303+01:00"
 											}
 										},
 										"editEmail" : {
@@ -221,12 +221,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
+												"dateAndTimeString" : "2022-11-10T13:49:46.528447+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "ZBDuH8eoDQC5wmcgDynDGA=="
+											"uidString" : "dvbk8X6pDQCiNmMhDfJBjg=="
 										},
 										"code" : "SmalltalkSyntaxSlideshow show"
 									},
@@ -244,7 +244,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T15:03:07.057912+01:00"
+												"dateAndTimeString" : "2022-11-01T10:31:24.892258+01:00"
 											}
 										},
 										"editEmail" : {
@@ -255,14 +255,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-10T11:43:16.744294+01:00"
+												"dateAndTimeString" : "2022-11-10T14:05:09.278644+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "D1+d68qoDQCNl+YGB3W7aA=="
+											"uidString" : "ZBDuH8eoDQC5wmcgDynDGA=="
 										},
-										"code" : "BlGlutinHostSpace zoomFactor: 1.2"
+										"code" : "BlGlutinHostSpace zoomFactor: 1.5"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -5066,14 +5066,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-01T15:53:25.141079+01:00"
+												"dateAndTimeString" : "2022-11-10T14:06:27.774756+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "v6GQnsuoDQCXzOcKBVTpzA=="
 										},
-										"code" : "SmalltalkSyntaxSlideshow show: #whatsNext:"
+										"code" : "SmalltalkSyntaxSlideshow <> #closing:"
 									}
 								]
 							},
