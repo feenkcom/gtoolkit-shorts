@@ -94,6 +94,23 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 		addCodeSnippet: 'Character tab '
 ]
 
+{ #category : #accessing }
+SmalltalkSyntaxSlideshow >> closing: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #closing:);
+		titleWithFormat: ('glamoroustoolkit' asRopedText
+				fontSize: 80;
+				glamorousRegularFont;
+				thin;
+				in: [ :t | (t from: 'glamorous' size + 1 to: t size) bold ];
+				yourself);
+		subtitleWithFormat: ('gtoolkit.com' asRopedText
+				fontSize: 40;
+				glamorousRegularFont;
+				bold)
+]
+
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>
@@ -392,7 +409,7 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 
 		postcardSyntaxExplanation:
 		
-		whatsNext:
+		closing:
 	)
 ]
 
@@ -448,7 +465,7 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> whatsNext: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ aSlide textAndElement
 		elementWeight: 0.5;
 		priority: (self priorityFor: #whatsNext:);

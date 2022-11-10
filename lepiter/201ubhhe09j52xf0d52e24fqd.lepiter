@@ -308,6 +308,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-10T10:54:33.735785+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-10T10:55:22.223808+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ja8zf3ypDQCCENpnBlWTiA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See [[Playing with mixed code, text and example snippets]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-11-08T11:04:23.158133+01:00"
 					}
 				},
@@ -319,7 +356,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T11:04:38.55096+01:00"
+						"dateAndTimeString" : "2022-11-10T10:55:12.325824+01:00"
 					}
 				},
 				"uid" : {
@@ -329,7 +366,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Playing with mixed code, text and example snippets"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -356,7 +393,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:17:13.190885+01:00"
+						"dateAndTimeString" : "2022-11-10T10:54:42.994594+01:00"
 					}
 				},
 				"uid" : {
@@ -366,7 +403,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We created {{gtClass:name=GtCodeSnippetsSlide}}, but it only handles code snippets. It would be great to have fromatted text and example snippets too."
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -393,7 +430,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T12:12:02.507241+01:00"
+						"dateAndTimeString" : "2022-11-10T10:54:48.214669+01:00"
 					}
 				},
 				"uid" : {
@@ -403,7 +440,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Refactored the coderElementFor method to reuse parts for example snippets too."
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -430,7 +467,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:27:26.569861+01:00"
+						"dateAndTimeString" : "2022-11-10T10:54:52.220491+01:00"
 					}
 				},
 				"uid" : {
@@ -440,7 +477,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Trying to zoom in on the code snippets."
+				"string" : ""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -467,14 +504,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:41:05.49653+01:00"
+						"dateAndTimeString" : "2022-11-10T10:55:00.375623+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Gi5mKlWpDQCKtU+iC8tLwA=="
 				},
-				"code" : "inspectorElement := BrVerticalPane new matchParent.\r\rcoderElementFor := [ :sourceCode | \r\t| element |\r\tcoder := GtPharoSnippetCoder new forSource: sourceCode.\r\telement := extractCoderElementFor value: coder ].\r\r\rexampleElementFor := [ :exampleMethod | \r\tcoder := GtPharoMethodCoder forMethod: exampleMethod.\r\textractCoderElementFor value: coder ].\r\rextractCoderElementFor := [ :coder | \r\teditor := (coder asElement query\r\t\t\t// GtSourceCoderExpandedContentElement;\r\t\t\tanyOne)\r\t\t\tremoveFromParent;\r\t\t\thMatchParent;\r\t\t\tvFitContent;\r\t\t\twhen: GtPhlowObjectToSpawn\r\t\t\t\tdo: [ :e | \r\t\t\t\t\tinspectorElement removeChildren\r\t\t\t\t\t\taddChild: ((e object gtViewsFor: GtPhlowView empty)\r\t\t\t\t\t\t\t\tasElementDo: [ :x | \r\t\t\t\t\t\t\t\t\tBrVerticalPane new matchParent\r\t\t\t\t\t\t\t\t\t\taptitude: BrShadowAptitude;\r\t\t\t\t\t\t\t\t\t\tbackground: Color white;\r\t\t\t\t\t\t\t\t\t\taddChild: x ]).\r\t\t\t\t\te consumed: true ].\r\teditor ].\r\rtextElementFor := [ :aStringOrRopedText | BlTextElement new text: aStringOrRopedText asRopedText ]"
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-10T10:19:29.746157+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-10T10:19:39.940279+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ey3gAXypDQCB+AYkBlWTiA=="
+				},
+				"code" : "BrVerticalPane gtReferences & #exact: gtSenders"
 			},
 			{
 				"__type" : "textSnippet",
@@ -527,7 +598,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T14:06:04.589231+01:00"
+						"dateAndTimeString" : "2022-11-10T10:31:27.574896+01:00"
 					}
 				},
 				"editEmail" : {
@@ -538,14 +609,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:26:31.300011+01:00"
+						"dateAndTimeString" : "2022-11-10T10:55:08.264243+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "z0SC8FapDQCJRmBEAKC2RQ=="
+					"uidString" : "h1+pLHypDQCCATUeBlWTiA=="
 				},
-				"code" : "heading := 'Slide heading' asRopedText\r\t\tglamorousRegularFont;\r\t\tbold;\r\t\tfontSize: 40.\t\"We need to support also text and example snippets\"\rsnippets := {textElementFor\r\t\t\tvalue: ('A roped text snippet' asRopedText\r\t\t\t\t\tglamorousRegularFont;\r\t\t\t\t\tbold;\r\t\t\t\t\tfontSize: 24).\r\t\ttextElementFor value: 'A plain text snippet'.\r\t\tcoderElementFor\r\t\t\tvalue: '\"A code snippet\"\r3 + 4'.\r\t\tcoderElementFor value: '42'.\r\t\texampleElementFor value: BlTextElementExamples >> #helloText}.\relementWeight := 0.5.\rcontainer := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical matchParent.\t\"c vertical fitContent.\"\r\t\t\tc horizontal matchParent ];\r\t\tpadding: (BlInsets\r\t\t\t\ttop: 20\r\t\t\t\tright: 20\r\t\t\t\tbottom: 20\r\t\t\t\tleft: 20);\r\t\tlayout: BlLinearLayout vertical alignTopLeft.\r\rheadingElement := BlTextElement new\r\t\tmargin: (BlInsets top: 1 bottom: 1);\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical fitContent.\r\t\t\tc horizontal fitContent.\r\t\t\tc linear horizontal ];\r\t\ttext: heading.\t\"The body is below the heading and holds the snippets on the left and the inspector at the right\"\rbodyElement := BrHorizontalPane new\r\t\tmatchParent;\r\t\tpadding: (BlInsets top: 20 bottom: 200).\r\rsnippetsElement := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc linear weight: 1 - elementWeight.\r\t\t\tc vertical matchParent.\r\t\t\tc horizontal matchParent ];\r\t\tlayout: BlLinearLayout vertical.\r\rinspectorElement := BrVerticalPane new matchParent.\t\"Snippets should not just be textual code snippets, but can be text,  code or examples.\rSo we don't want to get the coderElement here.\"\rsnippets\r\tdo: [ :snippet | \r\t\tsnippetsElement\r\t\t\taddChild: (snippet\r\t\t\t\t\tpadding: (BlInsets top: 10 bottom: 10);\r\t\t\t\t\tconstraintsDo: [ :c | \r\t\t\t\t\t\tc horizontal matchParent.\r\t\t\t\t\t\tc vertical fitContent ]) ].\r\rbodyElement\r\taddChild: snippetsElement;\r\taddChild: (inspectorElement\r\t\t\tconstraintsDo: [ :c | \r\t\t\t\tc linear weight: elementWeight.\r\t\t\t\tc vertical matchParent.\r\t\t\t\tc horizontal matchParent ]).\r\rcontainer\r\taddChild: headingElement;\r\taddChild: bodyElement.\r\rcontainer"
+				"code" : ""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -606,7 +677,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:41:37.371542+01:00"
+						"dateAndTimeString" : "2022-11-10T10:27:44.730532+01:00"
 					}
 				},
 				"uid" : {
@@ -616,41 +687,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Here we try to scale the body element."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:38:45.652608+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T18:44:59.654189+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "tUi0v1qpDQCF+tCKBH6IDg=="
-				},
-				"code" : "heading := 'Slide heading' asRopedText\r\t\tglamorousRegularFont;\r\t\tbold;\r\t\tfontSize: 40.\t\"We need to support also text and example snippets\"\rsnippets := {textElementFor\r\t\t\tvalue: ('A roped text snippet' asRopedText\r\t\t\t\t\tglamorousRegularFont;\r\t\t\t\t\tbold;\r\t\t\t\t\tfontSize: 24).\r\t\ttextElementFor value: 'A plain text snippet'.\r\t\tcoderElementFor\r\t\t\tvalue: '\"A code snippet\"\r3 + 4'.\r\t\tcoderElementFor value: '42'.\r\t\texampleElementFor value: BlTextElementExamples >> #helloText}.\relementWeight := 0.5.\rcontainer := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical matchParent.\t\"c vertical fitContent.\"\r\t\t\tc horizontal matchParent ];\r\t\tpadding: (BlInsets\r\t\t\t\ttop: 20\r\t\t\t\tright: 20\r\t\t\t\tbottom: 20\r\t\t\t\tleft: 20);\r\t\tlayout: BlLinearLayout vertical alignTopLeft.\r\rheadingElement := BlTextElement new\r\t\tmargin: (BlInsets top: 1 bottom: 1);\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical fitContent.\r\t\t\tc horizontal fitContent.\r\t\t\tc linear horizontal ];\r\t\ttext: heading.\r\r\rbodyElement := (BrHorizontalPane new\r\t\thExact: 200;\r\t\tvExact: 100;\r\t\tpadding: (BlInsets top: 20 bottom: 200)) asScalableElement size: 300 @ 150.\r\rsnippetsElement := BlElement new\r\t\tconstraintsDo: [ :c | \r\t\t\tc linear weight: 1 - elementWeight.\r\t\t\tc vertical matchParent.\r\t\t\tc horizontal matchParent ];\r\t\tlayout: BlLinearLayout vertical.\r\rinspectorElement := BrVerticalPane new matchParent.\r\rsnippets\r\tdo: [ :snippet | \r\t\tsnippetsElement\r\t\t\taddChild: (snippet\r\t\t\t\t\tpadding: (BlInsets top: 10 bottom: 10);\r\t\t\t\t\tconstraintsDo: [ :c | \r\t\t\t\t\t\tc horizontal matchParent.\r\t\t\t\t\t\tc vertical fitContent ]) ].\r\rbodyElement\r\taddChild: snippetsElement;\r\taddChild: (inspectorElement\r\t\t\tconstraintsDo: [ :c | \r\t\t\t\tc linear weight: elementWeight.\r\t\t\t\tc vertical matchParent.\r\t\t\t\tc horizontal matchParent ]).\r\rcontainer\r\taddChild: headingElement;\r\taddChild: bodyElement.\r\rcontainer"
+				"string" : ""
 			}
 		]
 	},

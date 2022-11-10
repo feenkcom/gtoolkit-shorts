@@ -64,25 +64,25 @@ GtCodeSnippetsSlide >> bottomMargin: aNumber [
 { #category : #'api - instantiation' }
 GtCodeSnippetsSlide >> create [
 	| container bodyElement snippetsElement headingElement |
-	container := BlElement new
-			constraintsDo: [ :c | 
-				c vertical matchParent.
-				c horizontal matchParent ];
-			padding: self margin;
-			layout: BlLinearLayout vertical alignTopLeft.	"The container holds vertical heading and body elements."
+	container := BrVerticalPane new
+			exact: 900 @ 600;
+			padding: (BlInsets
+					top: 30
+					right: 20
+					bottom: 30
+					left: 20).	"The container holds vertical heading and body elements."
 
 	headingElement := BlTextElement new
 			margin: (BlInsets all: 1);
 			constraintsDo: [ :c | 
-				c vertical fitContent.
+				c vertical exact: 50.
 				c horizontal fitContent.
 				c linear horizontal ];
 			text: self heading.	"The heading sits atthe top of the page by itself"
 
 	bodyElement := BrHorizontalPane new
 			matchParent;
-					padding: (BlInsets top: self bodyPadding bottom: self bodyPadding).
-				"The body holds horizontal snippets and inspector elements."
+			padding: (BlInsets top: self bodyPadding bottom: self bodyPadding).	"The body holds horizontal snippets and inspector elements."
 
 	snippetsElement := BlElement new
 			constraintsDo: [ :c | 
@@ -114,7 +114,10 @@ GtCodeSnippetsSlide >> create [
 		addChild: headingElement;
 		addChild: bodyElement.
 
-	^ container
+	^ container asScalableElement
+		constraintsDo: [ :c | 
+			c vertical matchParent.
+			c horizontal matchParent ]
 ]
 
 { #category : #initialization }
@@ -220,6 +223,7 @@ GtCodeSnippetsSlide >> extractCoderElementFor: aCoder [
 						addChild: ((e object gtViewsFor: GtPhlowView empty)
 								asElementDo: [ :x | 
 									BrVerticalPane new matchParent
+										margin: (BlInsets all: 10);
 										aptitude: BrShadowAptitude;
 										background: Color white;
 										addChild: x ]).
@@ -238,7 +242,7 @@ GtCodeSnippetsSlide >> heading: aString [
 		headingWithFormat: (aString asRopedText
 				glamorousRegularFont;
 				bold;
-				fontSize: 50)
+				fontSize: 20)
 ]
 
 { #category : #accessing }
