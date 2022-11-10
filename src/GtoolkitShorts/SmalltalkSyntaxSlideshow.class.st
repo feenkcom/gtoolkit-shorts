@@ -294,16 +294,25 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
+	"Scale the postcard so it fits example regardless ofthe size of the slide"
+
 	<gtSlide>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #postcardSyntaxExplanation:);
 		newFadedText: 'The postcard again';
-		element: [
-			((Postcard>>#exampleWithNumber:) 
-				gtViewNodesExplanationWithLinksFor: GtPhlowEmptyView new) 
-					asElementDo: [:e | e ]]
-					";
-		newFadedText: ('Let''s put it all together. Take a look at the method below. Hover over the syntactical parts on the left to understand how they map on the different parts of the method.' asRopedText fontSize: 70)"
+		element: [ (BrVerticalPane new
+				exact: 1200 @ 800;
+				padding: (BlInsets
+						top: 20
+						right: 20
+						bottom: 20
+						left: 20);
+				addChild: ((Postcard >> #exampleWithNumber:
+						gtViewNodesExplanationWithLinksFor: GtPhlowEmptyView new)
+						asElementDo: [ :e | e ])) asScalableElement
+				constraintsDo: [ :c | 
+					c vertical matchParent.
+					c horizontal matchParent ] ]
 ]
 
 { #category : #slides }
@@ -449,7 +458,6 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
-		titleBottomPadding: 60;
 		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7''')
 ]
 
