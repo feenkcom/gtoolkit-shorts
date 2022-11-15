@@ -6,14 +6,9 @@ SmalltalkSyntaxSlideshow show
 "
 Class {
 	#name : #SmalltalkSyntaxSlideshow,
-	#superclass : #PrioritySlideshow,
+	#superclass : #GtShortSlideShow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
-
-{ #category : #accessing }
-SmalltalkSyntaxSlideshow class >> <> aSymbol [
-	^ self show: aSymbol
-]
 
 { #category : #utility }
 SmalltalkSyntaxSlideshow class >> show [
@@ -94,7 +89,7 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 		addCodeSnippet: 'Character tab '
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SmalltalkSyntaxSlideshow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -125,6 +120,7 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
+	self removeClass: #HelloWorld.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
 		heading: 'Creating classes';
@@ -139,27 +135,25 @@ SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 	<gtSlide>
+	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
+	self fileIn: 'Hello-2-HelloWithArgument.st'.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingKeywordMethods:);
 		heading: 'Defining keyword methods';
 		addCodeSnippet: 'HelloWorld new hello: ''Oscar''';
-		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
-			Shorts fileIn: 'Hello-2-HelloWithArgument.st' ]
+		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello.
+			self fileIn: 'Hello-2-HelloWithArgument.st' ]
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
+	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
-		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
-			Object
-				subclass: #HelloWorld
-				instanceVariableNames: ''
-				classVariableNames: ''
-				package: #Hello ]
+		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello ]
 ]
 
 { #category : #slides }
@@ -169,16 +163,13 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks"
 
 	<gtSlide>
+	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
+	self fileIn: 'Hello-1-HelloWithHelloMethod.st'.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethodsAfter:);
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
-		onEveryAddToSceneGraphDo: [ self removeClass: #HelloWorld.
-			Object
-				subclass: #HelloWorld
-				instanceVariableNames: ''
-				classVariableNames: ''
-				package: #Hello.
+		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 			self fileIn: 'Hello-1-HelloWithHelloMethod.st' ]
 ]
 
@@ -201,20 +192,6 @@ SmalltalkSyntaxSlideshow >> expressions: aSlide [
 		addCodeSnippet: '3 factorial';
 		addCodeSnippet: '3 + 4';
 		addCodeSnippet: '2 raisedTo: 3'
-]
-
-{ #category : #utilities }
-SmalltalkSyntaxSlideshow >> fileIn: aFilename [
-	(self fileOuts / aFilename) fileIn
-]
-
-{ #category : #utilities }
-SmalltalkSyntaxSlideshow >> fileOuts [
-	"The directory where the fileOuts are stored."
-
-	<gtExample>
-	^ FileLocator localDirectory / 'iceberg' / 'feenkcom' / 'gtoolkit-shorts'
-		/ 'fileOuts'
 ]
 
 { #category : #slides }
@@ -271,16 +248,6 @@ SmalltalkSyntaxSlideshow >> literals: aSlide [
 		addCodeSnippet: '3';
 		addCodeSnippet: '''hello''';
 		addCodeSnippet: '#foo'
-]
-
-{ #category : #constants }
-SmalltalkSyntaxSlideshow >> myLepiterDB [
-	^ 'feenkcom/gtoolkit-shorts/lepiter'
-]
-
-{ #category : #constants }
-SmalltalkSyntaxSlideshow >> picturesDirectoryPath [
-	^ Path * 'feenkcom' / 'gtoolkit-shorts' / 'doc'
 ]
 
 { #category : #slides }
@@ -356,11 +323,6 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 ]
 
 { #category : #slides }
-SmalltalkSyntaxSlideshow >> removeClass: aSymbol [
-	[ aSymbol asClass removeFromSystem ] onErrorDo: [  ]
-]
-
-{ #category : #slides }
 SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	<gtSlide>
 	^ aSlide headingAndCode
@@ -374,7 +336,7 @@ SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 		addCodeSnippet: 'thisContext'
 ]
 
-{ #category : #accessing }
+{ #category : #constants }
 SmalltalkSyntaxSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
