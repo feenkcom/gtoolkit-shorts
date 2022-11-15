@@ -289,7 +289,8 @@ SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #pragmas:);
 		heading: 'Pragmas';
-		addExampleSnippet: HelloWorld >> #helloExample
+		addExampleSnippet: HelloWorld >> #helloExample;
+		onEveryAddToSceneGraphDo: [ self fileIn: 'Hello-3-HelloGtExample.st' ]
 ]
 
 { #category : #slides }
