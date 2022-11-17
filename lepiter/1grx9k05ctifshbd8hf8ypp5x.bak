@@ -248,14 +248,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-15T11:54:08.057775+01:00"
+						"dateAndTimeString" : "2022-11-17T13:44:47.726631+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ztTbU+CpDQC9fIGiDoU8yw=="
 				},
-				"code" : "'\r\r'\r\tjoin: ((thisSnippet page allChildrenTextSnippets collect: #string)\r\t\t\tselect: [ :each | each notEmpty and: [ '*`#' includes: each first ] ])"
+				"code" : "'\r\r'\r\tjoin: ((thisSnippet page allChildrenTextSnippets collect: #string)\r\t\t\tselect: [ :each | each notEmpty and: [ '*`' includes: each first ] ])"
 			},
 			{
 				"__type" : "textSnippet",
@@ -360,7 +360,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-09T16:23:24.422846+01:00"
+												"dateAndTimeString" : "2022-11-15T15:50:26.426337+01:00"
 											}
 										},
 										"uid" : {
