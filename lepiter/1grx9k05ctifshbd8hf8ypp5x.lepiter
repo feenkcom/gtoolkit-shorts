@@ -153,40 +153,6 @@
 				"string" : "See [[Playing with a slimmer Pharo editor for slides]] "
 			},
 			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T14:47:06.774978+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-09T14:47:39.278829+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "3J0boWupDQCzrp3sD+2Q0g=="
-				},
-				"code" : "(thisSnippet page allChildrenTextSnippets\r\tcollect: [ :each | each string substrings size ]) sum\r\t\"word count\""
-			},
-			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -200,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-15T09:53:48.09815+01:00"
+						"dateAndTimeString" : "2022-11-18T09:46:52.626533+01:00"
 					}
 				},
 				"editEmail" : {
@@ -211,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-15T10:01:34.884675+01:00"
+						"dateAndTimeString" : "2022-11-18T09:47:22.966725+01:00"
 					}
 				},
 				"uid" : {
@@ -221,41 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Collect just the script text:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-15T10:00:41.922739+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-17T13:44:47.726631+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ztTbU+CpDQC9fIGiDoU8yw=="
-				},
-				"code" : "'\r\r'\r\tjoin: ((thisSnippet page allChildrenTextSnippets collect: #string)\r\t\t\tselect: [ :each | each notEmpty and: [ '*`' includes: each first ] ])"
+				"string" : "Tip: Inspect this page to see views showing just the script, the raw script and metrics."
 			},
 			{
 				"__type" : "textSnippet",
