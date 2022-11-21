@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:13:19.966007+01:00"
+						"dateAndTimeString" : "2022-11-21T13:28:01.318261+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[howto]] [[Q]] "
+				"string" : "[[todo]] [[howto]] [[Q]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -214,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:14:27.172608+01:00"
+						"dateAndTimeString" : "2022-11-21T10:14:53.21143+01:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +224,336 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Then find a way to script "
+				"string" : "Then find a way to script recreating a tree of snippets and then typing the next one so we can script various points in the demo."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T13:28:08.495307+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T13:28:08.495307+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "77TH7FuqDQCK/T+SCldVvw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T13:33:52.381491+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:15:12.115495+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZcE+AVyqDQCLePviCldVvw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[Average typing speed](https://en.wikipedia.org/wiki/Words_per_minute) is about 80 words per minute, but can simulate a very fast typist."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:11:41.039542+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:13:35.278963+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "0Pd/iFyqDQCNNRaRCldVvw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:13:39.016198+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:14:14.176541+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "KSaIj1yqDQCNQeZHCldVvw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:17:21.288327+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:17:24.97205+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "pMDHnFyqDQCNXEmpCldVvw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The quick brown fox jumps over the lazy dog."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T13:57:48.17208+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:17:20.712272+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SGvbVlyqDQCNHCvLCldVvw=="
+				},
+				"code" : "aSnippet := LeTextSnippet new.\rthisSnippet addSnippet: aSnippet.\rwordsPerMinute := 180.\rsecondsPerCharacter := 60 / (wordsPerMinute * 5).\raText := 'The quick brown fox jumps over the lazy dog.'.\r[ aText\r\tdo: [ :char | \r\t\taSnippet appendText: char asRopedText.\r\t\tsecondsPerCharacter seconds asDelay wait ] ] fork.\raSnippet"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:18:08.631521+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:18:17.424307+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OniYklyqDQCNRtTJCldVvw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[AS]] proposes also the async way:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:18:00.790425+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-21T14:18:04.549354+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "vIEin1yqDQCNXlADCldVvw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The quick brown fox jumps over the lazy dog."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:16:02.466221+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T14:17:57.279812+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yAUVmFyqDQCNWP7rCldVvw=="
+				},
+				"code" : "aSnippet := LeTextSnippet new.\rthisSnippet addSnippet: aSnippet.\rwordsPerMinute := 180.\rsecondsPerCharacter := 60 / (wordsPerMinute * 5).\raText := 'The quick brown fox jumps over the lazy dog.'.\r\rdelayedChars := (aText asAsyncStream\r\t\tmap: [ :char | (char asAsyncFuture delayed: secondsPerCharacter seconds) asAsyncStream ])\r\t\tflatten.\r(delayedChars do: [ :char | aSnippet appendText: char asRopedText ]) await.\r\raSnippet"
 			}
 		]
 	},
