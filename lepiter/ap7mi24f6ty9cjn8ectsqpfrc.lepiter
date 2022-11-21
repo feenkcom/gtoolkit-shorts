@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:27:44.794126+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:39.288971+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T11:16:11.498974+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:39.726181+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jb4B07ioDQCFUvheAmd9wA=="
+					"uidString" : "xaOEwliqDQCUfw/0Acy9tA=="
 				},
-				"code" : "'Hello world' copyReplaceAll: 'world' with: 'folks'"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[tags]] "
 			}
 		]
 	},
@@ -48,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T17:27:27.34419+01:00"
+			"dateAndTimeString" : "2022-11-21T09:41:34.527075+01:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T17:27:27.34419+01:00"
+			"dateAndTimeString" : "2022-11-21T09:41:34.527075+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Keyword messages"
+		"title" : "howto"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "de79f7d1-b8a8-0d00-854e-869d02677dc0"
+		"uuid" : "083684c2-58aa-0d00-947e-cb6f01ccbdb4"
 	}
 }

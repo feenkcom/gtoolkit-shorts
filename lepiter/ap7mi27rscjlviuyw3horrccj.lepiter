@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "exampleSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:03:38.165712+01:00"
+						"dateAndTimeString" : "2022-11-21T09:48:04.762478+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T20:03:38.165712+01:00"
+						"dateAndTimeString" : "2022-11-21T09:48:10.271932+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "7N2CALuoDQCS6OSgCI4Y7A=="
+					"uidString" : "stse1ViqDQCU+To7Acy9tA=="
 				},
-				"exampleSelector" : "helloExample",
-				"previewHeight" : 200,
-				"previewShowSelector" : "gtViewsFor:",
-				"exampleBehaviorName" : "HelloWorld",
-				"codeExpanded" : true,
-				"previewExpanded" : false,
-				"noCode" : false
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See the [[GT Shorts TOC]] "
 			}
 		]
 	},
@@ -54,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T20:01:00.005685+01:00"
+			"dateAndTimeString" : "2022-11-21T09:44:44.674709+01:00"
 		}
 	},
 	"editEmail" : {
@@ -65,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T20:01:00.005685+01:00"
+			"dateAndTimeString" : "2022-11-21T09:44:44.674709+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pragmas"
+		"title" : "Planned shorts"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "dc8815f7-baa8-0d00-92e1-3811088e18ec"
+		"uuid" : "43a2d9cd-58aa-0d00-94c8-70df01ccbdb4"
 	}
 }

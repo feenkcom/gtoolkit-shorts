@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:34:45.94409+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:32.642425+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:35:18.304715+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:33.044467+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "OPsb7LioDQCFgOFdAmd9wA=="
+					"uidString" : "3QoFyViqDQCUs/7bAcy9tA=="
 				},
-				"code" : "1 + 2 * 3 = 9"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[tags]] "
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -52,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:34:48.092282+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:33.415381+01:00"
 					}
 				},
 				"editEmail" : {
@@ -63,14 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:35:08.951885+01:00"
+						"dateAndTimeString" : "2022-11-21T09:59:33.415381+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "lMI87LioDQCFgmETAmd9wA=="
+					"uidString" : "773SAlmqDQCV8I8ZAcy9tA=="
 				},
-				"code" : "1 + (2 * 3) = 7"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -82,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T17:34:34.34749+01:00"
+			"dateAndTimeString" : "2022-11-21T09:43:23.602596+01:00"
 		}
 	},
 	"editEmail" : {
@@ -93,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T17:34:34.34749+01:00"
+			"dateAndTimeString" : "2022-11-21T09:43:23.602596+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Changing evaluation order"
+		"title" : "short"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8a076beb-b8a8-0d00-857a-0a6702677dc0"
+		"uuid" : "2f9204c9-58aa-0d00-94b2-1f7f01ccbdb4"
 	}
 }

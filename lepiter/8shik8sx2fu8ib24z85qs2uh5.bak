@@ -293,7 +293,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:12:06.638137+02:00"
+									"dateAndTimeString" : "2022-10-18T16:12:22.352815+02:00"
 								}
 							},
 							"uid" : {
@@ -304,6 +304,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "working with examples"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:12:34.320472+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-18T16:12:40.24879+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Z+r1arGnDQCbRkb1C4wwnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "building a GUI"
 						}
 					]
 				},
@@ -326,7 +363,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T16:11:36.118894+02:00"
+						"dateAndTimeString" : "2022-10-18T16:12:31.29467+02:00"
 					}
 				},
 				"uid" : {
@@ -336,7 +373,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Stuff to cover"
+				"string" : "#Topics to cover"
 			},
 			{
 				"__type" : "textSnippet",

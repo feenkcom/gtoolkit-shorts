@@ -331,7 +331,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-18T09:38:56.226389+01:00"
+									"dateAndTimeString" : "2022-11-18T09:39:21.25132+01:00"
 								}
 							},
 							"uid" : {
@@ -341,7 +341,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Tip: If you inspect the Lepiter page, you will find extension views *Script* and *Raw Script*. "
+							"string" : "Tip: If you inspect the Lepiter page, you will find extension views *Script* and *Raw Script*. The first is suitable for reading, and the second for uploading to YouTube as closed captions."
 						},
 						{
 							"__type" : "textSnippet",

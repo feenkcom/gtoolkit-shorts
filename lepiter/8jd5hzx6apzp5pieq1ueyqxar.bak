@@ -76,7 +76,7 @@
 				"exampleSelector" : "fileOuts",
 				"previewHeight" : 200,
 				"previewShowSelector" : "gtViewsFor:",
-				"exampleBehaviorName" : "Shorts",
+				"exampleBehaviorName" : "GtShortSlideShow",
 				"codeExpanded" : true,
 				"previewExpanded" : false,
 				"noCode" : true
@@ -95,7 +95,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:03:25.537762+01:00"
+						"dateAndTimeString" : "2022-10-31T09:03:30.164594+01:00"
 					}
 				},
 				"editEmail" : {
@@ -106,7 +106,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:03:25.537762+01:00"
+						"dateAndTimeString" : "2022-11-21T09:51:01.092343+01:00"
 					}
 				},
 				"uid" : {
@@ -116,7 +116,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "You can load them back in by name using the {{gtClass:name=GtShortSlideShow}} class."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-31T09:03:35.912147+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T09:49:50.786285+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8m4IyLGoDQCcRCA/BkE3kA=="
+				},
+				"code" : "GtShortSlideShow new fileIn: 'Hello-1-HelloWithHelloMethod.st'"
 			}
 		]
 	},

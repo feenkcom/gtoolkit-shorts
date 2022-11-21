@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T17:04:52.012254+02:00"
+						"dateAndTimeString" : "2022-10-18T17:05:10.067165+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We want to define new operators"
+				"string" : "We want to define new operators, so we need a macro facility and a dictionary of named operators."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-18T17:05:10.882681+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-18T17:05:10.882681+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "li3LJ7KnDQCdwOwrC4wwnw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},

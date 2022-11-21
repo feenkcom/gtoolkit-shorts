@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:27:48.575579+02:00"
+						"dateAndTimeString" : "2022-10-14T08:57:04.819345+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:31:18.467229+02:00"
+						"dateAndTimeString" : "2022-10-14T09:39:53.038188+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "u/7rd52nDQChSOKZAdl+lA=="
+					"uidString" : "BucO3lqnDQCO7yC7ANnVwg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This [repo](https://github.com/feenkcom/gtoolkit-shorts) is intended to be used to store material for creating short videos to be posted on the [GT YouTube channel](https://www.youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug)."
+				"string" : "[[todo]] [[asap]] [[kata]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T07:51:21.430297+01:00"
+						"dateAndTimeString" : "2022-10-14T13:50:41.056028+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,128 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T07:52:08.319875+01:00"
+						"dateAndTimeString" : "2022-10-14T13:50:41.554757+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qLyZxbCoDQCblAmyBkE3kA=="
+					"uidString" : "Ti29+F6nDQCA46fNBVpThg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "**NB:** There are numerous longer videos in the [GT Live](https://www.youtube.com/playlist?list=PLfrs5bwLJOoAKCzYO27JPoqFZjjoamC9C) playlist. Need to check the material there too."
+				"string" : "[[reading]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-14T09:40:29.878312+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-14T09:40:33.772473+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QdkXelunDQCRueD1ANnVwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See also [[Kata Sources]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-14T09:39:22.739417+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-17T18:16:39.614101+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iGMddlunDQCRlBiSANnVwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "GT demo kata\n\nNeed a simple kata to demo GT to newcomers.\n\n[](https://github.com/onierstrasz/GtKatas) \n\nThe usual katas and exercisms are not very interesting.\nShould be a very small modeling exercise."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-14T09:43:02.301873+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-10-14T09:43:26.059208+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ryG0glunDQCR+q1UANnVwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Perhaps refer to this [Moldable development blog page](https://blog.container-solutions.com/wtf-is-moldable-development). "
 			},
 			{
 				"__type" : "textSnippet",
@@ -97,7 +208,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T07:50:11.987022+02:00"
+									"dateAndTimeString" : "2022-10-14T09:39:32.285099+02:00"
 								}
 							},
 							"editEmail" : {
@@ -108,17 +219,54 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T07:50:16.551144+02:00"
+									"dateAndTimeString" : "2022-10-17T18:16:48.661284+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "W57/ZqqnDQCa3qCwC4wwnw=="
+								"uidString" : "7gqvdlunDQCRnGZ4ANnVwg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "GT = Guided Tour"
+							"string" : "Model the stack, pushing, viewing the top.\nBasic operations: duplicate, top, pop\nAdd various computations. \nadd subtract etc\nAdd named macros (postscript like).\n\nSee also the Forth exercism.\n[](https://exercism.org/tracks/pharo-smalltalk/exercises/forth)\n\n[](https://github.com/exercism/pharo-smalltalk/tree/main/exercises/practice/forth)\n\nMy solution\n[](https://github.com/onierstrasz/GtKatas/tree/master/src/Exercise%40Forth) \n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-14T08:57:25.193941+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-10-14T09:40:48.364402+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CeEP31qnDQCPAN0PANnVwg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},
@@ -130,7 +278,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:37:59.298444+02:00"
+						"dateAndTimeString" : "2022-10-14T09:39:25.73208+02:00"
 					}
 				},
 				"editEmail" : {
@@ -141,128 +289,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:38:15.783201+02:00"
+						"dateAndTimeString" : "2022-10-14T09:39:25.73208+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1AeuqJ2nDQCh03o6Adl+lA=="
+					"uidString" : "ZQ1LdlunDQCRlhfgANnVwg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Most of the shorts should be around ten minutes in length."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T17:53:32.789997+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T17:53:37.443229+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "3Ivmtp6nDQC8NiW/BA5+dw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "See also [](https://github.com/feenkcom/feenk-stories). "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:04:14.72258+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T09:04:20.641461+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "JWkjyrGoDQCcTfgEBkE3kA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "See also: [[About fileouts]]."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:51:20.532542+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:51:26.639512+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ODto3FiqDQCVJCx9Acy9tA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtClass:name=Boolean}}  "
+				"string" : "#RPN Calculator"
 			}
 		]
 	},
@@ -274,7 +311,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T16:24:20.867483+02:00"
+			"dateAndTimeString" : "2022-10-14T08:56:51.619077+02:00"
 		}
 	},
 	"editEmail" : {
@@ -285,15 +322,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T16:28:03.241681+02:00"
+			"dateAndTimeString" : "2022-10-14T08:56:51.619077+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GT Shorts Overview"
+		"title" : "RPN Calculator Kata"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3589eb77-9da7-0d00-a147-299801d97e94"
+		"uuid" : "88640ede-5aa7-0d00-8eee-f4ce00d9d5c2"
 	}
 }

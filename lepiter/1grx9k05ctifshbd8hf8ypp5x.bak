@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-01T10:31:24.870223+01:00"
+						"dateAndTimeString" : "2022-11-21T09:46:27.080031+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] "
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-18T09:46:56.483787+01:00"
+						"dateAndTimeString" : "2022-11-18T09:47:22.966725+01:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Tip: Inspec"
+				"string" : "Tip: Inspect this page to see views showing just the script, the raw script and metrics."
 			},
 			{
 				"__type" : "textSnippet",

@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-26T08:57:31.853612+02:00"
+						"dateAndTimeString" : "2022-11-21T09:57:39.287718+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] "
+				"string" : "[[todo]] [[short]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-18T14:16:55.701622+01:00"
+						"dateAndTimeString" : "2022-11-21T09:58:26.501909+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See also {{gtPage:Prepare page on How to find stuff|db=cqvjoxfnf6zd764ibqa67pln6}}  "
+				"string" : "See also {{gtPage:Prepare page on How to find stuff|db=cqvjoxfnf6zd764ibqa67pln6}}   (in personal lepiter db)."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-18T14:32:02.193142+01:00"
+						"dateAndTimeString" : "2022-11-21T09:38:38.903043+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:querying|db=cqvjoxfnf6zd764ibqa67pln6}}  "
+				"string" : "{{gtPage:querying|db=cqvjoxfnf6zd764ibqa67pln6}}   "
 			},
 			{
 				"__type" : "textSnippet",
@@ -2015,7 +2015,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T16:52:58.366721+01:00"
+												"dateAndTimeString" : "2022-11-18T16:52:59.841367+01:00"
 											}
 										},
 										"uid" : {
@@ -2025,7 +2025,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "finding the action of a button and navigating to its source coud"
+										"string" : "finding the action of a button and navigating to its source code"
 									}
 								]
 							},
