@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:38:38.903043+01:00"
+						"dateAndTimeString" : "2022-11-22T16:17:40.858156+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPage:querying|db=cqvjoxfnf6zd764ibqa67pln6}}   "
+				"string" : "{{gtPage:querying|db=cqvjoxfnf6zd764ibqa67pln6}}    "
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:58:26.501909+01:00"
+						"dateAndTimeString" : "2022-11-22T16:17:39.406536+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See also {{gtPage:Prepare page on How to find stuff|db=cqvjoxfnf6zd764ibqa67pln6}}   (in personal lepiter db)."
+				"string" : "See also {{gtPage:Prepare page on How to find stuff|db=cqvjoxfnf6zd764ibqa67pln6}}   (in personal lepiter db). "
 			},
 			{
 				"__type" : "textSnippet",
@@ -193,6 +193,304 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Need running story of examples of things to search for."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:07:18.164793+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:07:22.874933+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "rZOwQ3KqDQCPu7hHDSeNWg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Use Spotter"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:05:51.33121+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:05:59.156469+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "aRW8PXKqDQCPsT7fDSeNWg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "How to know if a class or method is abstract?"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:08:00.394572+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:08:15.187704+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "OlFARnKqDQCPw3AbDSeNWg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Find all abstract classes, respectively methods."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:06:02.31778+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-22T16:06:20.293101+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "y9chP3KqDQCPtbLWDSeNWg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Are they consistent? Are there classes with abstract methods but not flagged as abstract?"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:30.569793+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:35.621102+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jn0uPXKqDQCPrTyEDSeNWg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Example tasks:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:26.925635+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:26.925635+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZRkyPXKqDQCPrjDWDSeNWg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:27.614787+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:27.614787+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "a508PXKqDQCPr3GlDSeNWg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:27.891085+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-22T16:05:27.891085+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rNRAPXKqDQCPsBbdDSeNWg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",
@@ -1208,7 +1506,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:46:56.88856+01:00"
+												"dateAndTimeString" : "2022-11-22T16:17:01.335516+01:00"
 											}
 										},
 										"uid" : {
@@ -1218,7 +1516,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:Querying Pharo code|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+										"string" : "{{gtPage:Querying Pharo code|db=2j9m7db2i4oz116bexd7wbdxo}}   "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1410,78 +1708,113 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:23:42.965714+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:23:42.965714+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "RfvCVyCqDQCPz84BBi71bA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Find all methods that perform a super send of a selector different from that of the method."
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:23:38.406882+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:24:24.611777+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "/v+7WSCqDQCP1wzCBi71bA=="
-										},
-										"code" : "((Object withAllSubclasses flatCollect: #methodDict)\r\tselect: [ :m | m sendsToSuper and: [ (m superMessages includes: m selector) not ] ])\r\tsort: [ :a :b | a size < b size ]"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-18T15:59:08.485537+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-18T16:00:55.967222+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "ug9GryGqDQCMN7sND5544A=="
+													},
+													"code" : "concreteClassWithAbstractMethods := (Object withAllSubclasses\r\t\treject: #isAbstract) select: [ :each | each methods anySatisfy: #isAbstract ]"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:16:39.59098+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:16:50.839407+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "c/c9ZXKqDQCP7UpuDSeNWg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "And abstract classes with no abstract methods."
+												},
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:13:23.294608+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-22T16:15:53.24469+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "sOmWWXKqDQCP1mo6DSeNWg=="
+													},
+													"code" : "abstractClassWithoutAbstractMethods := (Object withAllSubclasses\r\t\tselect: #isAbstract) select: [ :each | each methods noneSatisfy: #isAbstract ]"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -1515,10 +1848,45 @@
 										"string" : "Find concrete classes with abstract methods."
 									},
 									{
-										"__type" : "pharoSnippet",
+										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-18T14:23:38.406882+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-18T14:24:24.611777+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "/v+7WSCqDQCP1wzCBi71bA=="
+													},
+													"code" : "((Object withAllSubclasses flatCollect: #methodDict)\r\tselect: [ :m | m sendsToSuper and: [ (m superMessages includes: m selector) not ] ])\r\tsort: [ :a :b | a size < b size ]"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -1528,7 +1896,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T15:59:08.485537+01:00"
+												"dateAndTimeString" : "2022-11-18T14:23:42.965714+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1539,14 +1907,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T16:00:55.967222+01:00"
+												"dateAndTimeString" : "2022-11-18T14:23:42.965714+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "ug9GryGqDQCMN7sND5544A=="
+											"uidString" : "RfvCVyCqDQCPz84BBi71bA=="
 										},
-										"code" : "concreteClassWithAbstractMethods := (Object withAllSubclasses\r\t\treject: #isAbstract) select: [ :each | each methods anySatisfy: #isAbstract ]"
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Find all methods that perform a super send of a selector different from that of the method."
 									},
 									{
 										"__type" : "textSnippet",
@@ -1573,7 +1944,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:44:40.230458+01:00"
+												"dateAndTimeString" : "2022-11-22T16:12:18.971528+01:00"
 											}
 										},
 										"uid" : {
@@ -1583,7 +1954,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:Fix the terrible Smalltalk syntax on a postcard example!|db=cqvjoxfnf6zd764ibqa67pln6}}  "
+										"string" : "{{gtPage:Fix the terrible Smalltalk syntax on a postcard example!|db=cqvjoxfnf6zd764ibqa67pln6}}   "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1755,7 +2126,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-18T14:45:06.971319+01:00"
+												"dateAndTimeString" : "2022-11-22T16:12:36.352703+01:00"
 											}
 										},
 										"uid" : {
@@ -1765,7 +2136,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:Examples of using collections to query the system|db=cqvjoxfnf6zd764ibqa67pln6}}  "
+										"string" : "{{gtPage:Examples of using collections to query the system|db=cqvjoxfnf6zd764ibqa67pln6}}   "
 									},
 									{
 										"__type" : "textSnippet",
