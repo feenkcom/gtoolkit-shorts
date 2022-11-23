@@ -29,8 +29,32 @@ HowToFindStuffSlideshow >> slidePriorities [
 	^ #( 
 		titleSlide:
 		
+		spotter:
+		
+		methodFinder:
+		
+		sendersAndImplementors:
+		
+		gtQueries:
+		
+		queryingSmalltalk:
+		
+		findingExamples:
+		
+		exploringViewCode:
+		
+		drilling:
+		
 		closing:
 	)
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> spotter: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #spotter:);
+		titleWithFormat: (self asTitle: 'Spotter')
 ]
 
 { #category : #slides }
