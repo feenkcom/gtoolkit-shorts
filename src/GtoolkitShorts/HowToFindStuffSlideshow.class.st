@@ -4,6 +4,12 @@ Class {
 	#category : #'GtoolkitShorts-Slideshows'
 }
 
+{ #category : #utility }
+HowToFindStuffSlideshow class >> show [
+	"Implement this here just so we can run it directly from the Coder."
+	super show
+]
+
 { #category : #slides }
 HowToFindStuffSlideshow >> closing: aSlide [
 	<gtSlide>
@@ -21,6 +27,14 @@ HowToFindStuffSlideshow >> closing: aSlide [
 				bold)
 ]
 
+{ #category : #slides }
+HowToFindStuffSlideshow >> sendersAndImplementors: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #sendersAndImplementors:);
+		titleWithFormat: (self asTitle: 'Senders and Implementors')
+]
+
 { #category : #constants }
 HowToFindStuffSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
@@ -30,10 +44,11 @@ HowToFindStuffSlideshow >> slidePriorities [
 		titleSlide:
 		
 		spotter:
-		
-		methodFinder:
+			spotterExample:
 		
 		sendersAndImplementors:
+		
+		methodFinder:
 		
 		gtQueries:
 		
@@ -55,6 +70,15 @@ HowToFindStuffSlideshow >> spotter: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #spotter:);
 		titleWithFormat: (self asTitle: 'Spotter')
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> spotterExample: aSlide [
+	<gtSlide>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #spotterExample:);
+		element: [ GtSpotterLiveSlide new asElement ];
+		newFadedText: 'Search is pervasive. Try searching for Object'.
 ]
 
 { #category : #slides }
