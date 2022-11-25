@@ -3,7 +3,7 @@ Class {
 	#superclass : #Object,
 	#traits : 'TGtExampleAssertable',
 	#classTraits : 'TGtExampleAssertable classTrait',
-	#category : #RPNCalculator
+	#category : #ShortsRPNCalculator
 }
 
 { #category : #accessing }

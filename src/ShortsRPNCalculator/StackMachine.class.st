@@ -5,7 +5,7 @@ Class {
 		'stack',
 		'announcer'
 	],
-	#category : #RPNCalculator
+	#category : #ShortsRPNCalculator
 }
 
 { #category : #accessing }

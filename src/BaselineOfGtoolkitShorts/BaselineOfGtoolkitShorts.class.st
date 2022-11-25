@@ -19,5 +19,5 @@ BaselineOfGtoolkitShorts >> baseline: spec [
 	spec
 		for: #common
 		do: [ spec package: 'GtoolkitShorts'.
-			spec package: 'RPNCalculator' ]
+			"spec package: 'RPNCalculator'" ]
 ]
