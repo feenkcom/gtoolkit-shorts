@@ -43,7 +43,18 @@ GtCodeSnippetsSlide >> addSnippet: aSnippetElement [
 
 { #category : #accessing }
 GtCodeSnippetsSlide >> addTextSnippet: aString [
+	self addTextSnippetV2: aString
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> addTextSnippetV1: aString [
 	self addSnippet: (BlTextElement new text: aString asRopedText)
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> addTextSnippetV2: aString [
+	self
+		addSnippet: (self extractTextCoderSnippetElementFor: (LeTextSnippet string: aString) asPreviewElement )
 ]
 
 { #category : #'api - instantiation' }
@@ -235,6 +246,29 @@ GtCodeSnippetsSlide >> extractCoderElementFor: aCoder [
 	| editor |
 	editor := (aCoder asElement query
 			// GtSourceCoderExpandedContentElement;
+			anyOne)
+			removeFromParent;
+			hMatchParent;
+			vFitContent;
+			when: GtPhlowObjectToSpawn
+				do: [ :e | 
+					self inspectorElement removeChildren
+						addChild: ((e object gtViewsFor: GtPhlowView empty)
+								asElementDo: [ :x | 
+									BrVerticalPane new matchParent
+										margin: (BlInsets all: 10);
+										aptitude: BrShadowAptitude;
+										background: Color white;
+										addChild: x ]).
+					e consumed: true ].
+	^ editor
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> extractTextCoderSnippetElementFor: aCoder [
+	| editor |
+	editor := (aCoder asElement query
+			// LeTextCoderSnippetElement;
 			anyOne)
 			removeFromParent;
 			hMatchParent;

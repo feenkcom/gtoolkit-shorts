@@ -55,7 +55,7 @@ SettingUpGithubRepoSlideShow >> slidePriorities [
 		gitCredentials:
 			sshAdd:
 			howToWorkWithGitHub:
-		
+
 		closing:
 	)
 ]
