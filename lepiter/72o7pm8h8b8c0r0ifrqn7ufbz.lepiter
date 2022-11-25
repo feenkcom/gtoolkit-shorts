@@ -2143,7 +2143,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:29:20.281008+01:00"
+												"dateAndTimeString" : "2022-11-25T14:50:43.553862+01:00"
 											}
 										},
 										"uid" : {
@@ -2153,88 +2153,13 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*In the git tool we open the header, and add a new database folder.*"
+										"string" : "*In the git tool we open the header, and add a new database folder.* "
 									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
 											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:27:36.787388+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:27:36.787388+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "2QXVOK2qDQCDjf7dA3Wx2A=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T14:16:00.793898+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T14:16:16.178012+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "hPUtD62qDQCDfnXBA3Wx2A=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "Open the tool, navigate, create the folder and add the db."
-												}
-											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -2255,7 +2180,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:15:56.899666+01:00"
+												"dateAndTimeString" : "2022-11-25T14:50:55.719386+01:00"
 											}
 										},
 										"uid" : {
@@ -2265,82 +2190,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We open the lepiter tool, navigate to the repo folder, add a lepiter subfolder, and add the database.* "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T14:19:31.142559+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T14:19:43.107479+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "8bLJG62qDQCDh26ZA3Wx2A=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "Add the folder to the repo and push."
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:17:39.768011+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:19:28.156438+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "giEDFa2qDQCDg1GrA3Wx2A=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*We add the new folder to the repo using the git command or our favourite git GUI.* "
+										"string" : ""
 									}
 								]
 							},
