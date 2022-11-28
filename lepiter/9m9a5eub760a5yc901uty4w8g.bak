@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:24:51.88716+01:00"
+									"dateAndTimeString" : "2022-11-28T11:02:17.007766+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Search for String.\nSee an abstract method asByteArray\nSearch for Levenshtein.\nHow do we find abstract methods?"
+							"string" : "Search for String.\nSee an abstract method asByteArray\nSearch for Levenshtein.\nHow do we find abstract methods?\n*Show how to dive* "
 						}
 					]
 				},
@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:25:04.532027+01:00"
+									"dateAndTimeString" : "2022-11-28T11:02:43.186168+01:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Search for subclassResponsibility\nSee that String>>asByteArray is a compiled method with an isAbstract method\nWe see that both classes and methods can be abstract\nHow to we find abstract methods within a class or package?"
+							"string" : "Search for subclassResponsibility\nSee that String>>asByteArray is a compiled method with an isAbstract method\nTG: instead of compiled method — go to Coder\nWe see that both classes and methods can be abstract\nHow to we find abstract methods within a class or package?"
 						}
 					]
 				},
@@ -296,7 +296,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:25:11.709301+01:00"
+									"dateAndTimeString" : "2022-11-28T11:05:52.812167+01:00"
 								}
 							},
 							"uid" : {
@@ -306,7 +306,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We want to find all classes for which isAbstract returns true\nWhich classes have abstract methods but are concrete, and vice versa?"
+							"string" : "We want to find all classes for which isAbstract returns true\nWhich classes have abstract methods but are concrete, and vice versa?\nTG suggests to avoid technical domain like compiled methods"
 						}
 					]
 				},
@@ -446,7 +446,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T10:01:06.113681+01:00"
+									"dateAndTimeString" : "2022-11-28T11:08:32.434099+01:00"
 								}
 							},
 							"uid" : {
@@ -456,7 +456,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We explore a string and navigate to a character and its Details view.\nWe wonder how the unicode is generated.\nWe dive it, copy the code, and run it in the playground"
+							"string" : "We explore a string and navigate to a character and its Details view.\nWe wonder how the unicode is generated.\nWe dive it, copy the code, and run it in the playground\nTG suggests to swap these two\nNB: exploring with ALT click works also for buttons, but not for the remote link"
 						}
 					]
 				},
@@ -521,7 +521,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T10:01:57.436958+01:00"
+									"dateAndTimeString" : "2022-11-28T11:09:16.490957+01:00"
 								}
 							},
 							"uid" : {
@@ -531,7 +531,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We wonder how the remote link is implemented on a lepiter page.\nWe dive in and find the method.\nWe wonder how the Inspect Object in New Window action is implemented.\nWe get stuck and instead search for"
+							"string" : "TG suggests to focus on shortcuts; while exploring view code is specific, drill\nWe wonder how the remote link is implemented on a lepiter page.\nWe dive in and find the method.\nWe wonder how the Inspect Object in New Window action is implemented.\nWe get stuck and instead search for the substring and find the code.\nSo one tool is not enough — we need several."
 						}
 					]
 				},
