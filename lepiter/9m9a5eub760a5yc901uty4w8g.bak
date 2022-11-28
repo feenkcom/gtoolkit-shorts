@@ -45,45 +45,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:08:28.115053+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T11:02:17.007766+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "F5PwHOWqDQCsIYG3AdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Search for String.\nSee an abstract method asByteArray\nSearch for Levenshtein.\nHow do we find abstract methods?\n*Show how to dive* "
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -120,45 +82,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:09:23.033383+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T11:02:43.186168+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "qgckHuWqDQCsKSiHAdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Search for subclassResponsibility\nSee that String>>asByteArray is a compiled method with an isAbstract method\nTG: instead of compiled method — go to Coder\nWe see that both classes and methods can be abstract\nHow to we find abstract methods within a class or package?"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -195,45 +119,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:11:26.043834+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:25:09.841457+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "nRKAJ+WqDQCsPwHDAdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We want to find abstract nethods within String class\nThen within the Collection hierarchy (or package)\nWe can also serach for pragmas like gtExample ...\nWe can find examples and references also from the Coder"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -270,45 +156,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:14:40.7131+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T11:05:52.812167+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "3GAJMuWqDQCsVfe3AdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We want to find all classes for which isAbstract returns true\nWhich classes have abstract methods but are concrete, and vice versa?\nTG suggests to avoid technical domain like compiled methods"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -345,45 +193,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:16:20.707121+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T09:25:15.354767+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "N3IWOeWqDQCsY2c6AdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Suppose you are looking for a method that does something?\nSplit a collection? Concatenate string?\nRemove the prefix of a string?"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -420,45 +230,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T10:00:31.960413+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T11:08:32.434099+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Hi4bTuWqDQCsiSRwAdV2og=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We explore a string and navigate to a character and its Details view.\nWe wonder how the unicode is generated.\nWe dive it, copy the code, and run it in the playground\nTG suggests to swap these two\nNB: exploring with ALT click works also for buttons, but not for the remote link"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -521,7 +293,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-28T11:09:16.490957+01:00"
+									"dateAndTimeString" : "2022-11-28T11:09:22.281721+01:00"
 								}
 							},
 							"uid" : {
@@ -531,7 +303,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "TG suggests to focus on shortcuts; while exploring view code is specific, drill\nWe wonder how the remote link is implemented on a lepiter page.\nWe dive in and find the method.\nWe wonder how the Inspect Object in New Window action is implemented.\nWe get stuck and instead search for the substring and find the code.\nSo one tool is not enough — we need several."
+							"string" : "TG suggests to focus on shortcuts; while exploring view code is specific, drilling is generic and works everywhere\nWe wonder how the remote link is implemented on a lepiter page.\nWe dive in and find the method.\nWe wonder how the Inspect Object in New Window action is implemented.\nWe get stuck and instead search for the substring and find the code.\nSo one tool is not enough — we need several."
 						}
 					]
 				},
