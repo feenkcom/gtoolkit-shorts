@@ -42,6 +42,40 @@
 								"uidString" : "eFyxBZ2nDQC/jTJmAdl+lA=="
 							},
 							"code" : "MethodFinder new\r\tfindMethodsByExampleInput: {'a'.\r\t\t\t'b'}\r\tandExpectedResult: 'ab'"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-23T11:42:11.436285+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-23T11:42:12.051815+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "GG+NrYKqDQC5HfXsDZGQfA=="
+							},
+							"code" : "MethodFinder new\r\tfindMethodsByExampleInput: {'foo' . 'bar'}\r\tandExpectedResult: 'foobar'"
 						}
 					]
 				},
@@ -436,7 +470,7 @@
 				"string" : "Split into substrings"
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -449,7 +483,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-13T18:43:15.087906+01:00"
+						"dateAndTimeString" : "2022-11-28T09:20:32.679321+01:00"
 					}
 				},
 				"editEmail" : {
@@ -460,14 +494,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-13T18:43:49.59459+01:00"
+						"dateAndTimeString" : "2022-11-28T09:20:32.679321+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Omr4ZL+pDQCp1rdfBimzGA=="
+					"uidString" : "s5ExSOWqDQCsdgfnAdV2og=="
 				},
-				"code" : "MethodFinder new\r\tfindMethodsByExampleInput: {'foo' . 'bar'}\r\tandExpectedResult: 'foobar'"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
