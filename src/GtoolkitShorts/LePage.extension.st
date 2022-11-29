@@ -13,7 +13,8 @@ LePage >> gtMetricsFor: aView [
 		items: [ | words |
 			words := (' ' join: (self textSnippetsStartingWith: '*`')) substrings.
 			{'Number of words' -> words size.
-				'Estimated duration' -> (Duration minutes: words size / wordsPerMinutes)} ];
+				'Estimated duration'
+					-> ((Duration minutes: words size / wordsPerMinutes) roundTo: 1 second)} ];
 		column: 'Metric' text: #key;
 		column: 'Value' text: [ :assoc | assoc value asString ];
 		updateWhen: LeContentTreeAdded in: [ self announcer ];
