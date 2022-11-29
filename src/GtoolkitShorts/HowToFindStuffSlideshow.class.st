@@ -11,6 +11,25 @@ HowToFindStuffSlideshow class >> show [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> abstractMethodsQuery: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #abstractMethodsQuery:);
+		heading: 'Finding all abstract methods';
+		addCodeSnippet: '#subclassResponsibility gtSenders'
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> abstractStringMethods: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #abstractStringMethods:);
+		heading: 'Finding abstract methods in the String class';
+		addCodeSnippet: '#subclassResponsibility gtSenders
+	& String gtMethodsInClass'
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -28,11 +47,19 @@ HowToFindStuffSlideshow >> closing: aSlide [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> gtQueries: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #gtQueries:);
+		titleWithFormat: (self asTitle: 'GT queries')
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> sendersAndImplementors: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #sendersAndImplementors:);
-		titleWithFormat: (self asTitle: 'Senders and Implementors')
+		titleWithFormat: (self asTitle: 'seNders and iMplementors')
 ]
 
 { #category : #constants }
@@ -47,14 +74,17 @@ HowToFindStuffSlideshow >> slidePriorities [
 			spotterExample:
 		
 		sendersAndImplementors:
-		
-		methodFinder:
+			stringAsByteArray:
 		
 		gtQueries:
+			#abstractMethodsQuery:
+			#abstractStringMethods:
 		
+				
 		queryingSmalltalk:
+
 		
-		findingExamples:
+		methodFinder:
 		
 		exploringViewCode:
 		
@@ -77,8 +107,15 @@ HowToFindStuffSlideshow >> spotterExample: aSlide [
 	<gtSlide>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #spotterExample:);
-		element: [ GtSpotterLiveSlide new asElement ];
-		newFadedText: 'Search is pervasive. Try searching for Object'.
+		element: [ GtSpotterLiveSlide new asElement ]
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> stringAsByteArray: aSlide [
+	<gtSlide>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #stringAsByteArray:);
+		element: [ (GtClassCoderLiveSlide new class: String) asElement ]
 ]
 
 { #category : #slides }
