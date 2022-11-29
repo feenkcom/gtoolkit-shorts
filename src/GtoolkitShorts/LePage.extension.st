@@ -9,7 +9,7 @@ LePage >> gtMetricsFor: aView [
 	wordsPerMinutes := 140.
 	^ aView columnedList
 		title: 'Metrics';
-		priority: 5;
+		priority: 8;
 		items: [ | words |
 			words := (' ' join: (self textSnippetsStartingWith: '*`')) substrings.
 			{'Number of words' -> words size.
@@ -25,16 +25,17 @@ LePage >> gtMetricsFor: aView [
 LePage >> gtRawScriptFor: aView [
 	<gtView>
 	self class isAbstract ifTrue: [ ^ aView empty ].
-	^ aView forward
-		title: 'Raw Script';
-		priority: 4;
-		object: [ (LePage unnamedPage
-				addSnippet: (LeTextSnippet new
-						string: (('
+	^ aView explicit
+		title: 'Raw script';
+		priority: 6;
+		stencil: [ LePageToolContentTreeElement new
+				pageViewModel: ((LePage named: 'Raw script')
+						addSnippet: (LeTextSnippet new
+								string: (('
 
 ' join: (self textSnippetsStartingWith: '*`')) copyWithoutAll: '*`'));
-				yourself) asContentUIModel ];
-		view: #gtLiveFor:;
+						yourself) asContentUIModel;
+				matchParent ];
 		updateWhen: LeContentTreeAdded in: [ self announcer ];
 		updateWhen: LeContentTreeRemoved in: [ self announcer ];
 		actionUpdateButton
@@ -42,20 +43,19 @@ LePage >> gtRawScriptFor: aView [
 
 { #category : #'*GtoolkitShorts' }
 LePage >> gtScriptFor: aView [
-	"The object is not updating -- how to fix it?"
-
 	<gtView>
 	self class isAbstract ifTrue: [ ^ aView empty ].
-	^ aView forward
+	^ aView explicit
 		title: 'Script';
-		priority: 3;
-		object: [ (LePage unnamedPage
-				addSnippet: (LeTextSnippet new
-						string: ('
+		priority: 4;
+		stencil: [ LePageToolContentTreeElement new
+				pageViewModel: ((LePage named: 'Script')
+						addSnippet: (LeTextSnippet new
+								string: ('
 
 ' join: (self textSnippetsStartingWith: '*`#')));
-				yourself) asContentUIModel ];
-		view: #gtLiveFor:;
+						yourself) asContentUIModel;
+				matchParent ];
 		updateWhen: LeContentTreeAdded in: [ self announcer ];
 		updateWhen: LeContentTreeRemoved in: [ self announcer ];
 		actionUpdateButton
