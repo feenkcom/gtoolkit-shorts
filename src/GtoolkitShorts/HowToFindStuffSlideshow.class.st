@@ -16,7 +16,10 @@ HowToFindStuffSlideshow >> abstractClasses: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractClasses:);
 		heading: 'Which classes are abstract?';
-		addCodeSnippet: 'Object withAllSubclasses select: #isAbstract '
+		addCodeSnippet: 'Object withAllSubclasses
+	select: #isAbstract';
+		addCodeSnippet: 'Collection withAllSubclasses
+	select: #isAbstract'
 ]
 
 { #category : #slides }
@@ -27,6 +30,24 @@ HowToFindStuffSlideshow >> abstractCollectionPackageMethods: aSlide [
 		heading: 'Finding abstract methods in Collection packages';
 		addCodeSnippet: '#subclassResponsibility gtSenders
 	& ''Collection'' gtPackageMatches'
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> abstractMethods: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #abstractMethods:);
+		heading: 'Which methods are abstract?';
+		addTextSnippet: 'We can query for senders of subclassResponsibility';
+		addCodeSnippet: 'String methods 
+	select: [: m | 
+		m sendsSelector: #subclassResponsibility ]';
+		addTextSnippet: 'Better yet, we just ask if they are abstract';
+		addCodeSnippet: 'String methods select: #isAbstract';
+		addTextSnippet: '... and we can find all classes in a hierarchy with abstract methods';
+		addCodeSnippet: 'Collection withAllSubclasses
+	select: [ :class | class methods 
+		anySatisfy: #isAbstract ]'
 ]
 
 { #category : #slides }
@@ -81,6 +102,41 @@ HowToFindStuffSlideshow >> closing: aSlide [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> concatenateStrings: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #concatenateStrings:);
+		heading: 'How do I concatenate two Strings?';
+		addCodeSnippet: 'MethodFinder new
+	findMethodsByExampleInput: {''foo'' . ''bar''}
+	andExpectedResult: ''foobar'''
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> concreteClassAbstractMethods: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #concreteClassAbstractMethods:);
+		heading: 'Which “concrete” classes have abstract methods?';
+		addCodeSnippet: '(Collection withAllSubclasses
+	reject: #isAbstract)
+	select: [ :class | class methods 
+		anySatisfy: #isAbstract ]';
+		addCodeSnippet: '(Object withAllSubclasses
+	reject: #isAbstract)
+	select: [ :class | class methods 
+		anySatisfy: #isAbstract ]'
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> exploringViewCode: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #exploringViewCode:);
+		titleWithFormat: (self asHeader: 'Exploring view code')
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> gtQueries: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -100,11 +156,19 @@ HowToFindStuffSlideshow >> isAbstract: aSlide [
 		addCodeSnippet: '(String >> #asByteArray) isAbstract'
 ]
 
+{ #category : #slides }
+HowToFindStuffSlideshow >> methodFinder: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #methodFinder:);
+		titleWithFormat: (self asBigCode: 'MethodFinder')
+]
+
 { #category : #accessing }
-HowToFindStuffSlideshow >> queryingPharoCode: aSlide [
+HowToFindStuffSlideshow >> queryingPharoCodePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #queryingPharoCode:);
+		priority: (self priorityFor: #queryingPharoCodePage:);
 		pageNamed: 'Querying Pharo code' from: self gtBook;
 		yourself
 ]
@@ -143,16 +207,22 @@ HowToFindStuffSlideshow >> slidePriorities [
 			#abstractMethodsQuery:
 			#abstractStringMethods:
 			#abstractCollectionPackageMethods:
-			#queryingPharoCode:
+			#queryingPharoCodePage:
 		
 		queryingSmalltalk:
 			isAbstract:
 			abstractClasses:
+			abstractMethods:
+			concreteClassAbstractMethods:
+			workingWithCollectionsPage:
+			understandingCollectionsPage:
 
 		
 		methodFinder:
+			concatenateStrings:
 		
 		exploringViewCode:
+		
 		
 		drilling:
 		
@@ -190,4 +260,22 @@ HowToFindStuffSlideshow >> titleSlide: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleWithFormat: (self asTitle: 'How to find stuff in GT in 7''')
+]
+
+{ #category : #accessing }
+HowToFindStuffSlideshow >> understandingCollectionsPage: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #understandingCollectionsPage:);
+		pageNamed: 'Understanding Smalltalk classes and metaclasses' from: self gtBook;
+		yourself
+]
+
+{ #category : #accessing }
+HowToFindStuffSlideshow >> workingWithCollectionsPage: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #workingWithCollectionsPage:);
+		pageNamed: 'Working with Collections in Pharo' from: self gtBook;
+		yourself
 ]
