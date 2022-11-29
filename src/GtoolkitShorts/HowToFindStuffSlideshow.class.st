@@ -11,6 +11,27 @@ HowToFindStuffSlideshow class >> show [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> abstractClasses: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #abstractClasses:);
+		heading: 'Which classes are abstract';
+		addCodeSnippet: 'Collection isAbstract';
+		addCodeSnippet: 'String isAbstract';
+		addCodeSnippet: '(String >> #asByteArray) isAbstract'
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> abstractCollectionPackageMethods: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #abstractCollectionPackageMethods:);
+		heading: 'Finding abstract methods in Collection packages';
+		addCodeSnippet: '#subclassResponsibility gtSenders
+	& ''Collection'' gtPackageMatches'
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> abstractMethodsQuery: aSlide [
 	<gtSlide>
 	^ aSlide headingAndCode
@@ -27,6 +48,21 @@ HowToFindStuffSlideshow >> abstractStringMethods: aSlide [
 		heading: 'Finding abstract methods in the String class';
 		addCodeSnippet: '#subclassResponsibility gtSenders
 	& String gtMethodsInClass'
+]
+
+{ #category : #accessing }
+HowToFindStuffSlideshow >> asHeading: aString [
+	^ (aString asRopedText)
+		glamorousRegularFont;
+		bold;
+		fontSize: 24
+]
+
+{ #category : #accessing }
+HowToFindStuffSlideshow >> asHeadingCode: aString [
+	^ aString asRopedText
+		glamorousMonospace;
+		fontSize: 24
 ]
 
 { #category : #slides }
@@ -51,7 +87,36 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #gtQueries:);
-		titleWithFormat: (self asTitle: 'GT queries')
+		titleWithFormat: (self asHeader: 'GT queries')
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> isAbstract: aSlide [
+	<gtSlide>
+	^ aSlide headingAndCode
+		priority: (self priorityFor: #isAbstract:);
+		headingWithFormat: (self asHeading: 'Classes and methods respond to ')
+				, (self asHeadingCode: 'isAbstract');
+		addCodeSnippet: 'Collection isAbstract';
+		addCodeSnippet: 'String isAbstract';
+		addCodeSnippet: '(String >> #asByteArray) isAbstract'
+]
+
+{ #category : #accessing }
+HowToFindStuffSlideshow >> queryingPharoCode: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #queryingPharoCode:);
+		pageNamed: 'Querying Pharo code' from: self gtBook;
+		yourself
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> queryingSmalltalk: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #queryingSmalltalk:);
+		titleWithFormat: (self asHeader: 'Querying Smalltalk classes and methods ')
 ]
 
 { #category : #slides }
@@ -59,7 +124,7 @@ HowToFindStuffSlideshow >> sendersAndImplementors: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #sendersAndImplementors:);
-		titleWithFormat: (self asTitle: 'seNders and iMplementors')
+		titleWithFormat: (self asHeader: 'seNders and iMplementors')
 ]
 
 { #category : #constants }
@@ -79,9 +144,12 @@ HowToFindStuffSlideshow >> slidePriorities [
 		gtQueries:
 			#abstractMethodsQuery:
 			#abstractStringMethods:
+			#abstractCollectionPackageMethods:
+			#queryingPharoCode:
 		
-				
 		queryingSmalltalk:
+			isAbstract:
+			abstractClasses:
 
 		
 		methodFinder:
@@ -99,7 +167,7 @@ HowToFindStuffSlideshow >> spotter: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #spotter:);
-		titleWithFormat: (self asTitle: 'Spotter')
+		titleWithFormat: (self asHeader: 'Spotter')
 ]
 
 { #category : #slides }
