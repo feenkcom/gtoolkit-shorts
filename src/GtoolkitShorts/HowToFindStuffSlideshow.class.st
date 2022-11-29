@@ -15,10 +15,8 @@ HowToFindStuffSlideshow >> abstractClasses: aSlide [
 	<gtSlide>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractClasses:);
-		heading: 'Which classes are abstract';
-		addCodeSnippet: 'Collection isAbstract';
-		addCodeSnippet: 'String isAbstract';
-		addCodeSnippet: '(String >> #asByteArray) isAbstract'
+		heading: 'Which classes are abstract?';
+		addCodeSnippet: 'Object withAllSubclasses select: #isAbstract '
 ]
 
 { #category : #slides }
