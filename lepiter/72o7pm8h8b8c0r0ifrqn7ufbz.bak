@@ -1961,7 +1961,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:40:22.584236+01:00"
+															"dateAndTimeString" : "2022-12-01T17:56:30.291895+01:00"
 														}
 													},
 													"uid" : {
@@ -1971,7 +1971,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "In the Coder create a class called Dummy in the GtStuff package. "
+													"string" : "In the Coder create a class called Dummy in the RPNCalculator package. "
 												}
 											]
 										},
@@ -3006,7 +3006,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-01T15:42:59.788576+01:00"
+															"dateAndTimeString" : "2022-12-01T15:43:16.252374+01:00"
 														}
 													},
 													"uid" : {
@@ -3016,7 +3016,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "```\nMetacello new\n\tbaseline: 'RPNCalculator';\n\trepository: 'github://onierstrasz/rpn-calculator:main/src';\n\tload\n```\n\n```\nBaselineOfGtStuff loadLepiter\n```"
+													"string" : "```\nMetacello new\n\tbaseline: 'RPNCalculator';\n\trepository: 'github://onierstrasz/rpn-calculator:main/src';\n\tload\n```\n\n```\nBaselineOfRPNCalculator loadLepiter\n```"
 												}
 											]
 										},
@@ -3230,14 +3230,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:52:18.396141+01:00"
+															"dateAndTimeString" : "2022-12-01T15:43:30.62453+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "UjCZYq6qDQC8CmZfAypl2g=="
 													},
-													"code" : "Metacello new\r\tbaseline: 'GtStuff';\r\trepository: 'github://onierstrasz/gt-stuff:main/src';\r\tload"
+													"code" : "Metacello new\r\tbaseline: 'RPNCalculator';\r\trepository: 'github://onierstrasz/rpn-calculator:main/src';\r\tload"
 												},
 												{
 													"__type" : "pharoSnippet",
@@ -3264,14 +3264,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:52:50.612556+01:00"
+															"dateAndTimeString" : "2022-12-01T15:43:36.508405+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "cB9YYq6qDQC8Ccd3Aypl2g=="
 													},
-													"code" : "BaselineOfGtStuff loadLepiter"
+													"code" : "BaselineOfRPNCalculator loadLepiter"
 												}
 											]
 										},

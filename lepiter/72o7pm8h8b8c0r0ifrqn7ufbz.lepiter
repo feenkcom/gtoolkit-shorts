@@ -1961,7 +1961,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:40:22.584236+01:00"
+															"dateAndTimeString" : "2022-12-01T17:56:30.291895+01:00"
 														}
 													},
 													"uid" : {
@@ -1971,7 +1971,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "In the Coder create a class called Dummy in the GtStuff package. "
+													"string" : "In the Coder create a class called Dummy in the RPNCalculator package. "
 												}
 											]
 										},
@@ -2635,14 +2635,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T16:05:13.750622+01:00"
+															"dateAndTimeString" : "2022-12-01T17:58:09.656211+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "acWsia6qDQC8T0GnAypl2g=="
 													},
-													"code" : "BaselineOfGtStuff class compile: '\rloadLepiter\n\t| currentProperties |\n\tcurrentProperties := LeDatabasesRegistry defaultLogicalDatabase properties.\n\tcurrentProperties\n\t\taddRegisteredDirectory: FileLocator imageDirectory\r\t\t\t/ ''pharo-local'' / ''iceberg'' / ''onierstrasz'' / ''gt-stuff'' / ''lepiter''.\n\tLeDatabasesRegistry default defaultLogicalDatabase reload'"
+													"code" : "BaselineOfRPNCalculator class compile: '\rloadLepiter\n\t| currentProperties |\n\tcurrentProperties := LeDatabasesRegistry defaultLogicalDatabase properties.\n\tcurrentProperties\n\t\taddRegisteredDirectory: FileLocator imageDirectory\r\t\t\t/ ''pharo-local'' / ''iceberg'' / ''onierstrasz'' / ''rpn-calculator'' / ''lepiter''.\n\tLeDatabasesRegistry default defaultLogicalDatabase reload'"
 												},
 												{
 													"__type" : "textSnippet",
