@@ -155,6 +155,22 @@ HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> findingShortcuts: aSlide [
+	"When this slide is viewed, the Finding shortcuts page will open."
+
+	<gtSlide>
+	| database page |
+	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
+			databaseNamed: self myLepiterDB.
+	page := database pageNamed: 'Finding shortcuts'.
+	^ aSlide title
+		priority: (self priorityFor: #findingShortcuts:);
+		onEveryAddToSceneGraphDo: [ GtPager
+				openWrappedOn: (LePagePhlowTool page: page)
+				title: (page title format: {self}) ]
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> gtQueries: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -242,6 +258,7 @@ HowToFindStuffSlideshow >> slidePriorities [
 			#exploringCharacterViews:
 		
 		drilling:
+			findingShortcuts:
 		
 		closing:
 	)
