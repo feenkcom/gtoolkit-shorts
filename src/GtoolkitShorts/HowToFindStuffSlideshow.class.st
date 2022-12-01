@@ -129,6 +129,24 @@ HowToFindStuffSlideshow >> concreteClassAbstractMethods: aSlide [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> drilling: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #drilling:);
+		titleWithFormat: (self asHeader: 'Drilling into UI code')
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> exploringCharacterViews: aSlide [
+	<gtSlide>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #exploringCharacterViews:);
+		pageNamed: 'Exploring Character views' from: self myLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -217,12 +235,11 @@ HowToFindStuffSlideshow >> slidePriorities [
 			workingWithCollectionsPage:
 			understandingCollectionsPage:
 
-		
 		methodFinder:
 			concatenateStrings:
 		
 		exploringViewCode:
-		
+			#exploringCharacterViews:
 		
 		drilling:
 		

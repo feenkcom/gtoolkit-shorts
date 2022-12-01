@@ -17,8 +17,7 @@ LePage >> gtMetricsFor: aView [
 					-> ((Duration minutes: words size / wordsPerMinutes) roundTo: 1 second)} ];
 		column: 'Metric' text: #key;
 		column: 'Value' text: [ :assoc | assoc value asString ];
-		updateWhen: LeContentTreeAdded in: [ self announcer ];
-		updateWhen: LeContentTreeRemoved in: [ self announcer ];
+		updateWhen: LeContentTreeChanged in: [ self announcer ];
 		actionUpdateButton
 ]
 
@@ -37,8 +36,7 @@ LePage >> gtRawScriptFor: aView [
 ' join: (self textSnippetsStartingWith: '*`')) copyWithoutAll: '*`'));
 						yourself) asContentUIModel;
 				matchParent ];
-		updateWhen: LeContentTreeAdded in: [ self announcer ];
-		updateWhen: LeContentTreeRemoved in: [ self announcer ];
+		updateWhen: LeContentTreeChanged in: [ self announcer ];
 		actionUpdateButton
 ]
 
@@ -57,8 +55,7 @@ LePage >> gtScriptFor: aView [
 ' join: (self textSnippetsStartingWith: '*`#')));
 						yourself) asContentUIModel;
 				matchParent ];
-		updateWhen: LeContentTreeAdded in: [ self announcer ];
-		updateWhen: LeContentTreeRemoved in: [ self announcer ];
+		updateWhen: LeContentTreeChanged in: [ self announcer ];
 		actionUpdateButton
 ]
 
