@@ -876,6 +876,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-01T14:48:45.526732+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-01T14:48:45.526732+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Xq+ANyarDQCu0wFRDbcQrw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Crop out the tool bar from the demo track. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-11-18T08:54:46.234278+01:00"
 								}
 							},
@@ -887,7 +924,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-18T08:55:28.238004+01:00"
+									"dateAndTimeString" : "2022-12-01T14:48:58.870664+01:00"
 								}
 							},
 							"uid" : {
@@ -897,7 +934,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Crop out the tool bar from the demo track. Then, make sure it is scaled to 100% (or you will get a low-res video). Set the canvas to be the same size as the full demo track."
+							"string" : "NB: *Make sure it is scaled to 100%* (or you will get a low-res video). Set the canvas to be the same size as the full demo track."
 						},
 						{
 							"__type" : "textSnippet",
