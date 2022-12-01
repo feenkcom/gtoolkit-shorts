@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-24T15:34:09.269681+01:00"
+						"dateAndTimeString" : "2022-12-01T16:02:42.714348+01:00"
 					}
 				},
 				"uid" : {
@@ -40,6 +40,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "[[todo]] [[short]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-01T09:01:00.902287+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-01T15:50:17.401709+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/zMRECGrDQC+C6++B0lv5Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -113,6 +150,78 @@
 								"uidString" : "5PlVAYGqDQC6tc0LADFIDQ=="
 							},
 							"code" : "BlGlutinHostSpace zoomFactor: 1.5"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-01T15:49:58.758135+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-01T15:50:05.673232+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "D8NxEierDQCyvv3+DbcQrw=="
+										},
+										"code" : "page := thisSnippet page database pageNamed: 'Finding shortcuts'.\rGtPager\r\topenWrappedOn: (LePagePhlowTool page: page)\r\ttitle: (page title format: {self})"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-01T15:50:20.922198+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-01T15:50:20.922198+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jGi9EyerDQCywY8IDbcQrw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "NB: How to open the [[Finding shortcuts]] page in a new window:"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -3981,7 +4090,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-12-01T09:26:42.264372+01:00"
+																		"dateAndTimeString" : "2022-12-01T15:49:26.983948+01:00"
 																	}
 																},
 																"uid" : {
@@ -3991,79 +4100,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "Demonstrate this."
-															},
-															{
-																"__type" : "textSnippet",
-																"children" : {
-																	"__type" : "snippets",
-																	"items" : [
-																		{
-																			"__type" : "pharoSnippet",
-																			"children" : {
-																				"__type" : "snippets",
-																				"items" : [ ]
-																			},
-																			"createEmail" : {
-																				"__type" : "email",
-																				"emailString" : "<unknown>"
-																			},
-																			"createTime" : {
-																				"__type" : "time",
-																				"time" : {
-																					"__type" : "dateAndTime",
-																					"dateAndTimeString" : "2022-12-01T08:50:03.701391+01:00"
-																				}
-																			},
-																			"editEmail" : {
-																				"__type" : "email",
-																				"emailString" : "<unknown>"
-																			},
-																			"editTime" : {
-																				"__type" : "time",
-																				"time" : {
-																					"__type" : "dateAndTime",
-																					"dateAndTimeString" : "2022-12-01T09:23:12.860603+01:00"
-																				}
-																			},
-																			"uid" : {
-																				"__type" : "uid",
-																				"uidString" : "rLSzNCGrDQCKWi4LAMyEqg=="
-																			},
-																			"code" : "page := thisSnippet page database pageNamed: 'Finding shortcuts'.\rGtPager\r\topenWrappedOn: (LePagePhlowTool page: page)\r\ttitle: (page title format: {self})"
-																		}
-																	]
-																},
-																"createEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"createTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-12-01T09:01:00.902287+01:00"
-																	}
-																},
-																"editEmail" : {
-																	"__type" : "email",
-																	"emailString" : "<unknown>"
-																},
-																"editTime" : {
-																	"__type" : "time",
-																	"time" : {
-																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-12-01T09:35:04.598159+01:00"
-																	}
-																},
-																"uid" : {
-																	"__type" : "uid",
-																	"uidString" : "/zMRECGrDQC+C6++B0lv5Q=="
-																},
-																"paragraphStyle" : {
-																	"__type" : "textStyle"
-																},
-																"string" : "NB: How to open the [[Finding shortcuts]] page in a new window:"
+																"string" : "Demonstrate this. Open the [[Finding shortcuts]] page in a new window."
 															}
 														]
 													},
