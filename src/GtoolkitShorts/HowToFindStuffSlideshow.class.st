@@ -156,18 +156,10 @@ HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 
 { #category : #slides }
 HowToFindStuffSlideshow >> findingShortcuts: aSlide [
-	"When this slide is viewed, the Finding shortcuts page will open."
+	"This slide is intentionally empty. Run the snippet in the script to view the Finding shortcuts page."
 
 	<gtSlide>
-	| database page |
-	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
-			databaseNamed: self myLepiterDB.
-	page := database pageNamed: 'Finding shortcuts'.
-	^ aSlide title
-		priority: (self priorityFor: #findingShortcuts:);
-		onEveryAddToSceneGraphDo: [ GtPager
-				openWrappedOn: (LePagePhlowTool page: page)
-				title: (page title format: {self}) ]
+	^ aSlide headingAndCode priority: (self priorityFor: #findingShortcuts:)
 ]
 
 { #category : #slides }
@@ -283,9 +275,9 @@ HowToFindStuffSlideshow >> spotterExample: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> stringAsByteArray: aSlide [
 	<gtSlide>
-	^ aSlide labelAndElement
+	^ aSlide element
 		priority: (self priorityFor: #stringAsByteArray:);
-		element: [ (GtClassCoderLiveSlide new class: String) asElement ]
+		element: [ (GtCoder forClass: String) createInPager maximized asElement ]
 ]
 
 { #category : #slides }
