@@ -229,7 +229,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T16:19:50.641065+01:00"
+															"dateAndTimeString" : "2022-11-25T16:20:08.225597+01:00"
 														}
 													},
 													"uid" : {
@@ -239,7 +239,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Needs work ou"
+													"string" : "Needs work outside of GT using external git tool."
 												}
 											]
 										},
@@ -295,7 +295,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:16:11.078499+01:00"
+									"dateAndTimeString" : "2022-11-25T16:20:10.992643+01:00"
 								}
 							},
 							"uid" : {
@@ -305,7 +305,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Possibly add something on recovering from conflicts and crashes"
+							"string" : "Possibly add something on recovering from conflicts and crashes?"
 						}
 					]
 				},
@@ -1207,7 +1207,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:41:36.236387+01:00"
+												"dateAndTimeString" : "2022-12-01T15:30:42.490666+01:00"
 											}
 										},
 										"uid" : {
@@ -1217,7 +1217,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+										"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}   "
 									}
 								]
 							},
@@ -3006,7 +3006,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T16:00:19.944938+01:00"
+															"dateAndTimeString" : "2022-12-01T15:42:59.788576+01:00"
 														}
 													},
 													"uid" : {
@@ -3016,7 +3016,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "```\nMetacello new\n\tbaseline: 'GtStuff';\n\trepository: 'github://onierstrasz/gt-stuff:main/src';\n\tload\n```\n\n```\nBaselineOfGtStuff loadLepiter\n```"
+													"string" : "```\nMetacello new\n\tbaseline: 'RPNCalculator';\n\trepository: 'github://onierstrasz/rpn-calculator:main/src';\n\tload\n```\n\n```\nBaselineOfGtStuff loadLepiter\n```"
 												}
 											]
 										},
