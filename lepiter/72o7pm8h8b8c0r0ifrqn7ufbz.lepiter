@@ -1149,7 +1149,156 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:37:50.428977+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:44:37.670862+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "6sPzhq+rDQCXLSK2AQv76w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Open a freshly downloaded GT image from [](https://gtoolkit.com/download/). "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:38:47.395965+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:39:04.335039+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "LXVYiq+rDQCXLgijAQv76w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Search with spotter for “How to work with GitHub”."
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-25T10:41:33.658707+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:51:32.69326+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "e/Qf8aiqDQCtVhmVCXio/w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}    "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:39:08.971731+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T10:39:16.822626+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "F+mXi6+rDQCXLz/PAQv76w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Evaluate the snippet."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -1181,43 +1330,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*You can also configure the ssh credentials directly within GT. The GT book page “How to work with GitHub” explains this and provides a simple script that you can reuse. The script informs Iceberg, the library that handles the interaction with git, of your GitHub credentials.* "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:41:33.658707+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-01T15:30:42.490666+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "e/Qf8aiqDQCtVhmVCXio/w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}   "
 									}
 								]
 							},
@@ -1335,7 +1447,45 @@
 														"__type" : "textStyle"
 													},
 													"string" : "Create the `gt-stuff` repo. Click on the `README` link and create the file."
-												},
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-25T09:07:33.869508+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T10:51:32.694162+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Puv3uqiqDQCtPM08CXio/w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Next we create a repo on github. Here we create the gt-stuff repo and initialize it with a README.*  "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -1383,7 +1533,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:07:33.869508+01:00"
+												"dateAndTimeString" : "2022-12-08T10:40:32.24084+01:00"
 											}
 										},
 										"editEmail" : {
@@ -1394,17 +1544,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:12:18.13307+01:00"
+												"dateAndTimeString" : "2022-12-08T10:40:53.247051+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Puv3uqiqDQCtPM08CXio/w=="
+											"uidString" : "YXN0kK+rDQCXN9VSAQv76w=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*The first thing we have to do is create a repo on github. Here we create the rpn-calculator repo and initialize it with a README.*  "
+										"string" : "*We commit the README, and copy the SHH link.* "
 									}
 								]
 							},
@@ -1474,7 +1624,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T11:32:18.106005+01:00"
+															"dateAndTimeString" : "2022-12-08T10:51:32.694473+01:00"
 														}
 													},
 													"uid" : {
@@ -1484,7 +1634,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Open the git tool and clone git@github.com:onierstrasz/rpn-calculator.git"
+													"string" : "Open the git tool and clone git@github.com:onierstrasz/gt-stuff.git"
 												}
 											]
 										},
@@ -1694,7 +1844,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T11:37:20.527535+01:00"
+												"dateAndTimeString" : "2022-12-08T10:51:32.694646+01:00"
 											}
 										},
 										"uid" : {
@@ -1704,7 +1854,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We do this by adding a folder for all the source code, typically called “src”.*"
+										"string" : "*We click on the “Repair” button and add a folder for all the source code, typically called “src”.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1844,7 +1994,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T11:49:10.606872+01:00"
+												"dateAndTimeString" : "2022-12-08T10:51:32.695661+01:00"
 											}
 										},
 										"uid" : {
@@ -1854,7 +2004,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Finally, we commit ...*"
+										"string" : "*Finally, we commit, adding a suitable commit comment ...* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1961,7 +2111,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-01T17:56:30.291895+01:00"
+															"dateAndTimeString" : "2022-12-08T10:54:44.751984+01:00"
 														}
 													},
 													"uid" : {
@@ -1971,7 +2121,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "In the Coder create a class called Dummy in the RPNCalculator package. "
+													"string" : "In the Coder create a class called Dummy in the GtStuff package. "
 												}
 											]
 										},
@@ -1994,7 +2144,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T11:56:18.110921+01:00"
+												"dateAndTimeString" : "2022-12-08T10:54:33.278342+01:00"
 											}
 										},
 										"uid" : {
@@ -2004,7 +2154,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Since we'll need a place to store our code, let's create a package with a dummy class that we can replace later.* "
+										"string" : "*Since we'll need a place to store our code, let's create a package with a dummy class that we can replace later. We open the Coder and create a new class called “Dummy” in the new “GtStuff” package.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2047,7 +2197,45 @@
 														"__type" : "textStyle"
 													},
 													"string" : "Go back to the Dummy class, press + and select the “Baseline” tab."
-												},
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-25T14:02:35.318234+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T10:51:32.696072+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "frSCHKuqDQCTQwzzARDO/Q=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We can now create a baseline for our repo. This will allow us to script the loading of the repo and selected packages in future.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -2095,7 +2283,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:02:35.318234+01:00"
+												"dateAndTimeString" : "2022-12-08T10:55:16.689864+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2106,17 +2294,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:03:20.05744+01:00"
+												"dateAndTimeString" : "2022-12-08T10:56:01.753977+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "frSCHKuqDQCTQwzzARDO/Q=="
+											"uidString" : "q/Quxa+rDQCOccW/BV4nEw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We create a baseline for our repo. This will allow us to script the loading of the repo and selected packages in future.* "
+										"string" : "*We edit the baseline  method to specify just the dependency on the GtStuff package. If we need to, we can later add other packages.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2245,7 +2433,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:05:58.610651+01:00"
+												"dateAndTimeString" : "2022-12-08T10:57:27.565326+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2256,7 +2444,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:42:11.41475+01:00"
+												"dateAndTimeString" : "2022-12-08T10:57:43.088624+01:00"
 											}
 										},
 										"uid" : {
@@ -2266,7 +2454,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We commit.* "
+										"string" : "*And we commit the changes with a suitable commit message.* "
 									}
 								]
 							},
@@ -2362,6 +2550,43 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:01:34.862885+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:02:59.404396+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "wpCa26+rDQCOdeypBV4nEw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*We call the new database “lepiter”. After creating the folder, don't forget to click on the checkmark to add it as a database.* "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2022-11-25T15:42:58.405492+01:00"
 														}
 													},
@@ -2384,7 +2609,45 @@
 														"__type" : "textStyle"
 													},
 													"string" : "Add the database, select it, click on “add database”, and click the checkmark to save."
-												},
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-25T14:28:56.465959+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-25T14:50:43.553862+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "3lbPOK2qDQCDjAEkA3Wx2A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*In the git tool we open the header, and add a new database folder.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -2432,7 +2695,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:28:56.465959+01:00"
+												"dateAndTimeString" : "2022-12-08T11:03:05.343856+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2443,17 +2706,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:50:43.553862+01:00"
+												"dateAndTimeString" : "2022-12-08T11:03:17.202675+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "3lbPOK2qDQCDjAEkA3Wx2A=="
+											"uidString" : "3Gc74a+rDQCOebpnBV4nEw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*In the git tool we open the header, and add a new database folder.* "
+										"string" : "*Again, we commit our changes.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2518,7 +2781,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:45:19.468755+01:00"
+												"dateAndTimeString" : "2022-12-08T11:04:41.393707+01:00"
 											}
 										},
 										"uid" : {
@@ -2528,7 +2791,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We can now add pages to the new lepiter database.*"
+										"string" : "*We can now add pages to the new lepiter database. We just add an empty page for now.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -2549,7 +2812,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:46:24.324907+01:00"
+															"dateAndTimeString" : "2022-12-08T11:05:10.292831+01:00"
 														}
 													},
 													"editEmail" : {
@@ -2560,17 +2823,54 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:47:04.351864+01:00"
+															"dateAndTimeString" : "2022-12-08T11:05:58.487638+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "ESKFUq6qDQC73/ctAypl2g=="
+														"uidString" : "TQu26K+rDQCOfe6PBV4nEw=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Show the lepiter database status. Commit the page."
+													"string" : "*Note that as long as the status is “Pending”, the page only exists in the image, but not on the file system.* "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:06:15.808812+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:06:15.808812+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "msev7K+rDQCOfyaNBV4nEw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Show the lepiter database status. "
 												}
 											]
 										},
@@ -2611,6 +2911,118 @@
 											"__type" : "snippets",
 											"items" : [
 												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-25T15:46:24.324907+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:06:15.809576+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "ESKFUq6qDQC73/ctAypl2g=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Commit the page."
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:06:10.173249+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:06:37.529304+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "hDhB7K+rDQCOfigbBV4nEw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Now that the page has synced, we can commit the changes to our lepiter database to the repo.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:12:59.902541+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:13:26.754044+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "y/SkBLCrDQCOjCArBV4nEw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Run this snippet *in the demo image*. "
+												},
+												{
 													"__type" : "pharoSnippet",
 													"children" : {
 														"__type" : "snippets",
@@ -2635,51 +3047,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-01T17:58:09.656211+01:00"
+															"dateAndTimeString" : "2022-12-08T11:12:54.830178+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "acWsia6qDQC8T0GnAypl2g=="
 													},
-													"code" : "BaselineOfRPNCalculator class compile: '\rloadLepiter\n\t| currentProperties |\n\tcurrentProperties := LeDatabasesRegistry defaultLogicalDatabase properties.\n\tcurrentProperties\n\t\taddRegisteredDirectory: FileLocator imageDirectory\r\t\t\t/ ''pharo-local'' / ''iceberg'' / ''onierstrasz'' / ''rpn-calculator'' / ''lepiter''.\n\tLeDatabasesRegistry default defaultLogicalDatabase reload'"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T16:05:49.530754+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T16:05:53.762424+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "1I2ml66qDQCiiTQBAypl2g=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "Browse the method."
+													"code" : "BaselineOfGtStuff class compile: '\rloadLepiter\n\t| currentProperties |\n\tcurrentProperties := LeDatabasesRegistry defaultLogicalDatabase properties.\n\tcurrentProperties\n\t\taddRegisteredDirectory: FileLocator imageDirectory\r\t\t\t/ ''pharo-local'' / ''iceberg'' / ''onierstrasz'' / ''gt-stuff'' / ''lepiter''.\n\tLeDatabasesRegistry default defaultLogicalDatabase reload'"
 												}
 											]
 										},
@@ -2718,7 +3093,83 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-25T16:05:49.530754+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2022-11-25T16:05:53.762424+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "1I2ml66qDQCiiTQBAypl2g=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "Browse the method."
+															}
+														]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-25T16:06:00.142409+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:16:19.204938+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "diSjd66qDQC8RU3MAypl2g=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*This code will find the lepiter folder in our cloned repo and add it to the registry of lepiter databases.* "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -2728,7 +3179,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T16:06:00.142409+01:00"
+												"dateAndTimeString" : "2022-12-08T11:16:19.204265+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2739,17 +3190,54 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T16:06:34.362733+01:00"
+												"dateAndTimeString" : "2022-12-08T11:16:19.204265+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "diSjd66qDQC8RU3MAypl2g=="
+											"uidString" : "Yd2mELCrDQCOkxMzBV4nEw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*This code will find the lepiter folder in our cloned repo and add it to the registry of lepiter databases.* "
+										"string" : "*Note especially that this is a class method, not an instance method, so we don't need to create an instance of BaselineOfGtStuff to evaluate it.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:17:14.226167+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:17:24.178815+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "+R04E7CrDQCOl2nIBV4nEw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We commit this method as well.* "
 									}
 								]
 							},
@@ -2852,7 +3340,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:48:19.355634+01:00"
+												"dateAndTimeString" : "2022-12-08T11:18:28.290377+01:00"
 											}
 										},
 										"uid" : {
@@ -2862,7 +3350,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Now we'll push our changes, and add a load script to the repo.* "
+										"string" : "*At last we'll push our changes to the remote repository.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2927,7 +3415,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:49:08.574767+01:00"
+												"dateAndTimeString" : "2022-12-08T11:20:21.166891+01:00"
 											}
 										},
 										"uid" : {
@@ -2937,88 +3425,13 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Let's remove the repo from our image.* "
+										"string" : "*Let's remove the repository from our image and from trhe file system so that we can test the load scripts.* "
 									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:53:02.200847+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:53:05.180745+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "4Du0YK6qDQC7/taGAypl2g=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "Add this text:"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-25T15:53:06.880561+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-01T15:43:16.252374+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "LfSTaq6qDQC8CxonAypl2g=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "```\nMetacello new\n\tbaseline: 'RPNCalculator';\n\trepository: 'github://onierstrasz/rpn-calculator:main/src';\n\tload\n```\n\n```\nBaselineOfRPNCalculator loadLepiter\n```"
-												}
-											]
+											"items" : [ ]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -3028,7 +3441,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:49:56.824486+01:00"
+												"dateAndTimeString" : "2022-12-08T11:20:42.875916+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3039,7 +3452,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T15:50:18.693496+01:00"
+												"dateAndTimeString" : "2022-12-08T11:21:09.795011+01:00"
 											}
 										},
 										"uid" : {
@@ -3049,7 +3462,81 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Now let's add this boilerplate code to our repo.* "
+										"string" : "*We can now add the boilerplate load scripts to the README page of our github repository.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:21:41.427066+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:22:33.940381+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ZeHGI7CrDQCOqK7OBV4nEw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*This first script automates the cloning of the repository with the help of Metacello, the package management system for Pharo.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-11-25T15:53:06.880561+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-01T15:43:16.252374+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "LfSTaq6qDQC8CxonAypl2g=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "```\nMetacello new\n\tbaseline: 'RPNCalculator';\n\trepository: 'github://onierstrasz/rpn-calculator:main/src';\n\tload\n```\n\n```\nBaselineOfRPNCalculator loadLepiter\n```"
 									},
 									{
 										"__type" : "textSnippet",
