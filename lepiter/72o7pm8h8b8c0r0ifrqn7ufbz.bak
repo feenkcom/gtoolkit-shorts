@@ -3489,7 +3489,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T11:22:09.135368+01:00"
+												"dateAndTimeString" : "2022-12-08T11:22:33.940381+01:00"
 											}
 										},
 										"uid" : {
@@ -3499,7 +3499,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*This first script automates the cloning of the repository with the help of Metacello"
+										"string" : "*This first script automates the cloning of the repository with the help of Metacello, the package management system for Pharo.* "
 									},
 									{
 										"__type" : "textSnippet",

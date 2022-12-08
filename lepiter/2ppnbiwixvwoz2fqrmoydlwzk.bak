@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:31:53.348157+01:00"
+						"dateAndTimeString" : "2022-12-08T11:51:26.375016+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:01:32.752136+01:00"
+						"dateAndTimeString" : "2022-12-08T11:51:36.335246+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "tMuPA7OoDQCcinVjBkE3kA=="
+					"uidString" : "ODHdjbCrDQCj26RHAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] "
+				"string" : "How can you extend GT to support your domain."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:01.153394+01:00"
+						"dateAndTimeString" : "2022-12-08T11:51:37.126428+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T12:04:18.006035+01:00"
+						"dateAndTimeString" : "2022-12-08T11:51:39.980351+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qnM5BLOoDQCcmEoQBkE3kA=="
+					"uidString" : "m6fcjrCrDQCj3YCqAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See the gt book page: {{gtPage:Beacon|db=2j9m7db2i4oz116bexd7wbdxo}}     "
+				"string" : "Not just views."
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:22.618205+01:00"
+						"dateAndTimeString" : "2022-12-08T11:52:22.739621+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,57 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:39.965574+01:00"
+						"dateAndTimeString" : "2022-12-08T11:52:36.779068+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ael+BbOoDQCcn2rYBkE3kA=="
+					"uidString" : "ZRAdj7CrDQCj369PAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Beacon is a lightweight logging framework built on announcements."
+				"string" : "See the Extensions view on this page {{gtPage:About this Version of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:53:03.898851+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:53:03.898851+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/9gPlLCrDQCj7C7IAMDYLQ=="
+				},
+				"exampleSelector" : "instance",
+				"previewHeight" : 300,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "GtImage class",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : true
 			},
 			{
 				"__type" : "textSnippet",
@@ -129,7 +169,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:14.068335+01:00"
+						"dateAndTimeString" : "2022-12-08T11:52:32.54754+01:00"
 					}
 				},
 				"editEmail" : {
@@ -140,54 +180,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:06.638607+01:00"
+						"dateAndTimeString" : "2022-12-08T11:52:32.54754+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "liGyBLOoDQCcnQ0MBkE3kA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "TG is interested to have a tutorial on Beacon to complement the gt book page."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:01.652449+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:01.652449+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ASLbB7OoDQCcoQ/UBkE3kA=="
+					"uidString" : "8XYxkrCrDQCj58P8AMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:54:36.874275+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:54:43.119823+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QoqambCrDQCj74e8AMDYLQ=="
+				},
+				"code" : "Object "
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:57:17.00796+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:57:17.00796+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "hfwlo7CrDQCkAkz/AMDYLQ=="
+				},
+				"exampleSelector" : "cartoonAddressBook",
+				"previewHeight" : 200,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "GtABCartoonAddressBookExample",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : false
 			}
 		]
 	},
@@ -199,7 +276,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T10:31:49.575086+01:00"
+			"dateAndTimeString" : "2022-12-08T11:51:19.874459+01:00"
 		}
 	},
 	"editEmail" : {
@@ -210,15 +287,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T10:31:49.575086+01:00"
+			"dateAndTimeString" : "2022-12-08T11:51:19.874459+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Beacon tutorial"
+		"title" : "How can GT be contextualized"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "56518f03-b3a8-0d00-9c89-007206413790"
+		"uuid" : "408fdc8d-b0ab-0d00-a3da-dfc300c0d82d"
 	}
 }

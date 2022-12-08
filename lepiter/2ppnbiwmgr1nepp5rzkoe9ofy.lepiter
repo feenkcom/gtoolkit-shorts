@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:31:53.348157+01:00"
+						"dateAndTimeString" : "2022-12-08T11:59:10.605536+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:01:32.752136+01:00"
+						"dateAndTimeString" : "2022-12-08T12:12:14.668419+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "tMuPA7OoDQCcinVjBkE3kA=="
+					"uidString" : "M5KcqbCrDQCkCu+eAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] "
+				"string" : "See the REST API book page. {{gtPage:Working With A REST API: The GitHub Case Study|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:01.153394+01:00"
+						"dateAndTimeString" : "2022-12-08T12:12:19.154801+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T12:04:18.006035+01:00"
+						"dateAndTimeString" : "2022-12-08T12:13:35.023274+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qnM5BLOoDQCcmEoQBkE3kA=="
+					"uidString" : "5BTK2LCrDQCkNmehAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See the gt book page: {{gtPage:Beacon|db=2j9m7db2i4oz116bexd7wbdxo}}     "
+				"string" : "There is a [video](https://feenk.slack.com/files/U3KBHKQFN/F04E4HECJB0/hitchhiker19.mp4) on slack."
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:22.618205+01:00"
+						"dateAndTimeString" : "2022-12-08T12:13:35.388281+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,91 +103,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:39.965574+01:00"
+						"dateAndTimeString" : "2022-12-08T12:13:35.388281+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ael+BbOoDQCcn2rYBkE3kA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Beacon is a lightweight logging framework built on announcements."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:32:14.068335+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:06.638607+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "liGyBLOoDQCcnQ0MBkE3kA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "TG is interested to have a tutorial on Beacon to complement the gt book page."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:01.652449+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:33:01.652449+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ASLbB7OoDQCcoQ/UBkE3kA=="
+					"uidString" : "nuJ23bCrDQCkOjd+AMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:12:50.092377+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:12:50.092377+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "c7nD2rCrDQCkOK79AMDYLQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:59:29.909929+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T11:59:36.578407+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aOZPqrCrDQCkDLBbAMDYLQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Ask TG to elaborate the script"
 			}
 		]
 	},
@@ -199,7 +199,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T10:31:49.575086+01:00"
+			"dateAndTimeString" : "2022-12-08T11:59:05.410128+01:00"
 		}
 	},
 	"editEmail" : {
@@ -210,15 +210,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T10:31:49.575086+01:00"
+			"dateAndTimeString" : "2022-12-08T12:10:02.604383+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Beacon tutorial"
+		"title" : "Github API — script it with TG"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "56518f03-b3a8-0d00-9c89-007206413790"
+		"uuid" : "fe119ca9-b0ab-0d00-a409-23c700c0d82d"
 	}
 }

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T09:17:24.849776+01:00"
+						"dateAndTimeString" : "2022-12-08T11:59:10.605536+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T11:31:10.530688+01:00"
+						"dateAndTimeString" : "2022-12-08T12:12:14.668419+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "/pWBXCGrDQCKegDTAMyEqg=="
+					"uidString" : "M5KcqbCrDQCkCu+eAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Typing CMD= and CMD- will increase or decrease the size of all the fonts in this page, but how does the shortcut work?"
+				"string" : "See the REST API book page. {{gtPage:Working With A REST API: The GitHub Case Study|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T16:01:57.678768+01:00"
+						"dateAndTimeString" : "2022-12-08T12:12:19.154801+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T16:02:29.73064+01:00"
+						"dateAndTimeString" : "2022-12-08T12:12:49.680337+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "wJlkmiGrDQCKpRr5AMyEqg=="
+					"uidString" : "5BTK2LCrDQCkNmehAMDYLQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "There is a Youtube video that TG will upload."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:12:50.092377+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:12:50.092377+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "c7nD2rCrDQCkOK79AMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -92,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T09:18:58.133449+01:00"
+						"dateAndTimeString" : "2022-12-08T11:59:29.909929+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +140,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T09:19:41.206613+01:00"
+						"dateAndTimeString" : "2022-12-08T11:59:36.578407+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WwfcmyGrDQCKqtQJAMyEqg=="
+					"uidString" : "aOZPqrCrDQCkDLBbAMDYLQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Holding SHIFT CONTROL OPT while clicking in the page will alllow us to drill into the UI elements."
+				"string" : "Ask TG to elaborate the script"
 			}
 		]
 	},
@@ -125,7 +162,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-01T09:01:11.471509+01:00"
+			"dateAndTimeString" : "2022-12-08T11:59:05.410128+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +173,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-01T09:11:58.582403+01:00"
+			"dateAndTimeString" : "2022-12-08T12:10:02.604383+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Finding shortcuts"
+		"title" : "Github API — script it with TG"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3a11815c-21ab-0d00-8a79-224100cc84aa"
+		"uuid" : "fe119ca9-b0ab-0d00-a409-23c700c0d82d"
 	}
 }

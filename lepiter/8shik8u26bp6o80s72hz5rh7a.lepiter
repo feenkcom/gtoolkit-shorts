@@ -113,7 +113,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-15T15:51:04.45037+01:00"
+												"dateAndTimeString" : "2022-12-08T12:01:27.151345+01:00"
 											}
 										},
 										"uid" : {
@@ -123,7 +123,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[How to find stuff in GT]] "
+										"string" : "[[How to find stuff in GT -- TO FIX]] "
 									}
 								]
 							},
@@ -188,7 +188,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T10:27:48.167011+01:00"
+												"dateAndTimeString" : "2022-12-08T12:10:47.157474+01:00"
 											}
 										},
 										"uid" : {
@@ -198,7 +198,44 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Setting up a GT github repo]] "
+										"string" : "[[Setting up a GT github repo — REVISING]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T11:58:59.975428+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-08T12:10:02.608303+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "3Hw+qbCrDQCkBuV6AMDYLQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Github API — script it with TG]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -242,6 +279,43 @@
 										"children" : {
 											"__type" : "snippets",
 											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:49:42.328289+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T12:09:55.283078+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Jtjah7CrDQCjzDw+AMDYLQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Ludo game — plan with TG]] "
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -416,7 +490,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-10-17T18:33:08.424725+02:00"
+															"dateAndTimeString" : "2022-12-08T11:49:58.892665+01:00"
 														}
 													},
 													"uid" : {
@@ -427,6 +501,43 @@
 														"__type" : "textStyle"
 													},
 													"string" : "[[RPN calculator]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:51:10.773872+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-08T11:51:17.984056+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "cwwyjbCrDQCj1zHeAMDYLQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[How can GT be contextualized]] "
 												}
 											]
 										},
