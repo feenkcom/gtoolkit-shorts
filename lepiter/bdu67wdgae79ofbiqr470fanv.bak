@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-08T10:06:48.280096+01:00"
+						"dateAndTimeString" : "2022-11-21T10:01:40.851901+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] "
+				"string" : "[[todo]] [[short]] "
 			},
 			{
 				"__type" : "textSnippet",

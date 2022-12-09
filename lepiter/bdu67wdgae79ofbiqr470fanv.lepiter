@@ -151,6 +151,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Using the git CL or a tool to push changes."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-09T09:17:14.692614+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-09T09:17:14.692614+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pGWfhMKrDQCTOgxxBHzCcA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Simple conflict — trash and repair.\nCrash — restart and replay changes.\nMerge conflict — start a new branch, merge and push\nNeeds work outside of GT using external git tool."
 			}
 		]
 	},
