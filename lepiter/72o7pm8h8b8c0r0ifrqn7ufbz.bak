@@ -82,118 +82,6 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:14:01.483145+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:14:09.467677+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "2PlDta6qDQCitctbAypl2g=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Currently this would be roughly 4 minutes."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:15:41.380729+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:20:10.992643+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "pLxHu66qDQCiwI8WAypl2g=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Possibly add something on recovering from conflicts and crashes?"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-25T16:15:33.316032+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-25T16:15:34.664013+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "usvUuq6qDQCiuV5BAypl2g=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "#TODO"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
 					"items" : [ ]
 				},
 				"createEmail" : {
@@ -331,7 +219,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T08:55:35.103133+01:00"
+									"dateAndTimeString" : "2022-12-09T09:17:37.527053+01:00"
 								}
 							},
 							"uid" : {
@@ -341,7 +229,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "GT book page: {{gtPage:How to set up a new GitHub repo|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+							"string" : "GT book page: {{gtPage:How to set up a new GitHub repo|db=2j9m7db2i4oz116bexd7wbdxo}}   "
 						},
 						{
 							"__type" : "textSnippet",
@@ -405,7 +293,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T08:58:34.411115+01:00"
+									"dateAndTimeString" : "2022-12-09T09:17:28.33711+01:00"
 								}
 							},
 							"uid" : {
@@ -415,7 +303,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "My lepiter db: {{gtPage:script github setup|db=cqvjoxfnf6zd764ibqa67pln6}}  "
+							"string" : "My lepiter db: {{gtPage:script github setup|db=cqvjoxfnf6zd764ibqa67pln6}}   "
 						}
 					]
 				},
@@ -695,7 +583,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:01:53.390047+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:13.040918+01:00"
 											}
 										},
 										"uid" : {
@@ -705,7 +593,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a github repository to manage your Glamorous Toolkit code and lepiter pages.* "
+										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and lepiter pages.* "
 									}
 								]
 							},
@@ -804,7 +692,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:27:22.331448+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:20.36802+01:00"
 											}
 										},
 										"uid" : {
@@ -814,7 +702,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*I'll assume that you already have a github account and have added an SSH key to that account.* "
+										"string" : "*I'll assume that you already have a GitHub account and have added an SSH key to that account.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -841,7 +729,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:37:19.180459+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:22.057393+01:00"
 											}
 										},
 										"uid" : {
@@ -851,7 +739,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*If not, you should first create a github account and read about “Adding a new SSH key to your GitHub account”.* "
+										"string" : "*If not, you should first create a GitHub account and read the GitHub page about “Adding a new SSH key to your GitHub account”.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1099,7 +987,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T10:51:32.69326+01:00"
+															"dateAndTimeString" : "2022-12-12T14:32:29.908467+01:00"
 														}
 													},
 													"uid" : {
@@ -1109,7 +997,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}    "
+													"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}     "
 												},
 												{
 													"__type" : "textSnippet",
@@ -1319,7 +1207,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T10:51:32.694162+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:35.015108+01:00"
 											}
 										},
 										"uid" : {
@@ -1329,7 +1217,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Next we create a repo on github. Here we create the gt-stuff repo and initialize it with a README.*  "
+										"string" : "*Next we create a repo on GitHub. Here we create the gt-stuff repo and initialize it with a README.*  "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1582,7 +1470,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T11:36:46.531849+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:39.963459+01:00"
 											}
 										},
 										"uid" : {
@@ -1592,7 +1480,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Now we will turn the github repo into an Iceberg project repo.*"
+										"string" : "*Now we will turn the GitHub repo into an Iceberg project repo.*"
 									},
 									{
 										"__type" : "textSnippet",

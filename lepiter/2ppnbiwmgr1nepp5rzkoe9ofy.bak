@@ -773,14 +773,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:48:20.876154+01:00"
+												"dateAndTimeString" : "2022-12-12T09:59:22.135921+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "S/2rSf+rDQCIywcmAtmTxQ=="
 										},
-										"code" : "Object subclass: #MyOrganization\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: 'MyPackage'"
+										"code" : "Object subclass: #MyOrganization\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: 'MyPackage'."
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -807,14 +807,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:51:06.348932+01:00"
+												"dateAndTimeString" : "2022-12-12T09:59:24.532623+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "kuExUP+rDQCI1bBMAtmTxQ=="
 										},
-										"code" : "Object subclass: #MyOrganization\r\tinstanceVariableNames: 'rawData'\r\tclassVariableNames: ''\r\tpackage: 'MyPackage'"
+										"code" : "Object subclass: #MyOrganization\r\tinstanceVariableNames: 'rawData'\r\tclassVariableNames: ''\r\tpackage: 'MyPackage'."
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -841,48 +841,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:57:39.842822+01:00"
+												"dateAndTimeString" : "2022-12-12T09:59:28.785446+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "NmpYVf+rDQCI1n6YAtmTxQ=="
 										},
-										"code" : "MyOrganization compile: 'rawData: dictionary\r\trawData := dictionary'."
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:57:41.865588+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:58:06.684696+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "kYDXbv+rDQCI51hzAtmTxQ=="
-										},
-										"code" : "(MyOrganization>>#rawData:) protocol: 'initialization'"
+										"code" : "MyOrganization\r\tcompile: 'rawData: dictionary\r\trawData := dictionary'.\rMyOrganization >> #rawData: protocol: 'initialization'."
 									}
 								]
 							},
@@ -981,14 +947,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T09:58:58.454818+01:00"
+												"dateAndTimeString" : "2022-12-12T09:59:10.524575+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "yOl5Xv+rDQCI11kqAtmTxQ=="
 										},
-										"code" : "MyOrganization class\r\tcompile: 'for: anOrganizationName\r\t| url dictionary json |\r\turl := ''https://api.github.com/orgs/feenkcom''.\r\tjson := ZnClient new get: url.\r\tdictionary := STON fromString: json.\r\t^ self new rawData: dictionary'.\r(MyOrganization class>>#for:) protocol: 'instance creation'"
+										"code" : "MyOrganization class\r\tcompile: 'for: anOrganizationName\r\t| url dictionary json |\r\turl := ''https://api.github.com/orgs/feenkcom''.\r\tjson := ZnClient new get: url.\r\tdictionary := STON fromString: json.\r\t^ self new rawData: dictionary'.\r(MyOrganization class>>#for:) protocol: 'instance creation'."
 									}
 								]
 							},

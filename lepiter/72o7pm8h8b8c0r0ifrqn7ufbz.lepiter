@@ -583,7 +583,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:01:53.390047+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:13.040918+01:00"
 											}
 										},
 										"uid" : {
@@ -593,7 +593,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a github repository to manage your Glamorous Toolkit code and lepiter pages.* "
+										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and lepiter pages.* "
 									}
 								]
 							},
@@ -692,7 +692,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T09:27:22.331448+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:20.36802+01:00"
 											}
 										},
 										"uid" : {
@@ -702,7 +702,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*I'll assume that you already have a github account and have added an SSH key to that account.* "
+										"string" : "*I'll assume that you already have a GitHub account and have added an SSH key to that account.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -729,7 +729,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:37:19.180459+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:22.057393+01:00"
 											}
 										},
 										"uid" : {
@@ -739,7 +739,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*If not, you should first create a github account and read about “Adding a new SSH key to your GitHub account”.* "
+										"string" : "*If not, you should first create a GitHub account and read the GitHub page about “Adding a new SSH key to your GitHub account”.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -987,7 +987,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T10:51:32.69326+01:00"
+															"dateAndTimeString" : "2022-12-12T14:32:29.908467+01:00"
 														}
 													},
 													"uid" : {
@@ -997,7 +997,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}    "
+													"string" : "See {{gtPage:How to work with GitHub|db=2j9m7db2i4oz116bexd7wbdxo}}     "
 												},
 												{
 													"__type" : "textSnippet",
@@ -1207,7 +1207,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T10:51:32.694162+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:35.015108+01:00"
 											}
 										},
 										"uid" : {
@@ -1217,7 +1217,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Next we create a repo on github. Here we create the gt-stuff repo and initialize it with a README.*  "
+										"string" : "*Next we create a repo on GitHub. Here we create the gt-stuff repo and initialize it with a README.*  "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1470,7 +1470,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T11:36:46.531849+01:00"
+												"dateAndTimeString" : "2022-12-12T14:37:39.963459+01:00"
 											}
 										},
 										"uid" : {
@@ -1480,7 +1480,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Now we will turn the github repo into an Iceberg project repo.*"
+										"string" : "*Now we will turn the GitHub repo into an Iceberg project repo.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3227,7 +3227,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T11:21:09.795011+01:00"
+												"dateAndTimeString" : "2022-12-12T14:38:00.909521+01:00"
 											}
 										},
 										"uid" : {
@@ -3237,7 +3237,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We can now add the boilerplate load scripts to the README page of our github repository.*"
+										"string" : "*We can now add the boilerplate load scripts to the README page of our GitHub repository.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3301,7 +3301,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-09T09:09:56.102155+01:00"
+												"dateAndTimeString" : "2022-12-12T14:38:04.880848+01:00"
 											}
 										},
 										"uid" : {
@@ -3311,7 +3311,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*It will clone our github repo and add it to the Iceberg registry of loaded repos.* "
+										"string" : "*It will clone our GitHub repo and add it to the Iceberg registry of loaded repos.* "
 									},
 									{
 										"__type" : "textSnippet",
