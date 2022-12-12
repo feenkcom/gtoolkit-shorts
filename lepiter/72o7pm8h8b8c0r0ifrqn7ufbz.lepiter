@@ -1113,6 +1113,78 @@
 											"__type" : "snippets",
 											"items" : [
 												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:13:30.030989+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:17:33.770493+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "p4892AOsDQCd659cAG4cZQ=="
+													},
+													"code" : "SettingUpGithubRepoSlideShow <> #creatingTheGitHubRepo: "
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:13:16.880808+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:13:16.880808+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "/eR01wOsDQCd6gQTAG4cZQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Next we create a repo on GitHub.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
@@ -1207,7 +1279,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T14:37:35.015108+01:00"
+												"dateAndTimeString" : "2022-12-12T15:13:16.881669+01:00"
 											}
 										},
 										"uid" : {
@@ -1217,7 +1289,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Next we create a repo on GitHub. Here we create the gt-stuff repo and initialize it with a README.*  "
+										"string" : "*Here we create the gt-stuff repo and initialize it with a README.*  "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1337,6 +1409,77 @@
 										"children" : {
 											"__type" : "snippets",
 											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:17:50.351517+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:20:29.637579+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "tbzB5wOsDQCd8B8YAG4cZQ=="
+													},
+													"code" : "SettingUpGithubRepoSlideShow <> #cloningTheRepo: "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:18:03.965552+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:19:20.487607+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "yWB46AOsDQCd8YW6AG4cZQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*We open the git tool in GT and clone the repo using the copied SHH URL.* "
+												},
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -1481,6 +1624,40 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*Now we will turn the GitHub repo into an Iceberg project repo.*"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:21:36.256772+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:21:49.746956+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "HMc49QOsDQCd8rNXAG4cZQ=="
+										},
+										"code" : "SettingUpGithubRepoSlideShow <> #addingProjectMetadata: "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1823,6 +2000,77 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:22:09.342267+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:22:09.342267+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "hJwx9wOsDQCd80tiAG4cZQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Since we'll need a place to store our code, let's create a package with a dummy class that we can replace later.*"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:22:14.058294+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:22:54.367908+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "W5V59wOsDQCd9CThAG4cZQ=="
+										},
+										"code" : "SettingUpGithubRepoSlideShow <> #addingPackages: "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
 											"items" : [
 												{
 													"__type" : "textSnippet",
@@ -1882,7 +2130,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T10:54:33.278342+01:00"
+												"dateAndTimeString" : "2022-12-12T15:22:09.342866+01:00"
 											}
 										},
 										"uid" : {
@@ -1892,7 +2140,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Since we'll need a place to store our code, let's create a package with a dummy class that we can replace later. We open the Coder and create a new class called “Dummy” in the new “GtStuff” package.* "
+										"string" : "*We open the Coder and create a new class called “Dummy” in the new “GtStuff” package.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2268,6 +2516,40 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*We'd like to have a lepiter database associated to our repo so we can document our project.* "
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:23:43.164952+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:24:07.703873+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "MT7J/AOsDQCd9VXxAG4cZQ=="
+										},
+										"code" : "SettingUpGithubRepoSlideShow <> #addingALepiterDatabase: "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3056,6 +3338,77 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:25:20.141264+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:26:37.740713+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "k7A3AgSsDQCd9mB6AG4cZQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We now would like to automate the process of loading the project packages and the lepiter database.* "
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:26:40.011185+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-12T15:27:19.690803+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "yrNTBwSsDQCd9xEwAG4cZQ=="
+										},
+										"code" : "SettingUpGithubRepoSlideShow <> #automatingTheLoadProcess: "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
 											"items" : [
 												{
 													"__type" : "textSnippet",
@@ -3470,6 +3823,77 @@
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:27:55.510431+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:27:55.510431+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "obTTCwSsDQCd+H1gAG4cZQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*Now we can use the metacello script to load our repo.*"
+												},
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:28:00.606926+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:28:08.988828+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "5n4hDASsDQCd+VPHAG4cZQ=="
+													},
+													"code" : "SettingUpGithubRepoSlideShow <> #loadingTheRepo: "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
 														"items" : [
 															{
 																"__type" : "textSnippet",
@@ -3529,7 +3953,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-09T09:12:14.804135+01:00"
+															"dateAndTimeString" : "2022-12-12T15:27:55.511715+01:00"
 														}
 													},
 													"uid" : {
@@ -3539,7 +3963,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Now we can use the metacello script to load our repo. We copy-paste them to a Playground and run them one after the other.*  "
+													"string" : "*We copy-paste them to a Playground and run them one after the other.*  "
 												},
 												{
 													"__type" : "pharoSnippet",
@@ -3775,7 +4199,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-25T16:00:59.159435+01:00"
+									"dateAndTimeString" : "2022-12-12T15:27:08.149493+01:00"
 								}
 							},
 							"uid" : {
@@ -3785,7 +4209,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "##Adding a load script to the repo"
+							"string" : "##Automating the load process"
 						},
 						{
 							"__type" : "textSnippet",

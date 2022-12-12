@@ -11,6 +11,46 @@ SettingUpGithubRepoSlideShow class >> show [
 ]
 
 { #category : #slides }
+SettingUpGithubRepoSlideShow >> addingALepiterDatabase: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #addingALepiterDatabase:);
+		titleWithFormat: (self asHeader: 'Adding a Lepiter database')
+]
+
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> addingPackages: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #addingPackages:);
+		titleWithFormat: (self asHeader: 'Adding source and baseline packages')
+]
+
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> addingProjectMetadata: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #addingProjectMetadata:);
+		titleWithFormat: (self asHeader: 'Adding the project metadata')
+]
+
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> automatingTheLoadProcess: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #automatingTheLoadProcess:);
+		titleWithFormat: (self asHeader: 'Automating the load process')
+]
+
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> cloningTheRepo: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #cloningTheRepo:);
+		titleWithFormat: (self asHeader: 'Cloning the repo in GT')
+]
+
+{ #category : #slides }
 SettingUpGithubRepoSlideShow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -22,9 +62,17 @@ SettingUpGithubRepoSlideShow >> closing: aSlide [
 				in: [ :t | (t from: 'glamorous' size + 1 to: t size) bold ];
 				yourself);
 		subtitleWithFormat: ('gtoolkit.com' asRopedText
-				fontSize: 40;
+				fontSize: 48;
 				glamorousRegularFont;
 				bold)
+]
+
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> creatingTheGitHubRepo: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #creatingTheGitHubRepo:);
+		titleWithFormat: (self asHeader: 'Creating the GitHub repo')
 ]
 
 { #category : #slides }
@@ -44,6 +92,14 @@ SettingUpGithubRepoSlideShow >> howToWorkWithGitHub: aSlide [
 		yourself
 ]
 
+{ #category : #slides }
+SettingUpGithubRepoSlideShow >> loadingTheRepo: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #loadingTheRepo:);
+		titleWithFormat: (self asHeader: 'Loading the repo')
+]
+
 { #category : #constants }
 SettingUpGithubRepoSlideShow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
@@ -55,7 +111,15 @@ SettingUpGithubRepoSlideShow >> slidePriorities [
 		gitCredentials:
 			sshAdd:
 			howToWorkWithGitHub:
-
+		
+		creatingTheGitHubRepo:
+		cloningTheRepo:
+		addingProjectMetadata:
+		addingPackages:
+		addingALepiterDatabase:
+		automatingTheLoadProcess:
+		loadingTheRepo:
+		
 		closing:
 	)
 ]
