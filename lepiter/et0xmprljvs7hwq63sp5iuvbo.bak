@@ -79,40 +79,6 @@
 				"string" : ""
 			},
 			{
-				"__type" : "youtubeSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T11:55:21.396207+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T11:55:22.626958+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "DWSfEwGsDQCJHPHOAtmTxQ=="
-				},
-				"youtubeUrl" : "https://youtu.be/ZMKQv2Du5OU"
-			},
-			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
