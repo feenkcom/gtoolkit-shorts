@@ -3823,6 +3823,77 @@
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:27:55.510431+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:27:55.510431+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "obTTCwSsDQCd+H1gAG4cZQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*Now we can use the metacello script to load our repo.*"
+												},
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:28:00.606926+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-12T15:28:08.988828+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "5n4hDASsDQCd+VPHAG4cZQ=="
+													},
+													"code" : "SettingUpGithubRepoSlideShow <> #loadingTheRepo: "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
 														"items" : [
 															{
 																"__type" : "textSnippet",
@@ -3882,7 +3953,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-09T09:12:14.804135+01:00"
+															"dateAndTimeString" : "2022-12-12T15:27:55.511715+01:00"
 														}
 													},
 													"uid" : {
@@ -3892,7 +3963,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Now we can use the metacello script to load our repo. We copy-paste them to a Playground and run them one after the other.*  "
+													"string" : "*We copy-paste them to a Playground and run them one after the other.*  "
 												},
 												{
 													"__type" : "pharoSnippet",

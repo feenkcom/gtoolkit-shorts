@@ -465,7 +465,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T11:59:29.909929+01:00"
+						"dateAndTimeString" : "2022-12-12T15:31:06.390021+01:00"
 					}
 				},
 				"editEmail" : {
@@ -476,7 +476,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T11:59:36.578407+01:00"
+						"dateAndTimeString" : "2022-12-12T15:31:15.387181+01:00"
 					}
 				},
 				"uid" : {
@@ -486,7 +486,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Ask TG to elaborate the script"
+				"string" : "Had a session with TG to understand the demo"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1703,12 +1703,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-12T14:20:33.979095+01:00"
+			"dateAndTimeString" : "2022-12-12T15:31:03.221761+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Github API"
+		"title" : "Github API  — SCRIPTING"
 	},
 	"uid" : {
 		"__type" : "uuid",
