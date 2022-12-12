@@ -155,11 +155,18 @@ HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 ]
 
 { #category : #slides }
-HowToFindStuffSlideshow >> findingShortcuts: aSlide [
-	"This slide is intentionally empty. Run the snippet in the script to view the Finding shortcuts page."
-
+HowToFindStuffSlideshow >> findingShortcutsEmpty: aSlide [
 	<gtSlide>
-	^ aSlide headingAndCode priority: (self priorityFor: #findingShortcuts:)
+	^ aSlide empty 
+		  priority: (self priorityFor: #findingShortcutsEmpty:)
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> findingShortcutsPage: aSlide [
+	"<gtSlide>"
+	^ aSlide lepiterPage
+		  priority: (self priorityFor: #findingShortcutsPage:);
+		  pageNamed: 'Finding shortcuts' from: self myLepiterDB
 ]
 
 { #category : #slides }
@@ -250,7 +257,8 @@ HowToFindStuffSlideshow >> slidePriorities [
 			#exploringCharacterViews:
 		
 		drilling:
-			findingShortcuts:
+			#findingShortcutsEmpty:
+			"findingShortcutsPage:"
 		
 		closing:
 	)
