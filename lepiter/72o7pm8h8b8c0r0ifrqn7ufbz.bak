@@ -583,7 +583,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T14:37:13.040918+01:00"
+												"dateAndTimeString" : "2022-12-13T16:13:16.011964+01:00"
 											}
 										},
 										"uid" : {
@@ -593,7 +593,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and lepiter pages.* "
+										"string" : "*Hello. My name is Oscar Nierstrasz. Today I'd like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and Lepiter pages.* "
 									}
 								]
 							},
@@ -708,7 +708,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-25T10:36:26.770981+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-11-25T10:36:39.009924+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "4b/9/amqDQCu0BKMCXio/w=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Show the page at: [](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)  "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -740,43 +778,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*If not, you should first create a GitHub account and read the GitHub page about “Adding a new SSH key to your GitHub account”.* "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:36:26.770981+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T10:36:39.009924+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "4b/9/amqDQCu0BKMCXio/w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Show the page at: [](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)  "
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -2280,7 +2281,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T10:56:01.753977+01:00"
+												"dateAndTimeString" : "2022-12-13T16:15:13.793347+01:00"
 											}
 										},
 										"uid" : {
@@ -2290,7 +2291,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We edit the baseline  method to specify just the dependency on the GtStuff package. If we need to, we can later add other packages.* "
+										"string" : "*We edit the baseline method to specify just the dependency on the GtStuff package. If we need to, we can later add other packages.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2505,7 +2506,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T14:12:37.218291+01:00"
+												"dateAndTimeString" : "2022-12-13T16:15:49.69701+01:00"
 											}
 										},
 										"uid" : {
@@ -2515,7 +2516,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We'd like to have a lepiter database associated to our repo so we can document our project.* "
+										"string" : "*We'd like to have a Lepiter database associated to our repo so we can document our project.* "
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -2801,7 +2802,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T11:04:41.393707+01:00"
+												"dateAndTimeString" : "2022-12-13T16:15:59.595596+01:00"
 											}
 										},
 										"uid" : {
@@ -2811,7 +2812,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We can now add pages to the new lepiter database. We just add an empty page for now.*"
+										"string" : "*We can now add pages to the new Lepiter database. We just add an empty page for now.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -2880,7 +2881,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T11:06:15.808812+01:00"
+															"dateAndTimeString" : "2022-12-13T16:16:05.221274+01:00"
 														}
 													},
 													"uid" : {
@@ -2890,7 +2891,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Show the lepiter database status. "
+													"string" : "Show the Lepiter database status. "
 												}
 											]
 										},
@@ -2988,7 +2989,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T11:06:37.529304+01:00"
+												"dateAndTimeString" : "2022-12-13T16:18:19.957159+01:00"
 											}
 										},
 										"uid" : {
@@ -2998,7 +2999,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Now that the page has synced, we can commit the changes to our lepiter database to the repo.* "
+										"string" : "*Now that the page has synced, we can commit the changes to our Lepiter database to the repo.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3097,7 +3098,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T16:01:39.952089+01:00"
+												"dateAndTimeString" : "2022-12-13T16:16:10.367208+01:00"
 											}
 										},
 										"uid" : {
@@ -3107,7 +3108,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We'll add a class-side method to the Baseline class to automate the loading of the new lepiter database.* "
+										"string" : "*We'll add a class-side method to the Baseline class to automate the loading of the new Lepiter database.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3139,7 +3140,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-09T09:06:09.797416+01:00"
+															"dateAndTimeString" : "2022-12-13T16:18:30.442973+01:00"
 														}
 													},
 													"uid" : {
@@ -3149,7 +3150,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*This is mostly boilerplate code. The only thing to change is the path to the folder containing the lepiter database to be loaded.* "
+													"string" : "*This is mostly boilerplate code. The only thing to change is the path to the folder containing the Lepiter database to be loaded.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3214,7 +3215,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T11:16:19.204938+01:00"
+															"dateAndTimeString" : "2022-12-13T16:18:37.159006+01:00"
 														}
 													},
 													"uid" : {
@@ -3224,7 +3225,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*This code will find the lepiter folder in our cloned repo and add it to the registry of lepiter databases.* "
+													"string" : "*This code will find the Lepiter folder in our cloned repo and add it to the registry of Lepiter databases.* "
 												}
 											]
 										},
@@ -3359,7 +3360,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T15:26:37.740713+01:00"
+												"dateAndTimeString" : "2022-12-13T16:16:23.807495+01:00"
 											}
 										},
 										"uid" : {
@@ -3369,7 +3370,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We now would like to automate the process of loading the project packages and the lepiter database.* "
+										"string" : "*We now would like to automate the process of loading the project packages and the Lepiter database.* "
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -3543,7 +3544,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-08T11:20:21.166891+01:00"
+												"dateAndTimeString" : "2022-12-13T16:16:28.544+01:00"
 											}
 										},
 										"uid" : {
@@ -3553,7 +3554,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Let's remove the repository from our image and from trhe file system so that we can test the load scripts.* "
+										"string" : "*Let's remove the repository from our image and from the file system so that we can test the load scripts.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3728,7 +3729,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-25T16:08:17.319179+01:00"
+												"dateAndTimeString" : "2022-12-13T16:16:43.999745+01:00"
 											}
 										},
 										"uid" : {
@@ -3738,7 +3739,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*The second one will add the cloned lepiter database to our gt lepiter registry.* "
+										"string" : "*The second one will add the cloned Lepiter database to our GT Lepiter registry.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3953,7 +3954,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-12T15:27:55.511715+01:00"
+															"dateAndTimeString" : "2022-12-13T16:16:56.675194+01:00"
 														}
 													},
 													"uid" : {
@@ -3963,7 +3964,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*We copy-paste them to a Playground and run them one after the other.*  "
+													"string" : "*We copy-paste the scripts to a Playground and run them one after the other.*  "
 												},
 												{
 													"__type" : "pharoSnippet",
@@ -4092,7 +4093,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-09T09:09:16.997216+01:00"
+												"dateAndTimeString" : "2022-12-13T16:17:08.253052+01:00"
 											}
 										},
 										"uid" : {
@@ -4102,7 +4103,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We also run the loadLepiter script to load the lepiter database from the cloned repo into our image.* "
+										"string" : "*We also run the loadLepiter script to load the Lepiter database from the cloned repo into our image.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -4166,7 +4167,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-09T09:15:40.313819+01:00"
+												"dateAndTimeString" : "2022-12-13T16:17:13.552406+01:00"
 											}
 										},
 										"uid" : {
@@ -4176,7 +4177,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Similarly, the Lepiter tool shows that our lepiter database is back again.* "
+										"string" : "*Similarly, the Lepiter tool shows that our Lepiter database is back again.* "
 									}
 								]
 							},
@@ -4485,12 +4486,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-08T12:10:47.152798+01:00"
+			"dateAndTimeString" : "2022-12-12T15:30:51.815706+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Setting up a GT github repo — REVISING"
+		"title" : "Setting up a GT github repo — READY TO RECORD"
 	},
 	"uid" : {
 		"__type" : "uuid",
