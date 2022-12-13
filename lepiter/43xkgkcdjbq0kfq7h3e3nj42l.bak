@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T15:54:20.924226+01:00"
+						"dateAndTimeString" : "2022-12-13T09:36:57.727517+01:00"
 					}
 				},
 				"uid" : {
@@ -129,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T15:39:02.669111+01:00"
+						"dateAndTimeString" : "2022-12-13T09:37:15.602828+01:00"
 					}
 				},
 				"editEmail" : {
@@ -140,12 +140,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T15:39:02.669111+01:00"
+						"dateAndTimeString" : "2022-12-13T09:37:16.705347+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "UcOXMwSsDQCm2H04DPBoRQ=="
+					"uidString" : "etaOQxOsDQCnjcOYB4kU4Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtPage:Working with a REST API: The GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}} "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-13T09:22:39.190668+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-13T09:36:42.696995+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WhgyDxOsDQCnF93sB4kU4Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -1653,7 +1690,7 @@
 							"string" : ""
 						},
 						{
-							"__type" : "pharoSnippet",
+							"__type" : "exampleSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -1666,7 +1703,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-12T16:46:07.69179+01:00"
+									"dateAndTimeString" : "2022-12-12T16:46:30.753959+01:00"
 								}
 							},
 							"editEmail" : {
@@ -1677,14 +1714,20 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-12T16:46:07.69179+01:00"
+									"dateAndTimeString" : "2022-12-12T16:46:30.753959+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "J7yAIwWsDQCnsiL3DPBoRQ=="
+								"uidString" : "wKLgJAWsDQCns40aDPBoRQ=="
 							},
-							"code" : ""
+							"exampleSelector" : "feenkcomOrganization",
+							"previewHeight" : 300,
+							"previewShowSelector" : "gtViewsFor:",
+							"exampleBehaviorName" : "GhOrganizationExamples",
+							"codeExpanded" : true,
+							"previewExpanded" : true,
+							"noCode" : true
 						},
 						{
 							"__type" : "textSnippet",

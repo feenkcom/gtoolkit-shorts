@@ -924,7 +924,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-01T14:48:54.616331+01:00"
+									"dateAndTimeString" : "2022-12-13T09:20:49.960044+01:00"
 								}
 							},
 							"uid" : {
@@ -934,7 +934,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "NB: *Make sure it is scaled to 100% (or you will get a low-res video). Set the canvas to be the same size as the full demo track."
+							"string" : "NB: *Make sure it is scaled to 75%* (or you will get a low-res video). Set the canvas to be the same size as the full demo track. Typically the project canvas should be 1920 x 1040. Defauly is 1080, but if you crop the toolbar from the top of the demo track, you are left with a height of 1040."
 						},
 						{
 							"__type" : "textSnippet",
@@ -1295,7 +1295,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-11-18T09:09:10.869607+01:00"
+									"dateAndTimeString" : "2022-12-13T09:21:25.991985+01:00"
 								}
 							},
 							"uid" : {
@@ -1305,7 +1305,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Also upload the script for the closed captions. If you ensured that all spoken text started with a `*` or a ` in the text snippets, then you can easily extract the script from the lepiter page."
+							"string" : "Also upload the script for the closed captions. If you ensured that all spoken text started with a `*` or a ` in the text snippets, then you can easily extract the script from the lepiter page. You can find the corresponding “Raw script view"
 						},
 						{
 							"__type" : "textSnippet",
