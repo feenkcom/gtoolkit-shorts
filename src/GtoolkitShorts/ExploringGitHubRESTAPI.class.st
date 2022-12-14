@@ -21,6 +21,12 @@ ExploringGitHubRESTAPI >> closing: aSlide [
 				bold)
 ]
 
+{ #category : #slides }
+ExploringGitHubRESTAPI >> introEmpty: aSlide [
+	<gtSlide>
+	^ aSlide empty priority: (self priorityFor: #introEmpty:)
+]
+
 { #category : #constants }
 ExploringGitHubRESTAPI >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."

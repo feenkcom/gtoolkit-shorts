@@ -137,5 +137,5 @@ SettingUpGithubRepoSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
-		titleWithFormat: (self asTitle: 'How to set up a GT github repo in 7''')
+		titleWithFormat: (self asTitle: 'How to set up a GT GitHub repo in 7''')
 ]

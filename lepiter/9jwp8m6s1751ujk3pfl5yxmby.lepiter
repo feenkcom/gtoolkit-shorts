@@ -247,6 +247,117 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:06:35.108373+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:06:35.108373+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "P4PioCisDQCpQsN1Bz+nDg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Start with MyOrganization new rawData: .."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:06:39.118953+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:06:39.118953+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "s7YfoSisDQCpQ2b2Bz+nDg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Pattern for reverse engineering: wrap data in an object, and create methods to extract information from the raw data. Afterwards we might just extract the interesting information."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:06:53.929091+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T11:08:14.815049+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "h64BoiisDQCpRNL1Bz+nDg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "If we inspect the object we just get a raw data view.\nSuppose we want to find the repositories.\nThe tree view raw data is not convenient to browse.\nWe can double-click to dive into the dictionary view.\nSee variety of interesting properties."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-12-13T14:22:32.421066+01:00"
 								}
 							},
@@ -258,7 +369,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:54.516896+01:00"
+									"dateAndTimeString" : "2022-12-14T11:06:53.930486+01:00"
 								}
 							},
 							"uid" : {
@@ -268,7 +379,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Start with MyOrganization new rawData: ..\nPattern for reverse engineering: wrap data in an object, and create methods to extract information from the raw data. Afterwards we might just extract the interesting information.\nIf we inspect the object we just get a raw data view.\nSuppose we want to find the repositories.\nThe tree view raw data is not convenient to browse.\nWe can double-click to dive into the dictionary view.\nSee variety of interesting properties.\nWe see repos_url, and can open a playground to inspect rawdata at: repos_url.\nAssign to url.\nUse this URL as an endpoint.\nCopy-paste the json:= snippet.\nInspect the result.\nCopy-paste the parse code in a *new* snippet and evaluate.\nThis time we get an array of dictionaries.\nNB: we only get 30 repos without a development key.\nChange dictionary:= to repos:=\nWe merge the two snippets.\nSelect all and extract method.\nExpand code to see what has been generated."
+							"string" : "We see repos_url, and can open a playground to inspect rawdata at: repos_url.\nAssign to url.\nUse this URL as an endpoint.\nCopy-paste the json:= snippet.\nInspect the result.\nCopy-paste the parse code in a *new* snippet and evaluate.\nThis time we get an array of dictionaries.\nNB: we only get 30 repos without a development key.\nChange dictionary:= to repos:=\nWe merge the two snippets.\nSelect all and extract method.\nExpand code to see what has been generated."
 						},
 						{
 							"__type" : "textSnippet",
