@@ -358,6 +358,80 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "s9hc0SasDQCZGjXgCgAf/A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We go back to the Org view and now we see MyRepo for each repo.\nNot so nice, since we would like to see the name.\nPick one repo and look at its raw data.\nInstead of expanding the rawdata tree we dive into the dictionary.\nWe find full_name.\nWe evaluate rawdata at: 'full_name' in the playground and extract the method.\nNow go back and update the view.\nAdd itemText:[:each|each fullName].\nThe view refreshes live."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T08:45:30.806513+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T08:57:06.200896+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "t4VfqCasDQCZF/rgCgAf/A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "(53:30) It's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
 								}
 							},
@@ -369,7 +443,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
+									"dateAndTimeString" : "2022-12-14T09:00:40.558236+01:00"
 								}
 							},
 							"uid" : {
@@ -379,7 +453,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We go back to the Org view and now we see MyRepo for each repo.\nNot so nice, since we would like to see the name.\nPick one repo and look at its raw data.\nInstead of expanding the rawdata tree we dive into the dictionary.\nWe find full_name.\nWe evaluate rawdata at: 'full_name' in the playground and extract the method.\nNow go back and update the view.\nAdd itemText:[:each|each fullName].\nThe view refreshes live.\nIt's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object.\nThe pattern is always: wrap some data, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc"
+							"string" : "(54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc"
 						}
 					]
 				},
@@ -433,6 +507,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-13T14:37:37.111477+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-13T14:37:39.080742+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "F/nBdResDQCSGZORC6BcoQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Don't look at the static code.\nInstead explore the org object and navigate to contributors.\nWe look at the gtContribitorsFor: view.\nIt's an explicit view.\nThere's a lot of stuff, but I can see there is self contributors.\nI dive into the code and see it comes from a URL."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2022-12-13T14:21:32.10275+01:00"
 								}
 							},
@@ -444,7 +555,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:22.983799+01:00"
+									"dateAndTimeString" : "2022-12-13T14:37:37.113263+01:00"
 								}
 							},
 							"uid" : {
@@ -454,7 +565,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Don't look at the static code.\nInstead explore the org object and navigate to contributors.\nWe look at the gtContribitorsFor: view.\nIt's an explicit view.\nThere's a lot of stuff, but I can see there is self contributors.\nI dive into the code and see it comes from a URL.\n\nContinue viewing from 1:00:00\n\nThe views also tell me what other people found interesting, and so serve as documentation."
+							"string" : "The views also tell me what other people found interesting, and so serve as documentation."
 						}
 					]
 				},

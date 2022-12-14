@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:24:55.978311+01:00"
+									"dateAndTimeString" : "2022-12-14T08:39:49.286806+01:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "REST API book page. {{gtPage:Working with a REST API: The GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+							"string" : "REST API book page. {{gtPage:Working with a REST API: The GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}}   "
 						}
 					]
 				},
@@ -326,7 +326,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:19:27.26587+01:00"
+									"dateAndTimeString" : "2022-12-14T08:43:09.189698+01:00"
 								}
 							},
 							"uid" : {
@@ -336,7 +336,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "##Start slideshow"
+							"string" : "## Start slideshow"
 						},
 						{
 							"__type" : "textSnippet",
@@ -435,7 +435,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:19:41.233965+01:00"
+									"dateAndTimeString" : "2022-12-14T08:43:23.694317+01:00"
 								}
 							},
 							"uid" : {
@@ -445,13 +445,51 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "#Title"
+							"string" : "## Title"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T09:03:29.157128+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T09:04:50.057003+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "my9T6CasDQCZH3+DCgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We want to understand how to get useful information out of the GitHub REST API. Of course we can stare at the documentation, but instead we will explore the live data in GT, and "
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -461,7 +499,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:29:44.73445+01:00"
+									"dateAndTimeString" : "2022-12-14T08:42:55.43861+01:00"
 								}
 							},
 							"editEmail" : {
@@ -472,7 +510,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:29:44.73445+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:10.749372+01:00"
 								}
 							},
 							"uid" : {
@@ -482,7 +520,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "## Intro"
 						},
 						{
 							"__type" : "textSnippet",
@@ -498,7 +536,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:29:54.264697+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.12222+01:00"
 								}
 							},
 							"editEmail" : {
@@ -509,12 +547,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:29:54.264697+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.12222+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "lIIrWhesDQCSEV52C6BcoQ=="
+								"uidString" : "Q6uS5yasDQCZHLCUCgAf/A=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -535,7 +573,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:33:32.870479+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.395769+01:00"
 								}
 							},
 							"editEmail" : {
@@ -546,17 +584,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:34:56.713799+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.395769+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "VTnOZhesDQCSE7bVC6BcoQ=="
+								"uidString" : "49eW5yasDQCZHfLgCgAf/A=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We start with some data, and we want to explore it. We wrap it. We explore. We navigate to something interesting. We turn the navigation code into a method. We generate a view for the data."
+							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",
@@ -572,7 +610,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:34:59.776943+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.637246+01:00"
 								}
 							},
 							"editEmail" : {
@@ -583,49 +621,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:35:13.687789+01:00"
+									"dateAndTimeString" : "2022-12-14T09:03:11.637246+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "EazVahesDQCSFiiTC6BcoQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We wrap the data and create a new domain object. We iterate."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:33:26.490985+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:33:26.490985+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ktPRZhesDQCSFG9RC6BcoQ=="
+								"uidString" : "GIea5yasDQCZHmbpCgAf/A=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -668,6 +669,118 @@
 								"__type" : "textStyle"
 							},
 							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:45:35.622408+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T09:01:22.321674+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "3xWhqCasDQCZGfJiCgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "TG (paraphrased): (54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc And that's it."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:44:14.321376+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:44:14.321376+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "AHfQoyasDQCZCnH8CgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T08:44:05.514085+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-14T09:03:18.165938+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "UK12oSasDQCZAJLPCgAf/A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## The cycle (at end?)"
 						},
 						{
 							"__type" : "textSnippet",
@@ -2230,7 +2343,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-13T14:20:35.717298+01:00"
+						"dateAndTimeString" : "2022-12-14T08:43:14.463324+01:00"
 					}
 				},
 				"uid" : {
@@ -2240,7 +2353,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Script"
+				"string" : "# Script"
 			},
 			{
 				"__type" : "textSnippet",
