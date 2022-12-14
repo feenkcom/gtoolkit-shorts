@@ -42,11 +42,6 @@ GtCodeSnippetsSlide >> addSnippet: aSnippetElement [
 ]
 
 { #category : #accessing }
-GtCodeSnippetsSlide >> addTextSnippet: aString [
-	self addTextSnippetV2: aString
-]
-
-{ #category : #accessing }
 GtCodeSnippetsSlide >> addTextSnippetV1: aString [
 	self addSnippet: (BlTextElement new text: aString asRopedText)
 ]
@@ -189,8 +184,8 @@ GtCodeSnippetsSlide >> example [
 	<gtExample>
 	^ GtCodeSnippetsSlide new
 		heading: 'Slide Heading';
-		addTextSnippet: 'A plain text snippet';
-		addTextSnippet: ('A formatted text snippet' asRopedText
+		typeTextSnippet: 'A plain text snippet';
+		typeTextSnippet: ('A formatted text snippet' asRopedText
 				glamorousRegularFont;
 				bold;
 				fontSize: 24);
@@ -216,8 +211,8 @@ GtCodeSnippetsSlide >> exampleSlide: aSlide [
 	^ aSlide headingAndCode
 		priority: 10;
 		heading: 'Slide Heading';
-		addTextSnippet: 'A plain text snippet';
-		addTextSnippet: ('A formatted text snippet' asRopedText
+		typeTextSnippet: 'A plain text snippet';
+		typeTextSnippet: ('A formatted text snippet' asRopedText
 				glamorousRegularFont;
 				bold;
 				fontSize: 18);
@@ -365,4 +360,9 @@ GtCodeSnippetsSlide >> snippets [
 { #category : #accessing }
 GtCodeSnippetsSlide >> topMargin: aNumber [
 	self margin: (self margin withTop: aNumber)
+]
+
+{ #category : #accessing }
+GtCodeSnippetsSlide >> typeTextSnippet: aString [
+	self addTextSnippetV2: aString
 ]

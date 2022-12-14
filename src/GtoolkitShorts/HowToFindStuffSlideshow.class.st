@@ -38,13 +38,13 @@ HowToFindStuffSlideshow >> abstractMethods: aSlide [
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractMethods:);
 		heading: 'Which methods are abstract?';
-		addTextSnippet: 'We can query for senders of subclassResponsibility';
+		typeTextSnippet: 'We can query for senders of subclassResponsibility';
 		addCodeSnippet: 'String methods 
 	select: [: m | 
 		m sendsSelector: #subclassResponsibility ]';
-		addTextSnippet: 'Better yet, we just ask if they are abstract';
+		typeTextSnippet: 'Better yet, we just ask if they are abstract';
 		addCodeSnippet: 'String methods select: #isAbstract';
-		addTextSnippet: '... and we can find all classes in a hierarchy with abstract methods';
+		typeTextSnippet: '... and we can find all classes in a hierarchy with abstract methods';
 		addCodeSnippet: 'Collection withAllSubclasses
 	select: [ :class | class methods 
 		anySatisfy: #isAbstract ]'

@@ -5,6 +5,14 @@ Class {
 }
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> apiEndpoint: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #apiEndpoint:);
+		titleWithFormat: (self asBigCode: 'https://api.github.com/orgs/feenkcom')
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -22,7 +30,30 @@ ExploringGitHubRESTAPI >> closing: aSlide [
 ]
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
+	<gtSlide>
+	| typist |
+	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #extractingRawDataPage:);
+		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
+		onEveryAddToSceneGraphDo: [ typist
+				clearPage;
+				addCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> gettingRawData: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #gettingRawData:);
+		titleWithFormat: (self asHeader: 'Getting the raw data')
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> introEmpty: aSlide [
+	"Empty slide to show github rest api docs in foreground"
+
 	<gtSlide>
 	^ aSlide empty priority: (self priorityFor: #introEmpty:)
 ]
@@ -34,6 +65,12 @@ ExploringGitHubRESTAPI >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
+
+		introEmpty:
+
+		gettingRawData:
+			apiEndpoint:
+			extractingRawDataPage:
 		
 		closing:
 	)
@@ -45,4 +82,18 @@ ExploringGitHubRESTAPI >> titleSlide: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleWithFormat: (self asTitle: 'Exploring the GitHub REST API in 7''')
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> typingPageDemo: aSlide [
+	"<gtSlide>"
+	| typist |
+	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #extractingRawDataPage:);
+		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
+		onEveryAddToSceneGraphDo: [ typist
+				clearPage;
+				typeFast;
+				typeCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
 ]

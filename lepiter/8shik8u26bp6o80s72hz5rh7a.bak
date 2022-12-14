@@ -124,6 +124,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[How to find stuff in GT]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-10-17T18:33:15.029055+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:38:17.024926+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "uyWLRJ+nDQC93T4lBA5+dw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Setting up a GT github repo]] "
 									}
 								]
 							},
@@ -163,43 +200,6 @@
 							"children" : {
 								"__type" : "snippets",
 								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-17T18:33:15.029055+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-14T08:38:17.024926+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "uyWLRJ+nDQC93T4lBA5+dw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Setting up a GT github repo]] "
-									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
