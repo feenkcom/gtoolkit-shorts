@@ -1,9 +1,19 @@
+"
+A Typist will type into a given page.
+
+typist := Typist onPageNamed: 'Test page' from: thisSnippet database databaseName  .
+typist clearPage.
+typist typeTextSnippet: 'foobar'.
+typist typeCodeSnippet: '3 + 4'.
+
+"
 Class {
 	#name : #Typist,
 	#superclass : #Object,
 	#instVars : [
 		'page',
-		'wordsPerMinute'
+		'wordsPerMinute',
+		'worker'
 	],
 	#category : #'GtoolkitShorts-Slideshows'
 }
@@ -24,29 +34,26 @@ Typist class >> onPageNamed: aPageName from: aLepiterBaseName [
 ]
 
 { #category : #accessing }
-Typist >> addCodeSnippet: aString [
-	self page addSnippet: (LePharoSnippet new code: aString)
+Typist >> addCodeSnippet [
+	self schedule: [ self page addSnippet: LePharoSnippet new ]
 ]
 
 { #category : #accessing }
-Typist >> addTextSnippet: aString [
-	self page addSnippet: (LeTextSnippet new string: aString)
+Typist >> addTextSnippet [
+	self schedule: [ self page addSnippet: LeTextSnippet new ]
 ]
 
 { #category : #accessing }
 Typist >> clearPage [
-	[ self page children notEmpty ]
-		whileTrue: [ self page removeSnippet: page children last ]
-]
-
-{ #category : #constants }
-Typist >> defaultWordsPerMinute [
-	^ 180
+	self
+		schedule: [ [ self page children notEmpty ]
+				whileTrue: [ self page removeSnippet: page children last ] ]
 ]
 
 { #category : #accessing }
 Typist >> initialize [
-	self typeFast
+	worker := AsyncFutureThreadPoolWorker new.
+	worker startup
 ]
 
 { #category : #accessing }
@@ -60,51 +67,29 @@ Typist >> page: aPage [
 ]
 
 { #category : #typing }
-Typist >> secondsPerCharacter [
-	^ 60 / (self wordsPerMinute * 5)
+Typist >> schedule: aBlock [
+	worker schedule: (AsyncPendingFuturePromise new future: aBlock asAsyncFuture)
 ]
 
 { #category : #typing }
-Typist >> typeCodeSnippet: aString [
-	self typeText: aString intoNewSnippet: LePharoSnippet new
-]
-
-{ #category : #accessing }
-Typist >> typeFast [
-	self wordsPerMinute: 2 * self defaultWordsPerMinute
-]
-
-{ #category : #accessing }
-Typist >> typeFaster [
-	self wordsPerMinute: 2 * self wordsPerMinute
-]
-
-{ #category : #accessing }
-Typist >> typeSlow [
-	self wordsPerMinute: self defaultWordsPerMinute
+Typist >> type: aString [
+	self
+		schedule: [ aString do: [ :char | self page lastChildOrSelf appendText: char asRopedText ] ]
 ]
 
 { #category : #typing }
-Typist >> typeText: aString intoNewSnippet: aSnippet [
-	self page addSnippet: aSnippet.
-	[ aString
-		do: [ :char | 
-			aSnippet appendText: char asRopedText.
-			self secondsPerCharacter seconds asDelay wait ] ] fork
+Typist >> type: aString inGroupsOf: groupSize [
+	self
+		schedule: [ (aString groupsOf: groupSize)
+				do: [ :char | self page lastChildOrSelf appendText: char asRopedText ] ]
 ]
 
 { #category : #typing }
-Typist >> typeTextSnippet: aString [
-	self typeText: aString intoNewSnippet: LeTextSnippet new
+Typist >> typeFast: aString [
+	self type: aString inGroupsOf: 2
 ]
 
-{ #category : #accessing }
-Typist >> wordsPerMinute [
-	^ wordsPerMinute
-]
-
-{ #category : #accessing }
-Typist >> wordsPerMinute: aNumber [
-
-	wordsPerMinute := aNumber
+{ #category : #typing }
+Typist >> typeFaster: aString [
+	self type: aString inGroupsOf: 4
 ]

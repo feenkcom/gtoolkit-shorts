@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-14T16:18:40.273133+01:00"
+						"dateAndTimeString" : "2022-12-14T16:19:48.664872+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[howto]] "
+				"string" : "[[howto]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -141,7 +141,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-14T16:19:18.739936+01:00"
+						"dateAndTimeString" : "2022-12-14T16:19:25.658245+01:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +151,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See also: [[How to programmatically type snippets"
+				"string" : "See also: [[How to programmatically type snippets in a given page]] "
 			},
 			{
 				"__type" : "textSnippet",
