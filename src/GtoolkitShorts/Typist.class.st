@@ -35,10 +35,8 @@ Typist >> addTextSnippet: aString [
 
 { #category : #accessing }
 Typist >> clearPage [
-	self page children items: {}.
-	"Hack"
-	self page addSnippet: (LeTextSnippet new string: '').
-	self page children items: {}.
+	[ self page children notEmpty ]
+		whileTrue: [ self page removeSnippet: page children last ]
 ]
 
 { #category : #constants }

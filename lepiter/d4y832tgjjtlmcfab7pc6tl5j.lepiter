@@ -271,7 +271,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-14T16:33:33.378013+01:00"
+						"dateAndTimeString" : "2022-12-15T09:19:44.307185+01:00"
 					}
 				},
 				"editEmail" : {
@@ -282,14 +282,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-14T16:57:05.183095+01:00"
+						"dateAndTimeString" : "2022-12-15T09:19:48.84081+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "9ZE5Mi2sDQCxZ3GTB5Lo3Q=="
+					"uidString" : "DticQDusDQCEVYJEDvBUkg=="
 				},
-				"code" : "page children items: {}.\rpage announceTreeChanged: page."
+				"code" : "[ page children notEmpty ] whileTrue: [ page removeSnippet: page children last ]"
 			},
 			{
 				"__type" : "textSnippet",
