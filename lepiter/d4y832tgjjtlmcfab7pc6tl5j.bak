@@ -253,14 +253,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T16:08:04.35343+01:00"
+									"dateAndTimeString" : "2022-12-15T16:08:33.044601+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "CiCwq0CsDQCbYBvgDz8IdA=="
 							},
-							"code" : "typist clearPage.\rtypist addTextSnippet.\rtypist type: 'Typing at normal speed'.\rtypist addTextSnippet.\rtypist typeFast: 'Typing quite fast'.\rtypist addCodeSnippet.\rtypist typeFaster: 'Smalltalk compiler evaluate: ''3 + 4'''."
+							"code" : "typist clearPage.\rtypist addTextSnippet.\rtypist type: 'Typing at normal speed.'.\rtypist addTextSnippet.\rtypist typeFast: 'Typing quite fast.'.\rtypist addTextSnippet.\rtypist typeFaster: 'And typing very fast.'.\rtypist addCodeSnippet.\rtypist typeFaster: 'Smalltalk compiler evaluate: ''3 + 4'''."
 						},
 						{
 							"__type" : "textSnippet",
