@@ -84,81 +84,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:06:18.345219+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:06:25.01791+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "mSBeEDusDQCEOhgBDvBUkg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[TG]] suggests:"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:39:28.717678+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:39:28.717678+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "gH81hzusDQCEYu4gDvBUkg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "What I’d consider changing:"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-15T13:07:41.345606+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-15T13:08:05.985462+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ARG4bz6sDQCS+i74Dz8IdA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "However this is less convenient that doing it from an existing package."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -179,7 +143,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:39:29.817322+01:00"
+									"dateAndTimeString" : "2022-12-15T13:08:08.392053+01:00"
 								}
 							},
 							"uid" : {
@@ -189,7 +153,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "the baseline can be created and browsed directly from the Git tool\n"
+							"string" : "The baseline can be created and browsed directly from the Git tool."
 						},
 						{
 							"__type" : "textSnippet",
@@ -210,7 +174,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-15T09:39:40.989906+01:00"
+												"dateAndTimeString" : "2022-12-15T13:08:19.105648+01:00"
 											}
 										},
 										"editEmail" : {
@@ -221,7 +185,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-15T09:39:55.369446+01:00"
+												"dateAndTimeString" : "2022-12-15T13:09:06.723352+01:00"
 											}
 										},
 										"uid" : {
@@ -231,7 +195,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Unfortunately in the script we remove the repo before adding"
+										"string" : "Would have to revise the script to edit the README before committing all changes and deleting the repo."
 									}
 								]
 							},
@@ -243,7 +207,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:06:35.411106+01:00"
+									"dateAndTimeString" : "2022-12-15T13:08:59.19803+01:00"
 								}
 							},
 							"editEmail" : {
@@ -254,17 +218,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:39:29.818296+01:00"
+									"dateAndTimeString" : "2022-12-15T13:08:59.19803+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "9xgPETusDQCES4TBDvBUkg=="
+								"uidString" : "9c53dD6sDQCS/jDKDz8IdA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The readme can also be edited from the Git tool"
+							"string" : "The README can also be edited from the Git tool "
 						},
 						{
 							"__type" : "textSnippet",
@@ -280,7 +244,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:06:50.913295+01:00"
+									"dateAndTimeString" : "2022-12-15T13:09:16.085388+01:00"
 								}
 							},
 							"editEmail" : {
@@ -291,17 +255,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T09:06:50.913295+01:00"
+									"dateAndTimeString" : "2022-12-15T13:09:25.692756+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "K8qDEjusDQCETMqrDvBUkg=="
+								"uidString" : "x8lhdT6sDQCTBbEpDz8IdA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Add a tip: save the load scripts in a dedicated pa"
 						}
 					]
 				},
@@ -324,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T09:06:14.491106+01:00"
+						"dateAndTimeString" : "2022-12-15T13:07:22.490757+01:00"
 					}
 				},
 				"uid" : {
@@ -334,7 +298,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#TO FIX"
+				"string" : "##Things to improve"
 			},
 			{
 				"__type" : "textSnippet",
@@ -4632,12 +4596,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-15T09:06:08.062755+01:00"
+			"dateAndTimeString" : "2022-12-15T13:07:08.900448+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Setting up a GT github repo — TO FIX"
+		"title" : "Setting up a GT github repo"
 	},
 	"uid" : {
 		"__type" : "uuid",
