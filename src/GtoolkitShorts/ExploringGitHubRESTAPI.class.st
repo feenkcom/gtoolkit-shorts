@@ -30,6 +30,14 @@ ExploringGitHubRESTAPI >> closing: aSlide [
 ]
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> exploringTheData: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #exploringTheData:);
+		titleWithFormat: (self asHeader: 'Exploring the data')
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
 	<gtSlide>
 	| typist |
@@ -41,6 +49,19 @@ ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
 				clearPage;
 				addCodeSnippet;
 				typeQuickly: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> extractingRawDataPagePart2: aSlide [
+	<gtSlide>
+	| typist |
+	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #extractingRawDataPagePart2:);
+		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
+		onEveryAddToSceneGraphDo: [ typist
+				addCodeSnippet;
+				typeQuickly: '...' ]
 ]
 
 { #category : #slides }
@@ -74,6 +95,9 @@ ExploringGitHubRESTAPI >> slidePriorities [
 			extractingRawDataPage:
 		
 		wrappingTheData:
+			extractingRawDataPagePart2:
+		
+		exploringTheData:
 		
 		closing:
 	)
