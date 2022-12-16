@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-16T14:52:40.022628+01:00"
+						"dateAndTimeString" : "2022-12-16T15:04:36.923812+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,48 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-16T14:52:40.936074+01:00"
+						"dateAndTimeString" : "2022-12-16T15:04:39.854465+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "enIZBVSsDQCF8HVvAGVgIw=="
+					"uidString" : "u33UL1SsDQCPU0BcBqFCcA=="
 				},
 				"code" : "url := 'https://api.github.com/orgs/feenkcom'."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-16T14:53:15.540859+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-16T14:53:16.329188+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "lmk3B1SsDQCGB++tAGVgIw=="
-				},
-				"code" : "json := ZnClient new get: url."
 			}
 		]
 	},

@@ -73,6 +73,8 @@ ExploringGitHubRESTAPI >> slidePriorities [
 			apiEndpoint:
 			extractingRawDataPage:
 		
+		wrappingTheData:
+		
 		closing:
 	)
 ]
@@ -97,4 +99,12 @@ ExploringGitHubRESTAPI >> typingPageDemo: aSlide [
 				clearPage;
 				typeFast;
 				typeCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> wrappingTheData: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #wrappingTheData:);
+		titleWithFormat: (self asHeader: 'Wrapping the raw data in a live object')
 ]
