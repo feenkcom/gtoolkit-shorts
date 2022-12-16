@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:17.719183+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:16.967273+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:18.659678+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.547555+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rHabB0GsDQCfE1jRDz8IdA=="
+					"uidString" : "eYV4sVOsDQCDdw81AGVgIw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:18.7345+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.547821+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:19.166862+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.629404+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "wvSqB0GsDQCfFeglDz8IdA=="
+					"uidString" : "QGGBsVOsDQCDeiSqAGVgIw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:19.211464+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.629701+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,128 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:19.550988+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.713293+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "7zuyB0GsDQCfFysnDz8IdA=="
+					"uidString" : "F6GCsVOsDQCDfcUsAGVgIw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : "And typing very fast."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.713595+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.785291+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zuiDsVOsDQCDgGBAAGVgIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Now we should pause for 2 seconds. (Doesn't work ....?!)."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.785806+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.790112+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3wKFsVOsDQCDgyMsAGVgIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Typing quickly (2 chars at a time)."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.822224+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:17.825756+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "K5GFsVOsDQCDhu1hAGVgIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Typing very quickly (4 chars at a time)."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -129,7 +240,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:19.601122+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:17.828907+01:00"
 					}
 				},
 				"editEmail" : {
@@ -140,12 +251,154 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T16:13:20.319128+01:00"
+						"dateAndTimeString" : "2022-12-16T14:29:18.530988+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Ai64B0GsDQCfGcegDz8IdA=="
+					"uidString" : "O6uFsVOsDQCDh5SEAGVgIw=="
+				},
+				"code" : "Smalltalk compiler evaluate: '3 + 4'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.561412+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.565444+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "m9iQsVOsDQCDjERLAGVgIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Quickly:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.615888+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.939027+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ya2RsVOsDQCDj/uGAGVgIw=="
+				},
+				"code" : "Smalltalk compiler evaluate: '3 + 4'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.950896+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.954017+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CsqWsVOsDQCDkpoSAGVgIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Very quickly:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:18.959885+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-16T14:29:19.24559+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ge2WsVOsDQCDkz82AGVgIw=="
 				},
 				"code" : "Smalltalk compiler evaluate: '3 + 4'"
 			}

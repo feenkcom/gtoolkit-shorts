@@ -348,6 +348,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "The quick brown fox jumps over the lazy dog."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-16T14:02:53.624373+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-16T14:02:56.623339+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "YKAYU1OsDQCAdEDyAGVgIw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "The quick brown fox jumps over the lazy dog."
 									}
 								]
 							},

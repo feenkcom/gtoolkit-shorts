@@ -82,43 +82,6 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T13:37:31.638607+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-15T13:37:31.638607+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "bpeJ2j6sDQCaRmn+Dz8IdA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
 					"items" : [
 						{
 							"__type" : "textSnippet",
@@ -242,7 +205,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T15:47:35.56939+01:00"
+									"dateAndTimeString" : "2022-12-16T14:12:11.20772+01:00"
 								}
 							},
 							"editEmail" : {
@@ -253,14 +216,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T16:08:33.044601+01:00"
+									"dateAndTimeString" : "2022-12-16T14:28:34.643702+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "CiCwq0CsDQCbYBvgDz8IdA=="
+								"uidString" : "RKxUdFOsDQCAo/00AGVgIw=="
 							},
-							"code" : "typist clearPage.\rtypist addTextSnippet.\rtypist type: 'Typing at normal speed.'.\rtypist addTextSnippet.\rtypist typeFast: 'Typing quite fast.'.\rtypist addTextSnippet.\rtypist typeFaster: 'And typing very fast.'.\rtypist addCodeSnippet.\rtypist typeFaster: 'Smalltalk compiler evaluate: ''3 + 4'''."
+							"code" : "typist clearPage.\r\rtypist addTextSnippet.\rtypist type: 'Typing at normal speed.'.\r\rtypist addTextSnippet.\rtypist typeFaster.\rtypist type: 'Typing quite fast.'.\r\rtypist addTextSnippet.\rtypist typeFaster.\rtypist type: 'And typing very fast.'.\r\rtypist addTextSnippet.\rtypist typeQuickly: 'Now we should pause for 2 seconds.'.\rtypist typeQuickly: ' (Doesn''t work ....?!).'.\rtypist pauseFor: 2 seconds.\r\rtypist addTextSnippet.\rtypist typeQuickly: 'Typing quickly (2 chars at a time).'.\r\rtypist addTextSnippet.\rtypist typeVeryQuickly: 'Typing very quickly (4 chars at a time).'.\r\r\rtypist addCodeSnippet.\rtypist type: 'Smalltalk compiler evaluate: ''3 + 4'''.\r\rtypist addTextSnippet.\rtypist typeQuickly: 'Quickly:'.\rtypist addCodeSnippet.\rtypist typeQuickly: 'Smalltalk compiler evaluate: ''3 + 4'''.\r\r\rtypist addTextSnippet.\rtypist typeQuickly: 'Very quickly:'.\rtypist addCodeSnippet.\rtypist typeVeryQuickly: 'Smalltalk compiler evaluate: ''3 + 4'''"
 						},
 						{
 							"__type" : "textSnippet",
