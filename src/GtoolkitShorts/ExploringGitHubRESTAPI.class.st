@@ -39,7 +39,8 @@ ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
 		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
 		onEveryAddToSceneGraphDo: [ typist
 				clearPage;
-				addCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+				addCodeSnippet;
+				typeQuickly: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
 ]
 
 { #category : #slides }
