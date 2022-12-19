@@ -44,6 +44,20 @@ ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 ]
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
+	<gtSlide>
+	| typist |
+	typist := Typist onPageNamed: 'Exploring the data' from: self myLepiterDB.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #exploringTheDataPage:);
+		pageNamed: 'Exploring the data' from: self myLepiterDB;
+		onEveryAddToSceneGraphDo: [ typist
+				clearPage;
+				addCodeSnippet;
+				typeVeryQuickly: 'MyOrganization for: ''feenkcom''.' ]
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -93,6 +107,7 @@ ExploringGitHubRESTAPI >> slidePriorities [
 			extractingRawDataPagePart2:
 		
 		exploringTheData:
+			exploringTheDataPage:
 		
 		closing:
 	)

@@ -172,7 +172,7 @@ Typist >> typeSlower [
 
 { #category : #typing }
 Typist >> typeVeryQuickly: aString [
-	self type: aString inGroupsOf: 4
+	self type: aString inGroupsOf: 8
 ]
 
 { #category : #accessing }
