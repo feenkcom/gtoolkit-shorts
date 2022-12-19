@@ -5,6 +5,12 @@ Class {
 }
 
 { #category : #slides }
+ExploringGitHubRESTAPI class >> show [
+	"Implement this here just so we can run it directly from the Coder."
+	super show
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> apiEndpoint: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -40,28 +46,17 @@ ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 { #category : #slides }
 ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
 	<gtSlide>
-	| typist |
-	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #extractingRawDataPage:);
-		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
-		onEveryAddToSceneGraphDo: [ typist
-				clearPage;
-				addCodeSnippet;
-				typeQuickly: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+		pageNamed: 'Extracting the raw data' from: self myLepiterDB
 ]
 
 { #category : #slides }
 ExploringGitHubRESTAPI >> extractingRawDataPagePart2: aSlide [
 	<gtSlide>
-	| typist |
-	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #extractingRawDataPagePart2:);
-		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
-		onEveryAddToSceneGraphDo: [ typist
-				addCodeSnippet;
-				typeQuickly: '...' ]
+		pageNamed: 'Extracting the raw data' from: self myLepiterDB
 ]
 
 { #category : #slides }
