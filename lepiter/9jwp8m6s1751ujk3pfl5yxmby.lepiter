@@ -461,7 +461,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:22:35.976887+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:22:58.329495+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "y70LQBesDQCR6jV5C6BcoQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Now we copy the view of the dictionaries array to the org object.\nLook at the code of the print view to see how a view is implemented.\nWe see an annotation defined in Object with a title and a priority.\nA view is just a method in the object we are viewing.\nWe got to the Meta view of our object to add a new view.\nCreate gtReposFor: method.\nSave and continue editing in coder.\nCreate a \"list\" view with title, priority and items: [ self repos ]\nNeed to refresh to see the new view.\nNB: Can refresh by clicking on the |> button between the panes!"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -471,7 +509,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:35.976887+01:00"
+									"dateAndTimeString" : "2022-12-19T14:45:28.117941+01:00"
 								}
 							},
 							"editEmail" : {
@@ -482,23 +520,98 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:58.329495+01:00"
+									"dateAndTimeString" : "2022-12-19T14:45:33.629968+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "y70LQBesDQCR6jV5C6BcoQ=="
+								"uidString" : "WVTDRJCsDQCvAM3pCjf6pA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Now we copy the view of the dictionaries array to the org object.\nLook at the code of the print view to see how a view is implemented.\nWe see an annotation defined in Object with a title and a priority.\nA view is just a method in the object we are viewing.\nWe got to the Meta view of our object to add a new view.\nCreate gtReposFor: method.\nSave and continue editing in coder.\nCreate a \"list\" view with title, priority and items: [ self repos ]\nNeed to refresh to see the new view.\nNB: Can refresh by clicking on the |> button between the panes!"
+							"string" : "##Adding a view"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:22:38.946121+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:23:40.899753+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Kw85QBesDQCR7G+XC6BcoQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "From this view we don't want to get to a dictionary but to a Repo object.\nWe update the repos method to return an array of Repos instead of dictionaries.\nAdd a collect:[:each| ...]\nWe create a MyRepo, and then copy-paste the rawData: code.\nNB: We can evaluate the unary method directly from the inspector!\nWe reevaluate and inspect the result and get an array of Repos."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "s9hc0SasDQCZGjXgCgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We go back to the Org view and now we see MyRepo for each repo.\nNot so nice, since we would like to see the name.\nPick one repo and look at its raw data.\nInstead of expanding the rawdata tree we dive into the dictionary.\nWe find full_name.\nWe evaluate rawdata at: 'full_name' in the playground and extract the method.\nNow go back and update the view.\nAdd itemText:[:each|each fullName].\nThe view refreshes live."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -508,7 +621,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:38.946121+01:00"
+									"dateAndTimeString" : "2022-12-19T15:24:36.977978+01:00"
 								}
 							},
 							"editEmail" : {
@@ -519,23 +632,98 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:23:40.899753+01:00"
+									"dateAndTimeString" : "2022-12-19T15:25:00.773037+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Kw85QBesDQCR7G+XC6BcoQ=="
+								"uidString" : "6ibF0JCsDQCvyW+JCjf6pA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "From this view we don't want to get to a dictionary but to a Repo object.\nWe update the repos method to return an array of Repos instead of dictionaries.\nAdd a collect:[:each| ...]\nWe create a MyRepo, and then copy-paste the rawData: code.\nNB: We can evaluate the unary method directly from the inspector!\nWe reevaluate and inspect the result and get an array of Repos."
+							"string" : "##Adding new domain objects"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:45:30.806513+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:57:06.200896+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "t4VfqCasDQCZF/rgCgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(53:30) It's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T09:01:16.029171+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "tYmCQBesDQCR7qGFC6BcoQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc And that's it."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -545,7 +733,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+									"dateAndTimeString" : "2022-12-19T16:11:15.940001+01:00"
 								}
 							},
 							"editEmail" : {
@@ -556,91 +744,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:56:58.497168+01:00"
+									"dateAndTimeString" : "2022-12-19T16:11:29.438779+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "s9hc0SasDQCZGjXgCgAf/A=="
+								"uidString" : "XT6gd5GsDQCwju8+Cjf6pA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We go back to the Org view and now we see MyRepo for each repo.\nNot so nice, since we would like to see the name.\nPick one repo and look at its raw data.\nInstead of expanding the rawdata tree we dive into the dictionary.\nWe find full_name.\nWe evaluate rawdata at: 'full_name' in the playground and extract the method.\nNow go back and update the view.\nAdd itemText:[:each|each fullName].\nThe view refreshes live."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:45:30.806513+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:57:06.200896+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "t4VfqCasDQCZF/rgCgAf/A=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "(53:30) It's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T09:01:16.029171+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "tYmCQBesDQCR7qGFC6BcoQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "(54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc And that's it."
+							"string" : "##Summary"
 						}
 					]
 				},

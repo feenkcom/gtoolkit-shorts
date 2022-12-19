@@ -23,6 +23,16 @@ GtShortSlideShow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 ]
 
 { #category : #utility }
+GtShortSlideShow >> ensurePageNamed: aString [
+	| database |
+	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
+			databaseNamed: self myLepiterDB.
+	(database hasPageNamed: aString)
+		ifFalse: [ database addPage: (LePage named: aString) ].
+	^ database pageNamed: aString
+]
+
+{ #category : #utility }
 GtShortSlideShow >> fileIn: aFilename [
 	(self fileOuts / aFilename) fileIn
 ]

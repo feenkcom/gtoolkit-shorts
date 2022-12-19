@@ -36,6 +36,14 @@ ExploringGitHubRESTAPI >> closing: aSlide [
 ]
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> creatingAView: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #creatingAView:);
+		titleWithFormat: (self asHeader: 'Creating a view')
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -46,31 +54,22 @@ ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 { #category : #slides }
 ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 	<gtSlide>
-	| typist |
-	typist := Typist onPageNamed: 'Exploring the data' from: self myLepiterDB.
+	| pageName typist |
+	pageName := 'Exploring the GitHub REST API'.
+	self ensurePageNamed: pageName.
+	typist := Typist onPageNamed: pageName from: self myLepiterDB.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringTheDataPage:);
-		pageNamed: 'Exploring the data' from: self myLepiterDB;
-		onEveryAddToSceneGraphDo: [ typist
-				clearPage;
-				addCodeSnippet;
-				typeVeryQuickly: 'MyOrganization for: ''feenkcom''.' ]
+		pageNamed: pageName from: self myLepiterDB";
+		onEveryAddToSceneGraphDo: [ typist clearPage ]"
 ]
 
 { #category : #slides }
-ExploringGitHubRESTAPI >> extractingRawDataPage: aSlide [
+ExploringGitHubRESTAPI >> extractingNavigationCode: aSlide [
 	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #extractingRawDataPage:);
-		pageNamed: 'Extracting the raw data' from: self myLepiterDB
-]
-
-{ #category : #slides }
-ExploringGitHubRESTAPI >> extractingRawDataPagePart2: aSlide [
-	<gtSlide>
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #extractingRawDataPagePart2:);
-		pageNamed: 'Extracting the raw data' from: self myLepiterDB
+	^ aSlide title
+		priority: (self priorityFor: #extractingNavigationCode:);
+		titleWithFormat: (self asHeader: 'Extracting the navigation code')
 ]
 
 { #category : #slides }
@@ -89,6 +88,14 @@ ExploringGitHubRESTAPI >> introEmpty: aSlide [
 	^ aSlide empty priority: (self priorityFor: #introEmpty:)
 ]
 
+{ #category : #slides }
+ExploringGitHubRESTAPI >> introducingANewEntity: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #introducingANewEntity:);
+		titleWithFormat: (self asHeader: 'Introducing a new domain entity')
+]
+
 { #category : #constants }
 ExploringGitHubRESTAPI >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
@@ -101,13 +108,15 @@ ExploringGitHubRESTAPI >> slidePriorities [
 
 		gettingRawData:
 			apiEndpoint:
-			extractingRawDataPage:
+
+		exploringTheDataPage:
 		
 		wrappingTheData:
-			extractingRawDataPagePart2:
-		
 		exploringTheData:
-			exploringTheDataPage:
+		extractingNavigationCode:
+		creatingAView:
+		introducingANewEntity:
+		updatingTheView:
 		
 		closing:
 	)
@@ -133,6 +142,14 @@ ExploringGitHubRESTAPI >> typingPageDemo: aSlide [
 				clearPage;
 				typeFast;
 				typeCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> updatingTheView: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #updatingTheView:);
+		titleWithFormat: (self asHeader: 'Updating the view')
 ]
 
 { #category : #slides }
