@@ -5116,7 +5116,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-20T10:14:08.767072+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2022-12-20T10:14:13.557217+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "N/5XmKCsDQCziF/MBFfxRw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Switch to Keynote for now."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -5148,43 +5186,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*To sum up, the moldable development lifecycle looks like this:* "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-20T10:14:08.767072+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-20T10:14:13.557217+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "N/5XmKCsDQCziF/MBFfxRw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Switch to Keynote for now."
 									},
 									{
 										"__type" : "textSnippet",

@@ -180,6 +180,7 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 
 { #category : #slides }
 HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
+	<gtExample>
 	| pageName page |
 	pageName := 'Exploring Character views'.
 	page := self ensureEmptyPageNamed: pageName.
@@ -192,6 +193,7 @@ HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
 
 { #category : #slides }
 HowToFindStuffSlideshow >> initFindingShortcutsPage [
+	<gtExample>
 	| pageName page |
 	pageName := 'Finding shortcuts'.
 	page := self ensureEmptyPageNamed: pageName.

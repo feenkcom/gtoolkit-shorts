@@ -76,6 +76,40 @@ ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 		titleWithFormat: (self asHeader: 'Getting the raw data')
 ]
 
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> initFinalExploringDataPage [
+	<gtExample>
+	| pageName page |
+	pageName := 'Exploring the GitHub REST API'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'First we get the API URL.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'url := ''https://api.github.com/orgs/feenkcom''.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'We download the API endpoint.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'json := ZnClient new get: url.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'We can parse the JSON.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'dictionary := STON fromString: json.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'We wrap the data in an Organization object.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'MyOrganization new rawData: dictionary.';
+				yourself);
+		yourself
+]
+
 { #category : #slides }
 ExploringGitHubRESTAPI >> introEmpty: aSlide [
 	"Empty slide to show github rest api docs in foreground"
