@@ -158,8 +158,9 @@ ExploringGitHubRESTAPI >> summary: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #summary:);
-		titleWithFormat: (self asHeader: 'Summary — moldable development
-of executable domain models')
+		titleWithFormat: (self asHeader: 'Moldable development');
+		subtitleWithFormat: (self
+				asHeader: 'of executable domain models')
 ]
 
 { #category : #slides }
