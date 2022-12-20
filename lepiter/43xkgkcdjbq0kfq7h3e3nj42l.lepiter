@@ -246,7 +246,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:08.388332+01:00"
+									"dateAndTimeString" : "2022-12-20T16:07:51.276922+01:00"
 								}
 							},
 							"editEmail" : {
@@ -257,17 +257,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:36.265582+01:00"
+									"dateAndTimeString" : "2022-12-20T16:08:09.56662+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "2MVR/aOsDQCqIPbaCJJpgw=="
+								"uidString" : "QxpLiaWsDQCW2svgAK6tjg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Prepare dry run for review."
+							"string" : "Change the keynote slides to show the domain object changing as we extract methods and add views."
 						},
 						{
 							"__type" : "textSnippet",

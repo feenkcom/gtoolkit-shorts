@@ -246,7 +246,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:08.388332+01:00"
+									"dateAndTimeString" : "2022-12-20T16:07:51.276922+01:00"
 								}
 							},
 							"editEmail" : {
@@ -257,17 +257,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:36.265582+01:00"
+									"dateAndTimeString" : "2022-12-20T16:08:04.295347+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "2MVR/aOsDQCqIPbaCJJpgw=="
+								"uidString" : "QxpLiaWsDQCW2svgAK6tjg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Prepare dry run for review."
+							"string" : "Change the keynote slides to show the domain object changing as we extrac"
 						},
 						{
 							"__type" : "textSnippet",
@@ -5650,7 +5650,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-19T14:45:09.470709+01:00"
+									"dateAndTimeString" : "2022-12-20T16:01:58.223302+01:00"
 								}
 							},
 							"uid" : {
@@ -5660,7 +5660,81 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[TG Hitchhiker video on GitHub REST API]] "
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T16:01:58.877443+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T16:01:58.877443+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "IwladKWsDQCIG3IcC1e3Fw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T16:01:59.122923+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T16:01:59.122923+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "B8hddKWsDQCIHJurC1e3Fw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -5695,192 +5769,6 @@
 								"uidString" : "mEvYcaCsDQCzeGs+BFfxRw=="
 							},
 							"code" : "BlGlutinHostSpace zoomFactor: 1"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:25.012514+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:25.012514+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "R7nUe5GsDQCwoedLCjf6pA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:27.294483+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:39.911874+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "LYv3e5GsDQCwov5SCjf6pA=="
-										},
-										"code" : "GhOrganizationExamples new feenkcomOrganization "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T16:45:55.869702+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T16:46:03.238017+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "Y6gu+QSsDQCnoEiVDPBoRQ=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Now we explore the full example."
-									},
-									{
-										"__type" : "exampleSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T16:46:30.753959+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T16:46:30.753959+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "wKLgJAWsDQCns40aDPBoRQ=="
-										},
-										"exampleSelector" : "feenkcomOrganization",
-										"previewHeight" : 300,
-										"previewShowSelector" : "gtViewsFor:",
-										"exampleBehaviorName" : "GhOrganizationExamples",
-										"codeExpanded" : true,
-										"previewExpanded" : true,
-										"noCode" : true
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T11:14:47.15683+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T11:14:48.349637+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "LFAhviisDQCpekiOBz+nDg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "## Coda"
 						},
 						{
 							"__type" : "textSnippet",
