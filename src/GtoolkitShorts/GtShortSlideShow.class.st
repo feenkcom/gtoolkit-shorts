@@ -23,13 +23,22 @@ GtShortSlideShow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 ]
 
 { #category : #utility }
-GtShortSlideShow >> ensurePageNamed: aString [
+GtShortSlideShow >> ensureEmptyPageNamed: aPageName [
+	| page |
+	page := self ensurePageNamed: aPageName.
+	[ page children notEmpty ]
+		whileTrue: [ page removeSnippet: page children last ].
+	^ page
+]
+
+{ #category : #utility }
+GtShortSlideShow >> ensurePageNamed: aPageName [
 	| database |
 	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
 			databaseNamed: self myLepiterDB.
-	(database hasPageNamed: aString)
-		ifFalse: [ database addPage: (LePage named: aString) ].
-	^ database pageNamed: aString
+	(database hasPageNamed: aPageName)
+		ifFalse: [ database addPage: (LePage named: aPageName) ].
+	^ database pageNamed: aPageName
 ]
 
 { #category : #utility }

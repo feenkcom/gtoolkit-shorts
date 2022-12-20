@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-19T10:18:48.598446+01:00"
+									"dateAndTimeString" : "2022-12-20T09:32:04.737494+01:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "REST API book page. {{gtPage:Working with a REST API: The GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}}    "
+							"string" : "REST API book page. {{gtPage:Working with a REST API: The GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 						}
 					]
 				},
@@ -1092,7 +1092,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-14T16:04:31.09694+01:00"
+												"dateAndTimeString" : "2022-12-20T09:38:02.583764+01:00"
 											}
 										},
 										"uid" : {
@@ -1102,7 +1102,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Let's see what we can do with this.* "
+										"string" : "*Let's see what we can do with this. First, we'll save the GitHub API URL.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1238,7 +1238,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-16T14:48:27.393426+01:00"
+												"dateAndTimeString" : "2022-12-20T09:38:26.609+01:00"
 											}
 										},
 										"uid" : {
@@ -1248,7 +1248,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*This snippet will use the Zinc library to retrieve the JSON contents at the API endpoint.* "
+										"string" : "*This snippet uses the Zinc library to retrieve the JSON contents at the API endpoint.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -1561,43 +1561,6 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-19T10:16:01.371934+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-19T11:14:30.624384+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "1oA3xYusDQCMZxLCCmlcTQ=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*This is a common pattern, and, as we shall see, is the essence of moldable development: we wrap data of interest in an object, and incrementally add views and behavior to the object while we are exploring the domain.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2022-12-19T14:29:41.100353+01:00"
 														}
 													},
@@ -1676,7 +1639,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T11:13:42.746959+01:00"
+												"dateAndTimeString" : "2022-12-20T09:39:44.298167+01:00"
 											}
 										},
 										"uid" : {
@@ -1686,7 +1649,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We now wrap the raw data dictionary into a live object that we will iteratively and incrementally explore and extend to express the domain object.* "
+										"string" : "*We now wrap the raw data dictionary into a live object that we will iteratively and incrementally explore and extend to build an executable model.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2641,7 +2604,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T14:38:28.135343+01:00"
+												"dateAndTimeString" : "2022-12-20T09:41:50.155943+01:00"
 											}
 										},
 										"uid" : {
@@ -2651,7 +2614,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We already know how to get the API endpoint, so let'scopy-paste that snippet.* "
+										"string" : "*We already know how to get the API endpoint, so let's copy-paste that snippet.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2840,43 +2803,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*We see that this is not a dictionary but an array of dictionaries, each representing a repo, so we rename the variable accordingly.* "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T14:41:42.653058+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T14:42:07.56486+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "xFuJNZCsDQCu+QvsCjf6pA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*As an aside, we only get 30 repos because we have not provided a development key to the API.* "
 									}
 								]
 							},
@@ -3572,7 +3498,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T15:19:24.850157+01:00"
+												"dateAndTimeString" : "2022-12-20T09:54:23.327983+01:00"
 											}
 										},
 										"uid" : {
@@ -3582,7 +3508,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We'll introduce a “gtReposFor:” method in our Organization class. If we go to the “Meta” view of the live object, we can add the method. We'll just add the template and continuing editing in the Coder.* "
+										"string" : "*We'll introduce a “gtReposFor:” method in our Organization class. If we go to the “Meta” view of the live object, we can add the method.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3647,7 +3573,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T15:20:50.080603+01:00"
+												"dateAndTimeString" : "2022-12-20T09:55:28.956053+01:00"
 											}
 										},
 										"uid" : {
@@ -3657,7 +3583,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We add the pragma, and we'll use the simple “list” view. We only need to specify the title, the priority, and the items, which we already have.* "
+										"string" : "*We add the pragma, and we'll use the simple “list” view. We only need to specify the title, the priority, and the items, namely the array of repositories.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3867,7 +3793,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-12-19T15:31:03.924653+01:00"
+																		"dateAndTimeString" : "2022-12-20T09:57:00.696224+01:00"
 																	}
 																},
 																"editEmail" : {
@@ -3878,17 +3804,17 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2022-12-19T15:31:11.273778+01:00"
+																		"dateAndTimeString" : "2022-12-20T09:57:18.136235+01:00"
 																	}
 																},
 																"uid" : {
 																	"__type" : "uid",
-																	"uidString" : "lM5W5JCsDQCv23uJCjf6pA=="
+																	"uidString" : "FEoeW6CsDQCzcK7VBFfxRw=="
 																},
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "repos\r\t...\r\t^ (STON fromString: json) collect: [ :each | MyRepository new rawData: each ]"
+																"string" : "repos\r\t...\r\t^ (STON fromString: json)\r\t\t\tcollect: [ :each | MyRepository new rawData: each ]"
 															}
 														]
 													},
@@ -4653,7 +4579,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T15:38:34.971012+01:00"
+												"dateAndTimeString" : "2022-12-20T10:00:44.13104+01:00"
 											}
 										},
 										"uid" : {
@@ -4663,7 +4589,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Let's  dive into a Repository instance to see what it contains.* "
+										"string" : "*Let's  see what a Repository insteance contains.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -5200,7 +5126,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:07.63053+01:00"
+												"dateAndTimeString" : "2022-12-20T10:09:12.106144+01:00"
 											}
 										},
 										"editEmail" : {
@@ -5211,7 +5137,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:12:07.63053+01:00"
+												"dateAndTimeString" : "2022-12-20T10:10:16.698293+01:00"
 											}
 										},
 										"uid" : {
@@ -5221,7 +5147,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "*To sum up, the moldable development lifecycle looks like this:* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -5237,7 +5163,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:19.633956+01:00"
+												"dateAndTimeString" : "2022-12-20T10:14:08.767072+01:00"
 											}
 										},
 										"editEmail" : {
@@ -5248,17 +5174,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:19.633956+01:00"
+												"dateAndTimeString" : "2022-12-20T10:14:13.557217+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "PrWpgpGsDQCwsPuFCjf6pA=="
+											"uidString" : "N/5XmKCsDQCziF/MBFfxRw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "Switch to Keynote for now."
 									},
 									{
 										"__type" : "textSnippet",
@@ -5274,7 +5200,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:19.873538+01:00"
+												"dateAndTimeString" : "2022-12-20T10:10:18.160517+01:00"
 											}
 										},
 										"editEmail" : {
@@ -5285,17 +5211,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:19.873538+01:00"
+												"dateAndTimeString" : "2022-12-20T10:10:37.487873+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "GV2tgpGsDQCwsREgCjf6pA=="
+											"uidString" : "i4aXiqCsDQCzgdEhBFfxRw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "*We find some data, and we wrap it as a domain object.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -5311,7 +5237,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:20.123169+01:00"
+												"dateAndTimeString" : "2022-12-20T10:10:39.333148+01:00"
 											}
 										},
 										"editEmail" : {
@@ -5322,17 +5248,165 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T16:14:20.123169+01:00"
+												"dateAndTimeString" : "2022-12-20T10:11:14.848913+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "RSyxgpGsDQCwslVoCjf6pA=="
+											"uidString" : "MJHZi6CsDQCzggP7BFfxRw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "*We explore the object, until we find some more interesting data.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:11:16.344693+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:11:37.550649+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "O8MSjqCsDQCzg2SuBFfxRw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We extract the navigation code as a method ...* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:11:38.825745+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:12:30.692554+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "dKxnj6CsDQCzhWzPBFfxRw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*and we create a custom view for our domain object.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:12:37.170597+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:12:58.593853+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "2hvZkqCsDQCzhsV1BFfxRw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*We wrap the new data as a new domain object, and continue.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:12:59.616129+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-20T10:13:25.659057+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "vsI7lKCsDQCzh4kABFfxRw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*At the end we have an executable and explorable domain model that documents our exploration.* "
 									}
 								]
 							},
@@ -5549,6 +5623,40 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[TG Hitchhiker video on GitHub REST API]] "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T10:03:21.983866+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-12-20T10:16:18.731369+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mEvYcaCsDQCzeGs+BFfxRw=="
+							},
+							"code" : "BlGlutinHostSpace zoomFactor: 1"
 						},
 						{
 							"__type" : "textSnippet",

@@ -137,11 +137,11 @@ HowToFindStuffSlideshow >> drilling: aSlide [
 ]
 
 { #category : #slides }
-HowToFindStuffSlideshow >> exploringCharacterViews: aSlide [
+HowToFindStuffSlideshow >> exploringCharacterViewsPage: aSlide [
 	<gtSlide>
-
+	self initExploringCharacterViewsPage.
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringCharacterViews:);
+		priority: (self priorityFor: #exploringCharacterViewsPage:);
 		pageNamed: 'Exploring Character views' from: self myLepiterDB;
 		yourself
 ]
@@ -164,6 +164,7 @@ HowToFindStuffSlideshow >> findingShortcutsEmpty: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> findingShortcutsPage: aSlide [
 	"<gtSlide>"
+	self initFindingShortcutsPage.
 	^ aSlide lepiterPage
 		  priority: (self priorityFor: #findingShortcutsPage:);
 		  pageNamed: 'Finding shortcuts' from: self myLepiterDB
@@ -175,6 +176,36 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #gtQueries:);
 		titleWithFormat: (self asHeader: 'GT queries')
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
+	| pageName page |
+	pageName := 'Exploring Character views'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LePharoSnippet new
+				code: '''hello''';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
+HowToFindStuffSlideshow >> initFindingShortcutsPage [
+	| pageName page |
+	pageName := 'Finding shortcuts'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'Typing CMD= and CMD- will increase or decrease the size of all the fonts in this page, but how does the shortcut work?';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: '';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Holding SHIFT CONTROL OPT while clicking in the page will allow us to drill into the UI elements.';
+				yourself);
+		yourself
 ]
 
 { #category : #slides }
@@ -254,10 +285,10 @@ HowToFindStuffSlideshow >> slidePriorities [
 			concatenateStrings:
 		
 		exploringViewCode:
-			#exploringCharacterViews:
+			#exploringCharacterViewsPage:
 		
 		drilling:
-			#findingShortcutsEmpty:
+			findingShortcutsEmpty:
 			"findingShortcutsPage:"
 		
 		closing:
@@ -310,6 +341,6 @@ HowToFindStuffSlideshow >> workingWithCollectionsPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #workingWithCollectionsPage:);
-		pageNamed: 'Working with Collections in Pharo' from: self gtBook;
+		pageNamed: 'Working with collections in Pharo' from: self gtBook;
 		yourself
 ]

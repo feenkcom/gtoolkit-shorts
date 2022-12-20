@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:37:10.842437+01:00"
+						"dateAndTimeString" : "2022-12-20T10:19:00.085172+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,51 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:37:10.843916+01:00"
+						"dateAndTimeString" : "2022-12-20T10:19:00.873499+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WpQyFKCsDQCzUEL9BFfxRw=="
+					"uidString" : "pCWcqaCsDQCzlhlsBFfxRw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "First we get the API URL."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:37:10.845112+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:37:11.538247+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "wZ4yFKCsDQCzURz9BFfxRw=="
-				},
-				"code" : "url := 'https://api.github.com/orgs/feenkcom'."
+				"string" : "[[todo]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:14.63482+01:00"
+						"dateAndTimeString" : "2022-12-20T10:18:48.947183+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,51 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:15.037165+01:00"
+						"dateAndTimeString" : "2022-12-20T10:20:02.813034+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Xvn/F6CsDQCzVr+mBFfxRw=="
+					"uidString" : "QOq2qKCsDQCzlBc9BFfxRw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We download the API endpoint."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:15.038207+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:15.039459+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "FCEGGKCsDQCzWdC5BFfxRw=="
-				},
-				"code" : "json := ZnClient new get: url."
+				"string" : "Two pages are missing that were used in [[How to find stuff in GT]]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -160,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:36.728512+01:00"
+						"dateAndTimeString" : "2022-12-20T10:20:05.645858+01:00"
 					}
 				},
 				"editEmail" : {
@@ -171,20 +103,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:37.132142+01:00"
+						"dateAndTimeString" : "2022-12-20T10:20:20.79403+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1xhRGaCsDQCzXL4SBFfxRw=="
+					"uidString" : "ngSFraCsDQCznIkBBFfxRw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We can parse the JSON."
+				"string" : "Need a way to generate used pages directly in the slides."
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -197,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:37.142984+01:00"
+						"dateAndTimeString" : "2022-12-20T10:20:22.154465+01:00"
 					}
 				},
 				"editEmail" : {
@@ -208,14 +140,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-20T09:38:37.474603+01:00"
+						"dateAndTimeString" : "2022-12-20T10:21:10.308595+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "4GtXGaCsDQCzX6yHBFfxRw=="
+					"uidString" : "WLOYrqCsDQCzns9XBFfxRw=="
 				},
-				"code" : "dictionary := STON fromString: json."
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See the {{gtMethod:name=GtShortSlideShow>>ensurePageNamed:}} method. Extend it to add snippets?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-20T10:21:30.074941+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-20T10:21:56.330366+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "i7SssqCsDQCzoum3BFfxRw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "For each page, have a dedicated method that creates and initializes "
 			}
 		]
 	},
@@ -227,7 +199,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-14T17:25:13.85953+01:00"
+			"dateAndTimeString" : "2022-12-20T10:18:42.508618+01:00"
 		}
 	},
 	"editEmail" : {
@@ -238,15 +210,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-19T14:07:46.085681+01:00"
+			"dateAndTimeString" : "2022-12-20T10:18:42.508618+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Exploring the GitHub REST API"
+		"title" : "STUFF TO FIX"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "662907eb-2dac-0d00-b2a3-bc7d0792e8dd"
+		"uuid" : "f762b6a8-a0ac-0d00-b393-7e740457f147"
 	}
 }

@@ -54,14 +54,10 @@ ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 { #category : #slides }
 ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 	<gtSlide>
-	| pageName typist |
-	pageName := 'Exploring the GitHub REST API'.
-	self ensurePageNamed: pageName.
-	typist := Typist onPageNamed: pageName from: self myLepiterDB.
+	self ensureEmptyPageNamed: 'Exploring the GitHub REST API'.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringTheDataPage:);
-		pageNamed: pageName from: self myLepiterDB";
-		onEveryAddToSceneGraphDo: [ typist clearPage ]"
+		pageNamed: 'Exploring the GitHub REST API' from: self myLepiterDB
 ]
 
 { #category : #slides }
@@ -117,9 +113,19 @@ ExploringGitHubRESTAPI >> slidePriorities [
 		creatingAView:
 		introducingANewEntity:
 		updatingTheView:
+		summary:
 		
 		closing:
 	)
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> summary: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #summary:);
+		titleWithFormat: (self asHeader: 'Summary — moldable development
+of executable domain models')
 ]
 
 { #category : #slides }
