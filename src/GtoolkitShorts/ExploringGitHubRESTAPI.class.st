@@ -114,6 +114,15 @@ ExploringGitHubRESTAPI >> extractingNavigationCode: aSlide [
 ]
 
 { #category : #slides }
+ExploringGitHubRESTAPI >> fullExample: aSlide [
+	<gtSlide>
+	self initFullExamplePage.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #fullExample:);
+		pageNamed: 'An extended GitHub Organization example' from: self myLepiterDB
+]
+
+{ #category : #slides }
 ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -151,6 +160,19 @@ ExploringGitHubRESTAPI >> initFinalExploringDataPage [
 				yourself);
 		addSnippet: (LePharoSnippet new
 				code: 'MyOrganization new rawData: dictionary.';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPI >> initFullExamplePage [
+	<gtExample>
+	| pageName page |
+	pageName := 'An extended GitHub Organization example'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LePharoSnippet new
+				code: 'GhOrganizationExamples new feenkcomOrganization';
 				yourself);
 		yourself
 ]
@@ -200,6 +222,8 @@ ExploringGitHubRESTAPI >> slidePriorities [
 			exploringData4:
 			exploringData5:
 			exploringData6:
+		
+		fullExample:
 		
 		closing:
 	)
