@@ -43,6 +43,51 @@ ExploringGitHubRESTAPI >> creatingAView: aSlide [
 		titleWithFormat: (self asHeader: 'Creating a view')
 ]
 
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData1: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 1
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData2: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 2
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData3: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 3
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData4: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 4
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData5: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 5
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData6: aSlide [
+	<gtSlide>
+	^ self exploringData: aSlide number: 6
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringData: aSlide number: aNumber [
+	^ aSlide filePicture
+		priority: (self priorityFor: #exploringData , aNumber asString , ':');
+		fileReference: (GtResourcesUtility
+				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/exploringData/exploringData.00' , aNumber asString
+						, '.png')
+]
+
 { #category : #slides }
 ExploringGitHubRESTAPI >> exploringTheData: aSlide [
 	<gtSlide>
@@ -147,7 +192,14 @@ ExploringGitHubRESTAPI >> slidePriorities [
 		creatingAView:
 		introducingANewEntity:
 		updatingTheView:
+
 		summary:
+			exploringData1:
+			exploringData2:
+			exploringData3:
+			exploringData4:
+			exploringData5:
+			exploringData6:
 		
 		closing:
 	)
