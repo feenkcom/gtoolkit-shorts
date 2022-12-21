@@ -648,7 +648,82 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:45:30.806513+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T08:57:06.200896+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "t4VfqCasDQCZF/rgCgAf/A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(53:30) It's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-12-14T09:01:16.029171+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "tYmCQBesDQCR7qGFC6BcoQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc And that's it."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -658,7 +733,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:45:30.806513+01:00"
+									"dateAndTimeString" : "2022-12-19T16:11:15.940001+01:00"
 								}
 							},
 							"editEmail" : {
@@ -669,54 +744,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T08:57:06.200896+01:00"
+									"dateAndTimeString" : "2022-12-19T16:11:29.438779+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "t4VfqCasDQCZF/rgCgAf/A=="
+								"uidString" : "XT6gd5GsDQCwju8+Cjf6pA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "(53:30) It's not a TDD flow because we aren't defining new functions. Instead we are exploring and documenting what we find with methods and views.\nIt's a reverse engineering scenario. We are exploring and discovering domain knowledge.\nThe domain model emerges from the exploration.\nThis is orthogonal to our functional needs.\nWe never opened a static code browser. Instead we always worked from notes, inspectors and playgrounds.\nEverything we did was in the context of a specific object."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T14:22:43.761864+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-14T09:01:16.029171+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "tYmCQBesDQCR7qGFC6BcoQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "(54:20) The pattern is always: find some interesting data, turn the raw data into a first-class entity, explore, write some code to get to an interesting place, promote to a method, create a view to get to that place, etc And that's it."
+							"string" : "##Summary"
 						}
 					]
 				},

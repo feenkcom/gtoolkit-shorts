@@ -119,7 +119,7 @@ ExploringGitHubRESTAPI >> fullExample: aSlide [
 	self initFullExamplePage.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #fullExample:);
-		pageNamed: 'An extended GitHub Organization example' from: self myLepiterDB
+		pageNamed: 'An executable GitHub REST API model' from: self myLepiterDB
 ]
 
 { #category : #slides }
@@ -168,7 +168,7 @@ ExploringGitHubRESTAPI >> initFinalExploringDataPage [
 ExploringGitHubRESTAPI >> initFullExamplePage [
 	<gtExample>
 	| pageName page |
-	pageName := 'An extended GitHub Organization example'.
+	pageName := 'An executable GitHub REST API model'.
 	page := self ensureEmptyPageNamed: pageName.
 	^ page
 		addSnippet: (LePharoSnippet new

@@ -473,7 +473,42 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-28T09:20:57.225865+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-11-28T09:21:02.532009+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oh6oSeWqDQCseqHgAdV2og=="
+							},
+							"code" : "(MethodFinder new\r\tfindMethodsByExampleInput: {20.\r\t\t\t7}\r\tandExpectedResult: 6)\r\tcollect: [ :each | \r\t\teach receiver class\r\t\t\tclassAndMethodFor: each selector\r\t\t\tdo: [ :c :m | m ]\r\t\t\tifAbsent: [ nil ] ]"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -483,7 +518,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-28T09:20:32.679321+01:00"
+						"dateAndTimeString" : "2022-11-28T09:20:40.612264+01:00"
 					}
 				},
 				"editEmail" : {
@@ -494,7 +529,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-28T09:20:32.679321+01:00"
+						"dateAndTimeString" : "2022-11-28T09:20:54.875808+01:00"
 					}
 				},
 				"uid" : {
@@ -504,7 +539,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Turn the result of MethodFinder into a collection of methods rather than names"
 			},
 			{
 				"__type" : "textSnippet",
