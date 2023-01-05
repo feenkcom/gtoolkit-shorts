@@ -45,37 +45,37 @@ ExploringGitHubRESTAPI >> creatingAView: aSlide [
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData1: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 1
 ]
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData2: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 2
 ]
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData3: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 3
 ]
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData4: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 4
 ]
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData5: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 5
 ]
 
 { #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData6: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	^ self exploringData: aSlide number: 6
 ]
 
@@ -86,6 +86,65 @@ ExploringGitHubRESTAPI >> exploringData: aSlide number: aNumber [
 		fileReference: (GtResourcesUtility
 				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/exploringData/exploringData.00' , aNumber asString
 						, '.png')
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringDataScenery: aSlide [
+	<gtSlide>
+	^ aSlide element
+		priority: (self priorityFor: #exploringDataScenery:);
+		element: [  self exploringScenery ]
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> exploringScenery [
+	<gtExample>
+	| item3 item1 scenery item4 item2 |
+	scenery := GtScenery new.
+	item1 := scenery
+			addItem: [ (self responseForFeenkOrg gtJsonFor: GtPhlowEmptyView new)
+					asElementDo: [ :e | 
+						e
+							background: Color white;
+							aptitude: BrShadowAptitude;
+							margin: (BlInsets all: 10) ] ] asStencil.
+	item1 extent: 400 @ 400.
+	item2 := scenery
+			addItem: (GtInspectorSceneryStencil new
+					target: [ GhOrganization new rawData: self organizationData ]).
+	item2 position: 600 @ 0.
+	item2 extent: 400 @ 400.
+
+	item3 := scenery
+			addItem: [ (self responseForGToolkitRepo gtJsonFor: GtPhlowEmptyView new)
+					asElementDo: [ :e | 
+						e
+							background: Color white;
+							aptitude: BrShadowAptitude;
+							margin: (BlInsets all: 10) ] ] asStencil.
+	item3 position: 600 @ 600.
+	item3 extent: 400 @ 400.
+
+	item4 := scenery
+			addItem: (GtInspectorSceneryStencil new target: [ GhRepo new rawData: self gtoolkitData ]).
+	item4 position: 1200 @ 600.
+	item4 extent: 400 @ 400.
+
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		from: item1
+		to: item2.
+
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'explore')
+		from: item2
+		to: item3.
+
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		from: item3
+		to: item4.
+	^ scenery
 ]
 
 { #category : #slides }
@@ -128,6 +187,15 @@ ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #gettingRawData:);
 		titleWithFormat: (self asHeader: 'Getting the raw data')
+]
+
+{ #category : #rest }
+ExploringGitHubRESTAPI >> gtoolkitData [
+	<gtExample>
+	^ STON
+		fromString: (ZnClient new
+				username: '' password: self password;
+				get: 'https://api.github.com/repos/feenkcom/gtoolkit')
 ]
 
 { #category : #accessing }
@@ -193,6 +261,60 @@ ExploringGitHubRESTAPI >> introducingANewEntity: aSlide [
 		titleWithFormat: (self asHeader: 'Introducing a new domain entity')
 ]
 
+{ #category : #rest }
+ExploringGitHubRESTAPI >> organizationData [
+	<gtExample>
+	^ STON
+		fromString: (ZnClient new
+				username: '' password: self password;
+				get: 'https://api.github.com/orgs/feenkcom')
+]
+
+{ #category : #rest }
+ExploringGitHubRESTAPI >> password [
+	| githubAccessKeyFile |
+	githubAccessKeyFile := FileLocator home / '.secrets' / 'home-github.txt'.
+	^ githubAccessKeyFile contents trimBoth
+]
+
+{ #category : #rest }
+ExploringGitHubRESTAPI >> responseForFeenkOrg [
+	"^ GtWorkingWithTheGitHubRestApiShow new responseForFeenkOrg"
+
+	<gtExample>
+	<noTest>
+	| response |
+	response := ZnClient new
+			username: '' password: self password;
+			url: 'https://api.github.com/orgs/feenkcom';
+			get;
+			response.
+
+	self assert: response isNotNil.
+	self assert: response status equals: 200.
+
+	^ response
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> responseForGToolkitRepo [
+	"^ GtWorkingWithTheGitHubRestApiShow new responseForGToolkitRepo"
+
+	<gtExample>
+	<noTest>
+	| response |
+	response := ZnClient new
+			username: '' password: self password;
+			url: 'https://api.github.com/repos/feenkcom/gtoolkit';
+			get;
+			response.
+
+	self assert: response isNotNil.
+	self assert: response status equals: 200.
+
+	^ response
+]
+
 { #category : #constants }
 ExploringGitHubRESTAPI >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
@@ -216,12 +338,7 @@ ExploringGitHubRESTAPI >> slidePriorities [
 		updatingTheView:
 
 		summary:
-			exploringData1:
-			exploringData2:
-			exploringData3:
-			exploringData4:
-			exploringData5:
-			exploringData6:
+			exploringDataScenery:
 		
 		fullExample:
 		
