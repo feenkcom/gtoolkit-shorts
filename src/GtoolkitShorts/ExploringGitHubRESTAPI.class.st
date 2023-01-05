@@ -108,13 +108,14 @@ ExploringGitHubRESTAPI >> exploringScenery [
 							background: Color white;
 							aptitude: BrShadowAptitude;
 							margin: (BlInsets all: 10) ] ] asStencil.
-	item1 extent: 400 @ 400.
+	item1 position: 0 @ 0.
+	item1 extent: 400.0 @ 400.0.
 	item2 := scenery
 			addItem: (GtInspectorSceneryStencil new
+					extent: 200 @ 400;
 					target: [ GhOrganization new rawData: self organizationData ]).
 	item2 position: 600 @ 0.
-	item2 extent: 400 @ 400.
-
+	item2 extent: 400.0 @ 400.0.
 	item3 := scenery
 			addItem: [ (self responseForGToolkitRepo gtJsonFor: GtPhlowEmptyView new)
 					asElementDo: [ :e | 
@@ -122,13 +123,15 @@ ExploringGitHubRESTAPI >> exploringScenery [
 							background: Color white;
 							aptitude: BrShadowAptitude;
 							margin: (BlInsets all: 10) ] ] asStencil.
-	item3 position: 600 @ 600.
-	item3 extent: 400 @ 400.
-
+	item3 position: 603 @ 513.
+	item3 extent: 400.0 @ 400.0.
 	item4 := scenery
-			addItem: (GtInspectorSceneryStencil new target: [ GhRepo new rawData: self gtoolkitData ]).
-	item4 position: 1200 @ 600.
-	item4 extent: 400 @ 400.
+			addItem: (GtInspectorSceneryStencil new
+					extent: 200 @ 400;
+					target: [ GhRepo new rawData: self gtoolkitData ]).
+	item4 position: 1205 @ 518.
+	item4 extent: 400.0 @ 400.0.
+
 
 	scenery
 		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
@@ -144,6 +147,8 @@ ExploringGitHubRESTAPI >> exploringScenery [
 		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
 		from: item3
 		to: item4.
+
+
 	^ scenery
 ]
 
@@ -354,6 +359,56 @@ ExploringGitHubRESTAPI >> summary: aSlide [
 		titleWithFormat: (self asHeader: 'Moldable development');
 		subtitleWithFormat: (self
 				asHeader: 'of executable domain models')
+]
+
+{ #category : #accessing }
+ExploringGitHubRESTAPI >> testScenery [
+	<gtExample>
+	| scenery item1 item2 item3 item4 |
+	scenery := GtScenery new.
+	item1 := scenery
+			addItem: [ (self responseForFeenkOrg gtJsonFor: GtPhlowEmptyView new)
+					asElementDo: [ :e | 
+						e
+							background: Color white;
+							aptitude: BrShadowAptitude;
+							margin: (BlInsets all: 10) ] ] asStencil.
+	item1 position: 0 @ 0.
+	item1 extent: 400.0 @ 400.0.
+	item2 := scenery
+			addItem: (GtInspectorSceneryStencil new
+					extent: 200 @ 400;
+					target: [ GhOrganization new rawData: self organizationData ]).
+	item2 position: 600 @ 0.
+	item2 extent: 400.0 @ 400.0.
+	item3 := scenery
+			addItem: [ (self responseForGToolkitRepo gtJsonFor: GtPhlowEmptyView new)
+					asElementDo: [ :e | 
+						e
+							background: Color white;
+							aptitude: BrShadowAptitude;
+							margin: (BlInsets all: 10) ] ] asStencil.
+	item3 position: 603 @ 513.
+	item3 extent: 400.0 @ 400.0.
+	item4 := scenery
+			addItem: (GtInspectorSceneryStencil new
+					extent: 200 @ 400;
+					target: [ GhRepo new rawData: self gtoolkitData ]).
+	item4 position: 1205 @ 518.
+	item4 extent: 400.0 @ 400.0.
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		from: item1
+		to: item2.
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'explore')
+		from: item2
+		to: item3.
+	scenery
+		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		from: item3
+		to: item4.
+	^ scenery
 ]
 
 { #category : #slides }
