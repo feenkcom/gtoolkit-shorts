@@ -1646,14 +1646,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-19T14:30:14.601334+01:00"
+															"dateAndTimeString" : "2023-01-06T14:22:59.24292+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "gbxsDZCsDQCurn3hCjf6pA=="
 													},
-													"code" : "Smalltalk removeClassNamed: 'MyOrganization'"
+													"code" : "Smalltalk removeClassNamed: 'MyOrganization'.\rSmalltalk removeClassNamed: 'MyRepsitory'.\r"
 												}
 											]
 										},
@@ -1785,7 +1785,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T10:19:54.113501+01:00"
+												"dateAndTimeString" : "2023-01-06T14:22:51.456106+01:00"
 											}
 										},
 										"uid" : {
@@ -5557,7 +5557,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:04:05.686442+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:04:15.241847+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "2RslRvetDQCQqqryDbgAmg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on the Contributors view."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",

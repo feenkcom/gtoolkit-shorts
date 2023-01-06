@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:41:43.016443+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:35.958505+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:41:43.42054+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:36.513823+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "E6RM9vatDQCQgJ+7DbgAmg=="
+					"uidString" : "/f7cy/mtDQCNJvlFCKdOFQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:41:43.451573+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:36.556346+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:41:44.84645+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:37.491019+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "zkdT9vatDQCQg4vlDbgAmg=="
+					"uidString" : "YB7my/mtDQCNKQZeCKdOFQ=="
 				},
 				"code" : "url := 'https://api.github.com/orgs/feenkcom'."
 			},
@@ -89,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:27.388463+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:58.174067+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,12 +100,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:27.830966+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:58.795819+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "R7Tx+PatDQCQh19xDbgAmg=="
+					"uidString" : "jfovzfmtDQCNLDXkCKdOFQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:27.863989+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:58.842524+01:00"
 					}
 				},
 				"editEmail" : {
@@ -137,12 +137,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:28.423247+01:00"
+						"dateAndTimeString" : "2023-01-06T14:04:59.766678+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0vX4+PatDQCQipLFDbgAmg=="
+					"uidString" : "uC06zfmtDQCNL4W/CKdOFQ=="
 				},
 				"code" : "json := ZnClient new get: url."
 			},
@@ -160,7 +160,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:38.682874+01:00"
+						"dateAndTimeString" : "2023-01-06T14:05:20.268919+01:00"
 					}
 				},
 				"editEmail" : {
@@ -171,12 +171,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:39.067543+01:00"
+						"dateAndTimeString" : "2023-01-06T14:05:20.771872+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Dwue+fatDQCQjZekDbgAmg=="
+					"uidString" : "kB6BzvmtDQCNMvOKCKdOFQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -197,7 +197,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:39.102248+01:00"
+						"dateAndTimeString" : "2023-01-06T14:05:20.801836+01:00"
 					}
 				},
 				"editEmail" : {
@@ -208,14 +208,85 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-06T10:42:40.013615+01:00"
+						"dateAndTimeString" : "2023-01-06T14:05:21.588243+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "QnGk+fatDQCQkP9aDbgAmg=="
+					"uidString" : "RUCJzvmtDQCNNQN3CKdOFQ=="
 				},
 				"code" : "dictionary := STON fromString: json."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T14:06:37.929136+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T14:06:38.715592+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yh4i0/mtDQCNbtmoCKdOFQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We wrap the data in an Organization object."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T14:06:38.760668+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-06T14:06:39.03004+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "984u0/mtDQCNcT43CKdOFQ=="
+				},
+				"code" : "MyOrganization new rawData: dictionary."
 			}
 		]
 	},
