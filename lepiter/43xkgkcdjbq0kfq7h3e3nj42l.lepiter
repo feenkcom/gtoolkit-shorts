@@ -5284,14 +5284,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:30:50.824006+01:00"
+												"dateAndTimeString" : "2023-01-06T09:07:35.481796+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "BvlsGrSsDQCrpwVED1ghUw=="
 										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData1:"
+										"code" : "ExploringGitHubRESTAPI <> #exploringDataScenery:"
 									},
 									{
 										"__type" : "textSnippet",
@@ -5318,7 +5318,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:58:14.820194+01:00"
+												"dateAndTimeString" : "2023-01-06T09:08:44.38147+01:00"
 											}
 										},
 										"uid" : {
@@ -5328,112 +5328,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*You find some interesting data,*"
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:31:05.964712+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:31:14.629423+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "xVxKHLSsDQCrqNQpD1ghUw=="
-										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData2:"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-20T10:10:18.160517+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:58:20.500505+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "i4aXiqCsDQCzgdEhBFfxRw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*and wrap it as a domain object.* "
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:00.323516+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:07.326007+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "18+HH7SsDQCrqu/TD1ghUw=="
-										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData3:"
+										"string" : "*You find some interesting data, and wrap it as a domain object.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -5471,182 +5366,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*You explore the object, until you find some more interesting data.* "
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:08.704247+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:12.058997+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "ErEHILSsDQCrqxSuD1ghUw=="
-										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData4:"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-20T10:11:16.344693+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:58:35.442793+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "O8MSjqCsDQCzg2SuBFfxRw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*You extract the navigation code as a method ...* "
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:12.866924+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:15.008808+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "hjVHILSsDQCrrMJuD1ghUw=="
-										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData5:"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-20T10:11:38.825745+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:58:44.316983+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "dKxnj6CsDQCzhWzPBFfxRw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*and create a custom view for the domain object.* "
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:16.118183+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-21T09:32:19.214028+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "w9F4ILSsDQCrrdMGD1ghUw=="
-										},
-										"code" : "ExploringGitHubRESTAPI <> #exploringData6:"
 									},
 									{
 										"__type" : "textSnippet",
