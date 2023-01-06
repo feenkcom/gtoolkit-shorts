@@ -350,6 +350,80 @@
 								"__type" : "snippets",
 								"items" : [
 									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T10:41:58.476853+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T10:42:15.416326+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "2gwp9/atDQCQhusbDbgAmg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "NB: set cursorcerer to auto-hide the cursor."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T10:22:10.980382+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T10:22:43.956363+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "v5tgsPatDQCQZCWwDbgAmg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "NB: We open *two* slideshows, so we can later keep one on the [[Exploring the GitHub REST API]] page ..."
+									},
+									{
 										"__type" : "pharoSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -374,14 +448,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-12T15:57:03.287562+01:00"
+												"dateAndTimeString" : "2023-01-06T10:37:57.339679+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "VQHdNASsDQCm68xyDPBoRQ=="
 										},
-										"code" : "ExploringGitHubRESTAPI show "
+										"code" : "ExploringGitHubRESTAPIpartial show .\rExploringGitHubRESTAPI show ."
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -408,14 +482,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-05T16:50:05.734428+01:00"
+												"dateAndTimeString" : "2023-01-06T10:39:00.101722+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "eLMuNQSsDQCm7v6JDPBoRQ=="
 										},
-										"code" : "BlGlutinHostSpace zoomFactor: 1"
+										"code" : "BlGlutinHostSpace zoomFactor: 1.5"
 									}
 								]
 							},
@@ -1459,7 +1533,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-19T14:55:12.714396+01:00"
+												"dateAndTimeString" : "2023-01-06T10:21:52.474514+01:00"
 											}
 										},
 										"uid" : {
@@ -1469,7 +1543,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "At this point open a *second* slideshow to show the headings, and keep the first one positioned on the [[Exploring the GitHub REST API]] page slide. Switch between them to show the later heading slides."
+										"string" : "At this point open the *second* slideshow to show the headings, and keep the first one positioned on the [[Exploring the GitHub REST API]] page slide. Switch between them to show the later heading slides."
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -5057,6 +5131,43 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:01:51.380619+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:01:51.380619+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "4MtSPvetDQCQo+aEDbgAmg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Inspect the example, dive into the gtoolkit repo, pick girba, pick Events. "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2022-12-21T09:55:36.067801+01:00"
 														}
 													},
@@ -5068,7 +5179,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-21T09:57:14.75852+01:00"
+															"dateAndTimeString" : "2023-01-06T11:01:59.438188+01:00"
 														}
 													},
 													"uid" : {
@@ -5078,7 +5189,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Inspect the example, dive into the gtoolkit repo, pick girba, pick Issues. Scroll back to the initial pane. "
+													"string" : "Scroll back to the initial pane to show the snippet to explore."
 												}
 											]
 										},
@@ -5334,6 +5445,81 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:03:43.525704+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:03:50.128796+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "9KraRPetDQCQphEiDbgAmg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on some views."
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T11:03:14.943805+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-06T11:03:37.180681+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ITZFQ/etDQCQpcCfDbgAmg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*You add useful views to show what's interesting about it.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
 											"items" : [ ]
 										},
 										"createEmail" : {
@@ -5371,7 +5557,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:04:05.686442+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-06T11:04:15.241847+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "2RslRvetDQCQqqryDbgAmg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on the Contributors view."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
