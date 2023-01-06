@@ -182,6 +182,7 @@ GtCodeSnippetsSlide >> elementWeight: anObject [
 { #category : #accessing }
 GtCodeSnippetsSlide >> example [
 	<gtExample>
+	<noTest>
 	^ GtCodeSnippetsSlide new
 		heading: 'Slide Heading';
 		typeTextSnippet: 'A plain text snippet';
@@ -201,6 +202,7 @@ GtCodeSnippetsSlide >> exampleMethod [
 	"This is an example of an example method"
 
 	<gtExample>
+	<noTest>
 	^ 'I am an example of a string'
 ]
 

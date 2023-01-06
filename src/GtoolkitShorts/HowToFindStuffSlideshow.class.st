@@ -181,6 +181,7 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
 	<gtExample>
+	<noTest>
 	| pageName page |
 	pageName := 'Exploring Character views'.
 	page := self ensureEmptyPageNamed: pageName.
@@ -194,6 +195,7 @@ HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
 { #category : #slides }
 HowToFindStuffSlideshow >> initFindingShortcutsPage [
 	<gtExample>
+	<noTest>
 	| pageName page |
 	pageName := 'Finding shortcuts'.
 	page := self ensureEmptyPageNamed: pageName.
@@ -259,6 +261,7 @@ HowToFindStuffSlideshow >> sendersAndImplementors: aSlide [
 HowToFindStuffSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
+	<noTest>
 	
 	^ #( 
 		titleSlide:

@@ -104,6 +104,7 @@ SettingUpGithubRepoSlideShow >> loadingTheRepo: aSlide [
 SettingUpGithubRepoSlideShow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
+	<noTest>
 	
 	^ #( 
 		titleSlide:

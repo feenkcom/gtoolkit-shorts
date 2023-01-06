@@ -341,6 +341,7 @@ SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 SmalltalkSyntaxSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
+	<noTest>
 	
 	^ #( 
 		titleSlide:

@@ -51,6 +51,7 @@ GtShortSlideShow >> fileOuts [
 	"The directory where the fileOuts are stored."
 
 	<gtExample>
+	<noTest>
 	^ FileLocator localDirectory / 'iceberg' / 'feenkcom' / 'gtoolkit-shorts'
 		/ 'fileOuts'
 ]

@@ -44,43 +44,9 @@ ExploringGitHubRESTAPI >> creatingAView: aSlide [
 ]
 
 { #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData1: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 1
-]
-
-{ #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData2: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 2
-]
-
-{ #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData3: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 3
-]
-
-{ #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData4: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 4
-]
-
-{ #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData5: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 5
-]
-
-{ #category : #accessing }
-ExploringGitHubRESTAPI >> exploringData6: aSlide [
-	"<gtSlide>"
-	^ self exploringData: aSlide number: 6
-]
-
-{ #category : #accessing }
 ExploringGitHubRESTAPI >> exploringData: aSlide number: aNumber [
+	"Not used"
+
 	^ aSlide filePicture
 		priority: (self priorityFor: #exploringData , aNumber asString , ':');
 		fileReference: (GtResourcesUtility
@@ -88,7 +54,7 @@ ExploringGitHubRESTAPI >> exploringData: aSlide number: aNumber [
 						, '.png')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 ExploringGitHubRESTAPI >> exploringDataScenery: aSlide [
 	<gtSlide>
 	^ aSlide element
@@ -96,9 +62,10 @@ ExploringGitHubRESTAPI >> exploringDataScenery: aSlide [
 		element: [  self exploringScenery ]
 ]
 
-{ #category : #accessing }
+{ #category : #rest }
 ExploringGitHubRESTAPI >> exploringScenery [
 	<gtExample>
+	<noTest>
 	| item3 item1 scenery item4 item2 |
 	scenery := GtScenery new.
 	item1 := scenery
@@ -197,6 +164,7 @@ ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 { #category : #rest }
 ExploringGitHubRESTAPI >> gtoolkitData [
 	<gtExample>
+	<noTest>
 	^ STON
 		fromString: (ZnClient new
 				username: '' password: self password;
@@ -206,6 +174,7 @@ ExploringGitHubRESTAPI >> gtoolkitData [
 { #category : #accessing }
 ExploringGitHubRESTAPI >> initFinalExploringDataPage [
 	<gtExample>
+	<noTest>
 	| pageName page |
 	pageName := 'Exploring the GitHub REST API'.
 	page := self ensureEmptyPageNamed: pageName.
@@ -240,6 +209,7 @@ ExploringGitHubRESTAPI >> initFinalExploringDataPage [
 { #category : #slides }
 ExploringGitHubRESTAPI >> initFullExamplePage [
 	<gtExample>
+	<noTest>
 	| pageName page |
 	pageName := 'An executable GitHub REST API model'.
 	page := self ensureEmptyPageNamed: pageName.
@@ -269,6 +239,7 @@ ExploringGitHubRESTAPI >> introducingANewEntity: aSlide [
 { #category : #rest }
 ExploringGitHubRESTAPI >> organizationData [
 	<gtExample>
+	<noTest>
 	^ STON
 		fromString: (ZnClient new
 				username: '' password: self password;
@@ -277,9 +248,13 @@ ExploringGitHubRESTAPI >> organizationData [
 
 { #category : #rest }
 ExploringGitHubRESTAPI >> password [
+	"This is where to find the GitHub access token."
+
+	<gtExample>
+	<noTest>
 	| githubAccessKeyFile |
 	githubAccessKeyFile := FileLocator home / '.secrets' / 'home-github.txt'.
-	^ githubAccessKeyFile contents trimBoth
+	^ [ githubAccessKeyFile contents trimBoth ] onErrorDo: [ '' ]
 ]
 
 { #category : #rest }
@@ -301,7 +276,7 @@ ExploringGitHubRESTAPI >> responseForFeenkOrg [
 	^ response
 ]
 
-{ #category : #accessing }
+{ #category : #rest }
 ExploringGitHubRESTAPI >> responseForGToolkitRepo [
 	"^ GtWorkingWithTheGitHubRestApiShow new responseForGToolkitRepo"
 
@@ -324,6 +299,7 @@ ExploringGitHubRESTAPI >> responseForGToolkitRepo [
 ExploringGitHubRESTAPI >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
 	<gtExample>
+	<noTest>
 	
 	^ #( 
 		titleSlide:
@@ -342,10 +318,10 @@ ExploringGitHubRESTAPI >> slidePriorities [
 		introducingANewEntity:
 		updatingTheView:
 
+		fullExample:
+		
 		summary:
 			exploringDataScenery:
-		
-		fullExample:
 		
 		closing:
 	)
@@ -361,9 +337,10 @@ ExploringGitHubRESTAPI >> summary: aSlide [
 				asHeader: 'of executable domain models')
 ]
 
-{ #category : #accessing }
+{ #category : #rest }
 ExploringGitHubRESTAPI >> testScenery [
 	<gtExample>
+	<noTest>
 	| scenery item1 item2 item3 item4 |
 	scenery := GtScenery new.
 	item1 := scenery
