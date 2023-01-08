@@ -246,7 +246,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:27.59871+01:00"
+									"dateAndTimeString" : "2023-01-08T16:50:52.94759+01:00"
 								}
 							},
 							"editEmail" : {
@@ -257,7 +257,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-20T14:17:31.270734+01:00"
+									"dateAndTimeString" : "2023-01-08T16:50:53.49833+01:00"
 								}
 							},
 							"uid" : {
@@ -267,7 +267,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Record and edit."
+							"string" : "done"
 						}
 					]
 				},
@@ -6339,12 +6339,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-21T10:00:04.652828+01:00"
+			"dateAndTimeString" : "2023-01-08T16:50:49.158996+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GitHub REST API — TO RECORD"
+		"title" : "GitHub REST API "
 	},
 	"uid" : {
 		"__type" : "uuid",

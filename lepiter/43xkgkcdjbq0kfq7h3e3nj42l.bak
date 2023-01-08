@@ -1646,14 +1646,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-06T14:22:59.24292+01:00"
+															"dateAndTimeString" : "2023-01-06T14:23:06.520905+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "gbxsDZCsDQCurn3hCjf6pA=="
 													},
-													"code" : "Smalltalk removeClassNamed: 'MyOrganization'.\rSmalltalk removeClassNamed: 'MyRepsitory'.\r"
+													"code" : "Smalltalk removeClassNamed: 'MyOrganization'.\rSmalltalk removeClassNamed: 'MyRepository'."
 												}
 											]
 										},
