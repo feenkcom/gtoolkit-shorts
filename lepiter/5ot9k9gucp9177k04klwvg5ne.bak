@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:40:18.695503+01:00"
+						"dateAndTimeString" : "2023-01-09T08:40:19.19408+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:40:18.695503+01:00"
+						"dateAndTimeString" : "2023-01-09T10:23:32.688664+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "a9mknTGuDQClEAGHBSYZYA=="
+					"uidString" : "p0OnnTGuDQClEv/QBSYZYA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "[[TG]] proposes this"
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:40:19.19408+01:00"
+						"dateAndTimeString" : "2023-01-09T10:22:51.308243+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:40:20.877894+01:00"
+						"dateAndTimeString" : "2023-01-09T10:23:13.804939+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "p0OnnTGuDQClEv/QBSYZYA=="
+					"uidString" : "JQxNDDOuDQCnoO5HBSYZYA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[TG]] "
+				"string" : "What's an Inspector view?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-09T10:22:57.166292+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-09T10:23:00.921665+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7omvDDOuDQCnoqd1BSYZYA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "How do we create one?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-09T10:23:01.485676+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-09T10:23:09.561576+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WrT0DDOuDQCnpNy3BSYZYA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "What are the different kinds of views."
 			}
 		]
 	},

@@ -267,7 +267,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-09T08:40:50.334843+01:00"
+															"dateAndTimeString" : "2023-01-09T10:30:05.838016+01:00"
 														}
 													},
 													"uid" : {
@@ -277,7 +277,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Inspector views overview]] "
+													"string" : "[[* Inspector views overview]] "
 												},
 												{
 													"__type" : "textSnippet",
@@ -293,7 +293,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-09T08:39:41.293224+01:00"
+															"dateAndTimeString" : "2022-10-18T07:40:41.939773+02:00"
 														}
 													},
 													"editEmail" : {
@@ -304,18 +304,56 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-09T08:39:41.293224+01:00"
+															"dateAndTimeString" : "2023-01-09T10:30:21.502817+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "vxpqmzGuDQClBHb1BSYZYA=="
+														"uidString" : "pIkng52nDQChUIAcAdl+lA=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Overview of how GT can be extended]]"
-												},
+													"string" : "[[* Understanding Lepiter]]  "
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-09T10:30:35.027925+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-09T10:30:36.003736+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "H8/jJzOuDQCoJi6VBSYZYA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[asap]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -474,7 +512,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-18T07:40:41.939773+02:00"
+												"dateAndTimeString" : "2022-10-17T18:32:52.33914+02:00"
 											}
 										},
 										"editEmail" : {
@@ -485,17 +523,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-26T08:58:29.716421+02:00"
+												"dateAndTimeString" : "2023-01-09T09:11:17.996842+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "pIkng52nDQChUIAcAdl+lA=="
+											"uidString" : "nhlGQ5+nDQC9yzttBA5+dw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Understanding Lepiter]]  "
+										"string" : "[[What is GT anyway?]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -757,43 +795,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[Moldable Development with GT]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-10-17T18:32:52.33914+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T09:11:17.996842+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "nhlGQ5+nDQC9yzttBA5+dw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[What is GT anyway?]] "
 									},
 									{
 										"__type" : "textSnippet",

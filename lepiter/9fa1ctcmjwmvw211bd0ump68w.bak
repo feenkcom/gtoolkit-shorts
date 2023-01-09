@@ -129,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T12:07:11.595596+01:00"
+						"dateAndTimeString" : "2022-12-08T12:07:29.315861+01:00"
 					}
 				},
 				"editEmail" : {
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T12:07:11.595596+01:00"
+						"dateAndTimeString" : "2022-12-08T12:07:40.183983+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Also the [Tools for Thought video](https://www.youtube.com/watch?v=a3jBZIlXN1A&t=2934s)."
+			},
+			{
+				"__type" : "youtubeSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:07:43.961062+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-12-08T12:07:46.862434+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BYiEyLCrDQCkKHHZAMDYLQ=="
+				},
+				"youtubeUrl" : "https://www.youtube.com/watch?v=a3jBZIlXN1A&t=2934s"
 			},
 			{
 				"__type" : "textSnippet",

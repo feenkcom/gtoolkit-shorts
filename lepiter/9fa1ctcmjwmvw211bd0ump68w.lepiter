@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:01:28.375359+01:00"
+						"dateAndTimeString" : "2023-01-09T10:30:27.825915+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] "
+				"string" : "[[todo]] [[short]] [[asap]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -839,12 +839,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-26T08:58:29.712626+02:00"
+			"dateAndTimeString" : "2023-01-09T10:30:21.494608+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Understanding Lepiter"
+		"title" : "* Understanding Lepiter"
 	},
 	"uid" : {
 		"__type" : "uuid",
