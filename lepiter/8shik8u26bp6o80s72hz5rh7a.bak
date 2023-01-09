@@ -352,6 +352,80 @@
 														"__type" : "textStyle"
 													},
 													"string" : "[[Examples by example]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-09T09:10:54.432529+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-09T09:10:54.432529+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "n1EECzKuDQCl1McbBSYZYA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[How can GT be contextualized]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-09T09:11:06.729091+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-09T09:11:06.729091+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "6LDDCzKuDQCl1nfRBSYZYA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Beacon tutorial]] "
 												}
 											]
 										},
@@ -650,43 +724,6 @@
 														"__type" : "textStyle"
 													},
 													"string" : "[[RPN calculator]] "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T11:51:10.773872+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-12-08T11:51:17.984056+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "cwwyjbCrDQCj1zHeAMDYLQ=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "[[How can GT be contextualized]] "
 												}
 											]
 										},
@@ -757,43 +794,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[What is GT?]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-15T15:51:08.446185+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-15T15:51:10.502273+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "KLMFOeWpDQCy0AjpBTwFYQ=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Beacon tutorial]] "
 									},
 									{
 										"__type" : "textSnippet",
