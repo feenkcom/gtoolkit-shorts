@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:39:54.590022+01:00"
+						"dateAndTimeString" : "2023-01-13T16:25:11.484758+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:59:53.296386+01:00"
+						"dateAndTimeString" : "2023-01-13T16:25:32.209907+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[Q]] [[short]][[series]] [[howto]] "
+				"string" : "[[todo]] [[short]] [[series]] [[howto]]   [[completed]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:39:31.34762+01:00"
+						"dateAndTimeString" : "2022-11-21T10:00:05.558849+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:39:33.442841+01:00"
+						"dateAndTimeString" : "2022-11-21T10:00:25.602711+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "QcgruliqDQCUPOtMAcy9tA=="
+					"uidString" : "+WKSBFmqDQCWaPDFAcy9tA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[TG]] "
+				"string" : "[[rpn]] [[Q]] [[TG]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T10:00:27.998731+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-21T10:00:27.998731+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KJ4TBlmqDQCWjUPFAcy9tA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "pharoSnippet",
