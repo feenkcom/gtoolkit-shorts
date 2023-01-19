@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.416451+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.303095+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.416451+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.303095+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "XC4EeQCvDQC8WyZ1BCWi2Q=="
+					"uidString" : "D8Wk0QGvDQC0f8IkBCWi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "First we get the API URL."
+				"string" : "The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.417318+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.303784+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.417318+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.303784+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "xzEEeQCvDQC8XPAWBCWi2Q=="
+					"uidString" : "ycek0QGvDQC0gNTuBCWi2Q=="
 				},
-				"code" : "url := 'https://api.github.com/orgs/feenkcom'."
+				"code" : "GtCoder forClass:  GtPhlowProtoView "
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.418097+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.304465+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,17 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.418097+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.304465+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "yjQEeQCvDQC8XXMdBCWi2Q=="
+					"uidString" : "aMqk0QGvDQC0gV1zBCWi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We download the API endpoint."
+				"string" : "The full API also includes the `mondrian` message:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.418591+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.304971+01:00"
 					}
 				},
 				"editEmail" : {
@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.418591+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.304971+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rDYEeQCvDQC8Xq3LBCWi2Q=="
+					"uidString" : "V8yk0QGvDQC0gle3BCWi2Q=="
 				},
-				"code" : "json := ZnClient new get: url."
+				"code" : "apiSelectors := ((GtPhlowProtoView methods\r\t\tselect: [ :each | each protocol = 'decorating' ])\t\r\tcollect: #selector) asSet, {#mondrian}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -160,7 +160,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.41926+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.306408+01:00"
 					}
 				},
 				"editEmail" : {
@@ -171,17 +171,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.41926+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.306408+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "RjkEeQCvDQC8XxexBCWi2Q=="
+					"uidString" : "B9Kk0QGvDQC0g7IxBCWi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We can parse the JSON."
+				"string" : "How widely used are these different kinds of views?"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -197,7 +197,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.419673+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.307033+01:00"
 					}
 				},
 				"editEmail" : {
@@ -208,85 +208,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.419673+01:00"
+						"dateAndTimeString" : "2023-01-19T17:04:04.307033+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5DoEeQCvDQC8YIZGBCWi2Q=="
+					"uidString" : "k9Sk0QGvDQC0hORTBCWi2Q=="
 				},
-				"code" : "dictionary := STON fromString: json."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.420226+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.420226+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "CT0EeQCvDQC8YZyABCWi2Q=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We wrap the data in an Organization object."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.420598+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:27:42.420598+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "fT4EeQCvDQC8Yp9RBCWi2Q=="
-				},
-				"code" : "MyOrganization new rawData: dictionary."
+				"code" : "(#gtView gtPragmas contents\r\tflatCollect: [ :method | method ast sentMessages intersection: apiSelectors ])\r\tasBag sortedCounts"
 			}
 		]
 	},
@@ -298,7 +227,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-20T10:40:26.343507+01:00"
+			"dateAndTimeString" : "2023-01-19T16:43:48.1482+01:00"
 		}
 	},
 	"editEmail" : {
@@ -309,15 +238,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-20T10:40:26.343507+01:00"
+			"dateAndTimeString" : "2023-01-19T16:43:48.1482+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Exploring the GitHub REST API"
+		"title" : "Exploring the Inspector view API"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "16546df6-a0ac-0d00-b3d8-d50f0457f147"
+		"uuid" : "9cb72789-01af-0d00-b087-90250425a2d9"
 	}
 }

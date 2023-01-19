@@ -136,7 +136,7 @@ HowToFindStuffSlideshow >> drilling: aSlide [
 		titleWithFormat: (self asHeader: 'Drilling into UI code')
 ]
 
-{ #category : #slides }
+{ #category : #initialization }
 HowToFindStuffSlideshow >> exploringCharacterViewsPage: aSlide [
 	<gtSlide>
 	self initExploringCharacterViewsPage.
@@ -178,7 +178,7 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 		titleWithFormat: (self asHeader: 'GT queries')
 ]
 
-{ #category : #slides }
+{ #category : #initialization }
 HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
 	<gtExample>
 	<noTest>
@@ -192,7 +192,7 @@ HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
 		yourself
 ]
 
-{ #category : #slides }
+{ #category : #initialization }
 HowToFindStuffSlideshow >> initFindingShortcutsPage [
 	<gtExample>
 	<noTest>
