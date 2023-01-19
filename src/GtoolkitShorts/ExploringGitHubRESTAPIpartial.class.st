@@ -4,7 +4,7 @@ The subclass starts at the beginning and contains all the slides.
 "
 Class {
 	#name : #ExploringGitHubRESTAPIpartial,
-	#superclass : #GtShortSlideShow,
+	#superclass : #GtShortSlideshow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
 

@@ -1,6 +1,6 @@
 Class {
 	#name : #HowToFindStuffSlideshow,
-	#superclass : #GtShortSlideShow,
+	#superclass : #GtShortSlideshow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
 

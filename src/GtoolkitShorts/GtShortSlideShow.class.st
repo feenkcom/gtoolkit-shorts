@@ -2,18 +2,18 @@
 I am an abstract class holding utility methods for slideshows.
 "
 Class {
-	#name : #GtShortSlideShow,
+	#name : #GtShortSlideshow,
 	#superclass : #PrioritySlideshow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
 
 { #category : #utility }
-GtShortSlideShow class >> <> aSymbol [
+GtShortSlideshow class >> <> aSymbol [
 	^ self show: aSymbol
 ]
 
 { #category : #utility }
-GtShortSlideShow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
+GtShortSlideshow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 	Object
 		subclass: aClassSymbol
 		instanceVariableNames: ''
@@ -23,7 +23,7 @@ GtShortSlideShow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 ]
 
 { #category : #utility }
-GtShortSlideShow >> ensureEmptyPageNamed: aPageName [
+GtShortSlideshow >> ensureEmptyPageNamed: aPageName [
 	| page |
 	page := self ensurePageNamed: aPageName.
 	[ page children notEmpty ]
@@ -32,7 +32,7 @@ GtShortSlideShow >> ensureEmptyPageNamed: aPageName [
 ]
 
 { #category : #utility }
-GtShortSlideShow >> ensurePageNamed: aPageName [
+GtShortSlideshow >> ensurePageNamed: aPageName [
 	| database |
 	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
 			databaseNamed: self myLepiterDB.
@@ -42,12 +42,12 @@ GtShortSlideShow >> ensurePageNamed: aPageName [
 ]
 
 { #category : #utility }
-GtShortSlideShow >> fileIn: aFilename [
+GtShortSlideshow >> fileIn: aFilename [
 	(self fileOuts / aFilename) fileIn
 ]
 
 { #category : #constants }
-GtShortSlideShow >> fileOuts [
+GtShortSlideshow >> fileOuts [
 	"The directory where the fileOuts are stored."
 
 	<gtExample>
@@ -57,27 +57,27 @@ GtShortSlideShow >> fileOuts [
 ]
 
 { #category : #testing }
-GtShortSlideShow >> isAbstract [
-	^ self == GtShortSlideShow
+GtShortSlideshow >> isAbstract [
+	^ self == GtShortSlideshow
 ]
 
 { #category : #constants }
-GtShortSlideShow >> myLepiterDB [
+GtShortSlideshow >> myLepiterDB [
 	^ 'feenkcom/gtoolkit-shorts/lepiter'
 ]
 
 { #category : #constants }
-GtShortSlideShow >> picturesDirectoryPath [
+GtShortSlideshow >> picturesDirectoryPath [
 	^ Path * 'feenkcom' / 'gtoolkit-shorts' / 'doc'
 ]
 
 { #category : #utility }
-GtShortSlideShow >> removeAllMethods: aClassSymbol [
+GtShortSlideshow >> removeAllMethods: aClassSymbol [
 	[ aClassSymbol asClass selectors
 		do: [ :each | aClassSymbol asClass removeSelector: each ] ] onErrorDo: [  ]
 ]
 
 { #category : #utility }
-GtShortSlideShow >> removeClass: aClassSymbol [
+GtShortSlideshow >> removeClass: aClassSymbol [
 	[ aClassSymbol asClass removeFromSystem ] onErrorDo: [  ]
 ]

@@ -6,7 +6,7 @@ SmalltalkSyntaxSlideshow show
 "
 Class {
 	#name : #SmalltalkSyntaxSlideshow,
-	#superclass : #GtShortSlideShow,
+	#superclass : #GtShortSlideshow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
 

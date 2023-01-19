@@ -16,8 +16,5 @@ BaselineOfGtoolkitShorts class >> loadLepiter [
 { #category : #accessing }
 BaselineOfGtoolkitShorts >> baseline: spec [
 	<baseline>
-	spec
-		for: #common
-		do: [ spec package: 'GtoolkitShorts'.
-			"spec package: 'RPNCalculator'" ]
+	spec for: #common do: [ spec package: 'GtoolkitShorts' ]
 ]

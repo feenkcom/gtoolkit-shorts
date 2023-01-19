@@ -1,6 +1,6 @@
 Class {
 	#name : #SettingUpGithubRepoSlideShow,
-	#superclass : #GtShortSlideShow,
+	#superclass : #GtShortSlideshow,
 	#category : #'GtoolkitShorts-Slideshows'
 }
 
