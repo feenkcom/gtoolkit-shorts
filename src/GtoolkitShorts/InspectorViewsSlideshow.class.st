@@ -73,7 +73,28 @@ InspectorViewsSlideshow >> initExploringTheAPIPage [
 				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
 				yourself);
 		addSnippet: (LePharoSnippet new
-				code: 'GtCoder forClass:  GtPhlowProtoView ';
+				code: '(GtCoder forClass: GtPhlowProtoView)
+	selectMethodProtocolNamed: #decorating';
+				yourself);
+		yourself
+]
+
+{ #category : #initialization }
+InspectorViewsSlideshow >> initFullExploringTheAPIPage [
+	"These snippets are normally added by the Typist from the script."
+
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Exploring the Inspector view API'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: '(GtCoder forClass: GtPhlowProtoView)
+	selectMethodProtocolNamed: #decorating';
 				yourself);
 		addSnippet: (LeTextSnippet new
 				string: 'The full API also includes the `mondrian` message:';
@@ -88,7 +109,8 @@ InspectorViewsSlideshow >> initExploringTheAPIPage [
 				yourself);
 		addSnippet: (LePharoSnippet new
 				code: '(#gtView gtPragmas contents
-	flatCollect: [ :method | method ast sentMessages intersection: apiSelectors ])
+	flatCollect: [ :method | 
+		method ast sentMessages intersection: apiSelectors ])
 	asBag sortedCounts';
 				yourself);
 		yourself

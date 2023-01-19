@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.303095+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.112589+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.303095+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.112589+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "D8Wk0QGvDQC0f8IkBCWi2Q=="
+					"uidString" : "tFNl0QKvDQCFcSz9BkO6+w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.303784+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.113288+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.303784+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.113288+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ycek0QGvDQC0gNTuBCWi2Q=="
+					"uidString" : "e1Zl0QKvDQCFcqxzBkO6+w=="
 				},
-				"code" : "GtCoder forClass:  GtPhlowProtoView "
+				"code" : "(GtCoder forClass: GtPhlowProtoView)\r\tselectMethodProtocolNamed: #decorating"
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.304465+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.113866+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,12 +100,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.304465+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.113866+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "aMqk0QGvDQC0gV1zBCWi2Q=="
+					"uidString" : "o1hl0QKvDQCFc/IiBkO6+w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.304971+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114231+01:00"
 					}
 				},
 				"editEmail" : {
@@ -137,12 +137,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.304971+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114231+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "V8yk0QGvDQC0gle3BCWi2Q=="
+					"uidString" : "DFpl0QKvDQCFdLKBBkO6+w=="
 				},
 				"code" : "apiSelectors := ((GtPhlowProtoView methods\r\t\tselect: [ :each | each protocol = 'decorating' ])\t\r\tcollect: #selector) asSet, {#mondrian}"
 			},
@@ -160,7 +160,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.306408+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114689+01:00"
 					}
 				},
 				"editEmail" : {
@@ -171,12 +171,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.306408+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114689+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "B9Kk0QGvDQC0g7IxBCWi2Q=="
+					"uidString" : "yltl0QKvDQCFdVKVBkO6+w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -197,7 +197,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.307033+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114971+01:00"
 					}
 				},
 				"editEmail" : {
@@ -208,14 +208,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T17:04:04.307033+01:00"
+						"dateAndTimeString" : "2023-01-19T18:15:35.114971+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "k9Sk0QGvDQC0hORTBCWi2Q=="
+					"uidString" : "6Vxl0QKvDQCFdsvXBkO6+w=="
 				},
-				"code" : "(#gtView gtPragmas contents\r\tflatCollect: [ :method | method ast sentMessages intersection: apiSelectors ])\r\tasBag sortedCounts"
+				"code" : "(#gtView gtPragmas contents\r\tflatCollect: [ :method | \r\t\tmethod ast sentMessages intersection: apiSelectors ])\r\tasBag sortedCounts"
 			}
 		]
 	},
