@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-16T10:27:48.605346+01:00"
+									"dateAndTimeString" : "2023-01-19T10:51:05.170001+01:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We explore the usage ofthe Inspector view API to find which API methods are most popular, and which classes use the widest variety of different views."
+							"string" : "We explore the usage of the Inspector view API to find which API methods are most popular, and which classes use the widest variety of different views."
 						}
 					]
 				},
@@ -620,6 +620,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "NB: All but `forward` of the top 9 are described in the Inspector show."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T11:19:49.123088+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T11:19:49.123088+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "pLl/Av2uDQCFe3adBaSmHg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},
@@ -1574,7 +1611,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-16T11:34:44.249777+01:00"
+									"dateAndTimeString" : "2023-01-16T11:34:56.862164+01:00"
 								}
 							},
 							"uid" : {
@@ -1584,7 +1621,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Some of t"
+							"string" : "Some of these, like #gtRawFor:, are composed, and others are empty."
 						},
 						{
 							"__type" : "textSnippet",
