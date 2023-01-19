@@ -271,7 +271,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:53:24.998035+01:00"
+						"dateAndTimeString" : "2023-01-19T18:31:14.045972+01:00"
 					}
 				},
 				"editEmail" : {
@@ -282,17 +282,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:53:56.173003+01:00"
+						"dateAndTimeString" : "2023-01-19T18:31:14.886275+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "9AZU/v+uDQC0MmsdBCWi2Q=="
+					"uidString" : "Uk5cCQOvDQCSaLaDBkO6+w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Note that if we create a new, uninitialized Subs, the SUbtitles view will not be displayed."
+				"string" : "Note that if we create a new, uninitialized Subs, the Subtitles view will not be displayed."
 			},
 			{
 				"__type" : "pharoSnippet",

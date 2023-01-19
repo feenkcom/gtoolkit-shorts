@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:48:23.652568+01:00"
+						"dateAndTimeString" : "2023-01-19T14:57:13.773775+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Ksufl/+uDQCxK5ckBCWi2Q=="
 				},
-				"code" : "data := (String crlf , String crlf\r\t\tsplit: '../Subtitles/Taxi Tehran (2015).srt' asFileReference contents)\r\t\tcollect: [ :each | \r\t\t\t| text times |\r\t\t\ttext := String crlf split: each.\r\t\t\ttimes := (' --> ' split: text second)\r\t\t\t\t\tcollect: [ :time | ('00:' , (time replaceAll: $, with: $:)) asDuration ].\r\t\t\tlines := text copyFrom: 3 to: text size.\r\t\t\t{'Number' -> text first.\r\t\t\t\t'Start' -> times first.\r\t\t\t\t'End' -> times second.\r\t\t\t\t'Lines' -> lines} asOrderedDictionary ]"
+				"code" : "data := (String crlf , String crlf\r\t\tsplit: '../Subtitles/Taxi Tehran (2015).srt' asFileReference contents)\r\t\tcollect: [ :each | \r\t\t\t| text times |\r\t\t\ttext := String crlf split: each.\r\t\t\ttimes := (' --> ' split: text second)\r\t\t\t\t\tcollect: [ :time | ('00:' , (time replaceAll: $, with: $:)) asDuration ].\r\t\t\tlines := text copyFrom: 3 to: text size.\r\t\t\t{'Number' -> text first.\r\t\t\t\t'Start' -> times first.\r\t\t\t\t'End' -> times second.\r\t\t\t\t'Lines' -> lines} asOrderedDictionary ]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -137,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:37:10.75978+01:00"
+						"dateAndTimeString" : "2023-01-19T14:57:19.260813+01:00"
 					}
 				},
 				"uid" : {

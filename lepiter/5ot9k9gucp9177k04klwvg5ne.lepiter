@@ -2014,7 +2014,42 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:06:46.899349+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:14:03.718407+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "DmzpsQKvDQCEYfXZBkO6+w=="
+													},
+													"code" : "typist := Typist\r\t\tonPageNamed: 'Exploring the Inspector view API'\r\t\tfrom: thisSnippet database databaseName.\rtypist page.\rInspectorViewsSlideshow new initExploringTheAPIPage."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -2024,7 +2059,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:44:54.249507+01:00"
+												"dateAndTimeString" : "2023-01-19T18:19:07.775296+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2035,192 +2070,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:44:54.249507+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "wlUYjQGvDQCwsP/tBCWi2Q=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:46:25.039276+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:46:25.039276+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "XK2BkgGvDQCw+KyaBCWi2Q=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.439415+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.439415+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "r16lsQKvDQCEUbSbBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.673138+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.673138+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "xe+osQKvDQCEVaLDBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.853552+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:42.853552+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "drCrsQKvDQCEWfWuBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:43.017731+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:43.017731+01:00"
+												"dateAndTimeString" : "2023-01-19T18:19:56.261824+01:00"
 											}
 										},
 										"uid" : {
@@ -2230,13 +2080,48 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "*The view construction API is defined in the GtPhlowProtoView class in the \"decorating\" protocol.* "
 									},
 									{
-										"__type" : "pharoSnippet",
+										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:12:09.245299+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:14:15.17063+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "8QMgxQKvDQCE8V9GBkO6+w=="
+													},
+													"code" : "typist addTextSnippet.\rtypist typeQuickly: 'The full API also includes the `mondrian` message:'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: 'apiSelectors := ((GtPhlowProtoView methods\r\t\tselect: [ :each | each protocol = ''decorating'' ])\t\r\tcollect: #selector) asSet, {#mondrian}'."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -2246,7 +2131,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:06:46.899349+01:00"
+												"dateAndTimeString" : "2023-01-19T18:20:34.762712+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2257,20 +2142,58 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:14:03.718407+01:00"
+												"dateAndTimeString" : "2023-01-19T18:21:15.20326+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "DmzpsQKvDQCEYfXZBkO6+w=="
+											"uidString" : "NXtD3AKvDQCHZIdkBkO6+w=="
 										},
-										"code" : "typist := Typist\r\t\tonPageNamed: 'Exploring the Inspector view API'\r\t\tfrom: thisSnippet database databaseName.\rtypist page.\rInspectorViewsSlideshow new initExploringTheAPIPage."
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*There is also \"mondrian\" which is an extension to the API, so this is the full list of messages that can be sent to create a view.* "
 									},
 									{
-										"__type" : "pharoSnippet",
+										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:12:05.207746+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-19T18:14:23.841105+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "bG3ixAKvDQCE7K8oBkO6+w=="
+													},
+													"code" : "typist addTextSnippet.\rtypist typeVeryQuickly: 'How widely used are these different kinds of views?'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: '(#gtView gtPragmas contents\r\tflatCollect: [ :method | \r\t\tmethod ast sentMessages intersection: apiSelectors ])\r\tasBag sortedCounts'."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -2280,7 +2203,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:12:09.245299+01:00"
+												"dateAndTimeString" : "2023-01-19T18:21:40.96429+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2291,48 +2214,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:14:15.17063+01:00"
+												"dateAndTimeString" : "2023-01-19T18:23:56.560245+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "8QMgxQKvDQCE8V9GBkO6+w=="
+											"uidString" : "mlQX5gKvDQCLETENBkO6+w=="
 										},
-										"code" : "typist addTextSnippet.\rtypist typeQuickly: 'The full API also includes the `mondrian` message:'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: 'apiSelectors := ((GtPhlowProtoView methods\r\t\tselect: [ :each | each protocol = ''decorating'' ])\t\r\tcollect: #selector) asSet, {#mondrian}'."
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
+										"paragraphStyle" : {
+											"__type" : "textStyle"
 										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:12:05.207746+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:14:23.841105+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "bG3ixAKvDQCE7K8oBkO6+w=="
-										},
-										"code" : "typist addTextSnippet.\rtypist typeVeryQuickly: 'How widely used are these different kinds of views?'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: '(#gtView gtPragmas contents\r\tflatCollect: [ :method | \r\t\tmethod ast sentMessages intersection: apiSelectors ])\r\tasBag sortedCounts'."
+										"string" : "*But how widely are these different kinds of views used in practice? This snippet finds all the gtView methods, extracts the sent messages, and finds all the usages of the api. The result is shown as a list of sorted counts.*  "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2348,7 +2240,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:53.430584+01:00"
+												"dateAndTimeString" : "2023-01-19T18:24:29.040954+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2359,7 +2251,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:53.430584+01:00"
+												"dateAndTimeString" : "2023-01-19T18:34:18.455094+01:00"
 											}
 										},
 										"uid" : {
@@ -2369,118 +2261,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:53.828178+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:53.828178+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "rj6hwAKvDQCEyNGmBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:54.074843+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:54.074843+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "PQWlwAKvDQCEzCZYBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:54.289256+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:10:54.289256+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "D0uowAKvDQCE0Mo9BkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
+										"string" : "*As we can see here, the most popular ones are the empty view, the forwarding view and the columned list view. Let's have a closer look at how a few of the top views are created and used.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -2513,43 +2294,6 @@
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "zg6swAKvDQCE1NEXBkO6+w=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:46:25.295327+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T16:46:25.295327+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "nZKFkgGvDQCw/DdOBCWi2Q=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
@@ -2603,118 +2347,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T16:39:18.500618+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T16:39:18.500618+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "rTYVeQGvDQCwF3R0BCWi2Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:10:48.409633+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:10:48.409633+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "7hdF4vyuDQCA8+0CBaSmHg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:06:43.70383+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:06:54.898913+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "4O2a0/yuDQC+LyVUBaSmHg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "See the apiSelectors snippet from [[Analyzing Inspector view usage]]."
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2023-01-19T11:06:24.635012+01:00"
 								}
 							},
@@ -2726,7 +2358,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:06:33.289193+01:00"
+									"dateAndTimeString" : "2023-01-19T18:26:45.362886+01:00"
 								}
 							},
 							"uid" : {
@@ -2736,82 +2368,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Which are the api methods?"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:07:10.030031+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:07:16.443309+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "XnDt1PyuDQC/Hcw1BaSmHg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "See the popularity snippet."
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:06:58.724013+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:07:08.556718+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "f7Ns1PyuDQC+tkLoBaSmHg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Which are the most popular ones?"
+							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",
@@ -2827,7 +2384,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T16:45:18.448266+01:00"
+									"dateAndTimeString" : "2023-01-19T18:27:25.627791+01:00"
 								}
 							},
 							"editEmail" : {
@@ -2838,7 +2395,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T16:45:18.448266+01:00"
+									"dateAndTimeString" : "2023-01-19T18:27:28.55316+01:00"
 								}
 							},
 							"uid" : {
@@ -2848,7 +2405,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "#CONTINUE HERE"
 						},
 						{
 							"__type" : "textSnippet",
@@ -3386,7 +2943,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:00:57.913529+01:00"
+												"dateAndTimeString" : "2023-01-19T18:33:10.683028+01:00"
 											}
 										},
 										"editEmail" : {
@@ -3397,12 +2954,12 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T11:02:09.779473+01:00"
+												"dateAndTimeString" : "2023-01-19T18:33:13.619133+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "gNYSv/yuDQC8rhaGBaSmHg=="
+											"uidString" : "7wpQEAOvDQCTxdCoBkO6+w=="
 										},
 										"code" : "#gtView gtPragmas & #forward gtSenders"
 									}
@@ -3480,7 +3037,228 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-19T18:33:15.664864+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-19T18:33:16.369839+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "yhCcEAOvDQCT1cklBkO6+w=="
+										},
+										"code" : "#gtView gtPragmas & #forward gtSenders"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:32:30.982528+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:33:00.412568+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "W/3XDQOvDQCSe8szBkO6+w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Don't forget, if you want to see examples of how these API methods are used, just search for senders."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
 								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:32:29.483244+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:32:29.483244+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "b2DbDQOvDQCSf/coBkO6+w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:33:44.56758+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:33:44.56758+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tRRVEgOvDQCT6BckBkO6+w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:33:44.831904+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-19T18:33:44.831904+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XB1ZEgOvDQCT7KkvBkO6+w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-19T18:30:39.961064+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-19T18:30:52.480778+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "gyEJBwOvDQCSA3XDBkO6+w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "See the [[Inspector view example]] "
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -3564,192 +3342,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:07:51.362593+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T11:07:51.362593+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "i5G31/yuDQC/wsQHBaSmHg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T10:22:51.308243+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T10:23:13.804939+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "JQxNDDOuDQCnoO5HBSYZYA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "What's an Inspector view?"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T10:22:57.166292+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T10:23:00.921665+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "7omvDDOuDQCnoqd1BSYZYA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "How do we create one?"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-09T10:23:01.485676+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-13T16:26:30.096115+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "WrT0DDOuDQCnpNy3BSYZYA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "What are the different kinds of views?"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-16T09:43:52.015275+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-16T09:43:52.015275+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "lliHUb+uDQC5b4kbCNkzhw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Start with a few examples\nHow much code on average?\nAPI — how many different kinds?\nMost popular?\n\nGood examples?\nFile references\nClasses\nLepiter page\n\nAn artificial example showing the top kinds?\n"
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2023-01-19T10:51:30.212601+01:00"
 								}
 							},
@@ -3761,7 +3353,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T10:51:33.542128+01:00"
+									"dateAndTimeString" : "2023-01-19T18:30:27.922279+01:00"
 								}
 							},
 							"uid" : {
@@ -3771,7 +3363,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Random notes ..."
+							"string" : ""
 						}
 					]
 				},
