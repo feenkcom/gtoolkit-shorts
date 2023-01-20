@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:24:33.696275+01:00"
+						"dateAndTimeString" : "2023-01-20T16:02:28.639486+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:24:36.531045+01:00"
+						"dateAndTimeString" : "2023-01-20T16:02:54.08914+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "J198k/+uDQCw8xpTBCWi2Q=="
+					"uidString" : "Kgpql/+uDQCxJqHGBCWi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Subtitles again?"
+				"string" : "Here are English subtitles for the movie “Taxi Tehran”:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-20T16:00:13.904147+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-20T16:00:45.511767+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wuMsCxWvDQCHNx9oBm2Nxg=="
+				},
+				"code" : "fileContents := '../Subtitles/Taxi Tehran (2015).srt' asFileReference contents."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:36:12.891448+01:00"
+						"dateAndTimeString" : "2023-01-20T16:03:01.255488+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:36:22.430366+01:00"
+						"dateAndTimeString" : "2023-01-20T16:04:30.34282+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Kgpql/+uDQCxJqHGBCWi2Q=="
+					"uidString" : "ZZUSFRWvDQCKKhIoBm2Nxg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let's split up a subtitles file "
+				"string" : "We can split the file up into a collection of dictionaries:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -103,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:57:13.773775+01:00"
+						"dateAndTimeString" : "2023-01-20T16:07:35.009253+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Ksufl/+uDQCxK5ckBCWi2Q=="
 				},
-				"code" : "data := (String crlf , String crlf\r\t\tsplit: '../Subtitles/Taxi Tehran (2015).srt' asFileReference contents)\r\t\tcollect: [ :each | \r\t\t\t| text times |\r\t\t\ttext := String crlf split: each.\r\t\t\ttimes := (' --> ' split: text second)\r\t\t\t\t\tcollect: [ :time | ('00:' , (time replaceAll: $, with: $:)) asDuration ].\r\t\t\tlines := text copyFrom: 3 to: text size.\r\t\t\t{'Number' -> text first.\r\t\t\t\t'Start' -> times first.\r\t\t\t\t'End' -> times second.\r\t\t\t\t'Lines' -> lines} asOrderedDictionary ]."
+				"code" : "data := (String crlf , String crlf split: fileContents)\r\t\tcollect: [ :each | \r\t\t\t| text times |\r\t\t\ttext := String crlf split: each.\r\t\t\ttimes := (' --> ' split: text second)\r\t\t\t\tcollect: [ :time | \r\t\t\t\t\t('00:' , (time replaceAll: $, with: $:)) asDuration ].\r\t\t\tlines := text copyFrom: 3 to: text size.\r\t\t\t{'Number' -> text first asNumber.\r\t\t\t\t'Start' -> times first.\r\t\t\t\t'End' -> times second.\r\t\t\t\t'Lines' -> lines} asOrderedDictionary ]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -174,14 +208,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:37:33.181565+01:00"
+						"dateAndTimeString" : "2023-01-20T16:10:15.351009+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "g5a8w/+uDQCx5lvNBCWi2Q=="
 				},
-				"code" : "subs := Subs new data: data."
+				"code" : "subs := Subtitles new data: data."
 			},
 			{
 				"__type" : "textSnippet",
@@ -208,7 +242,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:52:08.117333+01:00"
+						"dateAndTimeString" : "2023-01-20T16:10:35.574657+01:00"
 					}
 				},
 				"uid" : {
@@ -218,7 +252,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We just have to implement the setter {{gtMethod:name=Subs>>data:|expanded}}"
+				"string" : "We just have to implement the setter {{gtMethod:name=Subtitles>>data:|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -245,7 +279,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:52:43.654157+01:00"
+						"dateAndTimeString" : "2023-01-20T16:10:25.698561+01:00"
 					}
 				},
 				"uid" : {
@@ -255,7 +289,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "and the view: {{gtMethod:name=Subs>>gtSubsFor:|expanded}}"
+				"string" : "and the view: {{gtMethod:name=Subtitles>>gtSubsFor:|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -271,7 +305,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:53:24.998035+01:00"
+						"dateAndTimeString" : "2023-01-19T18:31:14.045972+01:00"
 					}
 				},
 				"editEmail" : {
@@ -282,17 +316,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:53:56.173003+01:00"
+						"dateAndTimeString" : "2023-01-19T18:31:14.886275+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "9AZU/v+uDQC0MmsdBCWi2Q=="
+					"uidString" : "Uk5cCQOvDQCSaLaDBkO6+w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Note that if we create a new, uninitialized Subs, the SUbtitles view will not be displayed."
+				"string" : "Note that if we create a new, uninitialized Subs, the Subtitles view will not be displayed."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -319,14 +353,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T14:53:16.32458+01:00"
+						"dateAndTimeString" : "2023-01-20T16:11:52.169668+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "iw66/f+uDQC0Iqn6BCWi2Q=="
 				},
-				"code" : "Subs new "
+				"code" : "Subtitles new "
 			},
 			{
 				"__type" : "textSnippet",
@@ -375,7 +409,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-19T14:23:31.500318+01:00"
+			"dateAndTimeString" : "2023-01-20T15:53:44.305893+01:00"
 		}
 	},
 	"editEmail" : {
@@ -386,12 +420,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-19T14:23:31.500318+01:00"
+			"dateAndTimeString" : "2023-01-20T15:53:51.504248+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Inspector view example"
+		"title" : "Custom views for subtitles"
 	},
 	"uid" : {
 		"__type" : "uuid",
