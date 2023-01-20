@@ -30,7 +30,7 @@ InspectorViewsSlideshow >> closing: aSlide [
 { #category : #slides }
 InspectorViewsSlideshow >> exploringCartoonAddressesPage: aSlide [
 	<gtSlide>
-	self initExploringFileReferencesPage.
+	self initExploringCartoonAddressesPage.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringCartoonAddressesPage:);
 		pageNamed: 'Exploring an AddressBook object' from: self myLepiterDB;
@@ -42,7 +42,7 @@ InspectorViewsSlideshow >> exploringTheAPIPage: aSlide [
 	<gtSlide>
 	self initExploringTheAPIPage. 
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringCartoonAddressesPage:);
+		priority: (self priorityFor: #exploringTheAPIPage:);
 		pageNamed: 'Exploring the Inspector view API' from: self myLepiterDB;
 		yourself
 ]
@@ -71,12 +71,13 @@ InspectorViewsSlideshow >> initExploringTheAPIPage [
 	^ page
 		addSnippet: (LeTextSnippet new
 				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
-				yourself);
+				yourself)
+				";
 		addSnippet: (LePharoSnippet new
 				code: '(GtCoder forClass: GtPhlowProtoView)
 	selectMethodProtocolNamed: #decorating';
 				yourself);
-		yourself
+		yourself"
 ]
 
 { #category : #initialization }
@@ -125,9 +126,9 @@ InspectorViewsSlideshow >> slidePriorities [
 	^ #( 
 		titleSlide:
 		
-		#exploringCartoonAddressesPage:
+		exploringCartoonAddressesPage:
 		
-		#exploringTheAPIPage:
+		exploringTheAPIPage:
 		
 		
 		closing:
