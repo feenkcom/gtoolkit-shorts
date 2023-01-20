@@ -28,6 +28,16 @@ InspectorViewsSlideshow >> closing: aSlide [
 ]
 
 { #category : #slides }
+InspectorViewsSlideshow >> customViewsForSubtitlesPage: aSlide [
+	<gtSlide>
+	self initCustomViewsForSubtitlesPage.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #customViewsForSubtitlesPage:);
+		pageNamed: 'Custom views for subtitles' from: self myLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
 InspectorViewsSlideshow >> exploringCartoonAddressesPage: aSlide [
 	<gtSlide>
 	self initExploringCartoonAddressesPage.
@@ -44,6 +54,23 @@ InspectorViewsSlideshow >> exploringTheAPIPage: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringTheAPIPage:);
 		pageNamed: 'Exploring the Inspector view API' from: self myLepiterDB;
+		yourself
+]
+
+{ #category : #initialization }
+InspectorViewsSlideshow >> initCustomViewsForSubtitlesPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Custom views for subtitles'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'fileContents := ''../Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
+				yourself);
 		yourself
 ]
 
@@ -78,6 +105,52 @@ InspectorViewsSlideshow >> initExploringTheAPIPage [
 	selectMethodProtocolNamed: #decorating';
 				yourself);
 		yourself"
+]
+
+{ #category : #initialization }
+InspectorViewsSlideshow >> initFullCustomViewsForSubtitlesPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Custom views for subtitles'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'fileContents := ''../Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'We can split the file up into a collection of dictionaries:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'data := (String crlf , String crlf split: fileContents)
+		collect: [ :each | 
+			| text times |
+			text := String crlf split: each.
+			times := ('' --> '' split: text second)
+				collect: [ :time | 
+					(''00:'' , (time replaceAll: $, with: $:)) asDuration ].
+			lines := text copyFrom: 3 to: text size.
+			{''Number'' -> text first asNumber.
+				''Start'' -> times first.
+				''End'' -> times second.
+				''Lines'' -> lines} asOrderedDictionary ].';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'We wrap it as an object.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: ' subs := Subtitles new data: data. ';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Now we just need to create a custom view.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: '';
+				yourself);
+		yourself
 ]
 
 { #category : #initialization }
@@ -125,12 +198,9 @@ InspectorViewsSlideshow >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
-		
 		exploringCartoonAddressesPage:
-		
 		exploringTheAPIPage:
-		
-		
+		customViewsForSubtitlesPage:
 		closing:
 	)
 ]
