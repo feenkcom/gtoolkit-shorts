@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:01.520132+01:00"
+						"dateAndTimeString" : "2023-01-23T16:27:54.887385+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:01.520132+01:00"
+						"dateAndTimeString" : "2023-01-23T16:27:54.887385+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "JTDyrhWvDQCqERp7BIV1SA=="
+					"uidString" : "9Jyzx1GvDQCDzGfHCIOQMg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:01.521024+01:00"
+						"dateAndTimeString" : "2023-01-23T16:27:54.887891+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:01.521024+01:00"
+						"dateAndTimeString" : "2023-01-23T16:27:54.887891+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "nzPyrhWvDQCqEqoGBIV1SA=="
+					"uidString" : "9J6zx1GvDQCDzW0rCIOQMg=="
 				},
 				"code" : "fileContents := '../Subtitles/Taxi Tehran (2015).srt' asFileReference contents."
 			},
@@ -89,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:03.120291+01:00"
+						"dateAndTimeString" : "2023-01-23T16:28:05.257311+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,12 +100,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:03.699547+01:00"
+						"dateAndTimeString" : "2023-01-23T16:28:05.537726+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "yJoKrxWvDQCqFVteBIV1SA=="
+					"uidString" : "ddhRyFGvDQCD0L4uCIOQMg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:04.700646+01:00"
+						"dateAndTimeString" : "2023-01-23T16:28:08.990215+01:00"
 					}
 				},
 				"editEmail" : {
@@ -137,122 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:04.700646+01:00"
+						"dateAndTimeString" : "2023-01-23T16:28:19.894179+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DbgirxWvDQCqGE8BBIV1SA=="
+					"uidString" : "Js6KyFGvDQCD2bleCIOQMg=="
 				},
 				"code" : "data := (String crlf , String crlf split: fileContents)\r\t\tcollect: [ :each | \r\t\t\t| text times |\r\t\t\ttext := String crlf split: each.\r\t\t\ttimes := (' --> ' split: text second)\r\t\t\t\tcollect: [ :time | \r\t\t\t\t\t('00:' , (time replaceAll: $, with: $:)) asDuration ].\r\t\t\tlines := text copyFrom: 3 to: text size.\r\t\t\t{'Number' -> text first asNumber.\r\t\t\t\t'Start' -> times first.\r\t\t\t\t'End' -> times second.\r\t\t\t\t'Lines' -> lines} asOrderedDictionary ]."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:08.524727+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:08.720286+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "zRFdrxWvDQCqG3YbBIV1SA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We wrap it as an object."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:08.817731+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:09.282944+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "bIphrxWvDQCqHgInBIV1SA=="
-				},
-				"code" : "subs := Subtitles new data: data."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:09.3062+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-20T16:46:09.586447+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "af5orxWvDQCqMEdaBIV1SA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Now we just need to create a custom view."
 			}
 		]
 	},

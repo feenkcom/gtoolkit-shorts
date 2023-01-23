@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-20T16:18:32.729201+01:00"
+									"dateAndTimeString" : "2023-01-23T14:46:16.187734+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "GT Book page: {{gtPage:Inspector|db=2j9m7db2i4oz116bexd7wbdxo}} and show: {{gtPage:Inspector views show|db=2j9m7db2i4oz116bexd7wbdxo}}    "
+							"string" : "GT Book page: {{gtPage:Inspector|db=2j9m7db2i4oz116bexd7wbdxo}} and show: {{gtPage:Inspector views show|db=2j9m7db2i4oz116bexd7wbdxo}}     "
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -169,43 +169,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T15:04:10.724821+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T15:04:21.016969+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ue3cIACvDQC1pXqABCWi2Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "TODO : Copy outline from [[GitHub REST API ]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2023-01-19T15:04:40.648797+01:00"
 								}
 							},
@@ -217,7 +180,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-19T15:04:43.751795+01:00"
+									"dateAndTimeString" : "2023-01-23T16:00:29.022922+01:00"
 								}
 							},
 							"uid" : {
@@ -227,7 +190,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Prepare script"
+							"string" : "Shorten script"
 						}
 					]
 				},
@@ -1211,7 +1174,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:08:26.211816+01:00"
+															"dateAndTimeString" : "2023-01-23T16:03:19.447991+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1222,17 +1185,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T13:50:54.233128+01:00"
+															"dateAndTimeString" : "2023-01-23T16:04:00.069137+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "3TG5CAGvDQCL8LuKBCWi2Q=="
+														"uidString" : "/S7Cb1GvDQC51/o3CIOQMg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*There are a few important details in implementing views, but they are always the same, so let's step through them.* "
+													"string" : "*A view method is, by convention, named \"gtSomethingFor:\", where \"Something\" indicates what we want to see.*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -1286,7 +1249,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:08:57.818212+01:00"
+															"dateAndTimeString" : "2023-01-23T16:03:07.016429+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1297,91 +1260,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:14:48.809551+01:00"
+															"dateAndTimeString" : "2023-01-23T16:03:19.451301+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "GbB6DAGvDQCNi+GDBCWi2Q=="
+														"uidString" : "oX4Eb1GvDQC5vTEKCIOQMg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*First, a view method is always named \"gtSomethingFor:\", where \"Something\" indicates what we want to see. In this case the something is \"ContactList\".* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T13:51:21.860503+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T13:51:48.334182+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "/ENPPhOvDQCiLK2iBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Note that this is just a useful convention, but not strictly required.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:10:16.318942+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:18:32.733176+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "KWkrEQGvDQCPtG8fBCWi2Q=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*The method could be named anything at all, but it is a good idea to stick to the convention.* "
+													"string" : "*In this case the something is \"ContactList\".*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -1446,7 +1335,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:11:54.911067+01:00"
+															"dateAndTimeString" : "2023-01-23T16:04:25.988233+01:00"
 														}
 													},
 													"uid" : {
@@ -1456,7 +1345,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Next, a view method takes a single argument, typically called \"aView\".* "
+													"string" : "*A view method takes a single argument, typically called \"aView\".* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -1621,7 +1510,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:15:56.793918+01:00"
+															"dateAndTimeString" : "2023-01-23T16:05:10.640679+01:00"
 														}
 													},
 													"editEmail" : {
@@ -1632,17 +1521,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:16:34.762015+01:00"
+															"dateAndTimeString" : "2023-01-23T16:05:51.220782+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "CxgbIwGvDQCWe6JsBCWi2Q=="
+														"uidString" : "fItMdlGvDQC6SKCSCIOQMg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*More code may follow, but the method must end by sending an API message to the view, with various parameters, and returning the result.* "
+													"string" : "*The method returns the result of sending an API message to the view, with various parameter.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -1700,7 +1589,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-19T16:18:47.021045+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:06:24.05826+01:00"
 																	}
 																},
 																"editEmail" : {
@@ -1711,17 +1600,17 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-20T16:18:32.733609+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:06:42.313751+01:00"
 																	}
 																},
 																"uid" : {
 																	"__type" : "uid",
-																	"uidString" : "oVSuLwGvDQCcB5XfBCWi2Q=="
+																	"uidString" : "PjOrelGvDQC60X5pCIOQMg=="
 																},
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*This is one of simplest kinds of views available, used to display a list of values.* "
+																"string" : "*This is used to display a simple list of values, and nothing else.*"
 															}
 														]
 													},
@@ -1856,7 +1745,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T13:53:35.720251+01:00"
+															"dateAndTimeString" : "2023-01-23T16:06:54.794147+01:00"
 														}
 													},
 													"uid" : {
@@ -1866,7 +1755,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Then we set the Priority to 8.*"
+													"string" : "*We set the Priority to 8.*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -2638,7 +2527,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T16:36:08.92642+01:00"
+															"dateAndTimeString" : "2023-01-23T16:08:36.010812+01:00"
 														}
 													},
 													"uid" : {
@@ -2648,7 +2537,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*The Print view is a textEditor view of the object's printString representation, also defined generically in the Object class.* "
+													"string" : "*The Print view is a generic textEditor view of the object's printString representation.*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -2937,7 +2826,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:18:32.735215+01:00"
+															"dateAndTimeString" : "2023-01-23T16:09:17.478886+01:00"
 														}
 													},
 													"uid" : {
@@ -2947,7 +2836,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*This \"explicit\" view just plugs in a \"stencil\" for an existing GUI component, in this case the GTCoder for the class of the object.* "
+													"string" : "*An \"explicit\" view plugs in a \"stencil\" for an existing GUI component, in this case the GTCoder for the class of the object.* "
 												}
 											]
 										},
@@ -3024,7 +2913,45 @@
 										"__type" : "pharoSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-23T16:10:03.82898+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-23T16:10:04.627006+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "aRKJh1GvDQC8J8njCIOQMg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Exploring the Inspector view API]] "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -3084,7 +3011,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:35:40.200979+01:00"
+															"dateAndTimeString" : "2023-01-23T16:09:53.646235+01:00"
 														}
 													},
 													"uid" : {
@@ -3225,7 +3152,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T18:19:56.261824+01:00"
+												"dateAndTimeString" : "2023-01-23T16:09:29.336417+01:00"
 											}
 										},
 										"uid" : {
@@ -3235,7 +3162,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*The view construction API is defined in the GtPhlowProtoView class in the \"decorating\" protocol.* "
+										"string" : "*The view construction API is defined in the GtPhlowProtoView class in its \"decorating\" protocol.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -3300,7 +3227,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T15:39:23.147013+01:00"
+												"dateAndTimeString" : "2023-01-23T16:10:35.111271+01:00"
 											}
 										},
 										"uid" : {
@@ -3310,7 +3237,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Each of these methods as a factory for a dedicated view class.*"
+										"string" : "*Each of these methods is a factory for a dedicated view class.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3350,43 +3277,6 @@
 														"uidString" : "8QMgxQKvDQCE8V9GBkO6+w=="
 													},
 													"code" : "typist addTextSnippet.\rtypist typeQuickly: 'The full API also includes the `mondrian` message:'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: 'apiSelectors := ((GtPhlowProtoView methods\r\t\tselect: [ :each | each protocol = ''decorating'' ])\t\r\tcollect: #selector) asSet, {#mondrian}'."
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T18:20:34.762712+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:18:32.735779+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "NXtD3AKvDQCHZIdkBkO6+w=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*so this is the full list of messages that can be sent to create a view.* "
 												}
 											]
 										},
@@ -3409,7 +3299,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T14:21:05.435954+01:00"
+												"dateAndTimeString" : "2023-01-23T16:11:36.763616+01:00"
 											}
 										},
 										"uid" : {
@@ -3419,7 +3309,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*There is also \"mondrian\" which is an extension to the API,*"
+										"string" : "*The full list includes \"mondrian\", which is an extension to the API.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3474,7 +3364,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:46.081639+01:00"
+															"dateAndTimeString" : "2023-01-23T16:13:07.038362+01:00"
 														}
 													},
 													"editEmail" : {
@@ -3485,128 +3375,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:46.081639+01:00"
+															"dateAndTimeString" : "2023-01-23T16:13:41.743623+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "0asKqxOvDQCm/sjfBm2Nxg=="
+														"uidString" : "ByOLklGvDQC9uCGZCIOQMg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*This snippet finds all the gtView methods,*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:52.054887+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:52.054887+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "WtBlqxOvDQCnDsJuBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*extracts the sent messages,*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:58.18698+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:21:58.18698+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "NGLDqxOvDQCnGxhHBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*and finds all the usages of the api.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T18:21:40.96429+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:18:32.736086+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "mlQX5gKvDQCLETENBkO6+w=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*The result is shown as a list of sorted counts.*  "
+													"string" : "*This snippet finds all the gtView methods, and counts their usages of the API selectors.*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -3633,7 +3412,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T14:22:30.49525+01:00"
+															"dateAndTimeString" : "2023-01-23T16:16:30.467122+01:00"
 														}
 													},
 													"uid" : {
@@ -3643,81 +3422,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*The most popular ones are the empty view,*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T13:42:21.50211+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T15:40:35.860026+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "Qg0aHhOvDQCgNbwlBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*the forwarding view and the columned list view.*  "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T15:40:38.112654+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T15:40:50.631368+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "u5L9xBSvDQC84mmKBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*We've seen most of these already.* "
+													"string" : "*The most popular ones are the empty, forward and columnedList views.*"
 												},
 												{
 													"__type" : "textSnippet",
@@ -3754,14 +3459,14 @@
 																				"__type" : "time",
 																				"time" : {
 																					"__type" : "dateAndTime",
-																					"dateAndTimeString" : "2023-01-20T15:42:51.411608+01:00"
+																					"dateAndTimeString" : "2023-01-23T16:16:18.147814+01:00"
 																				}
 																			},
 																			"uid" : {
 																				"__type" : "uid",
 																				"uidString" : "euvgyhSvDQC+o/SgBm2Nxg=="
 																			},
-																			"code" : "typist addTextSnippet.\rtypist typeVeryQuickly: 'Here''s how to search for implementations'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: '#gtView gtPragmas & #forward gtSenders'."
+																			"code" : "typist addTextSnippet.\rtypist typeVeryQuickly: 'Here''s how to search for implementations'.\rtypist addCodeSnippet.\rtypist\r\ttypeVeryQuickly: '#gtView gtPragmas & #empty gtSenders'."
 																		},
 																		{
 																			"__type" : "pharoSnippet",
@@ -3788,14 +3493,14 @@
 																				"__type" : "time",
 																				"time" : {
 																					"__type" : "dateAndTime",
-																					"dateAndTimeString" : "2023-01-19T18:33:16.369839+01:00"
+																					"dateAndTimeString" : "2023-01-23T16:16:49.66136+01:00"
 																				}
 																			},
 																			"uid" : {
 																				"__type" : "uid",
 																				"uidString" : "yhCcEAOvDQCT1cklBkO6+w=="
 																			},
-																			"code" : "#gtView gtPragmas & #forward gtSenders"
+																			"code" : "#gtView gtPragmas & #empty gtSenders"
 																		}
 																	]
 																},
@@ -3818,7 +3523,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-20T16:18:32.736305+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:15:09.829747+01:00"
 																	}
 																},
 																"uid" : {
@@ -3828,7 +3533,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*If you want to see examples of how these API methods are used, just search for senders.*"
+																"string" : "*If you want to see examples of how these API methods are used, just search for senders, like this.*"
 															},
 															{
 																"__type" : "textSnippet",
@@ -3882,7 +3587,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-20T15:43:29.106438+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:17:41.69729+01:00"
 																	}
 																},
 																"editEmail" : {
@@ -3893,7 +3598,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-20T15:45:14.064427+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:18:25.999349+01:00"
 																	}
 																},
 																"uid" : {
@@ -3903,7 +3608,44 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*This GT query snippet searches for methods with the gtView pragma that also send the empty message*"
+																"string" : "*Here we search for view methods that create an \"empty\"view.\"*"
+															},
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-01-23T16:18:51.816929+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-01-23T16:19:00.647465+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "Y4bSplGvDQCBfykSCIOQMg=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "*This is a typical example.*"
 															},
 															{
 																"__type" : "textSnippet",
@@ -3930,7 +3672,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-20T15:51:39.591584+01:00"
+																		"dateAndTimeString" : "2023-01-23T16:19:19.85475+01:00"
 																	}
 																},
 																"uid" : {
@@ -3940,7 +3682,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*Here we see that FileReferences that are not directories will produce an \"empty\" view for the list of items, which is simply not displayed.*"
+																"string" : "*FileReferences that are not directories will produce an \"empty\" view for the list of items, which means it is simply not displayed.*"
 															},
 															{
 																"__type" : "textSnippet",
@@ -4037,7 +3779,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T15:52:16.176969+01:00"
+															"dateAndTimeString" : "2023-01-23T16:19:50.27076+01:00"
 														}
 													},
 													"uid" : {
@@ -4047,7 +3789,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Now let's have a look at a practical example.* "
+													"string" : "*Let's see a practical example.* "
 												}
 											]
 										},
@@ -4070,7 +3812,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T14:21:23.779842+01:00"
+												"dateAndTimeString" : "2023-01-23T16:11:50.521792+01:00"
 											}
 										},
 										"uid" : {
@@ -4080,7 +3822,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*But how widely are these different kinds of views used in practice?*"
+										"string" : "*How widely are these different kinds of views used in practice?*"
 									}
 								]
 							},
@@ -4121,47 +3863,48 @@
 								"__type" : "snippets",
 								"items" : [
 									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T16:42:17.496962+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T16:42:17.496962+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "wkm01/yuDQC/vpDmBaSmHg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Custom views for subtitles]] "
-									},
-									{
 										"__type" : "pharoSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-20T16:42:17.496962+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-20T16:42:17.496962+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "wkm01/yuDQC/vpDmBaSmHg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Custom views for subtitles]] "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -4251,7 +3994,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T16:02:14.469023+01:00"
+												"dateAndTimeString" : "2023-01-23T16:22:07.573293+01:00"
 											}
 										},
 										"uid" : {
@@ -4261,7 +4004,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Suppose we would like to build a tool in GT for viewing and manipulating movie subtitles.* "
+										"string" : "*Suppose we want to build a tool in GT for exploring and manipulating movie subtitles.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -4288,7 +4031,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T16:05:18.637026+01:00"
+												"dateAndTimeString" : "2023-01-23T16:23:44.579449+01:00"
 											}
 										},
 										"uid" : {
@@ -4298,7 +4041,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Here are some English subtitles for the 2015 movie, “Taxi Tehran.”*"
+										"string" : "*Here are English subtitles for the 2015 movie, “Taxi Tehran.”*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -4401,7 +4144,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:45:58.018188+01:00"
+															"dateAndTimeString" : "2023-01-23T16:28:16.033671+01:00"
 														}
 													},
 													"uid" : {
@@ -4424,7 +4167,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:47:16.340015+01:00"
+															"dateAndTimeString" : "2023-01-23T16:25:41.775434+01:00"
 														}
 													},
 													"editEmail" : {
@@ -4435,54 +4178,17 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:47:46.127944+01:00"
+															"dateAndTimeString" : "2023-01-23T16:28:32.928365+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "TklXsxWvDQCqTccMBIV1SA=="
+														"uidString" : "CXfEv1GvDQCDnJTNCIOQMg=="
 													},
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*then split each chunk into lines.* "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:09:00.091919+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:10:58.125983+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "IzfCKBWvDQCPHQilBm2Nxg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*We can then create a dictionary holding the subtitle number, the start and end times, and the list of spoken lines.* "
+													"string" : "*We then split each chunk into lines, and create a dictionary holding the subtitle number, the start and end times, and the list of spoken lines.* "
 												}
 											]
 										},
@@ -4505,7 +4211,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-20T16:47:02.891976+01:00"
+												"dateAndTimeString" : "2023-01-23T16:24:41.860928+01:00"
 											}
 										},
 										"uid" : {
@@ -4515,7 +4221,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*We can split this file into subtitles chunks wherever there are blank lines*"
+										"string" : "*We can split this file into subtitles chunks wherever we find blank lines.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -5451,7 +5157,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:59:44.651233+01:00"
+															"dateAndTimeString" : "2023-01-20T17:00:44.115573+01:00"
 														}
 													},
 													"editEmail" : {
@@ -5462,7 +5168,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:59:44.651233+01:00"
+															"dateAndTimeString" : "2023-01-20T17:00:44.115573+01:00"
 														}
 													},
 													"uid" : {
@@ -5472,7 +5178,44 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : ""
+													"string" : "*You'll find more GT in 7' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.* "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-20T17:00:49.280359+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-01-20T17:00:49.280359+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "sEvZ4xWvDQC2c0TPBIV1SA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*Thanks for listening.* "
 												}
 											]
 										},
