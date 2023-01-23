@@ -626,7 +626,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T15:53:57.44775+01:00"
+															"dateAndTimeString" : "2023-01-23T17:06:43.696139+01:00"
 														}
 													},
 													"uid" : {
@@ -636,7 +636,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*In the GlamorousToolkit, whenever we inspect any object, we are presented with an Inspector that offers several view of that object.* "
+													"string" : "*In the GlamorousToolkit, whenever we inspect any object, we are presented with an Inspector that offers several views of that object.* "
 												},
 												{
 													"__type" : "textSnippet",
@@ -4577,7 +4577,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:52:17.717436+01:00"
+															"dateAndTimeString" : "2023-01-23T16:29:20.784286+01:00"
 														}
 													},
 													"uid" : {
@@ -4587,7 +4587,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*We start by defining a forwarding view to the gtItemsFor: view of the collection.*"
+													"string" : "*We first define a forwarding view to the gtItemsFor: view of the collection.*"
 												},
 												{
 													"__type" : "textSnippet",
