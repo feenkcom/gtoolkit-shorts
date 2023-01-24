@@ -55,6 +55,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T10:20:17.834958+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T10:20:18.934641+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iqTKwmCvDQCM+UceAWKcnw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Smalltalk Syntax in 7'\n\nThe syntax of Smalltalk famously fits on a postcard, but understanding it takes at least a few minutes."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-12-12T11:52:08.159431+01:00"
 					}
 				},
@@ -103,14 +140,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-12T11:52:29.101902+01:00"
+						"dateAndTimeString" : "2022-12-12T13:56:40.548159+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "BBwWCQGsDQCJFgIgAtmTxQ=="
 				},
-				"youtubeUrl" : "https://www.youtube.com/watch?v=WfAbOlmULjk"
+				"youtubeUrl" : "https://youtu.be/WfAbOlmULjk"
 			},
 			{
 				"__type" : "textSnippet",

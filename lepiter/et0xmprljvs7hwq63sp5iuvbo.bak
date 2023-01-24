@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-26T08:57:25.132902+02:00"
+						"dateAndTimeString" : "2023-01-24T10:19:47.357682+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-01T16:02:42.714348+01:00"
+						"dateAndTimeString" : "2023-01-24T10:19:47.357682+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,82 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] "
+				"string" : "[[short]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-24T10:19:59.110761+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-24T10:20:03.85812+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Q+ENwWCvDQCM4qLQAWKcnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We show how to query and explore Smalltalk code within GT using a number of complementary tools and techniques. Specifically, we look at: using Spotter, finding senders and implementers with keyboard shortcuts, posing Gt queries, querying Smalltalk classes and methods, using the MethodFinder, exploring view code, and drilling into UI code."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T10:20:03.85643+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T10:20:03.85643+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "28UBwmCvDQCM8L4IAWKcnw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#How to find stuff in GT in 7'"
 			},
 			{
 				"__type" : "textSnippet",
@@ -3791,14 +3866,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-12-01T08:26:11.973756+01:00"
+												"dateAndTimeString" : "2022-12-20T10:48:07.58352+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "tSu7xSCrDQC9t9YeB0lv5Q=="
 										},
-										"code" : "HowToFindStuffSlideshow <> #exploringCharacterViews:"
+										"code" : "HowToFindStuffSlideshow <> #exploringCharacterViewsPage:"
 									}
 								]
 							},
