@@ -325,7 +325,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-19T15:04:33.875388+01:00"
+						"dateAndTimeString" : "2023-01-24T17:09:19.595303+01:00"
 					}
 				},
 				"uid" : {
@@ -443,7 +443,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-19T15:11:33.606236+01:00"
+												"dateAndTimeString" : "2023-01-24T17:09:41.531755+01:00"
 											}
 										},
 										"uid" : {
@@ -451,40 +451,6 @@
 											"uidString" : "yf3uKACvDQC3WCJmBCWi2Q=="
 										},
 										"code" : "BlGlutinHostSpace zoomFactor: 1.5."
-									},
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-24T16:15:22.781701+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-24T16:15:22.781701+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "nsK2uGWvDQCu8KJ+Bnj12A=="
-										},
-										"code" : ""
 									}
 								]
 							},
@@ -5473,43 +5439,6 @@
 														"__type" : "textStyle"
 													},
 													"string" : "*Now we have a nice custom view for our subtitles, and we can continue to work on the other features we want.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:59:03.700365+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-20T16:59:12.373795+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "1cOK3RWvDQC1n2IyBIV1SA=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*But that's another story.*"
 												}
 											]
 										},
@@ -5543,6 +5472,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*To create a view, we go to the Meta view and add a new method.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-24T17:11:33.15032+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-24T17:11:39.292609+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ggFrfWavDQCHTd9oAo/Ffg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*But that's another story.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -5851,7 +5817,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-24T16:13:59.035086+01:00"
+			"dateAndTimeString" : "2023-01-24T17:09:29.527515+01:00"
 		}
 	},
 	"pageType" : {

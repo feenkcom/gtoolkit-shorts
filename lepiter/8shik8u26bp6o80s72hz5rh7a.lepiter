@@ -208,6 +208,43 @@
 																	"__type" : "textStyle"
 																},
 																"string" : "[[Analyzing Inspector view usage]] "
+															},
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-01-24T17:09:56.978884+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-01-24T17:10:05.775219+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "oUjMe2avDQCG4ILAAo/Ffg=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "[[Extra snippets for subtitles]] "
 															}
 														]
 													},
@@ -219,7 +256,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-19T15:59:50.262369+01:00"
+															"dateAndTimeString" : "2023-01-24T17:09:02.070464+01:00"
 														}
 													},
 													"editEmail" : {
@@ -230,7 +267,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-01-24T16:13:59.03187+01:00"
+															"dateAndTimeString" : "2023-01-24T17:09:29.530952+01:00"
 														}
 													},
 													"uid" : {
@@ -240,7 +277,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Page]] "
+													"string" : "[[Inspecting objects with custom views in 7']] "
 												},
 												{
 													"__type" : "textSnippet",
