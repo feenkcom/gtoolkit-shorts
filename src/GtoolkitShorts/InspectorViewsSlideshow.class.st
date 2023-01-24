@@ -69,7 +69,7 @@ InspectorViewsSlideshow >> initCustomViewsForSubtitlesPage [
 				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
 				yourself);
 		addSnippet: (LePharoSnippet new
-				code: 'fileContents := ''../Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
+				code: 'fileContents := ''pharo-local/iceberg/feenkcom/gtoolkit-shorts/doc/Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
 				yourself);
 		yourself
 ]

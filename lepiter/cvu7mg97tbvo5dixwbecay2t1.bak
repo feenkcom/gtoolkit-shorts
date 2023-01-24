@@ -100,14 +100,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T16:44:51.625511+01:00"
+						"dateAndTimeString" : "2023-01-24T16:49:08.132391+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "KRHRGGavDQC9aWvcAo/Ffg=="
 				},
-				"code" : "FileLocator imageDirectory /'pharo-local' / 'iceberg' / 'feenkcom' / 'gtoolkit-shorts' / 'doc' / '"
+				"code" : "fileContents := (FileLocator imageDirectory / 'pharo-local' / 'iceberg'\r\t\t/ 'feenkcom' / 'gtoolkit-shorts' / 'doc' / 'Subtitles'\r\t\t/ 'Taxi Tehran (2015).srt') contents."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T16:49:57.724557+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-24T16:50:42.060195+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IuBjNGavDQC/YY8jAo/Ffg=="
+				},
+				"code" : "fileContents := 'pharo-local/iceberg/feenkcom/gtoolkit-shorts/doc/Subtitles/Taxi Tehran (2015).srt'\r\t\tasFileReference contents."
 			},
 			{
 				"__type" : "textSnippet",
