@@ -210,5 +210,5 @@ InspectorViewsSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
-		titleWithFormat: (self asTitle: 'Implementing custom Inspector views in 7''')
+		titleWithFormat: (self asTitle: 'Inspecting objects with custom views in 7''')
 ]

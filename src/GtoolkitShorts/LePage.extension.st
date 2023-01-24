@@ -11,7 +11,7 @@ LePage >> gtMetricsFor: aView [
 		title: 'Metrics';
 		priority: 8;
 		items: [ | words |
-			words := (' ' join: (self textSnippetsStartingWith: '*`')) substrings.
+			words := (' ' join: (self textSnippetsStartingWith: '*')) substrings.
 			{'Number of words' -> words size.
 				'Estimated duration'
 					-> ((Duration minutes: words size / wordsPerMinutes) roundTo: 1 second)} ];
@@ -33,7 +33,7 @@ LePage >> gtRawScriptFor: aView [
 						addSnippet: (LeTextSnippet new
 								string: (('
 
-' join: (self textSnippetsStartingWith: '*`')) copyWithoutAll: '*`'));
+' join: (self textSnippetsStartingWith: '*')) copyWithoutAll: '*`'));
 						yourself) asContentUIModel;
 				matchParent ];
 		updateWhen: LeContentTreeChanged in: [ self announcer ];
