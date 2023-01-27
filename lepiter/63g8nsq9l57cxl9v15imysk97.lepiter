@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T09:30:00.797502+01:00"
+						"dateAndTimeString" : "2023-01-27T09:21:17.776903+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T09:30:01.314273+01:00"
+						"dateAndTimeString" : "2023-01-27T09:21:17.776903+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "2xNjaJyvDQCqYaPSC2v3Zg=="
+					"uidString" : "pdf5SJyvDQCkxMDbC2v3Zg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[tags]] "
+				"string" : "A day in the life of a GT programmer (best practices, building an image)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T14:18:21.771167+01:00"
+						"dateAndTimeString" : "2023-01-27T09:21:20.52888+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T14:18:24.377419+01:00"
+						"dateAndTimeString" : "2023-01-27T09:21:23.937374+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qO1AoFyqDQCNf0rrCldVvw=="
+					"uidString" : "zDh9SZyvDQCkyot6C2v3Zg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Aliaksei Syrel"
+				"string" : "Proposed by Nitish"
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-21T14:18:19.52733+01:00"
+			"dateAndTimeString" : "2023-01-27T09:21:11.287973+01:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-21T14:18:19.52733+01:00"
+			"dateAndTimeString" : "2023-01-27T09:21:11.287973+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "AS"
+		"title" : "Best practices"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "4a6840a0-5caa-0d00-8d7e-16af0a5755bf"
+		"uuid" : "8b2ff948-9caf-0d00-a4c3-60c70b6bf766"
 	}
 }

@@ -3747,7 +3747,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-01-23T16:18:25.999349+01:00"
+																		"dateAndTimeString" : "2023-01-27T09:14:43.586209+01:00"
 																	}
 																},
 																"uid" : {
@@ -3757,7 +3757,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "*Here we search for view methods that create an \"empty\"view.\"*"
+																"string" : "*Here we search for view methods that create an \"empty\" view.*"
 															},
 															{
 																"__type" : "textSnippet",
@@ -5498,7 +5498,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-24T17:11:34.412904+01:00"
+												"dateAndTimeString" : "2023-01-24T17:11:39.292609+01:00"
 											}
 										},
 										"uid" : {
@@ -5508,7 +5508,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*But t"
+										"string" : "*But that's another story.* "
 									},
 									{
 										"__type" : "textSnippet",

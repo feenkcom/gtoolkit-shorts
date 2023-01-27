@@ -40,6 +40,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "[[completed]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-27T09:25:00.093207+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-01-27T09:25:25.223843+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nTuWVpyvDQCnt/tVC2v3Zg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "These are all available in the [GT in 7'](https://www.youtube.com/playlist?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ) playlist."
 			}
 		]
 	},

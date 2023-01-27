@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:42:02.340322+01:00"
+						"dateAndTimeString" : "2023-01-27T09:19:46.006888+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-09T08:42:09.146814+01:00"
+						"dateAndTimeString" : "2023-01-27T09:19:55.155244+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3eFFozGuDQClTD01BSYZYA=="
+					"uidString" : "R8FLQJyvDQCjhRmfC2v3Zg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Some [[TG]] proposals ..."
+				"string" : "Currently working on these."
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-09T08:41:53.105869+01:00"
+			"dateAndTimeString" : "2023-01-27T09:18:45.671164+01:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-09T08:41:53.105869+01:00"
+			"dateAndTimeString" : "2023-01-27T09:18:45.671164+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "TG proposes:"
+		"title" : "To do next"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8a6f45a3-31ae-0d00-a54b-b7be05261960"
+		"uuid" : "67404b40-9caf-0d00-a384-9a1d0b6bf766"
 	}
 }
