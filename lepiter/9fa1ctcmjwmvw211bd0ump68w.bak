@@ -55,43 +55,6 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T12:07:29.315861+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T10:29:34.863222+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Z6yWxrCrDQCkJrkZAMDYLQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-01-27T10:18:40.359292+01:00"
 					}
 				},
@@ -182,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-27T10:39:55.120691+01:00"
+									"dateAndTimeString" : "2023-01-27T11:00:25.232345+01:00"
 								}
 							},
 							"uid" : {
@@ -192,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "*Today I'd like to give you a guided tour of Lepiter is a moldable notebook for creating narratives composed of linked text and live code examples.*"
+							"string" : "*Today I'd like to give you a guided tour of Lepiter, a moldable notebook for creating narratives composed of linked text and live code examples.*"
 						},
 						{
 							"__type" : "textSnippet",
@@ -213,7 +176,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:48:14.555103+01:00"
+												"dateAndTimeString" : "2023-01-27T11:00:33.217587+01:00"
 											}
 										},
 										"editEmail" : {
@@ -224,7 +187,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:48:14.555103+01:00"
+												"dateAndTimeString" : "2023-01-27T11:01:05.074222+01:00"
 											}
 										},
 										"uid" : {
@@ -234,7 +197,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "*The Glamorous Toolkit Book is an example of a Lepiter knowledge base.* "
 									},
 									{
 										"__type" : "textSnippet",
@@ -250,7 +213,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:53:49.853035+01:00"
+												"dateAndTimeString" : "2023-01-27T11:01:08.14144+01:00"
 											}
 										},
 										"editEmail" : {
@@ -261,17 +224,54 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:53:49.853035+01:00"
+												"dateAndTimeString" : "2023-01-27T11:02:19.188282+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "biNKlJ2vDQCC+6g9CVZmfw=="
+											"uidString" : "UWhHrp2vDQCx9+FxCe9cdg=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "GT Book is a lepiter database.\nEach database is a notebook of pages containing markdown text and various kinds of live code snippets.\nPages may contain links to other pages, to code, and to other resources.\n\nShow one or two initial pages."
+										"string" : "*Each page in the book consists of markdown text interspersed with various kinds of code snippets and live objects.* "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:04:58.336742+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:05:00.429297+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WsSrsp2vDQCzmaEWCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Pages may contain links to other pages, to code, and to other resources.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -324,7 +324,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:53:52.450461+01:00"
+												"dateAndTimeString" : "2023-01-27T10:54:28.552404+01:00"
 											}
 										},
 										"editEmail" : {
@@ -335,7 +335,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:53:52.450461+01:00"
+												"dateAndTimeString" : "2023-01-27T10:54:28.552404+01:00"
 											}
 										},
 										"uid" : {
@@ -345,7 +345,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "{{gtPage:Memory Game|db=2j9m7db2i4oz116bexd7wbdxo}}"
 									}
 								]
 							},
@@ -399,7 +399,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:40:20.171918+01:00"
+												"dateAndTimeString" : "2023-01-27T11:09:37.659656+01:00"
 											}
 										},
 										"editEmail" : {
@@ -410,17 +410,350 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T10:41:24.849921+01:00"
+												"dateAndTimeString" : "2023-01-27T11:16:05.31634+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "aGUHZJ2vDQCCRFr1CVZmfw=="
+											"uidString" : "az5TzJ2vDQCz4WMKCe9cdg=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "When you open a playground or a note, it is just a page in your private lepiter database.\n\nA playground is just an unnamed note with an empty code snippet.\nIf you give it a title, it becomes a note.\n\n"
+										"string" : "*What's Lepiter for?*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:09:46.106156+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:16:10.126595+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "sac7zZ2vDQC0NzZsCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*As in the book, we see it as a repository for knowledge.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:09:57.712098+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:16:33.842935+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "T2PtzZ2vDQC06RTnCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*But you can also use it yourself to take notes and create narratives about your tasks.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:10:24.596958+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:16:42.330119+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "xqd/z52vDQC113EwCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Whenever you start to work, start with a new playground or a note.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:12:06.705179+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:16:52.482666+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "8vUD052vDQC3E7tECe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*It will be created in your own private Lepiter database.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:12:27.48027+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:16:58.51355+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "z5Xh1p2vDQC4eCAbCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*You can see which database a page belongs to in the footer, and you can even move pages between databases.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:13:53.781833+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:17:16.108155+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Khji2Z2vDQC5z23uCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*It's good practice to document your thought processes as you work, creating a narrative about your progress.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:14:45.201714+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:17:20.248888+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "240F352vDQC7yH7bCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Give your notebook page a name that reflects the task or the topic.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:14:34.585196+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:17:29.642054+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ltbn3Z2vDQC7fGyZCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*By the way, a playground is a just a lepiter page that starts with a code snippet instead of a text snippet.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:15:38.11318+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-01-27T11:17:34.162792+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "08Q64p2vDQC9wroQCe9cdg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*If you give it a title, it becomes a note.*"
 									}
 								]
 							},
@@ -1510,7 +1843,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T10:18:46.164981+01:00"
+						"dateAndTimeString" : "2023-01-27T10:59:00.464078+01:00"
 					}
 				},
 				"editEmail" : {
@@ -1521,7 +1854,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T10:27:18.500612+01:00"
+						"dateAndTimeString" : "2023-01-27T10:59:00.464078+01:00"
 					}
 				},
 				"uid" : {
