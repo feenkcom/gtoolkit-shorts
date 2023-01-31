@@ -14,7 +14,7 @@ GtHomeShortsSection >> create [
 	cardsContainer
 		addChild: (self
 				newLepiterPageCardForPageNamed: 'GT Shorts Overview'
-				inDatabaseNamed: 'feenkcom/gtoolkit-shorts/lepiter'
+				inDatabaseNamed: 'GT Shorts Notebook'
 				withTitle: 'GT Shorts Overview'
 				andDescription: 'GT Shorts Overview').
 
