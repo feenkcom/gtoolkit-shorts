@@ -212,14 +212,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-06T15:18:17.663022+01:00"
+									"dateAndTimeString" : "2023-02-07T17:37:07.875755+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "J8IoXWqwDQC6OHNgDcybbA=="
 							},
-							"code" : "snippetType := LeWardleyMapSnippet.\rallSnippets select: [ :each | each isKindOf: snippetType ]"
+							"code" : "snippetType := LeElementSnippet.\rallSnippets select: [ :each | each isKindOf: snippetType ]"
 						}
 					]
 				},
@@ -284,14 +284,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-06T15:15:58.266909+01:00"
+									"dateAndTimeString" : "2023-02-06T15:19:22.597711+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "9atqWmqwDQC5xcIYDcybbA=="
 							},
-							"code" : "snippetType := LePharoRewriteSnippet.\rgtBook pages\r\tselect: [ :each | (each deep: #children select: [ :child | child isKindOf: snippetType ]) notEmpty ]."
+							"code" : "snippetType := LePharoRewriteSnippet.\rgtBook pages\r\tselect: [ :each | (each deep: #children \r\t\tselect: [ :child | child isKindOf: snippetType ]) notEmpty ]."
 						}
 					]
 				},
