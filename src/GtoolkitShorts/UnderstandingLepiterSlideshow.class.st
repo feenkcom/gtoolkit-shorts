@@ -168,10 +168,6 @@ UnderstandingLepiterSlideshow >> initQueryingLepiterPage [
 	pageName := 'Querying Lepiter'.
 	page := self ensureEmptyPageNamed: pageName.
 	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'To add a new text snippet, just use the `return` key.';
-				yourself);
-		yourself
 ]
 
 { #category : #slides }
