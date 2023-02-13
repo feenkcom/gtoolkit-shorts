@@ -19,6 +19,16 @@ UnderstandingLepiterSlideshow >> annotations: aSlide [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> annotationsPage: aSlide [
+	<gtSlide>
+	self initAnnotationsPage.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #annotationsPage:);
+		pageNamed: 'Lepiter annotations' from: self myLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -98,11 +108,6 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 		yourself
 ]
 
-{ #category : #accessing }
-UnderstandingLepiterSlideshow >> gtShortsLepiterDB [
-	^ 'GT Shorts Notebook'
-]
-
 { #category : #slides }
 UnderstandingLepiterSlideshow >> gtWorld2: aSlide [
 	<gtSlide>
@@ -119,6 +124,16 @@ UnderstandingLepiterSlideshow >> gtWorld: aSlide [
 	^ (aSlide element)
 		priority: (self priorityFor: #gtWorld:);
 		element: [ aSlide world ]
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> initAnnotationsPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Lepiter annotations'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
 ]
 
 { #category : #slides }
@@ -146,6 +161,20 @@ UnderstandingLepiterSlideshow >> initExampleSnippetsPage [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> initQueryingLepiterPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Querying Lepiter'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'To add a new text snippet, just use the `return` key.';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> initSnippetTypesPage [
 	<gtExample>
 	<noTest>
@@ -167,6 +196,14 @@ UnderstandingLepiterSlideshow >> initSnippetTypesPage [
 				string: '';
 				yourself);
 		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> lepiterAPI: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #lepiterAPI:);
+		titleWithFormat: (self asHeader: 'The Lepiter API')
 ]
 
 { #category : #slides }
@@ -204,6 +241,16 @@ UnderstandingLepiterSlideshow >> projectExamplePage: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #projectExamplePage:);
 		pageNamed: 'Parsing bibtex' from: self gtShortsLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> queryingLepiterPage: aSlide [
+	<gtSlide>
+	self initQueryingLepiterPage.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #queryingLepiterPage:);
+		pageNamed: 'Querying Lepiter' from: self gtShortsLepiterDB;
 		yourself
 ]
 
@@ -248,14 +295,13 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 			exampleSnippetsPage:
 		
 		annotations:
-			
-			
-			
-
+			annotationsPage:
+		
 		snippetTypes:
 			snippetTypesPage:
 		
-		
+		lepiterAPI:
+			queryingLepiterPage:
 				
 
 		closing:

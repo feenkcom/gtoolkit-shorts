@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T13:55:01.127097+01:00"
+						"dateAndTimeString" : "2023-02-13T14:30:11.574308+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,54 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T13:55:01.127097+01:00"
+						"dateAndTimeString" : "2023-02-13T14:31:22.56549+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0QOSF/awDQC3MIwSCUpBXQ=="
+					"uidString" : "TdrjiPawDQCHWzsyCUpBXQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Snippet types are subclasses of {{gtClass:name=LeSnippet}}. "
-			},
-			{
-				"__type" : "elementSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T13:55:01.127709+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T13:55:01.127709+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "NwaSF/awDQC3MRn7CUpBXQ=="
-				},
-				"code" : "GtPhlowView empty tree\r\titems: [ {LeSnippet} ];\r\tchildren: #subclasses;\r\texpandAll;\r\tyourself.",
-				"elementHeight" : 703,
-				"codeHeight" : 116,
-				"codeVisible" : false
+				"string" : "{{gtMethod:name=Boolean>>#&|expanded}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T14:01:56.673718+01:00"
+						"dateAndTimeString" : "2023-02-13T14:33:46.511482+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +66,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T14:02:57.565004+01:00"
+						"dateAndTimeString" : "2023-02-13T14:34:19.444065+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "8AeSF/awDQC3MtFvCUpBXQ=="
+					"uidString" : "5MtEjPawDQCHy9crCUpBXQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Actually this is an example of a live *Element snippet* that can be embedded in a Lepiter page."
+				"string" : "{{gtTodo:label=finish this video|due=2023-02-14|completed=}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-02-13T14:34:15.012392+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-02-13T14:34:15.012392+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6XHfo/awDQCPS/BiCUpBXQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -125,7 +125,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-13T12:02:31.88967+01:00"
+			"dateAndTimeString" : "2023-02-13T14:26:42.270616+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +136,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-13T12:02:31.88967+01:00"
+			"dateAndTimeString" : "2023-02-13T14:26:42.270616+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Snippet types"
+		"title" : "Lepiter annotations"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "97d24885-f4b0-0d00-b22c-82e4094a415d"
+		"uuid" : "3229e388-f6b0-0d00-875a-73f6094a415d"
 	}
 }

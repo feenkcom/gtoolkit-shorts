@@ -56,6 +56,12 @@ GtShortSlideshow >> fileOuts [
 		/ 'fileOuts'
 ]
 
+{ #category : #accessing }
+GtShortSlideshow >> gtShortsLepiterDB [
+	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
+	^ 'GT Shorts Notebook'
+]
+
 { #category : #testing }
 GtShortSlideshow >> isAbstract [
 	^ self == GtShortSlideshow
