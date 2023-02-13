@@ -18,43 +18,6 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T17:26:45.640439+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T17:26:45.640439+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "DoHRDPmwDQCD3OUFDNtmng=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-10-18T07:41:04.221977+02:00"
 					}
 				},
@@ -222,7 +185,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-10T14:44:09.926504+01:00"
+												"dateAndTimeString" : "2023-02-13T18:24:27.714036+01:00"
 											}
 										},
 										"uid" : {
@@ -6973,43 +6936,6 @@
 											"__type" : "snippets",
 											"items" : [
 												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T17:48:03.154266+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T17:48:24.225467+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "/KDUWPmwDQCblU9ZDNtmng=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*Here's the lepiter database inside the repo used to develop these short videos.*"
-												},
-												{
 													"__type" : "pharoSnippet",
 													"children" : {
 														"__type" : "snippets",
@@ -7023,7 +6949,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T17:23:14.77771+01:00"
+															"dateAndTimeString" : "2023-02-13T18:16:39.580451+01:00"
 														}
 													},
 													"editEmail" : {
@@ -7034,82 +6960,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T17:58:20.11185+01:00"
+															"dateAndTimeString" : "2023-02-13T18:16:55.359304+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
-														"uidString" : "5Po/APmwDQC4LVFTDNtmng=="
+														"uidString" : "+WNFv/mwDQCYEQ8/DR/+gA=="
 													},
-													"code" : "(GtGitRepository forPackage: GtShortSlideshow package )"
-												},
-												{
-													"__type" : "pharoSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T18:03:26.06995+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T18:12:22.146945+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "hWP5j/mwDQCseKn0DNtmng=="
-													},
-													"code" : "(GtCoder forClass: GtCSPicture) createInPager maximized"
-												},
-												{
-													"__type" : "pharoSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T18:08:39.258378+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T18:11:44.865636+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "cEOkovmwDQCwkX2iDNtmng=="
-													},
-													"code" : "(GtGitElement new\r\trepository: (GtGitRepository forPackage: GtShortSlideshow package))\r\tcreateInPager maximized    "
+													"code" : "UnderstandingLepiterSlideshow <> #lepiterDatabaseInRepo:"
 												}
 											]
 										},

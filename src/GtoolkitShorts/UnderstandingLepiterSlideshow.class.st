@@ -300,10 +300,11 @@ UnderstandingLepiterSlideshow >> lepiterAsANotebook: aSlide [
 { #category : #slides }
 UnderstandingLepiterSlideshow >> lepiterDatabaseInRepo: aSlide [
 	<gtSlide>
-	
-	^ (aSlide element)
+	^ aSlide element
 		priority: (self priorityFor: #lepiterDatabaseInRepo:);
-		element: [ GtGitRepository forPackage: GtShortSlideshow package  ]
+		element: [ (GtGitElement new
+				repository: (GtGitRepository forPackage: GtShortSlideshow package))
+				createInPager maximized ]
 ]
 
 { #category : #slides }
@@ -363,7 +364,7 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 			caseStudyExamplePage:
 			faqExamplePage:
 		
-		lepiterAsANotebook
+		lepiterAsANotebook:
 			gtWorld2:
 			randomNoteExamplePage:
 			todoExamplePage:
