@@ -11,6 +11,14 @@ UnderstandingLepiterSlideshow class >> show [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> annotations: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #annotations:);
+		titleWithFormat: (self asHeader: 'Markdown annotations')
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -48,10 +56,36 @@ UnderstandingLepiterSlideshow >> documentationExamplePage: aSlide [
 { #category : #slides }
 UnderstandingLepiterSlideshow >> editingPages: aSlide [
 	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #editingPages:);
+		titleWithFormat: (self asHeader: 'Editing Lepiter pages')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> editingPagesPage: aSlide [
+	<gtSlide>
 	self initEditingPagesPage. 
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #editingPages:);
+		priority: (self priorityFor: #editingPagesPage:);
 		pageNamed: 'Editing Lepiter pages' from: self gtShortsLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> exampleSnippets: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #exampleSnippets:);
+		titleWithFormat: (self asHeader: 'Example snippets')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> exampleSnippetsPage: aSlide [
+	<gtSlide>
+	self initExampleSnippetsPage.
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #exampleSnippetsPage:);
+		pageNamed: 'Example snippets' from: self gtShortsLepiterDB;
 		yourself
 ]
 
@@ -95,10 +129,68 @@ UnderstandingLepiterSlideshow >> initEditingPagesPage [
 	pageName := 'Editing Lepiter pages'.
 	page := self ensureEmptyPageNamed: pageName.
 	^ page
-		addSnippet: (LePharoSnippet new
-				code: '''hello''';
+		addSnippet: (LeTextSnippet new
+				string: 'To add a new text snippet, just use the `return` key.';
 				yourself);
 		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> initExampleSnippetsPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Example snippets'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> initSnippetTypesPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Snippet types'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'Snippet types are subclasses of {{gtClass:name=LeSnippet}}. ';
+				yourself);
+		addSnippet: (LeElementSnippet new
+				code: 'GtPhlowView empty tree
+	items: [ {LeSnippet} ];
+	children: #subclasses;
+	expandAll;
+	yourself.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: '';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> lepiterAsAKnowledgeBase: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #lepiterAsAKnowledgeBase:);
+		titleWithFormat: (self asHeader: 'Lepiter as a knowledge base')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> lepiterAsANotebook: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #lepiterAsANotebook:);
+		titleWithFormat: (self asHeader: 'Lepiter as a notebook')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> markdownSyntax: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #markdownSyntax:);
+		titleWithFormat: (self asHeader: 'Use Markdown syntax in text snippets')
 ]
 
 { #category : #accessing }
@@ -133,22 +225,59 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 	^ #( 
 		titleSlide:
 		
-		gtWorld:
-		tutorialExamplePage:
-		documentationExamplePage:
-		caseStudyExamplePage:
-		faqExamplePage:
+		lepiterAsAKnowledgeBase:
+			gtWorld:
+			tutorialExamplePage:
+			documentationExamplePage:
+			caseStudyExamplePage:
+			faqExamplePage:
 		
-		gtWorld2:
-		randomNoteExamplePage:
-		todoExamplePage:
-		projectExamplePage:
+		lepiterAsANotebook
+			gtWorld2:
+			randomNoteExamplePage:
+			todoExamplePage:
+			projectExamplePage:
 		
-		textSnippetPage:
+		markdownSyntax:		
+			textSnippetPage:
+
 		editingPages:
+			editingPagesPage:
 		
+		exampleSnippets:
+			exampleSnippetsPage:
+		
+		annotations:
+			
+			
+			
+
+		snippetTypes:
+			snippetTypesPage:
+		
+		
+				
+
 		closing:
 	)
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> snippetTypes: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #snippetTypes:);
+		titleWithFormat: (self asHeader: 'Snippet types')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> snippetTypesPage: aSlide [
+	<gtSlide>
+	"self initSnippetTypesPage."
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #snippetTypesPage:);
+		pageNamed: 'Snippet types' from: self gtShortsLepiterDB;
+		yourself
 ]
 
 { #category : #slides }

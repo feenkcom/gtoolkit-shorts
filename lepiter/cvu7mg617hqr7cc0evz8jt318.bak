@@ -290,40 +290,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Here's how to search for implementations:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T16:23:43.705286+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T16:26:17.804019+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "2UCS1mWvDQCyJtt0Bnj12A=="
-				},
-				"code" : "#gtView gtPragmas & #forward gtSenders"
 			}
 		]
 	},

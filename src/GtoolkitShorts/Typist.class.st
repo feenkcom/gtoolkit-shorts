@@ -75,6 +75,11 @@ Typist >> addCodeSnippet [
 ]
 
 { #category : #editing }
+Typist >> addExampleSnippet [
+	self schedule: [ self page addSnippet: LeExampleSnippet new ]
+]
+
+{ #category : #editing }
 Typist >> addTextSnippet [
 	self schedule: [ self page addSnippet: LeTextSnippet new ]
 ]

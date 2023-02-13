@@ -63,7 +63,8 @@ GtShortSlideshow >> isAbstract [
 
 { #category : #constants }
 GtShortSlideshow >> myLepiterDB [
-	^ 'feenkcom/gtoolkit-shorts/lepiter'
+	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
+	^ 'GT Shorts Notebook'
 ]
 
 { #category : #constants }
