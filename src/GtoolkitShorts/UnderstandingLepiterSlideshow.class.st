@@ -29,6 +29,14 @@ UnderstandingLepiterSlideshow >> annotationsPage: aSlide [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> bestPractices: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #bestPractices:);
+		titleWithFormat: (self asHeader: 'Tips and best practices')
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -171,6 +179,77 @@ UnderstandingLepiterSlideshow >> initQueryingLepiterPage [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> initQueryingLepiterPageComplete [
+	"The final state of the page"
+
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'Querying Lepiter'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+		addSnippet: (LeTextSnippet new
+				string: 'Inspect this snippet.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'thisSnippet.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Access the page of a snippet.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'thisSnippet page.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Access the database of a page.';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'thisSnippet page database.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'How to find a database by name?';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'gtBook := LeDatabasesRegistry uniqueInstance defaultLogicalDatabase databases
+		detect: [ :db | db databaseName = ''Glamorous Toolkit Book'' ].';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'How to find all open to-dos?';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'gtBook pages  select: #hasUncompletedGtTodo.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Get all the snippets';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'allSnippets := (gtBook pages deepCollect: #children)
+	select: [ :each | each isKindOf: LeSnippet ].';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'How many snippets are there of each type?';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: '(allSnippets collect: #class) asBag sortedCounts.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'What are examples of Wardley map snippets?';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'allSnippets select: [ :each | each isKindOf: LeWardleyMapSnippet ].';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Which pages have Wardley map snippets?';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'gtBook pages
+	select: [ :each | (each deep: #children 
+		select: [ :child | child isKindOf: LeWardleyMapSnippet ]) notEmpty ].';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> initSnippetTypesPage [
 	<gtExample>
 	<noTest>
@@ -216,6 +295,15 @@ UnderstandingLepiterSlideshow >> lepiterAsANotebook: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #lepiterAsANotebook:);
 		titleWithFormat: (self asHeader: 'Lepiter as a notebook')
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> lepiterDatabaseInRepo: aSlide [
+	<gtSlide>
+	
+	^ (aSlide element)
+		priority: (self priorityFor: #lepiterDatabaseInRepo:);
+		element: [ GtGitRepository forPackage: GtShortSlideshow package  ]
 ]
 
 { #category : #slides }
@@ -298,10 +386,24 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 		
 		lepiterAPI:
 			queryingLepiterPage:
-				
+		
+		snippetLanguage:
+			wardleyMapPage:
 
+		bestPractices:
+			understandingLepiterPage:
+			lepiterDatabaseInRepo:
+			
 		closing:
 	)
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> snippetLanguage: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #snippetLanguage:);
+		titleWithFormat: (self asHeader: 'Snippets have their own language')
 ]
 
 { #category : #slides }
@@ -354,5 +456,23 @@ UnderstandingLepiterSlideshow >> tutorialExamplePage: aSlide [
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #tutorialExamplePage:);
 		pageNamed: 'Working with collections in Pharo' from: self gtBook;
+		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> understandingLepiterPage: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #understandingLepiterPage:);
+		pageNamed: 'Understanding Lepiter' from: self gtShortsLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> wardleyMapPage: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #wardleyMapPage:);
+		pageNamed: 'Mapping Moldable Development' from: self gtBook;
 		yourself
 ]
