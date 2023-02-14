@@ -769,7 +769,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-10T15:09:17.522546+01:00"
+												"dateAndTimeString" : "2023-02-14T10:48:53.67021+01:00"
 											}
 										},
 										"uid" : {
@@ -779,7 +779,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*The GT book is an example of lepiter serving as a knowledge base.*"
+										"string" : "*The GT book is an example of Lepiter serving as a knowledge base.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -2234,7 +2234,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-14T08:41:41.018607+01:00"
+															"dateAndTimeString" : "2023-02-14T10:42:27.026516+01:00"
 														}
 													},
 													"uid" : {
@@ -2244,7 +2244,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "{{gtPage:Text snippet|db=2j9m7db2i4oz116bexd7wbdxo}}"
+													"string" : "{{gtPage:Text snippet|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 												},
 												{
 													"__type" : "textSnippet",
@@ -3692,14 +3692,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-14T09:26:38.640327+01:00"
+												"dateAndTimeString" : "2023-02-14T10:38:14.675177+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "FdVYzfOwDQCdZaXVCUpBXQ=="
 										},
-										"code" : "typist\r\taddTextSnippet;\r\ttypeVeryQuickly: 'Add an empty example snippet.'."
+										"code" : "typist\r\tclearPage;\r\taddTextSnippet;\r\ttypeQuickly: 'Add an empty example snippet.'"
 									},
 									{
 										"__type" : "textSnippet",
@@ -7029,7 +7029,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:41:46.365533+01:00"
+												"dateAndTimeString" : "2023-02-14T11:00:30.625761+01:00"
 											}
 										},
 										"uid" : {
@@ -7039,7 +7039,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*The “todo”, “short” and “asap” are pages that serve as tags to link todo items, short video pages and high priority tasks.*"
+										"string" : "*The “todo”, “short” and “asap” links are pages that serve as tags to link todo items, short video pages and high priority tasks.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -7066,7 +7066,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:42:59.298332+01:00"
+												"dateAndTimeString" : "2023-02-14T11:00:49.80718+01:00"
 											}
 										},
 										"uid" : {
@@ -7076,7 +7076,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*You can inspect the object behind a page by clicking on the “inspect” button at the time.*"
+										"string" : "*You can inspect the object behind a page by clicking on the “inspect” button at the top.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -7335,80 +7335,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*and it's useful to add a lepiter database to the git repository of every project you work on.*"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:26:03.280796+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:26:03.280796+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "dSNLCvmwDQCDz57jDNtmng=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:26:06.767679+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:26:06.767679+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "z1SACvmwDQCD1lbaDNtmng=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
 									}
 								]
 							},
@@ -7442,6 +7368,152 @@
 								"__type" : "textStyle"
 							},
 							"string" : "#Tips and best practices"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:02:44.585596+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:03:42.144057+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "0EROzQexDQCKhyROC3/7kA=="
+										},
+										"code" : "UnderstandingLepiterSlideshow <> #closing:"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:03:14.343039+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:03:14.691488+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "iQHGzgexDQCP9iSEC3/7kA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*You'll find more GT in 7' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:03:26.096118+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T11:03:26.096118+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "C1AszwexDQCa12DqC3/7kA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Thanks for listening.* "
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-02-14T11:02:36.846903+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-02-14T11:02:36.846903+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dSNLCvmwDQCDz57jDNtmng=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "##Conclusion"
 						}
 					]
 				},

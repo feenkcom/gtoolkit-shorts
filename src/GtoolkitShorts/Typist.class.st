@@ -84,6 +84,11 @@ Typist >> addTextSnippet [
 	self schedule: [ self page addSnippet: LeTextSnippet new ]
 ]
 
+{ #category : #typing }
+Typist >> appendText: aString [
+	self page lastChildOrSelf appendText: aString asRopedText
+]
+
 { #category : #editing }
 Typist >> clearPage [
 	self

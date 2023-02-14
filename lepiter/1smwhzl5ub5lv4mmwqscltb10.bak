@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-14T09:26:26.860547+01:00"
+						"dateAndTimeString" : "2023-02-14T10:53:33.102277+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-14T09:26:31.618547+01:00"
+						"dateAndTimeString" : "2023-02-14T10:53:33.110798+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WDLtdAaxDQCeEH+NAkuIRQ=="
+					"uidString" : "8FBvrAexDQCC3e4IC3/7kA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-14T09:26:46.566836+01:00"
+						"dateAndTimeString" : "2023-02-14T10:53:43.426713+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-14T09:26:46.566836+01:00"
+						"dateAndTimeString" : "2023-02-14T10:53:43.426713+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DuIZdgaxDQC/BMbdAkuIRQ=="
+					"uidString" : "8NgMrQexDQCC4S7ZC3/7kA=="
 				},
 				"exampleSelector" : "cartoonAddressBook",
 				"previewHeight" : 200,
@@ -79,7 +79,7 @@
 				"exampleBehaviorName" : "GtABCartoonAddressBookExample",
 				"codeExpanded" : true,
 				"previewExpanded" : false,
-				"noCode" : false
+				"noCode" : true
 			}
 		]
 	},
