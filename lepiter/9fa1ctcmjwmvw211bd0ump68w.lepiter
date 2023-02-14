@@ -60,7 +60,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-06T09:53:39.759361+01:00"
+									"dateAndTimeString" : "2023-02-14T08:16:34.998921+01:00"
 								}
 							},
 							"editEmail" : {
@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-06T09:54:09.682155+01:00"
+									"dateAndTimeString" : "2023-02-14T08:16:43.937937+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "TG feedback: it would be useful to point out that the text snippet (and markdown) is just a language, and that Lepiter is made to be extensible:\nevery snippet has its own language\neven the markdown is extensible\nIt would also be useful to point out that Lepiter is programmable (to a good extent, from within itself). We do not need to get into the details here, but inspecting a page/snippet could be a nice way to mention this.\nInteresting snippet types:\nexamples: allows one to build narratives out of testing effort\nwardley map: it’s a visual language that is still understood by lepiter.\nmaybe graphQL?\nI would not show the ToC too explicitly because it’s still mostly a bit of a hack, but I do not have strong opinions"
+							"string" : "Record the walkthrough"
 						}
 					]
 				},
@@ -819,6 +819,43 @@
 														"uidString" : "FqnCyLqwDQCRoR1lB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #tutorialExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:13.352632+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:16.210039+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "sG5FwQWxDQCZXdl7AeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:Working with collections in Pharo|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 												}
 											]
 										},
@@ -891,6 +928,43 @@
 														"uidString" : "Jwb3zrqwDQCR7Y28B6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #documentationExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:28.540596+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:28.540596+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "alYtwgWxDQCZbRavAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:Geometry, visual and layout bounds explained|db=2j9m7db2i4oz116bexd7wbdxo}}"
 												}
 											]
 										},
@@ -963,6 +1037,43 @@
 														"uidString" : "Gr8W1bqwDQCSLZjWB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #caseStudyExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:41.50972+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:41.50972+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "5xjzwgWxDQCZdZHlAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:Working with a REST API: the GitHub case study|db=2j9m7db2i4oz116bexd7wbdxo}}"
 												}
 											]
 										},
@@ -1035,6 +1146,43 @@
 														"uidString" : "lzwx2bqwDQCSeIZhB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #faqExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:49.712563+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:49.712563+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "xkNxwwWxDQCZfQ/8AeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:How to set up a new GitHub repo|db=2j9m7db2i4oz116bexd7wbdxo}}"
 												}
 											]
 										},
@@ -1624,6 +1772,43 @@
 														"uidString" : "oW4BKruwDQCdFmzgB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #randomNoteExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:29:11.697577+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:31:11.08719+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "BQP9pwWxDQCXbnOYAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Where are buttons implemented?]] "
 												}
 											]
 										},
@@ -1696,6 +1881,43 @@
 														"uidString" : "suzZL7uwDQCdaHUsB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #todoExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:35:34.568091+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:35:36.807756+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "GED1vgWxDQCZJ5wbAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[TODO Split lepiter page by thisSnippet]]"
 												}
 											]
 										},
@@ -1768,6 +1990,43 @@
 														"uidString" : "ooHWdruwDQCTLMwsB6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #projectExamplePage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:01.149002+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:36:01.68668+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "dkhswAWxDQCZP53cAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Parsing bibtex]] "
 												}
 											]
 										},
@@ -1949,6 +2208,43 @@
 														"uidString" : "KDV+fbuwDQCTZ764B6VXWg=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #textSnippetPage:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:41:41.018607+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T08:41:41.018607+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "8kDO1AWxDQCZh5vrAeVhYw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:Text snippet|db=2j9m7db2i4oz116bexd7wbdxo}}"
 												},
 												{
 													"__type" : "textSnippet",
@@ -2750,7 +3046,45 @@
 														"__type" : "textStyle"
 													},
 													"string" : "Click on the menu."
-												},
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T08:43:22.095151+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-02-14T08:43:22.095151+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "DMvc2gWxDQCZySpFAeVhYw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*You can move snippets up or down, or indent them using the menu at the bottom right,*"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
 												{
 													"__type" : "textSnippet",
 													"children" : {
@@ -2798,7 +3132,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-06T10:51:01.509566+01:00"
+												"dateAndTimeString" : "2023-02-14T08:43:14.214157+01:00"
 											}
 										},
 										"editEmail" : {
@@ -2809,17 +3143,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-06T10:51:42.61559+01:00"
+												"dateAndTimeString" : "2023-02-14T08:43:22.097298+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "AjsrrGawDQCKfiImCNASZg=="
+											"uidString" : "b4tk2gWxDQCZtcLlAeVhYw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*You can move snippets up or down, or indent them using the menu at the bottom right, or you can use keyboard shortcuts.* "
+										"string" : "*or you can use keyboard shortcuts.* "
 									},
 									{
 										"__type" : "textSnippet",
