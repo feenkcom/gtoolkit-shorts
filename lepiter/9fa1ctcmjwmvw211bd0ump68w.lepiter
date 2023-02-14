@@ -185,7 +185,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T18:24:27.714036+01:00"
+												"dateAndTimeString" : "2023-02-14T09:17:26.949633+01:00"
 											}
 										},
 										"uid" : {
@@ -2775,14 +2775,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T10:03:10.040995+01:00"
+												"dateAndTimeString" : "2023-02-14T09:21:08.951925+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "ctUY1PKwDQCSpdl8CUpBXQ=="
 										},
-										"code" : "typist\r\ttypeQuickly: 'Click on the “+” to select the snippet to add.'"
+										"code" : "typist\r\ttypeVeryQuickly: 'Click on the “+” to select the snippet to add.'"
 									},
 									{
 										"__type" : "textSnippet",
@@ -2851,14 +2851,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T10:04:30.274056+01:00"
+															"dateAndTimeString" : "2023-02-14T09:21:34.304692+01:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "Zmha3vKwDQCU3JH8CUpBXQ=="
 													},
-													"code" : "typist typeQuickly: '3 + 4'"
+													"code" : "typist typeVeryQuickly: '3 + 4'"
 												}
 											]
 										},
@@ -3442,14 +3442,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T10:21:24.61945+01:00"
+												"dateAndTimeString" : "2023-02-14T09:25:35.001448+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "qIadG/OwDQCZce9nCUpBXQ=="
 										},
-										"code" : "UnderstandingLepiterSlideshow <> #editingPages:"
+										"code" : "UnderstandingLepiterSlideshow <> #exampleSnippets:"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3692,14 +3692,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T11:12:02.330509+01:00"
+												"dateAndTimeString" : "2023-02-14T09:26:38.640327+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "FdVYzfOwDQCdZaXVCUpBXQ=="
 										},
-										"code" : "typist typeQuickly: 'Add an empty example snippet.'"
+										"code" : "typist\r\taddTextSnippet;\r\ttypeVeryQuickly: 'Add an empty example snippet.'."
 									},
 									{
 										"__type" : "textSnippet",
@@ -4513,7 +4513,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T14:21:56.471281+01:00"
+												"dateAndTimeString" : "2023-02-14T09:28:05.125348+01:00"
 											}
 										},
 										"uid" : {
@@ -4880,7 +4880,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T14:33:03.990391+01:00"
+												"dateAndTimeString" : "2023-02-14T09:29:20.650443+01:00"
 											}
 										},
 										"uid" : {
@@ -4890,7 +4890,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Here too, auto-completion will suggestion the availabel parameters.*"
+										"string" : "*Here too, auto-completion will suggestion the available parameters.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -4977,7 +4977,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-27T10:40:33.201612+01:00"
+									"dateAndTimeString" : "2023-02-14T09:27:42.065627+01:00"
 								}
 							},
 							"editEmail" : {
@@ -4988,7 +4988,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-01-27T10:40:33.201612+01:00"
+									"dateAndTimeString" : "2023-02-14T09:27:50.53825+01:00"
 								}
 							},
 							"uid" : {
@@ -4998,7 +4998,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "# Syntax extensions"
+							"string" : "#Markdown annotations"
 						},
 						{
 							"__type" : "textSnippet",

@@ -446,8 +446,8 @@ UnderstandingLepiterSlideshow >> titleSlide: aSlide [
 UnderstandingLepiterSlideshow >> todoExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #randomNoteExamplePage:);
-		pageNamed: 'Where are buttons implemented?' from: self oscarsLepiterDB;
+		priority: (self priorityFor: #todoExamplePage:);
+		pageNamed: 'TODO Split lepiter page by thisSnippet' from: self myLepiterDB;
 		yourself
 ]
 

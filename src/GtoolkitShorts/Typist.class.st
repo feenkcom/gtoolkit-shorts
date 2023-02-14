@@ -161,6 +161,11 @@ Typist >> typeFaster [
 ]
 
 { #category : #typing }
+Typist >> typeNow: aString [
+	self schedule: [ self page lastChildOrSelf appendText: aString asRopedText ]
+]
+
+{ #category : #typing }
 Typist >> typeQuickly: aString [
 	self type: aString inGroupsOf: 2
 ]
