@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T10:19:32.279899+01:00"
+						"dateAndTimeString" : "2023-01-24T10:20:40.997455+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[short]]  "
+				"string" : "[[short]]  [[completed]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -4671,12 +4671,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-15T13:07:08.900448+01:00"
+			"dateAndTimeString" : "2023-02-15T09:23:58.021035+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Setting up a GT github repo"
+		"title" : "Setting up a GT GitHub repo"
 	},
 	"uid" : {
 		"__type" : "uuid",
