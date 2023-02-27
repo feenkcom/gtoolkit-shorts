@@ -518,7 +518,7 @@ UnderstandingLepiterSlideshow >> todoExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #todoExamplePage:);
-		pageNamed: 'What is GT anyway?' from: self myLepiterDB;
+		pageNamed: 'Prepare a “What is GT anyway?” short' from: self myLepiterDB;
 		yourself
 ]
 

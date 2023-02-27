@@ -333,7 +333,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-14T09:17:26.949633+01:00"
+												"dateAndTimeString" : "2023-02-27T13:49:52.027934+01:00"
 											}
 										},
 										"uid" : {
@@ -1981,7 +1981,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T09:45:51.418407+01:00"
+															"dateAndTimeString" : "2023-02-27T14:07:03.902912+01:00"
 														}
 													},
 													"uid" : {
@@ -1991,7 +1991,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[What is GT anyway?]] "
+													"string" : "[[Prepare a “What is GT anyway?” short]] "
 												}
 											]
 										},
@@ -2090,7 +2090,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T09:45:59.1148+01:00"
+															"dateAndTimeString" : "2023-02-27T14:08:36.230264+01:00"
 														}
 													},
 													"uid" : {
@@ -2100,7 +2100,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Parsing Bibtex]] "
+													"string" : "Scroll briefly through [[Parsing Bibtex]] "
 												}
 											]
 										},
@@ -2791,6 +2791,43 @@
 														"__type" : "textStyle"
 													},
 													"string" : "Click on the menu."
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:10:38.073911+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:10:38.073911+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "QG4h8Q+yDQCa09LBDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Indent the snippet. Move it up and down."
 												}
 											]
 										},
@@ -2855,7 +2892,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T10:15:53.407413+01:00"
+															"dateAndTimeString" : "2023-02-27T14:10:48.95033+01:00"
 														}
 													},
 													"uid" : {
@@ -2865,7 +2902,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Indent the snippet. Move it up and down."
+													"string" : "Indent and dedent the snippet."
 												}
 											]
 										},
@@ -3079,7 +3116,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T10:19:35.27227+01:00"
+															"dateAndTimeString" : "2023-02-27T14:11:31.705341+01:00"
 														}
 													},
 													"uid" : {
@@ -3089,7 +3126,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Go to the shortcuts view, and scroll down and highlight› the “Indent” and “Move snippet down” shorcuts."
+													"string" : "Go to the shortcuts view, and scroll down and highlight› the “Indent” and “Move snippet down” shortcuts."
 												}
 											]
 										},
@@ -3297,7 +3334,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-14T10:42:27.026516+01:00"
+															"dateAndTimeString" : "2023-02-27T14:14:34.548433+01:00"
 														}
 													},
 													"uid" : {
@@ -3307,7 +3344,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "{{gtPage:Text snippet|db=2j9m7db2i4oz116bexd7wbdxo}}  "
+													"string" : "GT Book page: {{gtPage:Text snippet|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 												},
 												{
 													"__type" : "textSnippet",
@@ -5033,7 +5070,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T10:41:14.715563+01:00"
+															"dateAndTimeString" : "2023-02-27T14:28:38.117525+01:00"
 														}
 													},
 													"uid" : {
@@ -5043,7 +5080,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*Note how the completion is shown as a widget instead of just text.*"
+													"string" : "*Note how the completion for the due date is shown as a widget instead of just text.*"
 												}
 											]
 										},
@@ -5388,7 +5425,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T14:14:08.505051+01:00"
+															"dateAndTimeString" : "2023-02-27T14:31:13.746248+01:00"
 														}
 													},
 													"editEmail" : {
@@ -5399,7 +5436,44 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-13T14:14:22.646051+01:00"
+															"dateAndTimeString" : "2023-02-27T14:32:25.258731+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "f4DDOhCyDQCErqbYDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "NB: click in the snippet above and arrow down to expose the Browse code button."
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:31:41.013881+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:31:43.742161+01:00"
 														}
 													},
 													"uid" : {
@@ -5409,7 +5483,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Click at the bottom to open the Browse code button."
+													"string" : "Browse the code."
 												}
 											]
 										},
@@ -5469,7 +5543,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T14:36:31.874534+01:00"
+												"dateAndTimeString" : "2023-02-27T14:33:56.758785+01:00"
 											}
 										},
 										"uid" : {
@@ -5479,7 +5553,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*It will display the GUI element of any code snippet that returns an object the understands the message “asElement”.*"
+										"string" : "*This snippet will display the GUI element behind any code snippet whose result understands “asElement”.*"
 									}
 								]
 							},
@@ -6477,7 +6551,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T16:51:18.623966+01:00"
+												"dateAndTimeString" : "2023-02-27T14:36:35.495822+01:00"
 											}
 										},
 										"uid" : {
@@ -6487,7 +6561,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Snippets can have their own language.*"
+										"string" : "*Snippets have their own language.*"
 									},
 									{
 										"__type" : "textSnippet",
