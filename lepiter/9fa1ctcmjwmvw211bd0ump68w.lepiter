@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-27T11:59:17.460384+01:00"
+									"dateAndTimeString" : "2023-02-27T13:39:53.484123+01:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Check and trim the script}}"
+							"string" : "{{gtTodo:label=Check and trim the script}} (Cut from max of 8:20)"
 						},
 						{
 							"__type" : "textSnippet",
@@ -182,7 +182,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-27T12:00:34.807632+01:00"
+									"dateAndTimeString" : "2023-02-27T13:37:38.541664+01:00"
 								}
 							},
 							"uid" : {
@@ -192,7 +192,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Edit and updalod}}  "
+							"string" : "{{gtTodo:label=Edit and updload}}  "
 						},
 						{
 							"__type" : "textSnippet",
@@ -333,7 +333,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-14T09:17:26.949633+01:00"
+												"dateAndTimeString" : "2023-02-27T13:49:52.027934+01:00"
 											}
 										},
 										"uid" : {
@@ -513,7 +513,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-27T10:28:18.056553+01:00"
+												"dateAndTimeString" : "2023-02-27T13:40:23.788268+01:00"
 											}
 										},
 										"uid" : {
@@ -523,7 +523,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Today I'd like to give you a guided tour of Lepiter, a programmable and extensible notebook for creating narratives composed of linked text and live code examples.*"
+										"string" : "*I'm going to give you a guided tour of Lepiter, a programmable and extensible notebook for creating narratives composed of linked text and live code examples.*"
 									}
 								]
 							},
@@ -810,7 +810,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-10T14:46:15.292863+01:00"
+															"dateAndTimeString" : "2023-02-27T13:39:02.266513+01:00"
 														}
 													},
 													"uid" : {
@@ -820,7 +820,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "Click on the gtoolkit URL link."
+													"string" : "Click on the [](https://gtoolkit.com) URL link."
 												}
 											]
 										},
@@ -854,80 +854,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "*Pages may contain links to other pages, to code, and to other resources.*"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T11:09:37.659656+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-27T11:16:05.31634+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "az5TzJ2vDQCz4WMKCe9cdg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*What's Lepiter for?*"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-10T15:05:52.394789+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-14T10:48:53.67021+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "1BNxu7qwDQCRR+RIB6VXWg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*The GT book is an example of Lepiter serving as a knowledge base.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1026,7 +952,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-10T15:09:21.694314+01:00"
+												"dateAndTimeString" : "2023-02-27T13:40:37.58773+01:00"
 											}
 										},
 										"uid" : {
@@ -1036,7 +962,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*It contains tutorials,*"
+										"string" : "*The GT book contains tutorials,*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -3295,7 +3221,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-06T10:44:10.409796+01:00"
+												"dateAndTimeString" : "2023-02-27T13:45:17.365235+01:00"
 											}
 										},
 										"uid" : {
@@ -3305,7 +3231,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Lepiter supports basic markdown syntax.*"
+										"string" : "*Lepiter text snippets support basic markdown syntax.*"
 									},
 									{
 										"__type" : "textSnippet",
