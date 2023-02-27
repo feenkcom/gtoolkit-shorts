@@ -109,12 +109,54 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> finalGraphQLPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'GraphQL snippet'.
+	page := self ensureEmptyPageNamed: pageName.
+	page
+		addSnippet: (LeTextSnippet new
+				string: 'You need to retrieve your GitHub personal access token:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'githubAccessKeyFile := FileLocator home / ''.secrets'' / ''home-github.txt''.
+githubAccessKey := githubAccessKeyFile contents trimBoth.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'And you have to download GitHub''s GraphQL schema:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'aContext := GtGQLContext new
+		url: ''https://api.github.com/graphql'';
+		bearerToken: githubAccessKey;
+		buildSchema.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Then you can compose a query using the GraphQL snippet:';
+				yourself);
+		addSnippet: (GtGQLSnippet new
+				input: '{
+	"ownername": "feenkcom",
+	"reponame": "gtoolkit"
+}';
+				operation: 'query Repository($ownername: String!, $reponame: String!) {
+	repository(owner: $ownername, name: $reponame) {
+		url
+		description
+	}
+}';
+				yourself).
+	^ page
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> graphQLPage: aSlide [
 	<gtSlide>
-	self initGraphQLPage. 
+	self initGraphQLPage.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #graphQLPage:);
-		pageNamed: 'GraphQL Snippets' from: self myLepiterDB;
+		pageNamed: 'GraphQL snippet' from: self myLepiterDB;
 		yourself
 ]
 
@@ -175,8 +217,16 @@ UnderstandingLepiterSlideshow >> initGraphQLPage [
 	<gtExample>
 	<noTest>
 	| pageName page |
-	pageName := 'GraphQL Snippets'.
+	pageName := 'GraphQL snippet'.
 	page := self ensureEmptyPageNamed: pageName.
+	page
+		addSnippet: (LeTextSnippet new
+				string: 'You need to retrieve your GitHub personal access token:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'githubAccessKeyFile := FileLocator home / ''.secrets'' / ''home-github.txt''.
+githubAccessKey := githubAccessKeyFile contents trimBoth.';
+				yourself).
 	^ page
 ]
 

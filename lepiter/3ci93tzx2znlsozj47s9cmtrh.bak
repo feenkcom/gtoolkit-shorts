@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.117322+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.03492+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.117322+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.03492+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "JER61Q2yDQC6eDFqDLqKOA=="
+					"uidString" : "gihDBA6yDQC9glLIDLqKOA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.117737+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.03544+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.117737+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.03544+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "xEV61Q2yDQC6eUxoDLqKOA=="
+					"uidString" : "jSpDBA6yDQC9g/QCDLqKOA=="
 				},
-				"code" : "githubAccessKeyFile := FileLocator home / '.secrets' / 'home-github.txt'.\rgithubAccessKey := githubAccessKeyFile contents trimBoth"
+				"code" : "githubAccessKeyFile := FileLocator home / '.secrets' / 'home-github.txt'.\rgithubAccessKey := githubAccessKeyFile contents trimBoth."
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.118925+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.035883+01:00"
 					}
 				},
 				"editEmail" : {
@@ -100,12 +100,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.118925+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.035883+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ckp61Q2yDQC6ekYWDLqKOA=="
+					"uidString" : "RyxDBA6yDQC9hN1yDLqKOA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.119287+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.036132+01:00"
 					}
 				},
 				"editEmail" : {
@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.119287+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.036132+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "2Et61Q2yDQC6e4jMDLqKOA=="
+					"uidString" : "Ny1DBA6yDQC9hZqvDLqKOA=="
 				},
-				"code" : "aContext := GtGQLContext new\r\t\turl: 'https://api.github.com/graphql';\r\t\tbearerToken: githubAccessKey;\r\t\tbuildSchema"
+				"code" : "aContext := GtGQLContext new\r\t\turl: 'https://api.github.com/graphql';\r\t\tbearerToken: githubAccessKey;\r\t\tbuildSchema."
 			},
 			{
 				"__type" : "textSnippet",
@@ -160,7 +160,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.11971+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.036544+01:00"
 					}
 				},
 				"editEmail" : {
@@ -171,12 +171,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.11971+01:00"
+						"dateAndTimeString" : "2023-02-27T11:52:48.036544+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fk161Q2yDQC6fBaqDLqKOA=="
+					"uidString" : "yi5DBA6yDQC9hn1BDLqKOA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -197,7 +197,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.119903+01:00"
+						"dateAndTimeString" : "2023-02-27T11:53:12.704736+01:00"
 					}
 				},
 				"editEmail" : {
@@ -208,15 +208,16 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T11:39:43.119903+01:00"
+						"dateAndTimeString" : "2023-02-27T11:53:12.704736+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "K0561Q2yDQC6fSjlDLqKOA=="
+					"uidString" : "jpW7BQ6yDQC9tzMwDLqKOA=="
 				},
 				"operation" : "query Repository($ownername: String!, $reponame: String!) {\n\trepository(owner: $ownername, name: $reponame) {\n\t\turl\n\t\tdescription\n\t}\n}",
 				"input" : "{\n\t\"ownername\": \"feenkcom\",\n\t\"reponame\": \"gtoolkit\"\n}",
+				"context" : "aContext",
 				"resultVariableName" : ""
 			}
 		]
@@ -229,7 +230,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-13T14:26:42.270616+01:00"
+			"dateAndTimeString" : "2023-02-27T11:28:16.483544+01:00"
 		}
 	},
 	"editEmail" : {
@@ -240,15 +241,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-13T14:26:42.270616+01:00"
+			"dateAndTimeString" : "2023-02-27T11:28:16.483544+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Lepiter annotations"
+		"title" : "GraphQL snippet"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3229e388-f6b0-0d00-875a-73f6094a415d"
+		"uuid" : "2d108dac-0db2-0d00-b765-41780cba8a38"
 	}
 }
