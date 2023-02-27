@@ -7327,7 +7327,7 @@
 																	"__type" : "time",
 																	"time" : {
 																		"__type" : "dateAndTime",
-																		"dateAndTimeString" : "2023-02-13T17:06:52.850098+01:00"
+																		"dateAndTimeString" : "2023-02-27T14:46:00.843569+01:00"
 																	}
 																},
 																"uid" : {
@@ -7337,7 +7337,7 @@
 																"paragraphStyle" : {
 																	"__type" : "textStyle"
 																},
-																"string" : "Add a node and an edge. Change the colour."
+																"string" : "Add a node (double click)  and an edge (command-drag). Change the colour."
 															}
 														]
 													},
@@ -7781,7 +7781,82 @@
 													"__type" : "textSnippet",
 													"children" : {
 														"__type" : "snippets",
-														"items" : [ ]
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-02-27T10:48:13.762041+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-02-27T10:48:41.030386+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "ABhAHQ2yDQCDwy88B+zLKQ=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "*This works because Lepiter can be molded to any working context.*"
+															},
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-02-27T10:48:53.292431+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2023-02-27T14:47:24.845693+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "fSWcHw2yDQCEsUsfB+zLKQ=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "*For example, you can add new kinds of snippets and annotations to match your flow.*"
+															}
+														]
 													},
 													"createEmail" : {
 														"__type" : "email",
@@ -7813,80 +7888,6 @@
 														"__type" : "textStyle"
 													},
 													"string" : "*For example, the script for this video is documented as a Lepiter page.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T10:48:13.762041+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T10:48:41.030386+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "ABhAHQ2yDQCDwy88B+zLKQ=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*This works because Lepiter can be molded to any working context.*"
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T10:48:53.292431+01:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T10:49:13.305214+01:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "fSWcHw2yDQCEsUsfB+zLKQ=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "*You can add new kinds of snippets and annotations to match your flow.*"
 												}
 											]
 										},
@@ -7925,7 +7926,82 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-13T17:40:14.590345+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-14T11:00:30.625761+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "IOGe+/iwDQC3TzcHDNtmng=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*The “todo”, “short” and “asap” links are pages that serve as tags to link todo items, short video pages and high priority tasks.*"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:49:19.997889+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:49:23.275467+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "zxu9dRCyDQCOpVoDDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on the tags"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -7962,44 +8038,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:40:14.590345+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-14T11:00:30.625761+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "IOGe+/iwDQC3TzcHDNtmng=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*The “todo”, “short” and “asap” links are pages that serve as tags to link todo items, short video pages and high priority tasks.*"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:49:32.925117+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:49:43.182631+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "rtwWfBCyDQCrTyrxDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on the (i) button"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -8036,7 +8113,82 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-13T17:43:29.726771+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-13T17:44:08.157332+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "7oWbSPmwDQCNF16nDNtmng=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "*For example, the Metrics view of a script page shows the estimated run time based on the number of words.*"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:50:07.00494+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:50:24.572503+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Ng/lfRCyDQCOCJkBDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Click on the Metrics view and show the source code."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -8073,44 +8225,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:43:29.726771+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:44:08.157332+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "7oWbSPmwDQCNF16nDNtmng=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "*For example, the Metrics view of a script page shows the estimated run time based on the number of words.*"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:50:41.783214+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:50:57.839011+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "gksugBCyDQC5A8MUDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Hover, but don't click."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -8256,6 +8409,43 @@
 														"uidString" : "+WNFv/mwDQCYEQ8/DR/+gA=="
 													},
 													"code" : "UnderstandingLepiterSlideshow <> #lepiterDatabaseInRepo:"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:51:42.237548+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2023-02-27T14:51:55.959761+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "9cGBgxCyDQCeIxZKDxdSFw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Close the empty side bar and shopw the commits."
 												}
 											]
 										},
