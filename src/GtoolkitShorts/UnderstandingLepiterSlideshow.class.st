@@ -29,14 +29,6 @@ UnderstandingLepiterSlideshow >> annotationsPage: aSlide [
 ]
 
 { #category : #slides }
-UnderstandingLepiterSlideshow >> bestPractices: aSlide [
-	<gtSlide>
-	^ aSlide title
-		priority: (self priorityFor: #bestPractices:);
-		titleWithFormat: (self asHeader: 'Tips and best practices')
-]
-
-{ #category : #slides }
 UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
@@ -117,6 +109,16 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> graphQLPage: aSlide [
+	<gtSlide>
+	self initGraphQLPage. 
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #graphQLPage:);
+		pageNamed: 'GraphQL Snippets' from: self myLepiterDB;
+		yourself
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> gtWorld2: aSlide [
 	<gtSlide>
 	
@@ -164,6 +166,16 @@ UnderstandingLepiterSlideshow >> initExampleSnippetsPage [
 	<noTest>
 	| pageName page |
 	pageName := 'Example snippets'.
+	page := self ensureEmptyPageNamed: pageName.
+	^ page
+]
+
+{ #category : #slides }
+UnderstandingLepiterSlideshow >> initGraphQLPage [
+	<gtExample>
+	<noTest>
+	| pageName page |
+	pageName := 'GraphQL Snippets'.
 	page := self ensureEmptyPageNamed: pageName.
 	^ page
 ]
@@ -325,7 +337,7 @@ UnderstandingLepiterSlideshow >> projectExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #projectExamplePage:);
-		pageNamed: 'Parsing bibtex' from: self gtShortsLepiterDB;
+		pageNamed: 'Parsing Bibtex' from: self gtShortsLepiterDB;
 		yourself
 ]
 
@@ -370,12 +382,12 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 			todoExamplePage:
 			projectExamplePage:
 		
-		markdownSyntax:		
-			textSnippetPage:
-
 		editingPages:
 			editingPagesPage:
 		
+		markdownSyntax:		
+			textSnippetPage:
+
 		exampleSnippets:
 			exampleSnippetsPage:
 		
@@ -389,9 +401,10 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 			queryingLepiterPage:
 		
 		snippetLanguage:
+			#graphQLPage:
 			wardleyMapPage:
 
-		bestPractices:
+		#tips:
 			understandingLepiterPage:
 			lepiterDatabaseInRepo:
 			
@@ -435,6 +448,14 @@ UnderstandingLepiterSlideshow >> textSnippetPage: aSlide [
 ]
 
 { #category : #slides }
+UnderstandingLepiterSlideshow >> tips: aSlide [
+	<gtSlide>
+	^ aSlide title
+		priority: (self priorityFor: #tips:);
+		titleWithFormat: (self asHeader: 'Tips')
+]
+
+{ #category : #slides }
 UnderstandingLepiterSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
@@ -447,7 +468,7 @@ UnderstandingLepiterSlideshow >> todoExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #todoExamplePage:);
-		pageNamed: 'TODO Split lepiter page by thisSnippet' from: self myLepiterDB;
+		pageNamed: 'What is GT anyway?' from: self myLepiterDB;
 		yourself
 ]
 
