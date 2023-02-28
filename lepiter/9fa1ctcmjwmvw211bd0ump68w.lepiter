@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-27T12:00:36.418851+01:00"
+									"dateAndTimeString" : "2023-02-28T09:14:38.014705+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Handle TG feedback|completed=2023-02-27}} . See  [[TG comments on Lepiter short]] "
+							"string" : "{{gtTodo:label=Handle TG feedback|completed=2023-02-27}} . See  [[TG comments on Lepiter walkthrough]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -219,7 +219,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-28T09:06:46.813461+01:00"
+									"dateAndTimeString" : "2023-02-28T09:14:44.479121+01:00"
 								}
 							},
 							"uid" : {
@@ -229,7 +229,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Fix audio glitches}}"
+							"string" : "{{gtTodo:label=Small fixes}}.See [[TG comments on Lepiter short]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -4661,7 +4661,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-27T14:58:02.529682+01:00"
+												"dateAndTimeString" : "2023-02-28T09:35:45.609109+01:00"
 											}
 										},
 										"uid" : {
@@ -4671,7 +4671,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*Snippets can be extended with various kinds of annotations.*"
+										"string" : "*Text snippets can be extended with various kinds of annotations.*"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -6518,7 +6518,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-02-13T17:05:42.651281+01:00"
+												"dateAndTimeString" : "2023-02-28T09:47:41.614149+01:00"
 											}
 										},
 										"uid" : {
@@ -6528,7 +6528,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "*In addition to Pharo code snippets, there are also JavaScript, Python and Graph Query Language snippets.*"
+										"string" : "*In addition to Pharo code snippets, there are also JavaScript, Python and GraphQL snippets.*"
 									},
 									{
 										"__type" : "textSnippet",
@@ -6659,7 +6659,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T11:23:04.43558+01:00"
+															"dateAndTimeString" : "2023-02-28T10:07:07.122463+01:00"
 														}
 													},
 													"editEmail" : {
@@ -6670,7 +6670,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2023-02-27T11:23:58.906885+01:00"
+															"dateAndTimeString" : "2023-02-28T10:07:07.122463+01:00"
 														}
 													},
 													"uid" : {
@@ -6680,7 +6680,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "*The Graph Query Language snippet assumes you have a GitHub access key*"
+													"string" : "*Accessing GitHub with GraphQL assumes you have a GitHub access key*"
 												},
 												{
 													"__type" : "pharoSnippet",

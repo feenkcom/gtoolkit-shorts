@@ -215,7 +215,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T10:30:03.434109+01:00"
+						"dateAndTimeString" : "2023-02-28T09:13:55.859189+01:00"
 					}
 				},
 				"uid" : {
@@ -225,7 +225,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtTodo:label=“Lepiter supports Markdown” -> “one of the snippets is a Markdown snippet” }}"
+				"string" : "{{gtTodo:label=“Lepiter supports Markdown” -> “one of the snippets is a Markdown snippet” |completed=2023-02-28}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -886,7 +886,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T10:50:42.304894+01:00"
+						"dateAndTimeString" : "2023-02-27T11:57:18.506136+01:00"
 					}
 				},
 				"uid" : {
@@ -896,7 +896,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtTodo:label=Add a GraphQL example}}"
+				"string" : "{{gtTodo:label=Add a GraphQL example|completed=2023-02-27}}"
 			}
 		]
 	},
