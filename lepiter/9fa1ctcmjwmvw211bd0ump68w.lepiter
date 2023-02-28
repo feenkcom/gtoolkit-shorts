@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T07:41:04.221977+02:00"
+						"dateAndTimeString" : "2023-02-28T10:22:55.793624+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T17:16:46.967569+01:00"
+						"dateAndTimeString" : "2023-02-28T10:23:04.920396+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] [[asap]]  "
+				"string" : "[[short]] [[completed]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -182,7 +182,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-28T09:06:33.316014+01:00"
+									"dateAndTimeString" : "2023-02-28T10:10:02.72125+01:00"
 								}
 							},
 							"uid" : {
@@ -192,7 +192,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Edit and upload}}  "
+							"string" : "{{gtTodo:label=Edit and upload|completed=2023-02-28}}  "
 						},
 						{
 							"__type" : "textSnippet",
@@ -219,7 +219,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-28T09:14:44.479121+01:00"
+									"dateAndTimeString" : "2023-02-28T10:10:04.220371+01:00"
 								}
 							},
 							"uid" : {
@@ -229,81 +229,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtTodo:label=Small fixes}}.See [[TG comments on Lepiter short]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-28T09:06:48.612365+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-28T09:06:48.612365+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Hcx50B+yDQCUb6kaC/OzHw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-27T11:59:18.953459+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-02-27T11:59:18.953459+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "SRiQGw6yDQCBg7g8DLqKOA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"string" : "{{gtTodo:label=Small fixes|completed=2023-02-28}}.See [[TG comments on Lepiter short]] "
 						}
 					]
 				},
