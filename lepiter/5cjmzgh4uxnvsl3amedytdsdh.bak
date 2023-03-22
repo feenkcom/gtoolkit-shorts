@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.2054+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:17.486987+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,88 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.2054+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:17.486987+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Sc3l2Q+yDQCsk0xaDxdSFw=="
+					"uidString" : "qa5oYhCyDQCz13l8DxdSFw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : "To add a new text snippet, just use the `return` key."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:09:07.670275+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:09:33.028698+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "kHrO6w+yDQCnpKvvDxdSFw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Click on the “+” to select the snippet to add."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:09:44.365914+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:09:47.92982+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "L2f+7Q+yDQC+lT+5DxdSFw=="
-				},
-				"code" : "3 + 4"
 			}
 		]
 	},

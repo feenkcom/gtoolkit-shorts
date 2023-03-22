@@ -28,36 +28,71 @@ InspectorViewsSlideshow >> closing: aSlide [
 ]
 
 { #category : #slides }
-InspectorViewsSlideshow >> customViewsForSubtitlesPage: aSlide [
+InspectorViewsSlideshow >> customViewsForSubtitles: aSlide [
 	<gtSlide>
-	self initCustomViewsForSubtitlesPage.
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #customViewsForSubtitlesPage:);
-		pageNamed: 'Custom views for subtitles' from: self myLepiterDB;
+		priority: (self priorityFor: #customViewsForSubtitles:);
+		startPage: (self db pageNamed: 'Custom views for subtitles');
 		yourself
 ]
 
-{ #category : #slides }
-InspectorViewsSlideshow >> exploringCartoonAddressesPage: aSlide [
+{ #category : #page }
+InspectorViewsSlideshow >> customViewsForSubtitlesPage [
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Custom views for subtitles')
+		addSnippet: (LeTextSnippet new
+				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'fileContents := ''pharo-local/iceberg/feenkcom/gtoolkit-shorts/doc/Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
+				yourself);
+		yourself
+]
+
+{ #category : #page }
+InspectorViewsSlideshow >> exploringCartoonAddresses: aSlide [
 	<gtSlide>
 	self initExploringCartoonAddressesPage.
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringCartoonAddressesPage:);
-		pageNamed: 'Exploring an AddressBook object' from: self myLepiterDB;
+		priority: (self priorityFor: #exploringCartoonAddresses:);
+		startPage: (self db pageNamed: 'Exploring an AddressBook object');
+		yourself
+]
+
+{ #category : #page }
+InspectorViewsSlideshow >> exploringCartoonAddressesPage [
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Exploring an AddressBook object')
+		addSnippet: (LePharoSnippet new
+				code: 'GtABCartoonAddressBookExample new cartoonAddressBook';
+				yourself);
 		yourself
 ]
 
 { #category : #slides }
-InspectorViewsSlideshow >> exploringTheAPIPage: aSlide [
+InspectorViewsSlideshow >> exploringTheAPI: aSlide [
 	<gtSlide>
-	self initExploringTheAPIPage. 
+	self initExploringTheAPIPage.
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringTheAPIPage:);
-		pageNamed: 'Exploring the Inspector view API' from: self myLepiterDB;
+		priority: (self priorityFor: #exploringTheAPI:);
+		startPage: (self db pageNamed: 'Exploring the Inspector view API');
 		yourself
 ]
 
-{ #category : #initialization }
+{ #category : #page }
+InspectorViewsSlideshow >> exploringTheAPIPage [
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Exploring the Inspector view API')
+		addSnippet: (LeTextSnippet new
+				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
+				yourself);
+		yourself
+]
+
+{ #category : #page }
 InspectorViewsSlideshow >> initCustomViewsForSubtitlesPage [
 	<gtExample>
 	<noTest>
@@ -190,6 +225,13 @@ InspectorViewsSlideshow >> initFullExploringTheAPIPage [
 		yourself
 ]
 
+{ #category : #initialization }
+InspectorViewsSlideshow >> initializeDb [
+	self db addPage: self customViewsForSubtitlesPage.
+	self db addPage: self exploringCartoonAddressesPage.
+	self db addPage: self exploringTheAPIPage
+]
+
 { #category : #accessing }
 InspectorViewsSlideshow >> slidePriorities [
 	"Instead of manually setting priorities, just list the slides in order here."
@@ -198,9 +240,9 @@ InspectorViewsSlideshow >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
-		exploringCartoonAddressesPage:
-		exploringTheAPIPage:
-		customViewsForSubtitlesPage:
+		#exploringCartoonAddresses:
+		#exploringTheAPI:
+		#customViewsForSubtitles:
 		closing:
 	)
 ]

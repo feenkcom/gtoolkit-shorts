@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.433637+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:18.104754+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,12 +29,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.433637+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:18.104754+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "xT3p2Q+yDQCslK1rDxdSFw=="
+					"uidString" : "1xtyYhCyDQCz2Mu3DxdSFw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.507652+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:18.168701+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,193 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:04:07.507652+01:00"
+						"dateAndTimeString" : "2023-02-27T14:42:18.168701+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3V7q2Q+yDQCslWvnDxdSFw=="
+					"uidString" : "khVzYhCyDQCz2WhjDxdSFw=="
 				},
 				"code" : "githubAccessKeyFile := FileLocator home / '.secrets' / 'home-github.txt'.\rgithubAccessKey := githubAccessKeyFile contents trimBoth."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:36:55.600734+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:36:55.603732+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "dhY5TxCyDQCH92GxDxdSFw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "And you have to download GitHub's GraphQL schema:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:36:55.612193+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:36:56.668453+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "LUM5TxCyDQCH+OChDxdSFw=="
-				},
-				"code" : "aContext := GtGQLContext new\r\t\turl: 'https://api.github.com/graphql';\r\t\tbearerToken: githubAccessKey;\r\t\tbuildSchema."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:38:04.928514+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:38:12.063169+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "tvBaUxCyDQCIcXcxDxdSFw=="
-				},
-				"code" : "myContext :=aContext"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:37:14.978831+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:37:15.295133+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "KcZgUBCyDQCIKj/hDxdSFw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Then you can compose a query using the GraphQL snippet:"
-			},
-			{
-				"__type" : "GraphQL",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:37:26.342077+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-27T14:37:26.342077+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "qigOURCyDQCILg6HDxdSFw=="
-				},
-				"operation" : "query Repository($ownername: String!, $reponame: String!) {\n\trepository(owner: $ownername, name: $reponame) {\n\t\turl\n\t\tdescription\n\t}\n}",
-				"input" : "{\n\t\"ownername\": \"feenkcom\",\n\t\"reponame\": \"gtoolkit\"\n}",
-				"context" : "myContext",
-				"resultVariableName" : ""
 			}
 		]
 	},
