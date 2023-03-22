@@ -137,12 +137,22 @@ HowToFindStuffSlideshow >> drilling: aSlide [
 ]
 
 { #category : #initialization }
-HowToFindStuffSlideshow >> exploringCharacterViewsPage: aSlide [
+HowToFindStuffSlideshow >> exploringCharacterViews: aSlide [
 	<gtSlide>
-	self initExploringCharacterViewsPage.
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringCharacterViewsPage:);
-		pageNamed: 'Exploring Character views' from: self myLepiterDB;
+		priority: (self priorityFor: #exploringCharacterViews:);
+		startPage: (self db pageNamed: 'Exploring Character views');
+		yourself
+]
+
+{ #category : #page }
+HowToFindStuffSlideshow >> exploringCharacterViewsPage [
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Exploring Character views')
+		addSnippet: (LePharoSnippet new
+				code: '''hello''';
+				yourself);
 		yourself
 ]
 
@@ -155,19 +165,36 @@ HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 ]
 
 { #category : #slides }
+HowToFindStuffSlideshow >> findingShortcuts: aSlide [
+	"<gtSlide>"
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #findingShortcuts:);
+		startPage: (self db pageNamed: 'Finding shortcuts');
+		yourself
+]
+
+{ #category : #slides }
 HowToFindStuffSlideshow >> findingShortcutsEmpty: aSlide [
 	<gtSlide>
 	^ aSlide empty 
 		  priority: (self priorityFor: #findingShortcutsEmpty:)
 ]
 
-{ #category : #slides }
-HowToFindStuffSlideshow >> findingShortcutsPage: aSlide [
-	"<gtSlide>"
-	self initFindingShortcutsPage.
-	^ aSlide lepiterPage
-		  priority: (self priorityFor: #findingShortcutsPage:);
-		  pageNamed: 'Finding shortcuts' from: self myLepiterDB
+{ #category : #page }
+HowToFindStuffSlideshow >> findingShortcutsPage [
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Finding shortcuts')
+		addSnippet: (LeTextSnippet new
+				string: 'Typing CMD= and CMD- will increase or decrease the size of all the fonts in this page, but how does the shortcut work?';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: '';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Holding SHIFT CONTROL OPT while clicking in the page will allow us to drill into the UI elements.';
+				yourself);
+		yourself
 ]
 
 { #category : #slides }
@@ -179,37 +206,9 @@ HowToFindStuffSlideshow >> gtQueries: aSlide [
 ]
 
 { #category : #initialization }
-HowToFindStuffSlideshow >> initExploringCharacterViewsPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Exploring Character views'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LePharoSnippet new
-				code: '''hello''';
-				yourself);
-		yourself
-]
-
-{ #category : #initialization }
-HowToFindStuffSlideshow >> initFindingShortcutsPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Finding shortcuts'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'Typing CMD= and CMD- will increase or decrease the size of all the fonts in this page, but how does the shortcut work?';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: '';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Holding SHIFT CONTROL OPT while clicking in the page will allow us to drill into the UI elements.';
-				yourself);
-		yourself
+HowToFindStuffSlideshow >> initializeDb [
+	self db addPage: self exploringCharacterViewsPage.
+	self db addPage: self findingShortcutsPage.
 ]
 
 { #category : #slides }
@@ -290,7 +289,7 @@ HowToFindStuffSlideshow >> slidePriorities [
 			concatenateStrings:
 		
 		exploringViewCode:
-			#exploringCharacterViewsPage:
+			#exploringCharacterViews:
 		
 		drilling:
 			findingShortcutsEmpty:

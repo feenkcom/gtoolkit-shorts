@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-03-08T15:12:30.260336+01:00"
+									"dateAndTimeString" : "2023-03-08T15:13:20.905842+01:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[* PetitParser]] "
+							"string" : "[[* Building composable parsers with PetitParser]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -868,43 +868,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[Finding shortcuts]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-13T16:20:33.762612+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-01-13T16:20:34.446734+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "c+zEgoiuDQCier5+Djv3hw=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Exploring Character views]] "
 									},
 									{
 										"__type" : "textSnippet",
