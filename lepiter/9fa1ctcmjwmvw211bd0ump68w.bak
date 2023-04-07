@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-18T07:41:04.221977+02:00"
+						"dateAndTimeString" : "2023-02-28T10:22:55.793624+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T17:16:46.967569+01:00"
+						"dateAndTimeString" : "2023-02-28T10:23:04.920396+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[short]] [[asap]]  "
+				"string" : "[[short]] [[completed]] "
 			},
 			{
 				"__type" : "textSnippet",
