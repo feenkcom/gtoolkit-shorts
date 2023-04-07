@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-15T09:24:32.143742+01:00"
+						"dateAndTimeString" : "2023-04-07T08:08:59.962181+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See [[Setting up a GT GitHub repo]]"
+				"string" : "See [[How to set up a GT GitHub repo in 7']]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -323,12 +323,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-15T09:24:14.259211+01:00"
+			"dateAndTimeString" : "2023-02-28T10:21:24.788376+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Revise Setting up a GitHub repo"
+		"title" : "* Revise Setting up a GitHub repo"
 	},
 	"uid" : {
 		"__type" : "uuid",
