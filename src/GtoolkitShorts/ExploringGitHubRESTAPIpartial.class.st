@@ -74,7 +74,7 @@ ExploringGitHubRESTAPIpartial >> exploringScenery [
 	item1 position: 0 @ 0.
 	item1 extent: 400.0 @ 400.0.
 	item2 := scenery
-			addItem: (GtInspectorSceneryStencil new
+			addItem: (GtSceneryInspectorStencil new
 					extent: 200 @ 400;
 					target: [ GhOrganization new rawData: self organizationData ]).
 	item2 position: 600 @ 0.
@@ -89,7 +89,7 @@ ExploringGitHubRESTAPIpartial >> exploringScenery [
 	item3 position: 603 @ 513.
 	item3 extent: 400.0 @ 400.0.
 	item4 := scenery
-			addItem: (GtInspectorSceneryStencil new
+			addItem: (GtSceneryInspectorStencil new
 					extent: 200 @ 400;
 					target: [ GhRepo new rawData: self gtoolkitData ]).
 	item4 position: 1205 @ 518.
@@ -97,21 +97,22 @@ ExploringGitHubRESTAPIpartial >> exploringScenery [
 
 
 	scenery
-		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		addConnectionWithStencil: (GtSceneryParabollaArcStencil new
+				labelText: 'wrap & view')
 		from: item1
 		to: item2.
 
 	scenery
-		addConnection: (GtParabollaArcSceneryStencil new labelText: 'explore')
+		addConnectionWithStencil: (GtSceneryParabollaArcStencil new
+				labelText: 'explore')
 		from: item2
 		to: item3.
 
 	scenery
-		addConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')
+		addConnectionWithStencil: (GtSceneryParabollaArcStencil new
+				labelText: 'wrap & view')
 		from: item3
 		to: item4.
-
-
 	^ scenery
 ]
 
@@ -131,33 +132,11 @@ ExploringGitHubRESTAPIpartial >> extractingNavigationCode: aSlide [
 		titleWithFormat: (self asHeader: 'Extracting the navigation code')
 ]
 
-{ #category : #slides }
-ExploringGitHubRESTAPIpartial >> fullExample: aSlide [
-	<gtSlide>
-	self initFullExamplePage.
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #fullExample:);
-		pageNamed: 'An executable GitHub REST API model' from: self myLepiterDB
-]
-
-{ #category : #rest }
-ExploringGitHubRESTAPIpartial >> gtoolkitData [
-	<gtExample>
-	<noTest>
-	^ STON
-		fromString: (ZnClient new
-				username: '' password: self password;
-				get: 'https://api.github.com/repos/feenkcom/gtoolkit')
-]
-
 { #category : #accessing }
-ExploringGitHubRESTAPIpartial >> initFinalExploringDataPage [
+ExploringGitHubRESTAPIpartial >> finalExploringDataPage [
 	<gtExample>
 	<noTest>
-	| pageName page |
-	pageName := 'Exploring the GitHub REST API'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
+	^ (LePage named: 'Exploring the GitHub REST API')
 		addSnippet: (LeTextSnippet new
 				string: 'First we get the API URL.';
 				yourself);
@@ -186,17 +165,38 @@ ExploringGitHubRESTAPIpartial >> initFinalExploringDataPage [
 ]
 
 { #category : #slides }
-ExploringGitHubRESTAPIpartial >> initFullExamplePage [
+ExploringGitHubRESTAPIpartial >> fullExample: aSlide [
+	<gtSlide>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #fullExample:);
+		startPage: (self db pageNamed: 'An executable GitHub REST API model')
+]
+
+{ #category : #slides }
+ExploringGitHubRESTAPIpartial >> fullExamplePage [
 	<gtExample>
 	<noTest>
-	| pageName page |
-	pageName := 'An executable GitHub REST API model'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
+	^ (LePage named: 'An executable GitHub REST API model')
 		addSnippet: (LePharoSnippet new
 				code: 'GhOrganizationExamples new feenkcomOrganization';
 				yourself);
 		yourself
+]
+
+{ #category : #rest }
+ExploringGitHubRESTAPIpartial >> gtoolkitData [
+	<gtExample>
+	<noTest>
+	^ STON
+		fromString: (ZnClient new
+				username: '' password: self password;
+				get: 'https://api.github.com/repos/feenkcom/gtoolkit')
+]
+
+{ #category : #initialization }
+ExploringGitHubRESTAPIpartial >> initializeDb [
+	self db addPage: self fullExamplePage.
+	self db addPage: self finalExploringDataPage
 ]
 
 { #category : #slides }
@@ -357,20 +357,6 @@ ExploringGitHubRESTAPIpartial >> testScenery [
 		from: item3
 		to: item4.
 	^ scenery
-]
-
-{ #category : #slides }
-ExploringGitHubRESTAPIpartial >> typingPageDemo: aSlide [
-	"<gtSlide>"
-	| typist |
-	typist := Typist onPageNamed: 'Extracting the raw data' from: self myLepiterDB.
-	^ aSlide lepiterPage
-		priority: (self priorityFor: #extractingRawDataPage:);
-		pageNamed: 'Extracting the raw data' from: self myLepiterDB;
-		onEveryAddToSceneGraphDo: [ typist
-				clearPage;
-				typeFast;
-				typeCodeSnippet: 'url := ''https://api.github.com/orgs/feenkcom''.' ]
 ]
 
 { #category : #slides }

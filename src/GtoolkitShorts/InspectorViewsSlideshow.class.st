@@ -53,7 +53,6 @@ InspectorViewsSlideshow >> customViewsForSubtitlesPage [
 { #category : #page }
 InspectorViewsSlideshow >> exploringCartoonAddresses: aSlide [
 	<gtSlide>
-	self initExploringCartoonAddressesPage.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringCartoonAddresses:);
 		startPage: (self db pageNamed: 'Exploring an AddressBook object');
@@ -74,7 +73,6 @@ InspectorViewsSlideshow >> exploringCartoonAddressesPage [
 { #category : #slides }
 InspectorViewsSlideshow >> exploringTheAPI: aSlide [
 	<gtSlide>
-	self initExploringTheAPIPage.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringTheAPI:);
 		startPage: (self db pageNamed: 'Exploring the Inspector view API');
@@ -92,64 +90,13 @@ InspectorViewsSlideshow >> exploringTheAPIPage [
 		yourself
 ]
 
-{ #category : #page }
-InspectorViewsSlideshow >> initCustomViewsForSubtitlesPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Custom views for subtitles'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'fileContents := ''pharo-local/iceberg/feenkcom/gtoolkit-shorts/doc/Subtitles/Taxi Tehran (2015).srt'' asFileReference contents.';
-				yourself);
-		yourself
-]
-
 { #category : #initialization }
-InspectorViewsSlideshow >> initExploringCartoonAddressesPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Exploring an AddressBook object'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LePharoSnippet new
-				code: 'GtABCartoonAddressBookExample new cartoonAddressBook';
-				yourself);
-		yourself
-]
+InspectorViewsSlideshow >> fullCustomViewsForSubtitlesPage [
+	"These snippets are normally added by the Typist from the script."
 
-{ #category : #initialization }
-InspectorViewsSlideshow >> initExploringTheAPIPage [
 	<gtExample>
 	<noTest>
-	| pageName page |
-	pageName := 'Exploring the Inspector view API'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
-				yourself)
-				";
-		addSnippet: (LePharoSnippet new
-				code: '(GtCoder forClass: GtPhlowProtoView)
-	selectMethodProtocolNamed: #decorating';
-				yourself);
-		yourself"
-]
-
-{ #category : #initialization }
-InspectorViewsSlideshow >> initFullCustomViewsForSubtitlesPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Custom views for subtitles'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
+	^ (LePage named: 'Custom views for subtitles')
 		addSnippet: (LeTextSnippet new
 				string: 'Here are English subtitles for the movie “Taxi Tehran”:';
 				yourself);
@@ -189,15 +136,12 @@ InspectorViewsSlideshow >> initFullCustomViewsForSubtitlesPage [
 ]
 
 { #category : #initialization }
-InspectorViewsSlideshow >> initFullExploringTheAPIPage [
+InspectorViewsSlideshow >> fullExploringTheAPIPage [
 	"These snippets are normally added by the Typist from the script."
 
 	<gtExample>
 	<noTest>
-	| pageName page |
-	pageName := 'Exploring the Inspector view API'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
+	^ (LePage named: 'Exploring the Inspector view API')
 		addSnippet: (LeTextSnippet new
 				string: 'The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol.';
 				yourself);

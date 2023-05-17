@@ -19,10 +19,9 @@ ExploringGitHubRESTAPI >> apiEndpoint: aSlide [
 { #category : #slides }
 ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 	<gtSlide>
-	self ensureEmptyPageNamed: 'Exploring the GitHub REST API'.
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringTheDataPage:);
-		pageNamed: 'Exploring the GitHub REST API' from: self myLepiterDB
+		startPage: (self db pageNamed: 'Exploring the GitHub REST API')
 ]
 
 { #category : #slides }
@@ -31,6 +30,11 @@ ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 	^ aSlide title
 		priority: (self priorityFor: #gettingRawData:);
 		titleWithFormat: (self asHeader: 'Getting the raw data')
+]
+
+{ #category : #initialization }
+ExploringGitHubRESTAPI >> initializeDb [
+	super initializeDb
 ]
 
 { #category : #slides }

@@ -43,7 +43,7 @@ UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #caseStudyExamplePage:);
-		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBook;
+		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBookName;
 		yourself
 ]
 
@@ -69,7 +69,7 @@ UnderstandingLepiterSlideshow >> documentationExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #documentationExamplePage:);
-		pageNamed: 'Geometry, visual and layout bounds explained' from: self gtBook;
+		pageNamed: 'Geometry, visual and layout bounds explained' from: self gtBookName;
 		yourself
 ]
 
@@ -134,7 +134,7 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #faqExamplePage:);
-		pageNamed: 'How to set up a new GitHub repo' from: self gtBook;
+		pageNamed: 'How to set up a new GitHub repo' from: self gtBookName;
 		yourself
 ]
 
@@ -142,10 +142,7 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 UnderstandingLepiterSlideshow >> finalGraphQLPage [
 	<gtExample>
 	<noTest>
-	| pageName page |
-	pageName := 'GraphQL snippet'.
-	page := self ensureEmptyPageNamed: pageName.
-	page
+	^ (LePage named: 'GraphQL snippet')
 		addSnippet: (LeTextSnippet new
 				string: 'You need to retrieve your GitHub personal access token:';
 				yourself);
@@ -176,8 +173,8 @@ githubAccessKey := githubAccessKeyFile contents trimBoth.';
 		description
 	}
 }';
-				yourself).
-	^ page
+				yourself);
+		yourself
 ]
 
 { #category : #slides }
@@ -220,101 +217,6 @@ UnderstandingLepiterSlideshow >> gtWorld: aSlide [
 	^ (aSlide element)
 		priority: (self priorityFor: #gtWorld:);
 		element: [ aSlide world ]
-]
-
-{ #category : #slides }
-UnderstandingLepiterSlideshow >> initQueryingLepiterPageComplete [
-	"The final state of the page"
-
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Querying Lepiter'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'Inspect this snippet.';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'thisSnippet.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Access the page of a snippet.';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'thisSnippet page.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Access the database of a page.';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'thisSnippet page database.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'How to find a database by name?';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'gtBook := LeDatabasesRegistry uniqueInstance defaultLogicalDatabase databases
-		detect: [ :db | db databaseName = ''Glamorous Toolkit Book'' ].';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'How to find all open to-dos?';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'gtBook pages  select: #hasUncompletedGtTodo.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Get all the snippets';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'allSnippets := (gtBook pages deepCollect: #children)
-	select: [ :each | each isKindOf: LeSnippet ].';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'How many snippets are there of each type?';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: '(allSnippets collect: #class) asBag sortedCounts.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'What are examples of Wardley map snippets?';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'allSnippets select: [ :each | each isKindOf: LeWardleyMapSnippet ].';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Which pages have Wardley map snippets?';
-				yourself);
-		addSnippet: (LePharoSnippet new
-				code: 'gtBook pages
-	select: [ :each | (each deep: #children 
-		select: [ :child | child isKindOf: LeWardleyMapSnippet ]) notEmpty ].';
-				yourself);
-		yourself
-]
-
-{ #category : #page }
-UnderstandingLepiterSlideshow >> initSnippetTypesPage [
-	<gtExample>
-	<noTest>
-	| pageName page |
-	pageName := 'Snippet types'.
-	page := self ensureEmptyPageNamed: pageName.
-	^ page
-		addSnippet: (LeTextSnippet new
-				string: 'Snippet types are subclasses of {{gtClass:name=LeSnippet}}. ';
-				yourself);
-		addSnippet: (LeElementSnippet new
-				code: 'GtPhlowView empty tree
-	items: [ {LeSnippet} ];
-	children: #subclasses;
-	expandAll;
-	yourself.';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: '';
-				yourself);
-		yourself
 ]
 
 { #category : #initialization }
@@ -989,7 +891,7 @@ UnderstandingLepiterSlideshow >> textSnippetPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #textSnippetPage:);
-		pageNamed: 'Text snippet' from: self gtBook;
+		pageNamed: 'Text snippet' from: self gtBookName;
 		yourself
 ]
 
@@ -1085,7 +987,7 @@ UnderstandingLepiterSlideshow >> tutorialExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #tutorialExamplePage:);
-		pageNamed: 'Working with collections in Pharo' from: self gtBook;
+		pageNamed: 'Working with collections in Pharo' from: self gtBookName;
 		yourself
 ]
 
@@ -1103,6 +1005,6 @@ UnderstandingLepiterSlideshow >> wardleyMapPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #wardleyMapPage:);
-		pageNamed: 'Mapping Moldable Development' from: self gtBook;
+		pageNamed: 'Mapping Moldable Development' from: self gtBookName;
 		yourself
 ]

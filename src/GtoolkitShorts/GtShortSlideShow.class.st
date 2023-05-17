@@ -28,25 +28,6 @@ GtShortSlideshow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 ]
 
 { #category : #utility }
-GtShortSlideshow >> ensureEmptyPageNamed: aPageName [
-	| page |
-	page := self ensurePageNamed: aPageName.
-	[ page children notEmpty ]
-		whileTrue: [ page removeSnippet: page children last ].
-	^ page
-]
-
-{ #category : #utility }
-GtShortSlideshow >> ensurePageNamed: aPageName [
-	| database |
-	database := LeDatabasesRegistry default currentLoadedDefaultLogicalDatabase
-			databaseNamed: self myLepiterDB.
-	(database hasPageNamed: aPageName)
-		ifFalse: [ database addPage: (LePage named: aPageName) ].
-	^ database pageNamed: aPageName
-]
-
-{ #category : #utility }
 GtShortSlideshow >> fileIn: aFilename [
 	(self fileOuts / aFilename) fileIn
 ]
@@ -63,12 +44,6 @@ GtShortSlideshow >> fileOuts [
 
 { #category : #accessing }
 GtShortSlideshow >> gtShortsLepiterDB [
-	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
-	^ 'GT Shorts Notebook'
-]
-
-{ #category : #constants }
-GtShortSlideshow >> myLepiterDB [
 	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
 	^ 'GT Shorts Notebook'
 ]

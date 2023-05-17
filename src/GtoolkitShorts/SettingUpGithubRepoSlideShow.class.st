@@ -88,7 +88,7 @@ SettingUpGithubRepoSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToWorkWithGitHub:);
-		pageNamed: 'How to work with GitHub' from: self gtBook;
+		pageNamed: 'How to work with GitHub' from: self gtBookName;
 		yourself
 ]
 

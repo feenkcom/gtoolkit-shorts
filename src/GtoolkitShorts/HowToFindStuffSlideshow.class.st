@@ -236,7 +236,7 @@ HowToFindStuffSlideshow >> queryingPharoCodePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #queryingPharoCodePage:);
-		pageNamed: 'Querying Pharo code' from: self gtBook;
+		pageNamed: 'Querying Pharo code' from: self gtBookName;
 		yourself
 ]
 
@@ -336,7 +336,7 @@ HowToFindStuffSlideshow >> understandingCollectionsPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #understandingCollectionsPage:);
-		pageNamed: 'Understanding Smalltalk classes and metaclasses' from: self gtBook;
+		pageNamed: 'Understanding Smalltalk classes and metaclasses' from: self gtBookName;
 		yourself
 ]
 
@@ -345,6 +345,6 @@ HowToFindStuffSlideshow >> workingWithCollectionsPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #workingWithCollectionsPage:);
-		pageNamed: 'Working with collections in Pharo' from: self gtBook;
+		pageNamed: 'Working with collections in Pharo' from: self gtBookName;
 		yourself
 ]
