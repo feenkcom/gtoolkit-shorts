@@ -12,6 +12,11 @@ GtShortSlideshow class >> <> aSymbol [
 	^ self show: aSymbol
 ]
 
+{ #category : #testing }
+GtShortSlideshow class >> isAbstract [
+	^ self == GtShortSlideshow
+]
+
 { #category : #utility }
 GtShortSlideshow >> ensureEmptyClass: aClassSymbol inPackage: aPackageSymbol [
 	Object
@@ -60,11 +65,6 @@ GtShortSlideshow >> fileOuts [
 GtShortSlideshow >> gtShortsLepiterDB [
 	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
 	^ 'GT Shorts Notebook'
-]
-
-{ #category : #testing }
-GtShortSlideshow >> isAbstract [
-	^ self == GtShortSlideshow
 ]
 
 { #category : #constants }

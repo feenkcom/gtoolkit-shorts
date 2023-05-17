@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T11:50:15.290625+02:00"
+						"dateAndTimeString" : "2023-05-17T11:45:38.341564+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T11:50:15.290625+02:00"
+						"dateAndTimeString" : "2023-05-17T11:45:38.341564+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HXMLWkK4DQCGLQynB7GTjw=="
+					"uidString" : "2oqJSUK4DQCCH7enB7GTjw=="
 				},
-				"code" : "GhOrganizationExamples new feenkcomOrganization"
+				"code" : "GtABCartoonAddressBookExample new cartoonAddressBook"
 			}
 		]
 	},
@@ -48,7 +48,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-21T10:01:56.474774+01:00"
+			"dateAndTimeString" : "2023-05-17T11:45:38.306007+02:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +59,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-21T10:01:56.474774+01:00"
+			"dateAndTimeString" : "2023-05-17T11:45:38.306007+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "An executable GitHub REST API model"
+		"title" : "Exploring an AddressBook object"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "26e7968a-b4ac-0d00-9c1d-d3c909def11d"
+		"uuid" : "9aff8849-42b8-0d00-821e-d8e507b1938f"
 	}
 }

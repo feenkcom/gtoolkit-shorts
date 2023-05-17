@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T11:50:15.290625+02:00"
+						"dateAndTimeString" : "2023-05-17T11:45:38.240985+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T11:50:15.290625+02:00"
+						"dateAndTimeString" : "2023-05-17T11:45:38.240985+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HXMLWkK4DQCGLQynB7GTjw=="
+					"uidString" : "6wGISUK4DQCCHaxcB7GTjw=="
 				},
-				"code" : "GhOrganizationExamples new feenkcomOrganization"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The main API is defined in {{gtClass:name=GtPhlowProtoView}} in the `decorating` protocol."
 			}
 		]
 	},
@@ -48,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-21T10:01:56.474774+01:00"
+			"dateAndTimeString" : "2023-05-17T11:45:38.103828+02:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-21T10:01:56.474774+01:00"
+			"dateAndTimeString" : "2023-05-17T11:45:38.103828+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "An executable GitHub REST API model"
+		"title" : "Exploring the Inspector view API"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "26e7968a-b4ac-0d00-9c1d-d3c909def11d"
+		"uuid" : "cce98549-42b8-0d00-821c-71ce07b1938f"
 	}
 }
