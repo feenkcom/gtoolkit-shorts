@@ -1,0 +1,370 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:09:30.097395+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:09:30.097395+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BOPpfEi4DQCmcmt5DwRXRQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-17T18:18:58.697551+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-17T18:20:00.064701+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CGQ6yEe4DQCIukK6BCvvVQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The GtScenery package has changed. I fixed some class names, but I still get an error in this example: {{gtExample:name=ExploringGitHubRESTAPIpartial>>#exploringScenery|noCode}}.."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-17T18:20:21.528032+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-17T18:20:30.786228+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "WkQqzUe4DQCLZ9DiBCvvVQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "See {{gtMethod:name=ExploringGitHubRESTAPIpartial>>#exploringScenery}}."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T18:18:55.345715+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T18:18:58.056885+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kf2+x0e4DQCIYM4NBCvvVQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#Sceneries"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T18:20:31.269432+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:10:44.251197+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "guu+zUe4DQCL4GN6BCvvVQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[TG]] says that addItem: requires an object not a block."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:12:47.95235+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:12:56.670417+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "U+S0iEi4DQCnySxaDwRXRQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "But `asStencil:` is sent in each case."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:51:49.820684+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:51:53.298049+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "tvpKFEm4DQCqRGo1DwRXRQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This is not working"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:12:58.09911+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T19:18:00.320726+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QbpPiUi4DQCojDOzDwRXRQ=="
+				},
+				"code" : "aSlide := ExploringGitHubRESTAPIpartial new.\rscenery := GtScenery new.\ritem1 := scenery\r\t\taddItem: ((aSlide responseForFeenkOrg gtJsonFor: GtPhlowEmptyView new)\r\t\t\t\tasElementDo: [ :e | \r\t\t\t\t\te\r\t\t\t\t\t\tbackground: Color white;\r\t\t\t\t\t\taptitude: BrShadowAptitude;\r\t\t\t\t\t\tmargin: (BlInsets all: 10) ]).\ritem1 relocate: 0 @ 0.\ritem1 size: 400.0 @ 400.0.\ritem2 := scenery\r\t\taddItem: (GtSceneryInspectorStencil new\r\t\t\t\textent: 200 @ 400;\r\t\t\t\ttarget: [ GhOrganization new rawData: aSlide organizationData ]).\ritem2 position: 600 @ 0.\ritem2 extent: 400.0 @ 400.0.\ritem3 := scenery\r\t\taddItem: ((aSlide responseForGToolkitRepo gtJsonFor: GtPhlowEmptyView new)\r\t\t\t\tasElementDo: [ :e | \r\t\t\t\t\te\r\t\t\t\t\t\tbackground: Color white;\r\t\t\t\t\t\taptitude: BrShadowAptitude;\r\t\t\t\t\t\tmargin: (BlInsets all: 10) ]).\ritem3 position: 603 @ 513.\ritem3 size: 400.0 @ 400.0.\ritem4 := scenery\r\t\taddItem: (GtSceneryInspectorStencil new\r\t\t\t\textent: 200 @ 400;\r\t\t\t\ttarget: [ GhRepo new rawData: aSlide gtoolkitData ]).\ritem4 position: 1205 @ 518.\ritem4 extent: 400.0 @ 400.0.\r\r\rscenery\r\taddConnectionWithStencil: (GtSceneryParabollaArcStencil new\r\t\t\tlabelText: 'wrap & view')\r\tfrom: item1\r\tto: item2.\r\rscenery\r\taddConnectionWithStencil: (GtSceneryParabollaArcStencil new\r\t\t\tlabelText: 'explore')\r\tfrom: item2\r\tto: item3.\r\rscenery\r\taddConnectionWithStencil: (GtSceneryParabollaArcStencil new\r\t\t\tlabelText: 'wrap & view')\r\tfrom: item3\r\tto: item4.\r^ scenery"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T18:05:05.453451+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-17T18:05:05.453451+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zBSQlke4DQCHbg2WBCvvVQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-05-17T19:09:30.065097+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-05-17T19:09:30.065097+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Fix sceneries"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ca60e97c-48b8-0d00-a671-6db00f045745"
+	}
+}

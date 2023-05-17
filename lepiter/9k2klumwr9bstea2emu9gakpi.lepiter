@@ -515,118 +515,6 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-05-17T18:18:58.697551+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-05-17T18:20:00.064701+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "CGQ6yEe4DQCIukK6BCvvVQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "The GtScenery package has changed. I fixed some class names, but I still get an error in this example: {{gtExample:name=ExploringGitHubRESTAPIpartial>>#exploringScenery|noCode}}.."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-05-17T18:20:21.528032+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-05-17T18:20:30.786228+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "WkQqzUe4DQCLZ9DiBCvvVQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "See {{gtMethod:name=ExploringGitHubRESTAPIpartial>>#exploringScenery}}."
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:18:55.345715+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:18:58.056885+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "kf2+x0e4DQCIYM4NBCvvVQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "#Sceneries"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
 					"items" : [ ]
 				},
 				"createEmail" : {
@@ -637,7 +525,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:20:31.269432+02:00"
+						"dateAndTimeString" : "2023-05-17T19:09:51.095903+02:00"
 					}
 				},
 				"editEmail" : {
@@ -648,12 +536,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:20:31.269432+02:00"
+						"dateAndTimeString" : "2023-05-17T19:09:51.095903+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "guu+zUe4DQCL4GN6BCvvVQ=="
+					"uidString" : "j5NKfEi4DQCmEf2VDwRXRQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -674,7 +562,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:05:05.453451+02:00"
+						"dateAndTimeString" : "2023-05-17T19:09:28.112872+02:00"
 					}
 				},
 				"editEmail" : {
@@ -685,12 +573,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:05:05.453451+02:00"
+						"dateAndTimeString" : "2023-05-17T19:09:28.112872+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "zBSQlke4DQCHbg2WBCvvVQ=="
+					"uidString" : "XJnLfEi4DQCmboHSDwRXRQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
