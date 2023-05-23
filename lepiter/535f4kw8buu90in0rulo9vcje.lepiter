@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:55:42.073519+02:00"
+						"dateAndTimeString" : "2023-05-23T11:25:26.307642+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See the Slides view of:"
+				"string" : "See the abstractMethodsQuery slide (#7) in the Slides view of:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -163,6 +163,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:28:23.591055+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:28:31.932989+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kr7ovrq4DQCxfFjwBtJDcg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The method is {{gtMethod:name=HowToFindStuffSlideshow>>#abstractMethodsQuery:}}. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-05-17T18:54:46.510942+02:00"
 					}
 				},
@@ -174,12 +211,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:46.510942+02:00"
+						"dateAndTimeString" : "2023-05-23T11:26:21.219937+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "t2o/SEi4DQChpSoFBCvvVQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Strangely it is ok in the Slide deck view."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:26:05.500498+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:26:05.500498+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "paWttrq4DQCv7PYlBtJDcg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -211,7 +285,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:46.726331+02:00"
+						"dateAndTimeString" : "2023-05-23T11:23:48.626601+02:00"
 					}
 				},
 				"uid" : {
@@ -221,7 +295,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Browse instances of all the slideshows:"
 			},
 			{
 				"__type" : "pharoSnippet",

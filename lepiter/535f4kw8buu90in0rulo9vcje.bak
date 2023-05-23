@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:49.1468+02:00"
+						"dateAndTimeString" : "2023-05-23T11:25:26.307642+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See:"
+				"string" : "See the abstractMethodsQuery slide (#7) in the Slides view of:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:52.654938+02:00"
+						"dateAndTimeString" : "2023-05-17T18:55:35.517815+02:00"
 					}
 				},
 				"uid" : {
@@ -150,77 +150,6 @@
 				"code" : "HowToFindStuffSlideshow new"
 			},
 			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:55:03.823412+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:55:03.823412+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "p5ZHSUi4DQCh5z6BBCvvVQ=="
-				},
-				"code" : ""
-			},
-			{
-				"__type" : "elementSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:55:12.499382+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:55:16.67614+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "6PbLSUi4DQCh7AwjBCvvVQ=="
-				},
-				"code" : "HowToFindStuffSlideshow new",
-				"elementHeight" : 100,
-				"codeHeight" : 50,
-				"codeVisible" : true
-			},
-			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -245,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:46.510942+02:00"
+						"dateAndTimeString" : "2023-05-23T11:26:21.219937+02:00"
 					}
 				},
 				"uid" : {
@@ -255,6 +184,43 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
+				"string" : "Strangely it is ok in the Slide deck view."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:26:05.500498+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:26:05.500498+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "paWttrq4DQCv7PYlBtJDcg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
 				"string" : ""
 			},
 			{
@@ -282,7 +248,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:54:46.726331+02:00"
+						"dateAndTimeString" : "2023-05-23T11:23:48.626601+02:00"
 					}
 				},
 				"uid" : {
@@ -292,7 +258,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Browse instances of all the slideshows:"
 			},
 			{
 				"__type" : "pharoSnippet",
