@@ -4,7 +4,7 @@ Class {
 	#category : #GtoolkitShorts
 }
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> addingALepiterDatabase: aSlide [
 	<gtSlide>
 	<text:
@@ -37,7 +37,7 @@ We commit this method as well.'>
 		titleWithFormat: (self asHeader: 'Adding a Lepiter database')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> addingPackages: aSlide [
 	<gtSlide>
 	<text:
@@ -58,7 +58,7 @@ And we commit the changes with a suitable commit message.'>
 		titleWithFormat: (self asHeader: 'Adding source and baseline packages')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> addingProjectMetadata: aSlide [
 	<gtSlide>
 	<text:
@@ -77,7 +77,7 @@ but we won''t push yet.'>
 		titleWithFormat: (self asHeader: 'Adding the project metadata')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> automatingTheLoadProcess: aSlide [
 	<gtSlide>
 	<text:
@@ -102,7 +102,7 @@ We commit these changes to the README so we can easily find them.'>
 		titleWithFormat: (self asHeader: 'Automating the load process')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> cloningTheRepo: aSlide [
 	<gtSlide>
 	<text:
@@ -115,7 +115,7 @@ We open the git tool in GT and clone the repo using the copied SHH URL.'>
 		titleWithFormat: (self asHeader: 'Cloning the repo in GT')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> closing: aSlide [
 	<gtSlide>
 	<text:
@@ -137,7 +137,7 @@ Thanks for listening.'>
 				bold)
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> creatingTheGitHubRepo: aSlide [
 	<gtSlide>
 	<text:
@@ -152,7 +152,20 @@ We commit the README, and copy the SHH link.'>
 		titleWithFormat: (self asHeader: 'Creating the GitHub repo')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
+SettingUpGithubReduxSlideShow >> downloadGt: aSlide [
+	<gtSlide>
+	<text: '## Exploring the slideshow
+
+For a software system to be explainable, we must be able to explore it. 
+
+To understand the slideshow software, we don''t start from the source code but from a live instance. We can navigate from the slideshow to its slides, to the Wardley maps, or to the source code, if we need to.'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #downloadGt:);
+		startPage: (self db pageNamed: 'Exploring the slideshow')
+]
+
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> gitCredentials: aSlide [
 	<gtSlide>
 	<text:
@@ -165,7 +178,7 @@ If not, you should first create a GitHub account and read the GitHub page about 
 		titleWithFormat: (self asHeader: 'Setting up the git credentials')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	<text:
@@ -181,7 +194,7 @@ The script informs Iceberg, the library that handles the interaction with git, o
 		yourself
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> loadingTheRepo: aSlide [
 	<gtSlide>
 	<text:
@@ -200,13 +213,15 @@ Similarly, the Lepiter tool shows that our Lepiter database is back again.'>
 		titleWithFormat: (self asHeader: 'Loading the repo')
 ]
 
-{ #category : #accessing }
+{ #category : #constants }
 SettingUpGithubReduxSlideShow >> slidePriorities [
 	<gtExample>
 	<noTest>
 	
 	^ #( 
 		titleSlide:
+		
+		downloadGt:
 		
 		gitCredentials:
 			sshAdd:
@@ -224,7 +239,7 @@ SettingUpGithubReduxSlideShow >> slidePriorities [
 	)
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 	<gtSlide>
 	<text:
@@ -235,7 +250,7 @@ SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 		titleWithFormat: (self asBigCode: 'ssh-add ~/.ssh/id_rsa')
 ]
 
-{ #category : #accessing }
+{ #category : #slides }
 SettingUpGithubReduxSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	<text: 
