@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:53:25.898435+02:00"
+						"dateAndTimeString" : "2023-06-14T10:35:46.127856+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,44 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-17T18:53:25.901246+02:00"
+						"dateAndTimeString" : "2023-06-14T10:35:46.127856+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Peo3k3S6DQCGgveUAZGV0w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[done]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-14T10:35:48.571787+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-14T10:35:48.571787+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -163,6 +200,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:28:23.591055+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-05-23T11:28:31.932989+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kr7ovrq4DQCxfFjwBtJDcg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The method is {{gtMethod:name=HowToFindStuffSlideshow>>#abstractMethodsQuery:}}. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-05-17T18:54:46.510942+02:00"
 					}
 				},
@@ -174,7 +248,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-23T11:26:21.219937+02:00"
+						"dateAndTimeString" : "2023-06-14T09:44:33.64042+02:00"
 					}
 				},
 				"uid" : {
@@ -184,7 +258,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Strangely it is ok in the Slide deck view."
+				"string" : "Strangely it is ok in the Slide deck view and also in the Slide methods/Slide view."
 			},
 			{
 				"__type" : "textSnippet",
@@ -315,12 +389,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-05-17T18:53:37.791954+02:00"
+			"dateAndTimeString" : "2023-06-14T10:35:41.419971+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Fix Slides view"
+		"title" : "Fix Slides view (obsolete)"
 	},
 	"uid" : {
 		"__type" : "uuid",
