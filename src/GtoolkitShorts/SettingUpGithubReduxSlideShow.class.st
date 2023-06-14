@@ -141,7 +141,9 @@ Thanks for listening.'>
 SettingUpGithubReduxSlideShow >> creatingTheGitHubRepo: aSlide [
 	<gtSlide>
 	<text:
-'Next we create a repo on GitHub.
+'# Creating the GitHub repo
+
+Next we create a repo on GitHub.
 
 Here we create the gt-stuff repo and initialize it with a README.
 
@@ -155,21 +157,34 @@ We commit the README, and copy the SHH link.'>
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> downloadGt: aSlide [
 	<gtSlide>
-	<text: '## Exploring the slideshow
+	<text:
+'# Download GT
 
-For a software system to be explainable, we must be able to explore it. 
+The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
-To understand the slideshow software, we don''t start from the source code but from a live instance. We can navigate from the slideshow to its slides, to the Wardley maps, or to the source code, if we need to.'>
+Then you should open the page “How to configure GitHub SSH key authentication” in the GT Book.'>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #downloadGt:);
-		startPage: (self db pageNamed: 'Exploring the slideshow')
+		startPage: (self db pageNamed: 'Download and start GT')
+]
+
+{ #category : #initialization }
+SettingUpGithubReduxSlideShow >> downloadGtPage [
+	<gtExample>
+	^ (LePage named: 'Download and start GT')
+		addSnippet: (LeTextSnippet new
+				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
+				yourself);
+		yourself
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> gitCredentials: aSlide [
 	<gtSlide>
 	<text:
-'I''ll assume that you already have a GitHub account and have added an SSH key to that account.*
+'# Set up git credentials
+
+I''ll assume that you already have a GitHub account and have added an SSH key to that account.*
 
 If not, you should first create a GitHub account and read the GitHub page about “Adding a new SSH key to your GitHub account”.'>
 
@@ -182,16 +197,26 @@ If not, you should first create a GitHub account and read the GitHub page about 
 SettingUpGithubReduxSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	<text:
-'You can also configure the ssh credentials directly within GT.
+'# Configuring git within GT
 
-The GT book page “How to work with GitHub” explains this and provides a simple script that you can reuse.
+You can also configure the ssh credentials directly within GT.
 
-The script informs Iceberg, the library that handles the interaction with git, of your GitHub credentials.'>
+Scroll down in the same GT book page to section 3b: “Configuring  Glamorous Toolkit with the SSH key to GitHub.”
+
+The script informs Iceberg, the library that handles the interaction with git, of your GitHub credentials.
+
+Just modify the script to use your ssh credentials, for example `id_rsa.pub` and `id_rsa`.'>
 
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToWorkWithGitHub:);
-		pageNamed: 'How to work with GitHub' from: self gtBookName;
+		pageNamed: 'How to configure GitHub SSH key authentication' from: self gtBookName;
 		yourself
+]
+
+{ #category : #initialization }
+SettingUpGithubReduxSlideShow >> initializeDb [
+	db := nil.
+	self db addPage: self downloadGtPage.
 ]
 
 { #category : #slides }
@@ -243,7 +268,10 @@ SettingUpGithubReduxSlideShow >> slidePriorities [
 SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 	<gtSlide>
 	<text:
-'Before you can can use git within GT, you have to inform it of your git credentials. On Unix platforms, like the Mac, you should run this command before starting GT. (Or add it to your login script.)'>
+'# Informing GT of your git credentials
+
+
+Before you can can use git within GT, you have to inform it of your git credentials. On Unix platforms, like the Mac, you should run this command before starting GT. (Or add it to your login script.)'>
 
 	^ aSlide title
 		priority: (self priorityFor: #sshAdd:);
@@ -254,7 +282,9 @@ SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 SettingUpGithubReduxSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	<text: 
-'Hello. My name is Oscar Nierstrasz.
+'# How to set up a GT GitHub repo in 7''
+
+Hello. My name is Oscar Nierstrasz.
 
 Today I''d like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and Lepiter pages.'>
 
