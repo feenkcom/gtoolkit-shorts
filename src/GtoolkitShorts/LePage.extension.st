@@ -60,18 +60,6 @@ LePage >> gtScriptFor: aView [
 ]
 
 { #category : #'*GtoolkitShorts' }
-LePage >> gtStoreStringFor: aView [
-	<gtView>
-	^ aView textEditor
-		title: 'StoreString';
-		priority: 10;
-		aptitude: BrGlamorousCodeEditorAptitude;
-		styler: BrRBTextStyler new;
-		text: [ (GtPharoSnippetCoder forSource: self storeString) format currentSourceString ];
-		actionUpdateButton
-]
-
-{ #category : #'*GtoolkitShorts' }
 LePage >> textSnippetsStartingWith: startChars [
 	^ (self allChildrenTextSnippets collect: #string)
 		select: [ :each | each notEmpty and: [ startChars includes: each first ] ]
