@@ -5,72 +5,86 @@ Class {
 }
 
 { #category : #slides }
-SettingUpGithubReduxSlideShow >> addingALepiterDatabase: aSlide [
+SettingUpGithubReduxSlideShow >> addingCode: aSlide [
 	<gtSlide>
 	<text:
-'We''d like to have a Lepiter database associated to our repo so we can document our project.
+'# Adding code
 
-In the git tool we open the header, and add a new database folder.
+Our  repo has been initialized, but it contains no code and no documentation, so let''s add something.
 
-We call the new database “lepiter”. After creating the folder, don''t forget to click on the checkmark to add it as a database.
+We start by creating a new Lepiter page in our new, empty database.
 
-We can now add pages to the new Lepiter database. We just add an empty page for now.
+*(Go to Lepiter and add a page “Hello world” to the last db.)*
 
-The pages will be automatically added to the repo, but make sure that the changes are synced to the file system before committing.
+We add a code snippet for a class that doesn''t yet exist.
 
-Note that as long as the status is “Pending”, the page only exists in the image, but not on the file system.
+*(Add this snippet:)*
+```
+HelloWorld new hello
+```
 
-Now that the page has synced, we can commit the changes to our Lepiter database to the repo.
+We use the “fixit” tool to create the `HelloWorld` class, specifying that it should be created in out `GtStuff` package.
 
-We''ll add a class-side method to the Baseline class to automate the loading of the new Lepiter database.
+We click on the checkmark to create the class.
 
-Note especially that this is a class method, not an instance method, so we don''t need to create an instance of BaselineOfGtStuff to evaluate it.
+The class now exists, but it needs a `hello` method, so we use the “fixit” tool again.
 
-This is mostly boilerplate code. The only thing to change is the path to the folder containing the Lepiter database to be loaded.
+We implement the method, save it with the checkmark.
 
-This code will find the Lepiter folder in our cloned repo and add it to the registry of Lepiter databases.
+Finally we can evaluate and “Inspect” the result to verify the result.
 
-We commit this method as well.'>
+Of course now we want to commit our changes.
 
-	^ aSlide title
-		priority: (self priorityFor: #addingALepiterDatabase:);
-		titleWithFormat: (self asHeader: 'Adding a Lepiter database')
-]
+We can do this from the Git tool, but a quicker path is to open the `HelloWorld` class directly in the snippet, and click on “Go to repository.”
 
-{ #category : #slides }
-SettingUpGithubReduxSlideShow >> addingPackages: aSlide [
-	<gtSlide>
-	<text:
-'Since we''ll need a place to store our code, let''s create a package with a dummy class that we can replace later.
+There we can see the new Lepiter page, the new class and its “hello” method.
 
-We open the Coder and create a new class called “Dummy” in the new “GtStuff” package.
+*(Inspect each of these.)*
 
-We can now create a baseline for our repo. This will allow us to script the loading of the repo and selected packages in future.
+Finally we commit, 
 
-We edit the baseline method to specify just the dependency on the GtStuff package. If we need to, we can later add other packages.
-
-We add the two new packages to our repo ...
-
-And we commit the changes with a suitable commit message.'>
+and don''t forget to push!
+'>
 
 	^ aSlide title
-		priority: (self priorityFor: #addingPackages:);
-		titleWithFormat: (self asHeader: 'Adding source and baseline packages')
+		priority: (self priorityFor: #addingCode:);
+		titleWithFormat: (self asHeader: 'Adding code')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> addingProjectMetadata: aSlide [
 	<gtSlide>
 	<text:
-'Now we will turn the GitHub repo into an Iceberg project repo.
+'# Adding the project metadata
 
-We click on the “Repair” button and add a folder for all the source code, typically called “src”.
+Now we will turn the GitHub repo into an Iceberg project repo.
 
-We select the src folder add the project metadata to it.
+First we setup the metadata and the source directory.
 
-Finally, we commit, adding a suitable commit comment ...
+*(Click on “Create a source directory”.)*
 
-but we won''t push yet.'>
+The source directory is traditionally called “src”.
+
+Next we create an initial package and a baseline to automate loading of dependencies.
+
+*(Click on “Create a package and/or baseline”.)*
+
+The name of the package is automatically derived from the project name.
+
+If we now look at the `README` file we see that a load script has been added.
+
+The last step is to add a dedicated Lepiter database to our project where we can document our progress and provide documentation.
+
+*(Click on “Create Lepiter directory.)*
+
+Finally we commit our changes and push them to the repo.
+(Don''t forget to push!)
+
+*(Go to the Changes view, commit and push.)*.
+
+We can verify that the changes have indeed been pushed.
+
+*(Go to [](https://github.com/onierstrasz/gt-stuff) and see the changes.)*'>
 
 	^ aSlide title
 		priority: (self priorityFor: #addingProjectMetadata:);
@@ -78,37 +92,16 @@ but we won''t push yet.'>
 ]
 
 { #category : #slides }
-SettingUpGithubReduxSlideShow >> automatingTheLoadProcess: aSlide [
-	<gtSlide>
-	<text:
-'We now would like to automate the process of loading the project packages and the Lepiter database.
-
-At last we''ll push our changes to the remote repository.
-
-Let''s remove the repository from our image and from the file system so that we can test the load scripts.
-
-We can now add the boilerplate load scripts to the README page of our GitHub repository.
-
-This first script automates the cloning of the repository with the help of Metacello, the package management system for Pharo.
-
-It will clone our GitHub repo and add it to the Iceberg registry of loaded repos.
-
-The second one will add the cloned Lepiter database to our GT Lepiter registry.
-
-We commit these changes to the README so we can easily find them.'>
-
-	^ aSlide title
-		priority: (self priorityFor: #automatingTheLoadProcess:);
-		titleWithFormat: (self asHeader: 'Automating the load process')
-]
-
-{ #category : #slides }
 SettingUpGithubReduxSlideShow >> cloningTheRepo: aSlide [
 	<gtSlide>
 	<text:
-'Next we clone the repo in GT using the SSH protocol.
+'# Cloning the repo in GT
 
-We open the git tool in GT and clone the repo using the copied SHH URL.'>
+Next we clone the repo in GT using the SSH protocol.
+
+We open the git tool in GT and clone the repo using the copied SHH URL.
+
+*(Do this in the downloaded image.)*'>
 
 	^ aSlide title
 		priority: (self priorityFor: #cloningTheRepo:);
@@ -119,7 +112,9 @@ We open the git tool in GT and clone the repo using the copied SHH URL.'>
 SettingUpGithubReduxSlideShow >> closing: aSlide [
 	<gtSlide>
 	<text:
-'You''ll find more GT in 7'' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.
+'# Closing
+
+You''ll find more GT in 7'' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.
 
 Thanks for listening.'>
 
@@ -146,6 +141,8 @@ SettingUpGithubReduxSlideShow >> creatingTheGitHubRepo: aSlide [
 Next we create a repo on GitHub.
 
 Here we create the gt-stuff repo and initialize it with a README.
+
+*(Go to [](https://github.com) and do it.)*
 
 We commit the README, and copy the SHH link.'>
 
@@ -222,7 +219,7 @@ The script informs Iceberg, the library that handles the interaction with git, o
 
 It''s a good idea to copy the script to your private Lepiter database, so it''s available the next time you need it.
 
-*(Copy the script.)*
+*(Copy the script to a new page and call it “Telling GT about my SSH keys.”)*
 
 Just modify the script to use your ssh credentials, for example `id_rsa.pub` and `id_rsa`.
 
@@ -244,19 +241,75 @@ SettingUpGithubReduxSlideShow >> initializeDb [
 SettingUpGithubReduxSlideShow >> loadingTheRepo: aSlide [
 	<gtSlide>
 	<text:
-'Now we can use the metacello script to load our repo.
+'# Loading the repo
 
-We copy-paste the scripts to a Playground and run them one after the other.
+Now let''s verify that we can load our project back into a fresh image.
 
-We also run the loadLepiter script to load the Lepiter database from the cloned repo into our image.
+We''ll quit this image without saving, and download a fresh one from [](https://gtoolkit.com).
 
-If we go  to the git tool and refresh it, we see that the repo is now back.
+We verify that no git repos are loaded, and as Lepiter databases we only have the GT book and our own private Lepiter database loaded.
 
-Similarly, the Lepiter tool shows that our Lepiter database is back again.'>
+We open the Lepiter page that tells GT about out SSH credentials.
+
+*(Search in Spotter and open “Telling GT about my SSH keys.”)*
+
+We evaluate the script.
+
+Now we add the load scripts from the README of our GitHub repo.
+
+*(Copy them from [](https://github.com/onierstrasz/gt-stuff) and paste them into code snippets.)*
+
+We evaluate or inspect the two snippets, and now we can see that our code is back.
+
+*(Open the Git tool, and then the Lepiter tool.)*
+
+*(Inspect the `HelloWorld new hello` snippet as before.)*'>
 
 	^ aSlide title
 		priority: (self priorityFor: #loadingTheRepo:);
 		titleWithFormat: (self asHeader: 'Loading the repo')
+]
+
+{ #category : #slides }
+SettingUpGithubReduxSlideShow >> settingUpAHomeSection: aSlide [
+	<gtSlide>
+	<text:
+'# Setting up a Home section
+
+Since that took us less than 7 minutes, let''s have a quick look at how you can add a card for your project to GT''s Home section.
+
+First go the the GT Book page called “How to set up a Home Section”, which explains the steps.
+
+You need to add an extension method to the `GtHome` class that looks like this:
+
+*(Add a method like this:)*
+
+```
+gtStuffSection
+	<gtHomeSection>
+	^ GtHomeStartPageSection new 
+		title: ''Hello world!'';
+		description: ''Experimenting with GT ...'';
+		databaseName: ''onierstrasz/gt-stuff/lepiter'';
+		startPageName: ''Hello world!'';
+		priority: 8
+```
+
+Since it''s an extension method, it needs to be assigned to in your `GtStuff` package.
+
+Just change the method category to `*GtStuff` (or whatever your package is called).
+
+Now if we go to the home section, we will see a card that takes us straight to our Hello world page.
+
+*(Go there, hover over the card to show the description, and then click on the card to go to the Hello world page.)*
+
+Don''t forget to commit and push the extension method.
+
+*(Go to the `HelloWorld` class in the snippet, go to the repo and push the changes.)*'>
+
+	^ aSlide title
+		priority: (self priorityFor: #settingUpAHomeSection:);
+		titleWithFormat: (self asHeader: 'Setting up a Home section')
 ]
 
 { #category : #constants }
@@ -266,20 +319,20 @@ SettingUpGithubReduxSlideShow >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
-		
+
 		downloadGt:
-		
-		gitCredentials:
+			gitCredentials:
 			sshAdd:
 			howToWorkWithGitHub:
 		
 		creatingTheGitHubRepo:
-		cloningTheRepo:
-		addingProjectMetadata:
-		addingPackages:
-		addingALepiterDatabase:
-		automatingTheLoadProcess:
+			cloningTheRepo:
+			addingProjectMetadata:
+
+		addingCode:
 		loadingTheRepo:
+		
+		settingUpAHomeSection:
 		
 		closing:
 	)
@@ -291,7 +344,11 @@ SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 	<text:
 '# Informing GT of your git credentials
 
-Before you can can use git within GT, you have to inform it of your git credentials. On Unix platforms, like the Mac, you should run this command before starting GT. (Or add it to your login script.)'>
+Before you can can use git within GT, you have to inform it of your git credentials.
+
+On Unix platforms, like the Mac, you should run this command before starting GT.
+
+(Or add it to your login script.)'>
 
 	^ aSlide title
 		priority: (self priorityFor: #sshAdd:);
