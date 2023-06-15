@@ -161,6 +161,8 @@ The first thing to do is to download Glamorous Toolkit for your platform and sta
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*
 
+*(Switch to full screen mode and run the Zoom script.)*
+
 Then you should open the page “How to configure GitHub SSH key authentication” in the GT Book.
 
 *(Open the page in the downloaded image.)*'>
@@ -249,7 +251,7 @@ We''ll quit this image without saving, and download a fresh one from [](https://
 
 We verify that no git repos are loaded, and as Lepiter databases we only have the GT book and our own private Lepiter database loaded.
 
-We open the Lepiter page that tells GT about out SSH credentials.
+We open the Lepiter page that tells GT about our SSH credentials.
 
 *(Search in Spotter and open “Telling GT about my SSH keys.”)*
 
