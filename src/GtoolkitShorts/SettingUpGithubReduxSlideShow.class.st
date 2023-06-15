@@ -162,7 +162,11 @@ SettingUpGithubReduxSlideShow >> downloadGt: aSlide [
 
 The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
-Then you should open the page “How to configure GitHub SSH key authentication” in the GT Book.'>
+*(Open [](https://gtoolkit.com), download GT and run it.)*
+
+Then you should open the page “How to configure GitHub SSH key authentication” in the GT Book.
+
+*(Open the page in the downloaded image.)*'>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #downloadGt:);
 		startPage: (self db pageNamed: 'Download and start GT')
@@ -175,6 +179,9 @@ SettingUpGithubReduxSlideShow >> downloadGtPage [
 		addSnippet: (LeTextSnippet new
 				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
 				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Then go to {{gtPage:How to configure GitHub SSH key authentication|db=2j9m7db2i4oz116bexd7wbdxo}}. ';
+				yourself);
 		yourself
 ]
 
@@ -184,9 +191,11 @@ SettingUpGithubReduxSlideShow >> gitCredentials: aSlide [
 	<text:
 '# Set up git credentials
 
-I''ll assume that you already have a GitHub account and have added an SSH key to that account.*
+I''ll assume that you already have a GitHub account and have added an SSH key to that account.
 
-If not, you should first create a GitHub account and read the GitHub page about “Adding a new SSH key to your GitHub account”.'>
+If not, you should first create a GitHub account and read the GitHub page about [“Adding a new SSH key to your GitHub account”](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+
+*(Open it in your web browser.)*'>
 
 	^ aSlide title
 		priority: (self priorityFor: #gitCredentials:);
@@ -199,13 +208,25 @@ SettingUpGithubReduxSlideShow >> howToWorkWithGitHub: aSlide [
 	<text:
 '# Configuring git within GT
 
-You can also configure the ssh credentials directly within GT.
+Alternatively you can configure the ssh credentials directly within GT.
 
-Scroll down in the same GT book page to section 3b: “Configuring  Glamorous Toolkit with the SSH key to GitHub.”
+First have a look in your `.ssh` folder to check the names of your private and public keys files. 
+
+*(Inspect the `FileLocator home / ''.ssh''` snippet in the GT book page.)*
+
+In my case here they are `id_rsa.pub` and `id_rsa`.
+
+Then scroll down in the same GT book page to section **“3b. Configuring  Glamorous Toolkit with the SSH key to GitHub”**.
 
 The script informs Iceberg, the library that handles the interaction with git, of your GitHub credentials.
 
-Just modify the script to use your ssh credentials, for example `id_rsa.pub` and `id_rsa`.'>
+It''s a good idea to copy the script to your private Lepiter database, so it''s available the next time you need it.
+
+*(Copy the script.)*
+
+Just modify the script to use your ssh credentials, for example `id_rsa.pub` and `id_rsa`.
+
+*(Modify the script, run it, and check the result back on the GT Book page.)*'>
 
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToWorkWithGitHub:);
