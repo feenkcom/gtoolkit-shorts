@@ -270,7 +270,6 @@ SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 	<text:
 '# Informing GT of your git credentials
 
-
 Before you can can use git within GT, you have to inform it of your git credentials. On Unix platforms, like the Mac, you should run this command before starting GT. (Or add it to your login script.)'>
 
 	^ aSlide title
