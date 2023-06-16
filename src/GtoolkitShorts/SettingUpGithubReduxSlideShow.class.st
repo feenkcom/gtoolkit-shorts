@@ -31,7 +31,7 @@ The class now exists, but it needs a `hello` method, so we use the “fixit” t
 
 We implement the method, save it with the checkmark.
 
-Finally we can evaluate and “Inspect” the result to verify the result.
+Finally we can evaluate and “Inspect” the result to verify the answer.
 
 Of course now we want to commit our changes.
 

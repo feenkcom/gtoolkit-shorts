@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-15T15:23:41.805771+02:00"
+									"dateAndTimeString" : "2023-06-15T16:20:44.662602+02:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Before starting the slideshow, be sure to delete the repo at [](https://github.com/onierstrasz/gt-stuff)."
+							"string" : "Before starting the slideshow, be sure to delete the repo at [](https://github.com/onierstrasz/gt-stuff) and also delete the private page on `Telling GT about my SSH keys`."
 						},
 						{
 							"__type" : "pharoSnippet",
