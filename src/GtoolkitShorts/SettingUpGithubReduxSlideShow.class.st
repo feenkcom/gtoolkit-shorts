@@ -59,7 +59,7 @@ SettingUpGithubReduxSlideShow >> addingProjectMetadata: aSlide [
 
 Now we will turn the GitHub repo into an Iceberg project repo.
 
-First we setup the metadata and the source directory.
+First we set up the metadata and the source directory.
 
 *(Click on “Create a source directory”.)*
 
@@ -99,7 +99,7 @@ SettingUpGithubReduxSlideShow >> cloningTheRepo: aSlide [
 
 Next we clone the repo in GT using the SSH protocol.
 
-We open the git tool in GT and clone the repo using the copied SHH URL.
+We open the git tool in GT and clone the repo using the copied SSH URL.
 
 *(Do this in the downloaded image.)*'>
 
@@ -144,7 +144,7 @@ Here we create the gt-stuff repo and initialize it with a README.
 
 *(Go to [](https://github.com) and do it.)*
 
-We commit the README, and copy the SHH link.'>
+We commit the README, and copy the SSH link.'>
 
 	^ aSlide title
 		priority: (self priorityFor: #creatingTheGitHubRepo:);
@@ -280,7 +280,7 @@ SettingUpGithubReduxSlideShow >> settingUpAHomeSection: aSlide [
 
 Since that took us less than 7 minutes, let''s have a quick look at how you can add a card for your project to GT''s Home section.
 
-First go the the GT Book page called “How to set up a Home Section”, which explains the steps.
+First go the GT Book page called “How to set up a Home Section”, which explains the steps.
 
 You need to add an extension method to the `GtHome` class that looks like this:
 
