@@ -161,11 +161,7 @@ The first thing to do is to download Glamorous Toolkit for your platform and sta
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*
 
-*(Switch to full screen mode and run the Zoom script.)*
-
-Then you should open the page “How to configure GitHub SSH key authentication” in the GT Book.
-
-*(Open the page in the downloaded image.)*'>
+*(Switch to full screen mode and run the Zoom script.)*'>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #downloadGt:);
 		startPage: (self db pageNamed: 'Download and start GT')
@@ -208,6 +204,10 @@ SettingUpGithubReduxSlideShow >> howToWorkWithGitHub: aSlide [
 '# Configuring git within GT
 
 Alternatively you can configure the ssh credentials directly within GT.
+
+You should open the page “How to configure GitHub SSH key authentication” in the GT Book.
+
+*(Open the page in the downloaded image.)*
 
 First have a look in your `.ssh` folder to check the names of your private and public keys files. 
 
@@ -354,7 +354,7 @@ On Unix platforms, like the Mac, you should run this command before starting GT.
 
 	^ aSlide title
 		priority: (self priorityFor: #sshAdd:);
-		titleWithFormat: (self asBigCode: 'ssh-add ~/.ssh/id_rsa')
+		titleWithFormat: (self asBigCode: 'ssh-add --apple-use-keychain ~/.ssh/id_rsa')
 ]
 
 { #category : #slides }
