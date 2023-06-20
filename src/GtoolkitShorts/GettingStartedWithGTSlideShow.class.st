@@ -50,10 +50,19 @@ Thanks for listening.'>
 GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**'>
+'**TODO**
+
+# GT is a Data Explorer
+
+- GitHub REST API
+- Inspector views
+- Spotter -- searching everywhere, or in a context
+- File Manager -- JSON and other file types
+
+'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
-		newTextWithFormat: (self asHeader: '***');
+		newTextWithFormat: (self asHeader: 'GT is a Data Explorer');
 		element: [ self elementForPicture: 'blind-monks-ear.jpg' ]
 ]
 
@@ -81,9 +90,7 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 	<gtSlide>
 	<text:
-'**TODO**
-
-# GT World
+'# GT World
 
 ```
 "Run this to hide the unwanted home cards"
@@ -99,7 +106,7 @@ There is also a button to save the current state of the image, should we wish to
 
 At the center we also a see a GT Home card to quickly access a given project.
 
-'>
+Now let''s explore some of the classical use cases for GT.'>
 
 
 	^ aSlide labelAndElement
@@ -117,10 +124,20 @@ GettingStartedWithGTSlideShow >> headerSize [
 GettingStartedWithGTSlideShow >> ide: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**'>
+'**TODO**
+
+# GT is an IDE
+
+- Coder
+- Git tool
+- Not just SMalltalk
+- Examples: GraphQL
+- Language server protocol for Rust ?
+
+'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #ide:);
-		newTextWithFormat: (self asHeader: '***');
+		newTextWithFormat: (self asHeader: 'GT is an IDE');
 		element: [ self elementForPicture: 'blind-monks-back.jpg' ]
 ]
 
@@ -134,10 +151,21 @@ GettingStartedWithGTSlideShow >> initializeDb [
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**'>
+'**TODO**
+
+# GT is a knowledge base
+
+
+- GT book -- documentation as a use case
+- Your Private lepiter db
+- Creating notes and playgrounds
+- AT protocol as a PKM system???
+
+
+'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #knowledgeBase:);
-		newTextWithFormat: (self asHeader: '***');
+		newTextWithFormat: (self asHeader: 'GT is a knowledge base');
 		element: [ self elementForPicture: 'blind-monks-head.jpg' ]
 ]
 
@@ -145,7 +173,14 @@ GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**'>
+'**TODO**
+
+# GT is a language workbench
+
+- SPL case study?
+- AT protocol editor -- completion and syntax highlighting
+
+'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #languageWorkbench:);
 		newTextWithFormat: (self asHeader: '***');
@@ -156,10 +191,16 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**'>
+'**TODO**
+
+# GT is a model builder
+
+- UHMO (restaurant) case study ?
+
+'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #modelBuilder:);
-		newTextWithFormat: (self asHeader: '***');
+		newTextWithFormat: (self asHeader: 'GT is a model builder');
 		element: [ self elementForPicture: 'blind-monks-tail.jpg' ]
 ]
 
