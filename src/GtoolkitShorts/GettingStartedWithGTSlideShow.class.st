@@ -47,6 +47,17 @@ Thanks for listening.'>
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #dataExplorer:);
+		newTextWithFormat: (self asHeader: '***');
+		element: [ self elementForPicture: 'blind-monks-ear.jpg' ]
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<gtSlide>
 	<text: 
@@ -102,10 +113,54 @@ GettingStartedWithGTSlideShow >> headerSize [
 	^ 40
 ]
 
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> ide: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #ide:);
+		newTextWithFormat: (self asHeader: '***');
+		element: [ self elementForPicture: 'blind-monks-back.jpg' ]
+]
+
 { #category : #initialization }
 GettingStartedWithGTSlideShow >> initializeDb [
 	db := nil.
 	self db addPage: self placeholderPage.
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #knowledgeBase:);
+		newTextWithFormat: (self asHeader: '***');
+		element: [ self elementForPicture: 'blind-monks-head.jpg' ]
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #languageWorkbench:);
+		newTextWithFormat: (self asHeader: '***');
+		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #modelBuilder:);
+		newTextWithFormat: (self asHeader: '***');
+		element: [ self elementForPicture: 'blind-monks-tail.jpg' ]
 ]
 
 { #category : #accessing }
@@ -139,8 +194,17 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 		blindMenWithElephantSlide:
 		
 		downloadGt:
-		gtWorld:
+			gtWorld:
 		
+		knowledgeBase:
+		
+		ide:
+		
+		dataExplorer:
+		
+		modelBuilder:
+		
+		languageWorkbench:
 		
 		closing:
 	)
