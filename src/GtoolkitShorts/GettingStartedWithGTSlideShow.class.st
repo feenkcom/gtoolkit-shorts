@@ -82,12 +82,12 @@ GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 
 When we open GT, we see an image populated with live objects, and a number of tools we can use to interact with these objects.
 
-At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to access severak of these tools.
+At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to access several of these tools.
+
 There is also a button to save the current state of the image, should we wish to do so.
 
 At the center we also a see a GT Home card to quickly access a given project.
 
-**CONTINUE**
 '>
 
 
