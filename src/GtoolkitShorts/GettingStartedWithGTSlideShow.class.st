@@ -49,36 +49,16 @@ Thanks for listening.'>
 { #category : #slides }
 GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<gtSlide>
-	<text: '# Download GT
+	<text: 
+'# Download GT
 
 The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
-*(Open [](https://gtoolkit.com), download GT and run it.)*
-
-*(Switch to full screen mode and run the Zoom script.)*'>
-	^ aSlide textAndElement
-		elementWeight: 0.5;
+*(Open [](https://gtoolkit.com), download GT and run it.)*'>
+	^ aSlide labelAndElement
 		priority: (self priorityFor: #downloadGt:);
-		newTextWithFormat: (self asHeader: 'Downloading GT') bold
-				, (self
-						asText: '
-We download GT from gtoolkit.com');
-		element: [ self elementForPicture:
-		'blind-monks-trunk.jpg'
-		 ]
-]
-
-{ #category : #initialization }
-GettingStartedWithGTSlideShow >> downloadGtPage [
-	<gtExample>
-	^ (LePage named: 'Download and start GT')
-		addSnippet: (LeTextSnippet new
-				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
-				yourself);
-		addSnippet: (LeTextSnippet new
-				string: 'Then go to {{gtPage:How to configure GitHub SSH key authentication|db=2j9m7db2i4oz116bexd7wbdxo}}. ';
-				yourself);
-		yourself
+		newTextWithFormat: (self asHeader: 'Downloading GT');
+		element: [ self elementForPicture: 'blind-monks-trunk.jpg' ]
 ]
 
 { #category : #accessing }
@@ -86,10 +66,38 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 	^ GtFileUtility imageElementFromFileReference: self picturesFolder / aFilename
 ]
 
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> gtWorld: aSlide [
+	<gtSlide>
+	<text:
+'*TODO*
+
+```
+"Run this to hide the unwanted home cards"
+
+(#gtHomeSection gtPragmas contents copyWithout: GtHome >> #getStartedSection)
+	do: [ :each | each removeFromSystem ]
+```
+
+
+'>
+
+
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #gtWorld:);
+		newFadedText: 'GT World';
+		element: [  aSlide world ]
+]
+
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> headerSize [
+	^ 40
+]
+
 { #category : #initialization }
 GettingStartedWithGTSlideShow >> initializeDb [
 	db := nil.
-	self db addPage: self downloadGtPage.
+	self db addPage: self placeholderPage.
 ]
 
 { #category : #accessing }
@@ -100,6 +108,19 @@ GettingStartedWithGTSlideShow >> picturesFolder [
 		resourceAtPath: self picturesDirectoryPath / 'GettingStarted'
 ]
 
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> placeholderPage [
+	<gtExample>
+	^ (LePage named: 'PLACEHOLDER')
+		addSnippet: (LeTextSnippet new
+				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Then go to {{gtPage:How to configure GitHub SSH key authentication|db=2j9m7db2i4oz116bexd7wbdxo}}. ';
+				yourself);
+		yourself
+]
+
 { #category : #constants }
 GettingStartedWithGTSlideShow >> slidePriorities [
 	<gtExample>
@@ -107,10 +128,12 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 	
 	^ #( 
 		titleSlide:
-		
 		blindMenWithElephantSlide:
-
+		
 		downloadGt:
+		gtWorld:
+		
+		
 		closing:
 	)
 ]
