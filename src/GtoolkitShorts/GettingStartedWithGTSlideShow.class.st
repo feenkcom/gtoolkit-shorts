@@ -59,6 +59,21 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 - Spotter -- searching everywhere, or in a context
 - File Manager -- JSON and other file types
 
+It''s a data explorer
+	Ear
+	GraphQL case study
+	GitHub REST API
+	Inspector
+		You are inspecting live objects
+	Spotter
+		Finding anything anywhere
+		Finding things in a context
+			Eg GT Book
+		How to search for stuff with Spotter.
+	File manager
+		Fancy file browser
+		JSON etc?
+
 '>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
@@ -78,7 +93,7 @@ The first thing to do is to download Glamorous Toolkit for your platform and sta
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #downloadGt:);
 		newTextWithFormat: (self asHeader: 'Downloading GT');
-		element: [ self elementForPicture: 'blind-monks-trunk.jpg' ]
+		element: [ (self elementForPicture: 'blind-monks-trunk.jpg')  size: 500@300 ]
 ]
 
 { #category : #accessing }
@@ -134,6 +149,17 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 - Examples: GraphQL
 - Language server protocol for Rust ?
 
+It''s an IDE
+	Back
+	Coder
+	Code is saved to repos
+	Git
+	NB: not just a Smalltalk IDE!
+		GraphQL
+		See also Language Server protocol
+			for Rust
+
+			
 '>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #ide:);
@@ -161,6 +187,20 @@ GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 - Creating notes and playgrounds
 - AT protocol as a PKM system???
 
+It''s a knowledge base
+	Head
+	Lepiter
+		You have your own Lepiter db
+			Lepiter notebooks are persisted to JSON files
+		Create Notes and Playgrounds
+			Show how to enter snippets
+			How to evaluate code
+		Use case: AT protocol (Bluesky)
+			PKM?
+		Use case system documentation
+			Ie in contrast to personal KM
+
+
 
 '>
 	^ aSlide labelAndElement
@@ -180,10 +220,16 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 - SPL case study?
 - AT protocol editor -- completion and syntax highlighting
 
+It''s a language workbench
+	Leg
+	SPL case study
+	Or use AT protocol editor
+		Completion and syntax highlighting
+
 '>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #languageWorkbench:);
-		newTextWithFormat: (self asHeader: '***');
+		newTextWithFormat: (self asHeader: 'GT is a language workbench');
 		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
 ]
 
@@ -197,6 +243,13 @@ GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 
 - UHMO (restaurant) case study ?
 
+It''s a model builder
+	Tail
+	It''s a visualization tool?
+	UHMO case study
+		Restaurant automation
+
+		
 '>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #modelBuilder:);
@@ -229,7 +282,7 @@ What is GT?
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #moldableIDE:);
 		newTextWithFormat: (self asHeader: 'GT is a Moldable Development Environment');
-		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
+		element: [ self elementForPicture: 'Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg' ]
 ]
 
 { #category : #accessing }
