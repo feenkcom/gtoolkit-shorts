@@ -204,6 +204,34 @@ GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 		element: [ self elementForPicture: 'blind-monks-tail.jpg' ]
 ]
 
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
+	<gtSlide>
+	<text: 
+'**TODO**
+
+# GT is a Moldable Development Environment
+
+What is GT?
+	What is the elephant?
+	GT is not any one of these
+		It’s rather a language for moldable development
+	Moldable development
+	Moldability
+		Molding by adding annotated methods
+		Custom views
+		Custom searches
+		Custom advices
+	Tools and buttons mean different things for different domains
+
+
+'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #moldableIDE:);
+		newTextWithFormat: (self asHeader: 'GT is a Moldable Development Environment');
+		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
+]
+
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> picturesFolder [
 	<gtExample>
@@ -246,6 +274,8 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 		modelBuilder:
 		
 		languageWorkbench:
+		
+		moldableIDE:
 		
 		closing:
 	)
