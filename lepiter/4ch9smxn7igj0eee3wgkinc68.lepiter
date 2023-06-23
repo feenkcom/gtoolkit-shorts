@@ -42,7 +42,7 @@
 				"string" : "[[TG]] proposed the following way to build graphs with arbitrary elements as an alternative to static Keynote diagrams."
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-05T12:54:48.444005+01:00"
+						"dateAndTimeString" : "2023-06-23T16:33:44.445548+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-05T13:57:06.202835+01:00"
+						"dateAndTimeString" : "2023-06-23T16:33:45.37233+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "gThttOStDQCNIMJXA5prSQ=="
+					"uidString" : "OUCmXC67DQCr+KrxBzx0aA=="
 				},
-				"code" : "scenery := GtScenery new.\ritem1 := scenery\r\t\taddItem: [ (GtWorkingWithTheGitHubRestApiShow new responseForFeenkOrg\r\t\t\t\tgtJsonFor: GtPhlowEmptyView new)\r\t\t\t\tasElementDo: [ :e | \r\t\t\t\t\te\r\t\t\t\t\t\tbackground: Color white;\r\t\t\t\t\t\taptitude: BrShadowAptitude;\r\t\t\t\t\t\tmargin: (BlInsets all: 10) ] ] asStencil.\ritem1 extent: 400 @ 400.\ritem2 := scenery\r\t\taddItem: (GtInspectorSceneryStencil new\r\t\t\t\ttarget: [ GhOrganization new\r\t\t\t\t\t\trawData: (STON fromString: (ZnClient new get: 'https://api.github.com/orgs/feenkcom')) ]).\ritem2 position: 600 @ 0.\ritem2 extent: 400 @ 400.\r\ritem3 := scenery\r\t\taddItem: [ (GtWorkingWithTheGitHubRestApiShow new responseForGToolkitRepo\r\t\t\t\tgtJsonFor: GtPhlowEmptyView new)\r\t\t\t\tasElementDo: [ :e | \r\t\t\t\t\te\r\t\t\t\t\t\tbackground: Color white;\r\t\t\t\t\t\taptitude: BrShadowAptitude;\r\t\t\t\t\t\tmargin: (BlInsets all: 10) ] ] asStencil.\ritem3 position: 600 @ 600.\ritem3 extent: 400 @ 400.\r\ritem4 := scenery\r\t\taddItem: (GtInspectorSceneryStencil new\r\t\t\t\ttarget: [ GhRepo new\r\t\t\t\t\t\trawData: (STON\r\t\t\t\t\t\t\t\tfromString: (ZnClient new get: 'https://api.github.com/repos/feenkcom/gtoolkit')) ]).\ritem4 position: 1200 @ 600.\ritem4 extent: 400 @ 400.\r\r\rscenery\r\taddConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')\r\tfrom: item1\r\tto: item2.\r\rscenery\r\taddConnection: (GtParabollaArcSceneryStencil new labelText: 'explore')\r\tfrom: item2\r\tto: item3.\r\rscenery\r\taddConnection: (GtParabollaArcSceneryStencil new labelText: 'wrap & view')\r\tfrom: item3\r\tto: item4.\r\r\rscenery"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See {{gtPage:GtScenery demo|db=cqvjoxfnf6zd764ibqa67pln6}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -89,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-05T12:55:02.924614+01:00"
+						"dateAndTimeString" : "2023-06-23T16:33:47.279649+02:00"
 					}
 				},
 				"editEmail" : {
@@ -100,17 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-05T12:55:23.441505+01:00"
+						"dateAndTimeString" : "2023-06-23T16:33:47.279649+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "y8r+tOStDQCNI3bwA5prSQ=="
+					"uidString" : "g6sqoC67DQCwY/eXBzx0aA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "You can position the nodes as you like and export the `storeString` to recreate the layout you want."
+				"string" : ""
 			}
 		]
 	},

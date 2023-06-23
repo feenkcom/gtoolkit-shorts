@@ -12,9 +12,28 @@ GtShortSlideshow class >> <> aSymbol [
 	^ self show: aSymbol
 ]
 
+{ #category : #utility }
+GtShortSlideshow class >> disableHomeSections [
+	"Useful when we show the GTWorld slide."
+	((GtHome methods select: [ :each | each hasPragmaNamed: #gtHomeSection ])
+		copyWithout: GtHome >> #getStartedSection)
+		do: [ :each | 
+			each methodClass
+				compile: (each sourceCode replaceAllRegex: '<gtHomeSection>' with: '"<gtHomeSection>"') ]
+]
+
 { #category : #testing }
 GtShortSlideshow class >> isAbstract [
 	^ self == GtShortSlideshow
+]
+
+{ #category : #utility }
+GtShortSlideshow class >> restoreHomeSections [
+	(GtHome methods
+		select: [ :each | each sourceCode includesSubstring: '"<gtHomeSection>"' ])
+		do: [ :each | 
+			each methodClass
+				compile: (each sourceCode replaceAllRegex: '"<gtHomeSection>"' with: '<gtHomeSection>') ]
 ]
 
 { #category : #utility }

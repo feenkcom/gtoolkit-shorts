@@ -47,6 +47,82 @@ Thanks for listening.'>
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> creatingNotes: aSlide [
+	"How to open a slide on the World with the book open?"
+
+	<gtSlide>
+	<text:
+'## Creating Notes
+
+We can also create a Note, which is just like a Playground, except that it starts with a text snippet, and we normally give it a title.
+
+*(Add a title and some text.)*
+
+Just like with a Playground, we can add new snippets, by clicking on the `+` or using keyboard shortcuts.
+
+*(Add a code snippet.)*
+
+We can move snippets around with the menu in the bottom right, or with shortcuts.
+
+*(Move the code snippet up and down, indent and dedent.)*
+
+The Playgrounds and Notes that you create are saved in your personal Lepiter database.
+
+*(Show the db and show the pages are there in the Pages view.)*
+
+I use my Lepiter database to keep track of projects, tasks, frequently asked questions and random notes.
+
+You can have multiple databases and move pages between them.
+
+*(Click on the database button at bottom left.)*
+
+A page is a live object, which you can inspect.
+
+*(Click on the `(i)` button.)*
+
+We can explore various views, such as the *Snippets* view or the *StoreString*, which will programmatically generate a copy of the page.
+
+Lepiter pages are saved to the file system.
+
+*(Click on the *File* button and go to the *Contents* view.)*
+
+We can also interact with the page by sending it messages.
+
+*(Open the playground and inspect `self database`.)*
+
+Here we can inspect the Lepiter database of this page.'>
+
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #creatingNotes:);
+		newFadedText: 'Creating Notes';
+		element: [ aSlide world ]
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> creatingPlaygrounds: aSlide [
+	<gtSlide>
+	<text:
+'## Creating Playgrounds
+
+A Playground is Lepiter page with a snippet where you can experiment with Pharo code.
+
+For example, we can enter code like `3 + 4`, and `Inspect` the result.
+
+This opens a new pane with an Inspector showing numerous views of the result.
+
+We can add a new code snippet by clicking on the `+` and selecting a new Pharo snippet (or we can just type Command-Return in the existing snippet).
+
+If we enter the string `''hello''` into the new snippet and inspect it, we can go to the Items view and inspect each individual character.
+
+The Inspector can always be used like this to explore arbitrary nested objects.'>
+
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #creatingPlaygrounds:);
+		newFadedText: 'Creating Playgrounds';
+		element: [ aSlide world ]
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
 	<text: 
@@ -102,17 +178,36 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> gtBook: aSlide [
+	"How to open a slide on the World with the book open?"
+
+	<gtSlide>
+	<text:
+'## GT Book
+
+*(Open the GT Book.)*
+
+The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
+
+Each page consists of snippets that may contain Markdown text, executable code, live examples, or other kinds of content.
+
+For example, the page *About this book* contains a live Treemap with an overview of the organization of the book itself.'>
+
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #gtBook:);
+		newFadedText: 'GT Book';
+		element: [ aSlide world ]
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 	<gtSlide>
 	<text:
-'# GT World
+'## GT World
 
 ```
-"Run this to hide the unwanted home cards"
-(#gtHomeSection gtPragmas contents copyWithout: GtHome >> #getStartedSection)
-	do: [ :each | each removeFromSystem ]
+GtShortSlideshow disableHomeSections.
 ```
-
 When we open GT, we see an image populated with live objects, and a number of tools we can use to interact with these objects.
 
 At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to access several of these tools.
@@ -123,6 +218,7 @@ At the center we also a see a GT Home card to quickly access a given project.
 
 Now let''s explore some of the classical use cases for GT.'>
 
+	"GtShortSlideshow disableHomeSections."
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #gtWorld:);
@@ -177,32 +273,9 @@ GettingStartedWithGTSlideShow >> initializeDb [
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**
+'# GT is a knowledge base
 
-# GT is a knowledge base
-
-
-- GT book -- documentation as a use case
-- Your Private lepiter db
-- Creating notes and playgrounds
-- AT protocol as a PKM system???
-
-It''s a knowledge base
-	Head
-	Lepiter
-		You have your own Lepiter db
-			Lepiter notebooks are persisted to JSON files
-		Create Notes and Playgrounds
-			Show how to enter snippets
-			How to evaluate code
-		Use case: AT protocol (Bluesky)
-			PKM?
-		Use case system documentation
-			Ie in contrast to personal KM
-
-
-
-'>
+One important use case for GT is as a knowledge base for system documentation.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #knowledgeBase:);
 		newTextWithFormat: (self asHeader: 'GT is a knowledge base');
@@ -319,6 +392,9 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			gtWorld:
 		
 		knowledgeBase:
+			gtBook:
+			creatingPlaygrounds:
+			creatingNotes:
 		
 		ide:
 		
