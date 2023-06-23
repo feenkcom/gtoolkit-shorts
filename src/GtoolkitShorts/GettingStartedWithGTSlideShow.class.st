@@ -241,7 +241,7 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 
 - Coder
 - Git tool
-- Not just SMalltalk
+- Not just Smalltalk
 - Examples: GraphQL
 - Language server protocol for Rust ?
 
