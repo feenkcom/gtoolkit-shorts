@@ -200,6 +200,30 @@ For example, the page *About this book* contains a live Treemap with an overview
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> gtCoder: aSlide [
+	<gtSlide>
+	<text:
+'***TODO***
+
+# Getting started with the Coder
+
+Create a HelloWorld class.
+Create a hello method.
+Change it to a class metjod.
+Evaluate it.
+Change it to an example method.
+Change the protocol.
+Add a class comment.
+Search for other methods, eg =.
+Search for classes, eg ByteString.
+'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #gtCoder:);
+		newFadedText: ('Getting started with the Coder' asRopedText);
+		element: [GtCoder new createInPager maximized].
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 	<gtSlide>
 	<text:
@@ -406,6 +430,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			creatingNotes:
 		
 		ide:
+			gtCoder:
 			howToParseOtherLanguages:
 		
 		dataExplorer:
