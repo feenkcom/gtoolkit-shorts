@@ -231,6 +231,21 @@ GettingStartedWithGTSlideShow >> headerSize [
 	^ 40
 ]
 
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
+	<gtSlide>
+	<text:
+'***TODO***
+
+## How to parse other languages
+
+'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #howToParseOtherLanguages:);
+		pageNamed: 'How to parse sources in different languages' from: self gtBookName;
+		yourself
+]
+
 { #category : #slides }
 GettingStartedWithGTSlideShow >> ide: aSlide [
 	<gtSlide>
@@ -240,20 +255,12 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 # GT is an IDE
 
 - Coder
+- code saved to repos
 - Git tool
 - Not just Smalltalk
+	See "How to parse sources in different languages" in gt book
 - Examples: GraphQL
 - Language server protocol for Rust ?
-
-It''s an IDE
-	Back
-	Coder
-	Code is saved to repos
-	Git
-	NB: not just a Smalltalk IDE!
-		GraphQL
-		See also Language Server protocol
-			for Rust
 
 			
 '>
@@ -332,9 +339,10 @@ It''s a model builder
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
+	"https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg"
+
 	<gtSlide>
-	<text: 
-'**TODO**
+	<text: '**TODO**
 
 # GT is a Moldable Development Environment
 
@@ -355,7 +363,8 @@ What is GT?
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #moldableIDE:);
 		newTextWithFormat: (self asHeader: 'GT is a Moldable Development Environment');
-		element: [ self elementForPicture: 'Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg' ]
+		element: [ self
+				elementForPicture: 'Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg' ]
 ]
 
 { #category : #accessing }
@@ -397,6 +406,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			creatingNotes:
 		
 		ide:
+			howToParseOtherLanguages:
 		
 		dataExplorer:
 		
