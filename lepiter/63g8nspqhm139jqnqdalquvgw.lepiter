@@ -687,7 +687,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T10:21:14.802741+02:00"
+									"dateAndTimeString" : "2023-06-27T10:48:50.520133+02:00"
 								}
 							},
 							"editEmail" : {
@@ -698,17 +698,51 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T10:21:14.802741+02:00"
+									"dateAndTimeString" : "2023-06-27T10:53:38.849152+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "gXA443m7DQCFzOjHB7l2+Q=="
+								"uidString" : "iKroRXq7DQCqiacFDaF7hg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Need the git tool. What's the class?"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T10:49:20.28779+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T10:54:00.87489+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VuSuR3q7DQCq6IRHDaF7hg=="
+							},
+							"code" : "GtGitStencil new "
 						}
 					]
 				},
@@ -731,7 +765,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-27T10:21:06.832747+02:00"
+						"dateAndTimeString" : "2023-06-27T10:48:46.830757+02:00"
 					}
 				},
 				"uid" : {
@@ -741,7 +775,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Coder"
+				"string" : "##Opening various tools in slides"
 			}
 		]
 	},

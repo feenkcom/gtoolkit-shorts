@@ -47,6 +47,30 @@ Thanks for listening.'>
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> coder: aSlide [
+	<gtSlide>
+	<text:
+'***TODO***
+
+# Getting started with the Coder
+
+Create a HelloWorld class.
+Create a hello method.
+Change it to a class metjod.
+Evaluate it.
+Change it to an example method.
+Change the protocol.
+Add a class comment.
+Search for other methods, eg =.
+Search for classes, eg ByteString.
+'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #coder:);
+		newFadedText: ('Getting started with the Coder' asRopedText);
+		element: [GtCoder new createInPager maximized].
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> creatingNotes: aSlide [
 	"How to open a slide on the World with the book open?"
 
@@ -135,6 +159,10 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 - Spotter -- searching everywhere, or in a context
 - File Manager -- JSON and other file types
 
+
+Alternative: SCG Pico website
+Include a visualization of the links?
+
 It''s a data explorer
 	Ear
 	GraphQL case study
@@ -178,6 +206,37 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> git: aSlide [
+	<gtSlide>
+	<text: '***TODO***
+
+# Getting started with the Git tool
+
+'>
+	^ aSlide labelAndElement
+		priority: (self priorityFor: #git:);
+		newFadedText: 'Getting started with the Git tool' asRopedText;
+		element: [ GtGitStencil new ]
+]
+
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> githubRestAPI: aSlide [
+	<gtSlide>
+	<text:
+'***TODO***
+
+## Wrapping objects to explore them
+
+Explain the basic idea.
+
+'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #githubRestAPI:);
+		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBookName;
+		yourself
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> gtBook: aSlide [
 	"How to open a slide on the World with the book open?"
 
@@ -197,30 +256,6 @@ For example, the page *About this book* contains a live Treemap with an overview
 		priority: (self priorityFor: #gtBook:);
 		newFadedText: 'GT Book';
 		element: [ aSlide world ]
-]
-
-{ #category : #slides }
-GettingStartedWithGTSlideShow >> gtCoder: aSlide [
-	<gtSlide>
-	<text:
-'***TODO***
-
-# Getting started with the Coder
-
-Create a HelloWorld class.
-Create a hello method.
-Change it to a class metjod.
-Evaluate it.
-Change it to an example method.
-Change the protocol.
-Add a class comment.
-Search for other methods, eg =.
-Search for classes, eg ByteString.
-'>
-	^ aSlide labelAndElement
-		priority: (self priorityFor: #gtCoder:);
-		newFadedText: ('Getting started with the Coder' asRopedText);
-		element: [GtCoder new createInPager maximized].
 ]
 
 { #category : #slides }
@@ -263,10 +298,27 @@ GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
 
 ## How to parse other languages
 
+Show we don''t just parse but can explore.
+
 '>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToParseOtherLanguages:);
 		pageNamed: 'How to parse sources in different languages' from: self gtBookName;
+		yourself
+]
+
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
+	<gtSlide>
+	<text:
+'***TODO***
+
+## How to work with GitHub
+
+'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #howToWorkWithGitHub:);
+		pageNamed: 'How to work with GitHub' from: self gtBookName;
 		yourself
 ]
 
@@ -281,10 +333,6 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 - Coder
 - code saved to repos
 - Git tool
-- Not just Smalltalk
-	See "How to parse sources in different languages" in gt book
-- Examples: GraphQL
-- Language server protocol for Rust ?
 
 			
 '>
@@ -324,11 +372,13 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 - SPL case study?
 - AT protocol editor -- completion and syntax highlighting
 
-It''s a language workbench
-	Leg
-	SPL case study
-	Or use AT protocol editor
-		Completion and syntax highlighting
+
+
+This belongs in the Language Workbench part:
+- Not just Smalltalk
+- Examples: GraphQL
+- Language server protocol for Rust ?
+
 
 '>
 	^ aSlide labelAndElement
@@ -347,12 +397,16 @@ GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 
 - UHMO (restaurant) case study ?
 
-It''s a model builder
-	Tail
-	It''s a visualization tool?
-	UHMO case study
-		Restaurant automation
+Load as follows.
 
+```
+Metacello new
+   baseline: ''UhmoWithoutGT'';
+   repository: ''github://feenkcom/uhmo/src'';
+   load.
+```
+
+UCozyCornerExamples>>#placeOrderWithMultipleItemsToTable2ByJohnWaiter
 		
 '>
 	^ aSlide labelAndElement
@@ -369,19 +423,18 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 	<text: '**TODO**
 
 # GT is a Moldable Development Environment
-
 What is GT?
-	What is the elephant?
-	GT is not any one of these
-		It’s rather a language for moldable development
-	Moldable development
-	Moldability
-		Molding by adding annotated methods
-		Custom views
-		Custom searches
-		Custom advices
-	Tools and buttons mean different things for different domains
+GT is not any one of these
+It’s rather a language for moldable development
+Moldable development
+Moldability
+Molding by adding annotated methods
+Custom views
+Custom searches
+Custom advices
 
+Tools and buttons mean different things for different domains
+	
 
 '>
 	^ aSlide labelAndElement
@@ -430,14 +483,17 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			creatingNotes:
 		
 		ide:
-			gtCoder:
-			howToParseOtherLanguages:
+			#coder:
+			#git:
+			howToWorkWithGitHub:
 		
 		dataExplorer:
+			githubRestAPI:
 		
 		modelBuilder:
 		
 		languageWorkbench:
+			howToParseOtherLanguages:
 		
 		moldableIDE:
 		
