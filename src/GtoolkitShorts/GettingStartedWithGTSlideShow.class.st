@@ -63,6 +63,8 @@ Change the protocol.
 Add a class comment.
 Search for other methods, eg =.
 Search for classes, eg ByteString.
+
+NB: rather than working from the coder, it is more convenient to start with live objects in the Notebook.
 '>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #coder:);
