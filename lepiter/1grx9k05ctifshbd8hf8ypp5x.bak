@@ -45,7 +45,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-24T10:20:17.834958+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-01-24T10:20:20.222242+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "iqTKwmCvDQCM+UceAWKcnw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The syntax of Smalltalk famously fits on a postcard, but understanding it takes at least a few minutes."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -55,7 +93,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T10:20:17.834958+01:00"
+						"dateAndTimeString" : "2023-01-24T10:20:20.219848+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +104,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T10:20:18.934641+01:00"
+						"dateAndTimeString" : "2023-01-24T10:20:24.671964+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "iqTKwmCvDQCM+UceAWKcnw=="
+					"uidString" : "S3T7wmCvDQCNBFVnAWKcnw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Smalltalk Syntax in 7'\n\nThe syntax of Smalltalk famously fits on a postcard, but understanding it takes at least a few minutes."
+				"string" : "#Smalltalk Syntax in 7'"
 			},
 			{
 				"__type" : "textSnippet",
@@ -332,14 +370,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-10T13:49:46.528447+01:00"
+												"dateAndTimeString" : "2023-06-28T08:50:52.96115+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "dvbk8X6pDQCiNmMhDfJBjg=="
 										},
-										"code" : "SmalltalkSyntaxSlideshow show"
+										"code" : "SmalltalkSyntaxSlideshow new"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -4377,14 +4415,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.89273+01:00"
+															"dateAndTimeString" : "2023-06-28T09:18:48.705109+02:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "OxLuH8eoDQC6MHvADynDGA=="
 													},
-													"code" : "Shorts fileIn: 'Hello-2-HelloWithArgument.st'"
+													"code" : "GtShortSlideshow new fileIn: 'Hello-2-HelloWithArgument.st'"
 												}
 											]
 										},
@@ -4483,14 +4521,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-09T16:13:35.022553+01:00"
+															"dateAndTimeString" : "2023-06-28T09:18:56.298003+02:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "RRLuH8eoDQC6Mjn7DynDGA=="
 													},
-													"code" : "Shorts fileIn: 'Hello-3-HelloGtExample.st'"
+													"code" : "GtShortSlideshow new fileIn: 'Hello-3-HelloGtExample.st'"
 												},
 												{
 													"__type" : "textSnippet",

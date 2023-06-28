@@ -19,6 +19,9 @@ SmalltalkSyntaxSlideshow class >> show [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 	<gtSlide>
+	<text: 'Binary messages consist of operators like plus or minus, followed by a single argument.
+
+`3+4` sends the message `+` to the object `3` with the argument `4`.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #binaryMessages:);
 		heading: 'Binary messages';
@@ -28,6 +31,9 @@ SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocks: aSlide [
 	<gtSlide>
+	<text: 'A block closure is a snippet of code within square brackets. It''s essentially a lambda, or an anonymous function.
+
+You can evaluate a block by sending it the message `value`. The value returned is that of the last statement in the block, in this case, the value of `3+4`.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocks:);
 		heading: 'Blocks';
@@ -38,6 +44,9 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 	<gtSlide>
+	<text: 'A block can take arguments, which are declared at the beginning of the block with a colon, followed by an or-bar.
+
+This block increments its argument. We evaluate it by sending the message `value:` with an argument.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithArguments:);
 		heading: 'Blocks with arguments';
@@ -47,6 +56,11 @@ SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 	<gtSlide>
+	<text: 'This block has two arguments, `a` and `b`, and a temporary variable, `c`. 
+
+To evaluate it, we send it `value:value:` with two arguments.
+
+As you might guess, this generalizes to yet more arguments.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #blocksWithMultipleArguments:);
 		heading: 'Blocks with multiple arguments';
@@ -59,6 +73,7 @@ SmalltalkSyntaxSlideshow >> blocksWithMultipleArguments: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	<gtSlide>
+	<text: 'A byte array is similar but uses square brackets, and can only contain 8-bit integers.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #byteArrays:);
 		heading: 'Byte arrays';
@@ -69,9 +84,12 @@ SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> cascades: aSlide [
 	<gtSlide>
+	<text: 'Cascades are used to send a sequence of messages, separated by semi-colons, to the same receiver object.
+
+Here we send three `add:` messages to a new `OrderedCollection`, followed by a `reversed` *message. The result is a reversed collection.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #cascades:);
-		heading: 'Cascades' ;
+		heading: 'Cascades';
 		addCodeSnippet: 'OrderedCollection new
 	add: 3;
 	add: 4;
@@ -82,6 +100,11 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> characters: aSlide [
 	<gtSlide>
+	<text: 'Typeable characters start with a dollar sign.
+
+This is the letter `a`.
+
+Just ask the Character class for a non-typeable character such as a tab or a newline.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #characters:);
 		heading: 'Characters';
@@ -92,6 +115,9 @@ SmalltalkSyntaxSlideshow >> characters: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> closing: aSlide [
 	<gtSlide>
+	<text: 'You''ll find more GT in 7'' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.
+
+Thanks for listening.'>
 	^ aSlide title
 		priority: (self priorityFor: #closing:);
 		titleWithFormat: ('glamoroustoolkit' asRopedText
@@ -109,6 +135,9 @@ SmalltalkSyntaxSlideshow >> closing: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 	<gtSlide>
+	<text: 'Interestingly, Smalltalk has no syntax for control constructs,  but instead implements them as messages to objects.
+
+Here we ask if there are fewer than 1000 classes in the system, and then we send that boolean object the message `#ifTrue:ifFalse`. If it''s true, we get one string back, else the other.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #controlConstructs:);
 		heading: 'Control constructs';
@@ -120,6 +149,14 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
+	<text: 
+'There is also no syntax for defining classes.
+
+Here we send a message to the class `Object`, asking it to create the `HelloWorld` subclass for us.
+
+Of course we can also create classes using the coding tools.
+
+Class names start with an upper-case letter, and are globally visible.'>
 	self removeClass: #HelloWorld.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #creatingClasses:);
@@ -135,6 +172,14 @@ SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 	<gtSlide>
+	<text: 'We can similarly declare methods for keyword messages.
+
+In this case the method name, or "selector", is `hello:`, and there is a formal parameter, `aString`.
+
+```
+GtShortSlideshow new fileIn: ''Hello-2-HelloWithArgument.st''
+```
+'>
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	self fileIn: 'Hello-2-HelloWithArgument.st'.
 	^ aSlide headingAndCode
@@ -148,6 +193,14 @@ SmalltalkSyntaxSlideshow >> definingKeywordMethods: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
+	<text: 
+'Methods can be defined programmatically, just like classes, or using the IDE.
+
+Now we''ll create one as a fixit.
+
+In this snippet we see a monkey wrench icon next to the `hello` message, indicating that there is no `hello` method implemented yet.
+
+We can click on the icon to fix it.'>
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #definingMethods:);
@@ -163,6 +216,24 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 	See: GtCoderSlideshow>>exampleMethodsExplanationWithLinks"
 
 	<gtSlide>
+	<text: '
+```
+GtShortSlideshow new
+	ensureEmptyClass: #HelloWorld inPackage: #Hello;
+	fileIn: ''Hello-1-HelloWithHelloMethod.st''.
+```
+
+Every method starts with a declaration of the message and any arguments.
+
+In this case it''s just `hello` with no arguments.
+
+Methods often start with a brief comment in double quotes.
+
+Note that a comment is not a value in Smalltalk, unlike a string.
+
+We return a value using the caret symbol.
+
+Here we just return the `''Hello world''` string.'>
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	self fileIn: 'Hello-1-HelloWithHelloMethod.st'.
 	^ aSlide headingAndCode
@@ -176,16 +247,22 @@ SmalltalkSyntaxSlideshow >> definingMethodsAfter: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 	<gtSlide>
+	<text: 'Lastly, a dynamic array consists of arbitrary expressions in curly braces separated by periods.
+
+Don''t confuse literal and dynamic arrays! A literal array treats every token inside it as a literal, not an expression.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #dynamicArrays:);
-		heading: 'Dynamic arrays' ;
-		addCodeSnippet: '{ 3 + 4 . 2 raisedTo: 10 }' ;
+		heading: 'Dynamic arrays';
+		addCodeSnippet: '{ 3 + 4 . 2 raisedTo: 10 }';
 		addCodeSnippet: '#( 3 + 4 . 2 raisedTo: 10 ) '
 ]
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> expressions: aSlide [
 	<gtSlide>
+	<text: 'Expressions in Smalltalk are formed by sending messages to objects.
+
+There are three kinds of messages: unary, binary, and keyword.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #expressions:);
 		heading: 'Expressions';
@@ -197,6 +274,7 @@ SmalltalkSyntaxSlideshow >> expressions: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> floats: aSlide [
 	<gtSlide>
+	<text: 'and various kinds of floats,'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #floats:);
 		heading: 'Floats';
@@ -208,6 +286,7 @@ SmalltalkSyntaxSlideshow >> floats: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> integers: aSlide [
 	<gtSlide>
+	<text: 'As you would expect, Smalltalk not only supports integers'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #integers:);
 		heading: 'Integers';
@@ -218,6 +297,9 @@ SmalltalkSyntaxSlideshow >> integers: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 	<gtSlide>
+	<text: 'Finally, keyword messages consist of a number of keywords, each followed by a colon and an argument.
+
+`''Hello world'' copyReplaceAll: ''world'' with: ''folks''` sends the message `#copyReplaceAll:with:` to the string `''Hello world''` with the two arguments `''world''` and `''folks''` '>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #keywordMessages:);
 		heading: 'Keyword messages';
@@ -227,6 +309,9 @@ SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 	<gtSlide>
+	<text: 'A literal array starts with a hash, followed by matching parentheses enclosing any sequence of literal values.
+
+Literal arrays can be nested.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #literalArrays:);
 		heading: 'Literal arrays';
@@ -242,6 +327,7 @@ SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> literals: aSlide [
 	<gtSlide>
+	<text: 'Let''s start with syntax for all kinds of literal values.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #literals:);
 		heading: 'Literals';
@@ -253,6 +339,7 @@ SmalltalkSyntaxSlideshow >> literals: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 	<gtSlide>
+	<text: 'Smalltalk syntax is quite compact, and famously fits on a postcard.'>
 	^ aSlide filePicture
 		priority: (self priorityFor: #postCardImageSlide:);
 		fileReference: (GtResourcesUtility
@@ -261,9 +348,26 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
-	"Scale the postcard so it fits example regardless ofthe size of the slide"
+	"Scale the postcard so it fits example regardless of the size of the slide"
 
 	<gtSlide>
+	<text: 'Finally we can browse through the postcard example and see how it demonstrates all the syntactic constructs of Pharo Smalltalk.
+
+We have unary messages, such as `isNil` and `size`,
+
+binary messages like `&`, `+` and `<`,
+
+and keyword messages, such as `do:` and `show:`.
+
+There are temporaries, like `y`, `byteArray` and `var`,
+
+an argument, `x`,
+
+globals `Transcript` and `Character`.
+
+We use `self`, `super` and `thisContext`,
+
+we have both dynamic and literal arrays, integers, floats, characters, and so on.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #postcardSyntaxExplanation:);
 		newFadedText: 'The postcard again';
@@ -285,6 +389,22 @@ SmalltalkSyntaxSlideshow >> postcardSyntaxExplanation: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 	<gtSlide>
+	<text:
+'```
+GtShortSlideshow new fileIn: ''Hello-3-HelloGtExample.st''
+```
+
+Pragmas are annotations in angle brackets.
+
+The `<gtExample>` pragma informs GT that this method contains test code and returns an example object.
+
+As in blocks, we must declare any temporary variables within or-bars before any executable code.
+
+We assign the values of expressions to variables with the `:=` operator.
+
+And statements are separated by periods.
+
+In GT we can directly evaluate and inspect the example.'>
 	self fileIn: 'Hello-3-HelloGtExample.st'.
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #pragmas:);
@@ -296,6 +416,10 @@ SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	<gtSlide>
+	<text:
+'Within a complex expression, first unary messages are evaluated, left to right, then binary messages, and last of all, keyword messages.
+
+`2 raisedTo: 1 + 3 factorial ` is the same as the second expression here with parentheses.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #precedence:);
 		heading: 'Precedence';
@@ -306,6 +430,7 @@ SmalltalkSyntaxSlideshow >> precedence: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
 	<gtSlide>
+	<text: 'but also radix numbers with an explicit base. Here we see the number 42 in binary, octal and hex.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #radixNumbers:);
 		heading: 'Radix numbers';
@@ -317,6 +442,10 @@ SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	<gtSlide>
+	<text:
+'Smalltalk syntax is designed so that you can read it aloud, and it should make sense.
+
+For example: `Smalltalk allClasses select: #isAbstract` returns all the abstract classes in the Smalltalk system.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #readAloud:);
 		heading: 'Smalltalk is designed to be read aloud';
@@ -326,6 +455,7 @@ SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	<gtSlide>
+	<text: 'Pharo Smalltalk has just six reserved keywords, whose meanings should be obvious, except for* `thisContext`*, which is used in metaprogramming to access the run-time stack.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #reservedWords:);
 		heading: 'Reserved words';
@@ -388,9 +518,12 @@ SmalltalkSyntaxSlideshow >> slidePriorities [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> statements: aSlide [
 	<gtSlide>
+	<text: 'Statements in Smalltalk are expressions separated by periods.
+
+We can also declare temporary variables, such as `a`, `b` and `c` here, and assign values of expressions to them.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #statements:);
-		heading: 'Statements' ;
+		heading: 'Statements';
 		addCodeSnippet: '| a b c |	"temporaries (local variables)"
 a := 3.      "assignments using := "
 b := 4.      "periods as statement separators"
@@ -400,6 +533,9 @@ c := (a squared + b squared) sqrt'
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> strings: aSlide [
 	<gtSlide>
+	<text: 'Strings in Smalltalk are surrounded by single quotes.
+
+Type two of them to get a single quote within a string.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #strings:);
 		heading: 'Strings';
@@ -410,9 +546,15 @@ SmalltalkSyntaxSlideshow >> strings: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	<gtSlide>
+	<text:
+'A symbol is a sequence of a characters starting with a hash.
+
+Symbols are pretty much like strings, except that they are unique.
+
+You can have many strings with the same value, but only one symbol.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #symbols:);
-		heading: 'Symbols' ;
+		heading: 'Symbols';
 		addCodeSnippet: '#a';
 		addCodeSnippet: '#HelloWorld'
 ]
@@ -420,6 +562,11 @@ SmalltalkSyntaxSlideshow >> symbols: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 	<gtSlide>
+	<text: 'Hello.
+
+My name is Oscar Nierstrasz.
+
+Today I''d like to give you quick guided tour of the syntax of Smalltalk.'>
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7''')
@@ -428,6 +575,7 @@ SmalltalkSyntaxSlideshow >> titleSlide: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	<gtSlide>
+	<text: '`3 factorial` is a unary message. It sends the message `factorial` to the object `3`.'>
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #unaryMessages:);
 		heading: 'Unary messages';

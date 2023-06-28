@@ -52,7 +52,7 @@ Class {
 		'worker',
 		'delay'
 	],
-	#category : #'GtoolkitShorts-Slideshows'
+	#category : #'GtoolkitShorts-Utility'
 }
 
 { #category : #'instance creation' }

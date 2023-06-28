@@ -1,7 +1,7 @@
 Class {
 	#name : #SettingUpGithubReduxSlideShow,
 	#superclass : #GtShortSlideshow,
-	#category : #GtoolkitShorts
+	#category : #'GtoolkitShorts-Slideshows'
 }
 
 { #category : #slides }

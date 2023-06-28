@@ -370,14 +370,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2022-11-10T13:49:46.528447+01:00"
+												"dateAndTimeString" : "2023-06-28T08:50:52.96115+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "dvbk8X6pDQCiNmMhDfJBjg=="
 										},
-										"code" : "SmalltalkSyntaxSlideshow show"
+										"code" : "SmalltalkSyntaxSlideshow new"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -4124,14 +4124,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-09T16:44:27.77898+01:00"
+															"dateAndTimeString" : "2023-06-28T09:19:30.283376+02:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "XOMU1WypDQCy4464A0eNuw=="
 													},
-													"code" : "Shorts fileIn: 'Hello-1-HelloWithHelloMethod.st'"
+													"code" : "GtShortSlideshow new fileIn: 'Hello-1-HelloWithHelloMethod.st'"
 												},
 												{
 													"__type" : "textSnippet",
@@ -4415,14 +4415,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-01T10:31:24.89273+01:00"
+															"dateAndTimeString" : "2023-06-28T09:18:48.705109+02:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "OxLuH8eoDQC6MHvADynDGA=="
 													},
-													"code" : "Shorts fileIn: 'Hello-2-HelloWithArgument.st'"
+													"code" : "GtShortSlideshow new fileIn: 'Hello-2-HelloWithArgument.st'"
 												}
 											]
 										},
@@ -4521,14 +4521,14 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2022-11-09T16:13:35.022553+01:00"
+															"dateAndTimeString" : "2023-06-28T09:18:56.298003+02:00"
 														}
 													},
 													"uid" : {
 														"__type" : "uid",
 														"uidString" : "RRLuH8eoDQC6Mjn7DynDGA=="
 													},
-													"code" : "Shorts fileIn: 'Hello-3-HelloGtExample.st'"
+													"code" : "GtShortSlideshow new fileIn: 'Hello-3-HelloGtExample.st'"
 												},
 												{
 													"__type" : "textSnippet",

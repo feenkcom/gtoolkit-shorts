@@ -1,7 +1,7 @@
 Class {
 	#name : #GettingStartedWithGTSlideShow,
 	#superclass : #GtShortSlideshow,
-	#category : #GtoolkitShorts
+	#category : #'GtoolkitShorts-Slideshows'
 }
 
 { #category : #accessing }
