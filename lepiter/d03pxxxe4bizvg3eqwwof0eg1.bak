@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:17:42.334858+02:00"
+						"dateAndTimeString" : "2023-06-28T15:19:12.190835+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:00:55.505215+01:00"
+						"dateAndTimeString" : "2023-06-28T15:27:40.314092+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "d8kJDZ+nDQC9D8f+BA5+dw=="
+					"uidString" : "VNxsKpK7DQCtyrJdA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]  [[rpn]] [[series]] "
+				"string" : "[[howto]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:17:46.706999+02:00"
+						"dateAndTimeString" : "2023-06-28T15:27:41.266656+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:05.754678+02:00"
+						"dateAndTimeString" : "2023-06-28T15:27:41.266656+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ztmFDZ+nDQC9E7FZBA5+dw=="
+					"uidString" : "9Pn6SJK7DQCy34JgA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This should be the running example for the series of shorts on [[Moldable Development with GT]]."
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:08.360383+02:00"
+						"dateAndTimeString" : "2023-06-28T15:27:41.489139+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,54 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:50.545913+02:00"
+						"dateAndTimeString" : "2023-06-28T15:27:41.489139+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "od7IDp+nDQC9GbcwBA5+dw=="
+					"uidString" : "+mD+SJK7DQCy5H5VA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See the [Forth Exercism kata](https://exercism.org/tracks/pharo-smalltalk/exercises/forth) and [my solution](https://github.com/onierstrasz/GtKatas/tree/master/src/Exercise@Forth). "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:51.297063+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:20:31.860584+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "xk9nEZ+nDQC9HHS8BA5+dw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We should implement a stack machine based RPN calculator with macros (new commands as sequences of commands), examples,  moldable views, an interactive visualization using announcements."
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -171,7 +134,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:21:39.991306+02:00"
+									"dateAndTimeString" : "2023-06-28T15:53:51.392799+02:00"
 								}
 							},
 							"editEmail" : {
@@ -182,17 +145,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:22:19.250288+02:00"
+									"dateAndTimeString" : "2023-06-28T15:53:57.952452+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "wXdlG5+nDQC9IGcaBA5+dw=="
+								"uidString" : "3imRppK7DQC5YnDyA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We want to develop the example step by step."
+							"string" : "GT World: {{gtMethod:name=DemoSlideshow>>#gtWorld:}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -208,7 +171,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:22:20.093483+02:00"
+									"dateAndTimeString" : "2023-06-28T15:19:30.039443+02:00"
 								}
 							},
 							"editEmail" : {
@@ -219,17 +182,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:25:22.364579+02:00"
+									"dateAndTimeString" : "2023-06-28T15:58:22.076604+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "UDvZHZ+nDQC9Jv2MBA5+dw=="
+								"uidString" : "OBxuK5K7DQCu8O5qA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Should we put the snapshots in a separate git repo in a branch with tags?"
+							"string" : "Coder: {{gtMethod:name=DemoSlideshow>>#coderExampleSlideFor:}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -245,7 +208,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:27:24.4201+02:00"
+									"dateAndTimeString" : "2023-06-28T15:23:28.402976+02:00"
 								}
 							},
 							"editEmail" : {
@@ -256,17 +219,91 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:04.265453+02:00"
+									"dateAndTimeString" : "2023-06-28T15:25:13.681031+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "zmPEL5+nDQC9K6Q/BA5+dw=="
+								"uidString" : "m5boOZK7DQCxO9xaA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Should probably implement this twice — once to figure out how to do it and to make notes about interesting snapshots. Then to do a clean version with tags in a separate repo."
+							"string" : "Lepiter page: {{gtMethod:name=DemoSlideshow>>#lepiterPage:}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:21:01.875762+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:56:33.742869+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "87wsMZK7DQCv/JxGA1Wi2w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Inspector {{gtMethod:name=DemoSlideshow>>#inspector:}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:32:53.382221+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:57:59.60708+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mHiVW5K7DQC0hUaPA1Wi2w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Spotter: {{gtMethod:name=DemoSlideshow>>#spotterExampleSlideFor:}}"
 						}
 					]
 				},
@@ -278,7 +315,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:21:29.278193+02:00"
+						"dateAndTimeString" : "2023-06-28T15:19:13.089562+02:00"
 					}
 				},
 				"editEmail" : {
@@ -289,17 +326,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:21:38.166136+02:00"
+						"dateAndTimeString" : "2023-06-28T15:19:24.077654+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5G1NFp+nDQC9Hn6XBA5+dw=="
+					"uidString" : "UsqwKpK7DQCt8RLiA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#How to manage the example states?"
+				"string" : "#How to open various kinds of tools within a slide"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:19:35.778161+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:19:35.778161+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iv4KLJK7DQCvPy5CA1Wi2w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -320,7 +394,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:29.987241+02:00"
+									"dateAndTimeString" : "2023-06-28T15:29:01.884924+02:00"
 								}
 							},
 							"editEmail" : {
@@ -331,17 +405,51 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T15:08:00.39253+02:00"
+									"dateAndTimeString" : "2023-06-28T15:29:04.32848+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "BArDM5+nDQC9OVyDBA5+dw=="
+								"uidString" : "5hjJTZK7DQCzuCU3A1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[How to set up a GT GitHub repo in 7' (obsolete)]] (do this later — for now just create the first version in this repo)"
+							"string" : "Inspect this:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:28:31.328577+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:39:58.555607+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6Nv2S5K7DQCznluRA1Wi2w=="
+							},
+							"code" : "GtPresenterSlideShow create: GtTour new"
 						},
 						{
 							"__type" : "textSnippet",
@@ -357,7 +465,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T09:56:14.189711+02:00"
+									"dateAndTimeString" : "2023-06-28T15:28:59.840424+02:00"
 								}
 							},
 							"editEmail" : {
@@ -368,17 +476,51 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T09:56:22.196467+02:00"
+									"dateAndTimeString" : "2023-06-28T15:29:12.58575+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "1SRnNJ+nDQC9ROtfBA5+dw=="
+								"uidString" : "weipTZK7DQCzs0PkA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Prototype the stack machine]] "
+							"string" : "Or view the slideshow:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:27:58.235824+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:44:10.539638+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "2t/9SZK7DQCzj0bpA1Wi2w=="
+							},
+							"code" : "GtPresenterSlideShow openInSpace: GtExampleLiveShow"
 						},
 						{
 							"__type" : "textSnippet",
@@ -394,7 +536,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:27.668411+02:00"
+									"dateAndTimeString" : "2023-06-28T15:44:03.767203+02:00"
 								}
 							},
 							"editEmail" : {
@@ -405,20 +547,20 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:33.047735+02:00"
+									"dateAndTimeString" : "2023-06-28T15:44:27.245843+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "u2ULYLGnDQCbEl6MC4wwnw=="
+								"uidString" : "5L+Kg5K7DQC3BzD4A1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Implementing examples]] "
+							"string" : "Inspect the slide methods (shows live views):"
 						},
 						{
-							"__type" : "textSnippet",
+							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -431,7 +573,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:50.472353+02:00"
+									"dateAndTimeString" : "2023-06-28T15:41:56.503556+02:00"
 								}
 							},
 							"editEmail" : {
@@ -442,91 +584,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:11:09.343678+02:00"
+									"dateAndTimeString" : "2023-06-28T15:46:47.050526+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "uw9vZbGnDQCbMYNEC4wwnw=="
+								"uidString" : "49v0e5K7DQC1cVp5A1Wi2w=="
 							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Adding calculator macros]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:42.035177+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:47.831782+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "GiHpZLGnDQCbLUCGC4wwnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Implementing a GUI]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:55.609846+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:55.609846+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "HSEwYrGnDQCbHlrKC4wwnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"code" : "GtInspectorViews methods select: [:m | m hasPragmaNamed: 'gtSlide' ]"
 						}
 					]
 				},
@@ -538,7 +603,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:28:25.627527+02:00"
+						"dateAndTimeString" : "2023-06-28T15:24:04.795873+02:00"
 					}
 				},
 				"editEmail" : {
@@ -549,17 +614,88 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:28:26.593508+02:00"
+						"dateAndTimeString" : "2023-06-28T15:27:54.582741+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qa+JM5+nDQC9MzdcBA5+dw=="
+					"uidString" : "TOQTPJK7DQCxjLcLA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Steps"
+				"string" : "# How to inspect a slideshow"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:24:05.017447+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:24:05.017447+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EkcXPJK7DQCxkafuA1Wi2w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:24:06.658374+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:51:38.729108+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IUkwPJK7DQCxlteZA1Wi2w=="
+				},
+				"code" : "#gtSlide gtPragmas & #GtInspector gtReferences "
 			}
 		]
 	},
@@ -571,7 +707,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T18:17:37.594739+02:00"
+			"dateAndTimeString" : "2023-06-28T15:19:08.585189+02:00"
 		}
 	},
 	"editEmail" : {
@@ -582,15 +718,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-08T11:49:58.885173+01:00"
+			"dateAndTimeString" : "2023-06-28T15:25:21.863416+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "RPN calculator"
+		"title" : "How to open various tools in slides"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "215d090d-9fa7-0d00-bd0e-edfa040e7e77"
+		"uuid" : "21186c2a-92bb-0d00-adc9-f1ef0355a2db"
 	}
 }

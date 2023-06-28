@@ -198,7 +198,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-06-28T14:03:40.927737+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-06-28T14:04:17.258558+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "JXiNHJG7DQCwPcmyBFb8zg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "NB: Use the `<text: '...'>` annotation in the slide methods. Then when you inspect the slideshow you will see the script"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -1295,7 +1333,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-13T09:21:25.991985+01:00"
+									"dateAndTimeString" : "2022-12-13T09:21:43.394943+01:00"
 								}
 							},
 							"uid" : {
@@ -1305,7 +1343,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Also upload the script for the closed captions. If you ensured that all spoken text started with a `*` or a ` in the text snippets, then you can easily extract the script from the lepiter page. You can find the corresponding “Raw script view"
+							"string" : "Also upload the script for the closed captions. If you ensured that all spoken text started with a `*` or a ` in the text snippets, then you can easily extract the script from the lepiter page. You can find the corresponding “Raw script” view if you inspect the script page."
 						},
 						{
 							"__type" : "textSnippet",

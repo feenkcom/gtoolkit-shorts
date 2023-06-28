@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:17:42.334858+02:00"
+						"dateAndTimeString" : "2023-06-28T15:10:07.244008+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:00:55.505215+01:00"
+						"dateAndTimeString" : "2023-06-28T15:11:13.218518+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "d8kJDZ+nDQC9D8f+BA5+dw=="
+					"uidString" : "/es0CZK7DQCiuJB+A1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]  [[rpn]] [[series]] "
+				"string" : "The old way to prepare the scripts was in a Lepiter page. Now it is more convenient to put the script text directly into the slides with the `<text: '...'>` annotation."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:17:46.706999+02:00"
+						"dateAndTimeString" : "2023-06-28T15:13:12.018816+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,91 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:05.754678+02:00"
+						"dateAndTimeString" : "2023-06-28T15:13:12.545745+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ztmFDZ+nDQC9E7FZBA5+dw=="
+					"uidString" : "dasPFZK7DQCqdcgBA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This should be the running example for the series of shorts on [[Moldable Development with GT]]."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:08.360383+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:50.545913+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "od7IDp+nDQC9GbcwBA5+dw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "See the [Forth Exercism kata](https://exercism.org/tracks/pharo-smalltalk/exercises/forth) and [my solution](https://github.com/onierstrasz/GtKatas/tree/master/src/Exercise@Forth). "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:18:51.297063+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:20:31.860584+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "xk9nEZ+nDQC9HHS8BA5+dw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We should implement a stack machine based RPN calculator with macros (new commands as sequences of commands), examples,  moldable views, an interactive visualization using announcements."
+				"string" : "[[short]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -171,7 +97,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:21:39.991306+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:19.266736+02:00"
 								}
 							},
 							"editEmail" : {
@@ -182,17 +108,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:22:19.250288+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:26.703742+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "wXdlG5+nDQC9IGcaBA5+dw=="
+								"uidString" : "HNlyDpK7DQCmdf0LA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We want to develop the example step by step."
+							"string" : "These still need to be migrated:"
 						},
 						{
 							"__type" : "textSnippet",
@@ -208,7 +134,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:22:20.093483+02:00"
+									"dateAndTimeString" : "2023-06-28T15:13:01.240309+02:00"
 								}
 							},
 							"editEmail" : {
@@ -219,17 +145,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:25:22.364579+02:00"
+									"dateAndTimeString" : "2023-06-28T15:13:01.245413+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "UDvZHZ+nDQC9Jv2MBA5+dw=="
+								"uidString" : "DzRjFJK7DQCqTAeuA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Should we put the snapshots in a separate git repo in a branch with tags?"
+							"string" : "[[Understanding Lepiter]]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -245,7 +171,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:27:24.4201+02:00"
+									"dateAndTimeString" : "2023-06-28T15:12:57.854905+02:00"
 								}
 							},
 							"editEmail" : {
@@ -256,17 +182,54 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:04.265453+02:00"
+									"dateAndTimeString" : "2023-06-28T15:12:57.860188+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "zmPEL5+nDQC9K6Q/BA5+dw=="
+								"uidString" : "zSYXFJK7DQCqI9a0A1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Should probably implement this twice — once to figure out how to do it and to make notes about interesting snapshots. Then to do a clean version with tags in a separate repo."
+							"string" : "[[Inspecting objects with custom views in 7']]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:53.34146+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:53.347029+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "naWkEZK7DQCouXBvA1Wi2w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[GitHub REST API ]]"
 						}
 					]
 				},
@@ -278,7 +241,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:21:29.278193+02:00"
+						"dateAndTimeString" : "2023-06-28T15:11:13.944231+02:00"
 					}
 				},
 				"editEmail" : {
@@ -289,17 +252,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:21:38.166136+02:00"
+						"dateAndTimeString" : "2023-06-28T15:11:18.124314+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5G1NFp+nDQC9Hn6XBA5+dw=="
+					"uidString" : "UaIhDpK7DQCmTNztA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#How to manage the example states?"
+				"string" : "# To do"
 			},
 			{
 				"__type" : "textSnippet",
@@ -320,7 +283,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-17T18:28:29.987241+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:31.984052+02:00"
 								}
 							},
 							"editEmail" : {
@@ -331,17 +294,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T15:08:00.39253+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:38.81327+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "BArDM5+nDQC9OVyDBA5+dw=="
+								"uidString" : "tLsiD5K7DQCnScmqA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[How to set up a GT GitHub repo in 7' (obsolete)]] (do this later — for now just create the first version in this repo)"
+							"string" : "These are all in the new style:"
 						},
 						{
 							"__type" : "textSnippet",
@@ -357,7 +320,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T09:56:14.189711+02:00"
+									"dateAndTimeString" : "2023-06-28T15:13:32.952025+02:00"
 								}
 							},
 							"editEmail" : {
@@ -368,17 +331,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T09:56:22.196467+02:00"
+									"dateAndTimeString" : "2023-06-28T15:13:33.994387+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "1SRnNJ+nDQC9ROtfBA5+dw=="
+								"uidString" : "rLwSFpK7DQCqtUjyA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Prototype the stack machine]] "
+							"string" : "[[*** Getting started with GT]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -394,7 +357,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:27.668411+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:43.40025+02:00"
 								}
 							},
 							"editEmail" : {
@@ -405,17 +368,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:33.047735+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:43.409777+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "u2ULYLGnDQCbEl6MC4wwnw=="
+								"uidString" : "w9ajD5K7DQCn+Y3cA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Implementing examples]] "
+							"string" : "[[Setting up a GitHub repo REDUX]]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -431,7 +394,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:50.472353+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:57.630034+02:00"
 								}
 							},
 							"editEmail" : {
@@ -442,17 +405,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:11:09.343678+02:00"
+									"dateAndTimeString" : "2023-06-28T15:11:57.637392+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "uw9vZbGnDQCbMYNEC4wwnw=="
+								"uidString" : "LTr+D5K7DQCoI1FhA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Adding calculator macros]] "
+							"string" : "[[Smalltalk Syntax in 7']]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -468,7 +431,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:42.035177+02:00"
+									"dateAndTimeString" : "2023-06-28T15:12:05.372748+02:00"
 								}
 							},
 							"editEmail" : {
@@ -479,54 +442,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:10:47.831782+02:00"
+									"dateAndTimeString" : "2023-06-28T15:12:06.554427+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "GiHpZLGnDQCbLUCGC4wwnw=="
+								"uidString" : "LmnSEJK7DQCoZxIKA1Wi2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Implementing a GUI]] "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:55.609846+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-10-18T16:09:55.609846+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "HSEwYrGnDQCbHlrKC4wwnw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"string" : "[[How to find stuff in GT]] "
 						}
 					]
 				},
@@ -538,7 +464,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:28:25.627527+02:00"
+						"dateAndTimeString" : "2023-06-28T15:11:26.984751+02:00"
 					}
 				},
 				"editEmail" : {
@@ -549,17 +475,129 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T18:28:26.593508+02:00"
+						"dateAndTimeString" : "2023-06-28T15:11:30.419582+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qa+JM5+nDQC9MzdcBA5+dw=="
+					"uidString" : "lKDoDpK7DQCnIBnpA1Wi2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Steps"
+				"string" : "# Done"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:32.855202+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:38.695067+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "17jVEpK7DQCpaYttA1Wi2w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "No need to migrate these."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:42.966996+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:12:43.411162+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "GAJwE5K7DQCp9EW8A1Wi2w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[How to set up a GT GitHub repo in 7' (obsolete)]] "
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:12:07.074232+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-28T15:12:32.440315+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "d1RMEZK7DQCotNhGA1Wi2w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Obsolete"
 			}
 		]
 	},
@@ -571,7 +609,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-17T18:17:37.594739+02:00"
+			"dateAndTimeString" : "2023-06-28T15:09:51.26712+02:00"
 		}
 	},
 	"editEmail" : {
@@ -582,15 +620,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-12-08T11:49:58.885173+01:00"
+			"dateAndTimeString" : "2023-06-28T15:09:51.26712+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "RPN calculator"
+		"title" : "Update slideshows to incorporate scripts"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "215d090d-9fa7-0d00-bd0e-edfa040e7e77"
+		"uuid" : "e1173409-92bb-0d00-a2b7-b1cb0355a2db"
 	}
 }
