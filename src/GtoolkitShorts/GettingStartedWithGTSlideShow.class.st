@@ -178,7 +178,11 @@ The Inspector can always be used like this to explore arbitrary nested objects.'
 GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**
+
+'
+**TODO**
+
+An important use case for GT is as a tool for exploring arbitrary kinds of data.
 
 
 
@@ -186,6 +190,7 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 - File Manager -- YAML and other file types
 
 - GitHub REST API
+
 - Inspector views -- inspecting live objects
 - Spotter -- searching everywhere, or in a context such as GT Book
 
