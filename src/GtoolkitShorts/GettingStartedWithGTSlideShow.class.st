@@ -9,9 +9,8 @@ GettingStartedWithGTSlideShow >> blindMenWithElephantSlide: aSlide [
 	"Blind monks examining an elephant, an ukiyo-e print by Hanabusa Itchō (1652–1724). https://en.wikipedia.org/wiki/Hanabusa_Itchō"
 
 	<gtSlide>
-	<text: '# Blind  monks examining an elephant
-
-The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
+	<text:
+'The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
 
 This means that, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the greater picture.
 
@@ -50,22 +49,51 @@ Thanks for listening.'>
 GettingStartedWithGTSlideShow >> coder: aSlide [
 	<gtSlide>
 	<text:
-'***TODO***
+'*(NB: this should go quickly, just to introduce the key features.)*
 
-# Getting started with the Coder
+With the Coder you can create classes,
 
-Create a HelloWorld class.
-Create a hello method.
-Change it to a class metjod.
-Evaluate it.
-Change it to an example method.
-Change the protocol.
-Add a class comment.
-Search for other methods, eg =.
-Search for classes, eg ByteString.
+*(Create a HelloWorld class in a Hello package.)*
 
-NB: rather than working from the coder, it is more convenient to start with live objects in the Notebook.
-'>
+add methods,
+
+*(Create a hello method.*)
+
+categorize them,
+
+*(Change the protocol to "demo".)*
+
+or turn them into class methods,
+
+*(Change it to a class method.)*
+
+run code directly from the browser,
+
+*(Inspect.)*
+
+create example methods,
+
+*(Add a method like this one.)*
+```
+"instance"
+	| example |
+	<gtExample>
+	example := HelloWorld new.
+	self assert: example hello equals: ''hello''.
+	^ example
+```
+
+run examples as tests,
+
+*(Run the examples.)
+
+search for methods,
+
+*(Search for other methods in the method spotter, eg =.)*
+
+and search for classes.
+
+*(Search for String in the package spotter.)'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #coder:);
 		newFadedText: ('Getting started with the Coder' asRopedText);
@@ -78,7 +106,7 @@ GettingStartedWithGTSlideShow >> creatingNotes: aSlide [
 
 	<gtSlide>
 	<text:
-'## Creating Notes
+'**Simplify?**
 
 We can also create a Note, which is just like a Playground, except that it starts with a text snippet, and we normally give it a title.
 
@@ -117,7 +145,6 @@ We can also interact with the page by sending it messages.
 *(Open the playground and inspect `self database`.)*
 
 Here we can inspect the Lepiter database of this page.'>
-
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #creatingNotes:);
 		newFadedText: 'Creating Notes';
@@ -128,7 +155,7 @@ Here we can inspect the Lepiter database of this page.'>
 GettingStartedWithGTSlideShow >> creatingPlaygrounds: aSlide [
 	<gtSlide>
 	<text:
-'## Creating Playgrounds
+'**Too detailed?***
 
 A Playground is Lepiter page with a snippet where you can experiment with Pharo code.
 
@@ -141,7 +168,6 @@ We can add a new code snippet by clicking on the `+` and selecting a new Pharo s
 If we enter the string `''hello''` into the new snippet and inspect it, we can go to the Items view and inspect each individual character.
 
 The Inspector can always be used like this to explore arbitrary nested objects.'>
-
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #creatingPlaygrounds:);
 		newFadedText: 'Creating Playgrounds';
@@ -154,31 +180,20 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<text: 
 '**TODO**
 
-# GT is a Data Explorer
+
+
+
+- File Manager -- YAML and other file types
 
 - GitHub REST API
-- Inspector views
-- Spotter -- searching everywhere, or in a context
-- File Manager -- JSON and other file types
+- Inspector views -- inspecting live objects
+- Spotter -- searching everywhere, or in a context such as GT Book
 
 
 Alternative: SCG Pico website
 Include a visualization of the links?
 
-It''s a data explorer
-	Ear
-	GraphQL case study
-	GitHub REST API
-	Inspector
-		You are inspecting live objects
-	Spotter
-		Finding anything anywhere
-		Finding things in a context
-			Eg GT Book
-		How to search for stuff with Spotter.
-	File manager
-		Fancy file browser
-		JSON etc?
+
 
 '>
 	^ aSlide labelAndElement
@@ -191,9 +206,7 @@ It''s a data explorer
 GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<gtSlide>
 	<text: 
-'# Download GT
-
-The first thing to do is to download Glamorous Toolkit for your platform and start it up.
+'The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*'>
 	^ aSlide labelAndElement
@@ -210,11 +223,10 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> git: aSlide [
 	<gtSlide>
-	<text: '***TODO***
+	<text:
+'You can version your code in a Git repository.
 
-# Getting started with the Git tool
-
-'>
+*(Show the code being committed to a HelloWorld repo.)*'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #git:);
 		newFadedText: 'Getting started with the Git tool' asRopedText;
@@ -244,16 +256,13 @@ GettingStartedWithGTSlideShow >> gtBook: aSlide [
 
 	<gtSlide>
 	<text:
-'## GT Book
-
-*(Open the GT Book.)*
+'*(Open the GT Book.)*
 
 The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
 
 Each page consists of snippets that may contain Markdown text, executable code, live examples, or other kinds of content.
 
 For example, the page *About this book* contains a live Treemap with an overview of the organization of the book itself.'>
-
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #gtBook:);
 		newFadedText: 'GT Book';
@@ -264,7 +273,7 @@ For example, the page *About this book* contains a live Treemap with an overview
 GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 	<gtSlide>
 	<text:
-'## GT World
+'*(If necessary, first hide the unneeded Home Sections.)*
 
 ```
 GtShortSlideshow disableHomeSections.
@@ -313,11 +322,7 @@ Show we don''t just parse but can explore.
 GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	<text:
-'***TODO***
-
-## How to work with GitHub
-
-'>
+'There are detailed instructions in the GT Book on how to get work with GitHub.'>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToWorkWithGitHub:);
 		pageNamed: 'How to work with GitHub' from: self gtBookName;
@@ -327,17 +332,8 @@ GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> ide: aSlide [
 	<gtSlide>
-	<text: 
-'**TODO**
-
-# GT is an IDE
-
-- Coder
-- code saved to repos
-- Git tool
-
-			
-'>
+	<text:
+'GT can also be seen as a new kind of IDE.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #ide:);
 		newTextWithFormat: (self asHeader: 'GT is an IDE');
@@ -354,9 +350,7 @@ GettingStartedWithGTSlideShow >> initializeDb [
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
 	<text: 
-'# GT is a knowledge base
-
-One important use case for GT is as a knowledge base for system documentation.'>
+'One important use case for GT is as a knowledge base for system documentation.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #knowledgeBase:);
 		newTextWithFormat: (self asHeader: 'GT is a knowledge base');

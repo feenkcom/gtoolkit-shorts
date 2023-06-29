@@ -60,6 +60,18 @@ LePage >> gtScriptFor: aView [
 ]
 
 { #category : #'*GtoolkitShorts' }
+LePage >> gtSpotterForFilesFor: aSearch [
+	<gtSearch>
+	^ aSearch list
+		priority: 10;
+		items: [ self allChildrenTextSnippets ];
+		title: 'Text Snippets';
+		itemsLimit: Float infinity;
+		itemName: #text;
+		filterBySubstring
+]
+
+{ #category : #'*GtoolkitShorts' }
 LePage >> textSnippetsStartingWith: startChars [
 	^ (self allChildrenTextSnippets collect: #string)
 		select: [ :each | each notEmpty and: [ startChars includes: each first ] ]
