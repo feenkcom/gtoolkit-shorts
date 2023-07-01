@@ -315,13 +315,11 @@ GettingStartedWithGTSlideShow >> headerSize [
 GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
 	<gtSlide>
 	<text:
-'***TODO***
 
-## How to parse other languages
+'GT can parse numerous languages out of the box.
 
-Show we don''t just parse but can explore.
+*(Inspect the Rust snippet.)*'>
 
-'>
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToParseOtherLanguages:);
 		pageNamed: 'How to parse sources in different languages' from: self gtBookName;
@@ -354,6 +352,7 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 GettingStartedWithGTSlideShow >> initializeDb [
 	db := nil.
 	self db addPage: self uhmoPage.
+	self db addPage: self treemapPage.
 ]
 
 { #category : #slides }
@@ -372,6 +371,13 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 	<gtSlide>
 	<text: 
 '**TODO**
+
+GT is not just a Smalltalk environment.
+
+It has been design with modeling and analysis of legacy software in mind, so GT is also a language workbench.
+
+
+
 
 # GT is a language workbench
 
@@ -485,6 +491,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 		
 		modelBuilder:
 			uhmoModel:
+			treemapModel:
 		
 		languageWorkbench:
 			howToParseOtherLanguages:
@@ -511,11 +518,52 @@ Today I''d like to introduce you to GT.'>
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> treemapModel: aSlide [
+	<gtSlide>
+	<text:
+
+'In this example we model an algorithm that produces a nicely proportioned TreeMap visualization.
+
+We can explore the final results or an overview of the individual steps.
+
+*(Click on the *Preview* and *Steps figure* views.)*
+
+Or we can play through the steps to simulate the algorithm.
+
+*(Go to *Steps list* view and walk through the steps.)*'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #treemapModel:);
+		startPage: (self db pageNamed: 'The Squarified Treemap algorithm')
+]
+
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> treemapPage [
+	<gtExample>
+	^ (LePage named: 'The Squarified Treemap algorithm')
+		addSnippet: (LeExampleSnippet new
+				exampleBehaviorName: #GtGraphTreemapLayoutExamples;
+				exampleSelector: #squarifyWithSevenNodes;
+				noCode: true;
+				previewHeight: 500);
+		yourself
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> uhmoModel: aSlide [
 	<gtSlide>
 	<text:
 
 'In this case study, we explore how to model communication paths inside a typical restaurant.
+
+*(NB: The UHMO model should have first been loaded.)*
+
+```
+Metacello new
+   baseline: ''UhmoWithoutGT'';
+   repository: ''github://feenkcom/uhmo/src'';
+   load.
+#BaselineOfUhmoWithoutGT asClass loadLepiter
+```
 
 Here Alice has ordered a steak and the order has propagated via John the waiter to Jeff the cook.'>
 	^ aSlide lepiterPage
@@ -527,25 +575,10 @@ Here Alice has ordered a steak and the order has propagated via John the waiter 
 GettingStartedWithGTSlideShow >> uhmoPage [
 	<gtExample>
 	^ (LePage named: 'Modeling the Cozy Corner restaurant')
-	addSnippet: (LeTextSnippet new
-			string: 'Load the model:';
-			yourself);
-	addSnippet: (LePharoSnippet new
-			code: 'Metacello new
-   baseline: ''UhmoWithoutGT'';
-   repository: ''github://feenkcom/uhmo/src'';
-   load.
-#BaselineOfUhmoWithoutGT asClass loadLepiter.';
-			yourself);
-	addSnippet: (LeTextSnippet new
-			string: 'Explore it:';
-			yourself);
-	addSnippet: (LePharoSnippet new
-			code: 'UCozyCornerExamples new
-	placeOrderWithSteakToTable1ByAliceGuest.';
-			yourself);
-	addSnippet: (LeTextSnippet new
-			string: '';
-			yourself);
-	yourself
+		addSnippet: (LeExampleSnippet new
+				exampleBehaviorName: #UCozyCornerExamples;
+				exampleSelector: #placeOrderWithSteakToTable1ByAliceGuest;
+				noCode: true;
+				previewHeight: 700);
+		yourself
 ]
