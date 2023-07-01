@@ -179,28 +179,11 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
 	<text: 
 
-'
-**TODO**
+'An important use case for GT is as a tool for exploring arbitrary kinds of data.
 
-An important use case for GT is as a tool for exploring arbitrary kinds of data.
+Whether the data are on your file system or sitting on a network server, the approach is always the same:
 
-
-
-
-- File Manager -- YAML and other file types
-
-- GitHub REST API
-
-- Inspector views -- inspecting live objects
-- Spotter -- searching everywhere, or in a context such as GT Book
-
-
-Alternative: SCG Pico website
-Include a visualization of the links?
-
-
-
-'>
+First you retrieve the raw data, then you wrap each kind of data to explore as an object, and then you define textual or graphical views to answers questions about the data and to enable easy navigation.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
 		newTextWithFormat: (self asHeader: 'GT is a Data Explorer');
@@ -242,13 +225,35 @@ GettingStartedWithGTSlideShow >> git: aSlide [
 GettingStartedWithGTSlideShow >> githubRestAPI: aSlide [
 	<gtSlide>
 	<text:
-'***TODO***
 
-## Wrapping objects to explore them
+'A good example that you can find in the GT book is that of exploring the GitHub REST API.
 
-Explain the basic idea.
+You can download the JSON data of an organization on GitHub using standard tools,
 
-'>
+*(Evaluate the first two snippets to get the JSON data.)*
+
+parse the data,
+
+*(Inspect the parse snippet.)
+
+and wrap it as an explorable object.
+
+*(Wrap as a GhOrganization object.)*
+
+We now have an explorable model of the feenk GitHub organization that shows us all it repositories, and for each repo
+
+*(Select the `gtoolkit` repo.)*
+
+the events and contributors.
+
+*(Click on each of these.)*
+
+These views are cheap to create.
+
+*(Alt-click on the *Repositories* tab.)*
+
+The *Repositories* views, for example, is defined by a few lines of boilerplate code.'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #githubRestAPI:);
 		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBookName;
@@ -348,7 +353,7 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 { #category : #initialization }
 GettingStartedWithGTSlideShow >> initializeDb [
 	db := nil.
-	self db addPage: self placeholderPage.
+	self db addPage: self uhmoPage.
 ]
 
 { #category : #slides }
@@ -392,24 +397,11 @@ This belongs in the Language Workbench part:
 GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**
 
-# GT is a model builder
+'GT can also be used to build arbitrary kinds of explorable models.
 
-- UHMO (restaurant) case study ?
+Instead of exploring pre-existing data, we just generate the model entities of interest.'>
 
-Load as follows.
-
-```
-Metacello new
-   baseline: ''UhmoWithoutGT'';
-   repository: ''github://feenkcom/uhmo/src'';
-   load.
-```
-
-UCozyCornerExamples>>#placeOrderWithMultipleItemsToTable2ByJohnWaiter
-		
-'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #modelBuilder:);
 		newTextWithFormat: (self asHeader: 'GT is a model builder');
@@ -456,7 +448,7 @@ GettingStartedWithGTSlideShow >> picturesFolder [
 { #category : #initialization }
 GettingStartedWithGTSlideShow >> placeholderPage [
 	<gtExample>
-	^ (LePage named: 'PLACEHOLDER')
+	^ (LePage named: 'PLACEHOLDER page')
 		addSnippet: (LeTextSnippet new
 				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
 				yourself);
@@ -492,6 +484,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			githubRestAPI:
 		
 		modelBuilder:
+			uhmoModel:
 		
 		languageWorkbench:
 			howToParseOtherLanguages:
@@ -515,4 +508,44 @@ Today I''d like to introduce you to GT.'>
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleWithFormat: (self asTitle: 'Getting started with GT in 7''')
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> uhmoModel: aSlide [
+	<gtSlide>
+	<text:
+
+'In this case study, we explore how to model communication paths inside a typical restaurant.
+
+Here Alice has ordered a steak and the order has propagated via John the waiter to Jeff the cook.'>
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #uhmoModel:);
+		startPage: (self db pageNamed: 'Modeling the Cozy Corner restaurant')
+]
+
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> uhmoPage [
+	<gtExample>
+	^ (LePage named: 'Modeling the Cozy Corner restaurant')
+	addSnippet: (LeTextSnippet new
+			string: 'Load the model:';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: 'Metacello new
+   baseline: ''UhmoWithoutGT'';
+   repository: ''github://feenkcom/uhmo/src'';
+   load.
+#BaselineOfUhmoWithoutGT asClass loadLepiter.';
+			yourself);
+	addSnippet: (LeTextSnippet new
+			string: 'Explore it:';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: 'UCozyCornerExamples new
+	placeOrderWithSteakToTable1ByAliceGuest.';
+			yourself);
+	addSnippet: (LeTextSnippet new
+			string: '';
+			yourself);
+	yourself
 ]
