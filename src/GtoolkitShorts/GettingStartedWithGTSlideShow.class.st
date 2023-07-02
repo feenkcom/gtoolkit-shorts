@@ -179,11 +179,14 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
 	<text: 
 
-'An important use case for GT is as a tool for exploring arbitrary kinds of data.
+'## GT is a Data Explorer
+
+An important use case for GT is as a tool for exploring arbitrary kinds of data.
 
 Whether the data are on your file system or sitting on a network server, the approach is always the same:
 
 First you retrieve the raw data, then you wrap each kind of data to explore as an object, and then you define textual or graphical views to answers questions about the data and to enable easy navigation.'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
 		newTextWithFormat: (self asHeader: 'GT is a Data Explorer');
@@ -194,7 +197,9 @@ First you retrieve the raw data, then you wrap each kind of data to explore as a
 GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<gtSlide>
 	<text: 
-'The first thing to do is to download Glamorous Toolkit for your platform and start it up.
+'## Downloading GT
+
+The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*'>
 	^ aSlide labelAndElement
@@ -261,11 +266,66 @@ The *Repositories* views, for example, is defined by a few lines of boilerplate 
 ]
 
 { #category : #slides }
+GettingStartedWithGTSlideShow >> graphQL: aSlide [
+	<gtSlide>
+	<text:
+
+'With the help of the language workbench, GT can be extended to provide support for other languages.
+
+Here we see a dedicated snippet for querying GitHub using the GraphQL query language.
+
+*(Evaluate the first two snippets, set the context and inspect the last snippet. Click on the *Fields* and *Type* views.)*'>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #graphQL:);
+		startPage: (self db pageNamed: 'GraphQL')
+]
+
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> graphQLPage [
+	<gtExample>
+	^ (LePage named: 'GraphQL')
+		addSnippet: (LeTextSnippet new
+				string: 'Get your GitHub personal access token:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'githubAccessKeyFile := FileLocator home / ''.secrets'' / ''home-github.txt''.
+githubAccessKey := githubAccessKeyFile contents trimBoth.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'Download the GitHub GraphQL schema:';
+				yourself);
+		addSnippet: (LePharoSnippet new
+				code: 'aContext := GtGQLContext new
+		url: ''https://api.github.com/graphql'';
+		bearerToken: githubAccessKey;
+		buildSchema.';
+				yourself);
+		addSnippet: (LeTextSnippet new
+				string: 'And run a query using the GraphQL snippet:';
+				yourself);
+		addSnippet: (GtGQLSnippet new
+				input: '{
+	"ownername": "feenkcom",
+	"reponame": "gtoolkit"
+}';
+				operation: 'query Repository($ownername: String!, $reponame: String!) {
+	repository(owner: $ownername, name: $reponame) {
+		url
+		description
+	}
+}';
+				yourself);
+		yourself
+]
+
+{ #category : #slides }
 GettingStartedWithGTSlideShow >> gtBook: aSlide [
 	"How to open a slide on the World with the book open?"
 
 	<gtSlide>
 	<text:
+
 '*(Open the GT Book.)*
 
 The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
@@ -273,6 +333,7 @@ The Glamorous Toolkit Book is an example of a Lepiter database consisting of num
 Each page consists of snippets that may contain Markdown text, executable code, live examples, or other kinds of content.
 
 For example, the page *About this book* contains a live Treemap with an overview of the organization of the book itself.'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #gtBook:);
 		newFadedText: 'GT Book';
@@ -341,7 +402,11 @@ GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 GettingStartedWithGTSlideShow >> ide: aSlide [
 	<gtSlide>
 	<text:
-'GT can also be seen as a new kind of IDE.'>
+
+'## GT is an IDE
+
+GT can also be seen as a new kind of IDE.'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #ide:);
 		newTextWithFormat: (self asHeader: 'GT is an IDE');
@@ -353,13 +418,18 @@ GettingStartedWithGTSlideShow >> initializeDb [
 	db := nil.
 	self db addPage: self uhmoPage.
 	self db addPage: self treemapPage.
+	self db addPage: self graphQLPage.
 ]
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
 	<text: 
-'One important use case for GT is as a knowledge base for system documentation.'>
+
+'## GT is a knowledge base
+
+One important use case for GT is as a knowledge base for system documentation.'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #knowledgeBase:);
 		newTextWithFormat: (self asHeader: 'GT is a knowledge base');
@@ -370,29 +440,13 @@ GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 	<gtSlide>
 	<text: 
-'**TODO**
+
+'## GT is a language workbench
 
 GT is not just a Smalltalk environment.
 
-It has been design with modeling and analysis of legacy software in mind, so GT is also a language workbench.
+It has been design with modeling and analysis of legacy software in mind, so GT is also a language workbench.'>
 
-
-
-
-# GT is a language workbench
-
-- SPL case study?
-- AT protocol editor -- completion and syntax highlighting
-
-
-
-This belongs in the Language Workbench part:
-- Not just Smalltalk
-- Examples: GraphQL
-- Language server protocol for Rust ?
-
-
-'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #languageWorkbench:);
 		newTextWithFormat: (self asHeader: 'GT is a language workbench');
@@ -404,7 +458,9 @@ GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
 	<gtSlide>
 	<text: 
 
-'GT can also be used to build arbitrary kinds of explorable models.
+'## GT is a model builder
+
+GT can also be used to build arbitrary kinds of explorable models.
 
 Instead of exploring pre-existing data, we just generate the model entities of interest.'>
 
@@ -421,7 +477,8 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 	<gtSlide>
 	<text: '**TODO**
 
-# GT is a Moldable Development Environment
+## GT is a Moldable Development Environment
+
 What is GT?
 GT is not any one of these
 It’s rather a language for moldable development
@@ -495,6 +552,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 		
 		languageWorkbench:
 			howToParseOtherLanguages:
+			graphQL:
 		
 		moldableIDE:
 		

@@ -217,6 +217,7 @@
 				},
 				"operation" : "query Repository($ownername: String!, $reponame: String!) {\r\trepository(owner: $ownername, name: $reponame) {\r\t\turl\r\t\tdescription\r\t}\r}",
 				"input" : "{\r\t\"ownername\": \"feenkcom\",\r\t\"reponame\": \"gtoolkit\"\r}",
+				"context" : "aContext",
 				"resultVariableName" : ""
 			}
 		]
