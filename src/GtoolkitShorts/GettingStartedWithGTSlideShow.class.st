@@ -232,7 +232,7 @@ GettingStartedWithGTSlideShow >> explainingSquarifiedTreemap: aSlide [
 
 'Finally, learn how to use Lepiter notebooks to document your questions and understanding, with the help of code snippets and live example methods.
 
-There are case studies in the GT Book, but a good one to start with is the explanation of the squaried treemap algorithm.
+There are case studies in the GT Book, but a good one to start with is the explanation of the squarified treemap algorithm.
 
 Look at how the notebook page explains the algorithm with the help of live, embedded examples, and domain-specific views.
 
@@ -249,7 +249,7 @@ GettingStartedWithGTSlideShow >> exploringSlideshow: aSlide [
 	<gtSlide>
 	<text:
 
-'How do you get started with moldable development?
+'How can you get started with moldable development?
 
 First of all, try to *focus on live objects* rather than code.
 
@@ -405,14 +405,10 @@ githubAccessKey := githubAccessKeyFile contents trimBoth.';
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> gtBook: aSlide [
-	"How to open a slide on the World with the book open?"
-
 	<gtSlide>
 	<text:
 
-'*(Open the GT Book.)*
-
-The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
+'The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
 
 You should start exploring GT by browsing the book.
 
@@ -477,7 +473,7 @@ GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
 	<gtSlide>
 	<text:
 
-'GT can parse numerous languages out of the box.
+'GT can parse numerous languages out of the box using SmaCC, the Smalltalk compiler compiler.
 
 *(Inspect the Rust snippet.)*'>
 
@@ -521,6 +517,7 @@ GettingStartedWithGTSlideShow >> initializeDb [
 	self db addPage: self uhmoPage.
 	self db addPage: self ludoGamePage.
 	self db addPage: self treemapPage.
+	self db addPage: self petitParserPage.
 	self db addPage: self graphQLPage.
 	self db addPage: self exploringSlideshowPage.
 ]
@@ -545,9 +542,7 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 	<gtSlide>
 	<text: 
 
-'***TODO: How to get started!***
-
-## GT is a language workbench
+'## GT is a language workbench
 
 GT is not just a Smalltalk environment.
 
@@ -628,6 +623,40 @@ The key idea is that you should be able to *adapt* the development tools to your
 				elementForPicture: 'Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg' ]
 ]
 
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> petitParser: aSlide [
+	<gtSlide>
+	<text:
+
+'While SmaCC offers extensive tools for generating parsers from grammar specifications, for small tasks, it can be easier to start with PetitParser, a framework for building composable parsers.
+
+Here we see a tiny parser that will recognize and compute arithmetic sums.
+
+*(Inspect the result.)*
+
+The GT Book offers a tutorial and an in-depth case study showing how to build an interpreter for a small language using PetitParser.'>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #petitParser:);
+		startPage: (self db pageNamed: 'Getting started with PetitParser')
+]
+
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> petitParserPage [
+	<gtExample>
+	^ (LePage named: 'Getting started with PetitParser')
+		addSnippet: (LePharoSnippet new
+				code: 'number := #digit asPParser star flatten
+	==> [ :node | node asNumber ].
+
+sum := (number trim , $+ asPParser trim , number trim)
+		==> [ :node | node first + node third ].
+
+sum parse: ''3 + 4''.';
+				yourself);
+		yourself
+]
+
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> picturesFolder [
 	<gtExample>
@@ -682,6 +711,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 		languageWorkbench:
 			howToParseOtherLanguages:
 			graphQL:
+			petitParser:
 		
 		moldableIDE:
 			exploringSlideshow:
@@ -695,9 +725,7 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 GettingStartedWithGTSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	<text: 
-'***TO DO:*** *Check that every section actually gives useful advice on how to get started, not just shows some demo.*
-
-# Getting started with GT in 7''
+'# Getting started with GT in 7''
 
 Hello. My name is Oscar Nierstrasz.
 
