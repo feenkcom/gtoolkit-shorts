@@ -213,6 +213,54 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 	^ GtFileUtility imageElementFromFileReference: self picturesFolder / aFilename
 ]
 
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> explainingSquarifiedTreemap: aSlide [
+	<gtSlide>
+	<text:
+
+'***TODO***'>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #explainingSquarifiedTreemap:);
+		pageNamed: 'Explaining the squarified treemap algorithm' from: self gtBookName;
+		yourself
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> exploringSlideshow: aSlide [
+	<gtSlide>
+	<text:
+
+'***TODO***'>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #exploringSlideshow:);
+		startPage: (self db pageNamed: 'Exploring the slideshow')
+]
+
+{ #category : #initialization }
+GettingStartedWithGTSlideShow >> exploringSlideshowPage [
+	<gtExample>
+	^ (LePage named: 'Exploring the slideshow')
+		addSnippet: (LeTextSnippet new
+				string: '';
+				yourself);
+		addSnippet: (LeExampleSnippet new
+				exampleBehaviorName: #GettingStartedWithGTSlideShow;
+				exampleSelector: #gettingStartedSlideshow;
+				noCode: true;
+				previewHeight: 700);
+		yourself
+]
+
+{ #category : #example }
+GettingStartedWithGTSlideShow >> gettingStartedSlideshow [
+	"Example for demo purposes"
+	<gtExample>
+	<noTest>
+	^ self class new
+]
+
 { #category : #slides }
 GettingStartedWithGTSlideShow >> git: aSlide [
 	<gtSlide>
@@ -391,7 +439,9 @@ GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
 GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	<text:
+
 'There are detailed instructions in the GT Book on how to get work with GitHub.'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #howToWorkWithGitHub:);
 		pageNamed: 'How to work with GitHub' from: self gtBookName;
@@ -419,6 +469,7 @@ GettingStartedWithGTSlideShow >> initializeDb [
 	self db addPage: self uhmoPage.
 	self db addPage: self treemapPage.
 	self db addPage: self graphQLPage.
+	self db addPage: self exploringSlideshowPage.
 ]
 
 { #category : #slides }
@@ -475,7 +526,9 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 	"https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg"
 
 	<gtSlide>
-	<text: '**TODO**
+	<text:
+
+'**TODO**
 
 ## GT is a Moldable Development Environment
 
@@ -490,6 +543,18 @@ Custom searches
 Custom advices
 
 Tools and buttons mean different things for different domains
+
+What is the essence of Moldable development?
+
+Key idea: 
+Adapt the development tools to your domain to make it easier to understand and explain the system by exposing what is interesting.
+
+How:
+Focus on live objects, not code by preferring the Inspector to the Coder.
+Adapt the tools with custom, domain-specific extensions (views, searches, actions, etc).
+Use Lepiter notebooks to document your questions and understanding, with the help of code snippets and live example methods.
+
+
 	
 
 '>
@@ -555,6 +620,8 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			graphQL:
 		
 		moldableIDE:
+			exploringSlideshow:
+			explainingSquarifiedTreemap:
 		
 		closing:
 	)
@@ -564,7 +631,9 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 GettingStartedWithGTSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	<text: 
-'# Getting started with GT in 7''
+'***TO DO:*** *Check that every section actually gives useful advice on how to get started, not just shows some demo.*
+
+# Getting started with GT in 7''
 
 Hello. My name is Oscar Nierstrasz.
 
