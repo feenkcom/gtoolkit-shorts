@@ -251,7 +251,11 @@ GettingStartedWithGTSlideShow >> exploringSlideshow: aSlide [
 
 'How can you get started with moldable development?
 
-First of all, try to *focus on live objects* rather than code.
+First of all, you should develop some skills in programming with Pharo and GT.
+
+There are numerous pages in the GT book to help you get started with this.
+
+Then, when you are programming, try to *focus on live objects* rather than code.
 
 Instead of using the Coder to write code, get used to working in the Inspector.
 
@@ -261,7 +265,7 @@ We can always navigate to the code when we need to, but it is harder to navigate
 
 *(Click on the *Browse class* button.)*
 
-Second, learn how to *adapt the tools* by adding custom, domain-specific extensions.
+Next, learn how to *adapt the tools* by adding custom, domain-specific extensions.
 
 *(Click on the second slide and go to the *Slide with text* view.)*
 
@@ -610,6 +614,8 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 
 '## GT is a Moldable Development Environment
 
+Although our seven minutes are up, we need to go into overtime to address an important point.
+
 While all of these perspectives are valid, they miss the big picture.
 
 GT is really an environment to support *moldable development*.
@@ -712,11 +718,11 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			howToParseOtherLanguages:
 			graphQL:
 			petitParser:
-		
+
 		moldableIDE:
 			exploringSlideshow:
 			explainingSquarifiedTreemap:
-		
+
 		closing:
 	)
 ]
