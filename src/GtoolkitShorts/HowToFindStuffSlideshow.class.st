@@ -13,9 +13,12 @@ HowToFindStuffSlideshow class >> show [
 { #category : #slides }
 HowToFindStuffSlideshow >> abstractClasses: aSlide [
 	<gtSlide>
-	<text: 'We can easily find all abstract classes within a hierarchy by asking the root class for all classes within its hierarchy, and selecting those that respond positively to the “isAbstract” message.
+	<text:
+
+'We can easily find all abstract classes within a hierarchy by asking the root class for all classes within its hierarchy, and selecting those that respond positively to the “isAbstract” message.
 
 *(Evaluate both snippets)*'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractClasses:);
 		heading: 'Which classes are abstract?';
@@ -29,9 +32,11 @@ HowToFindStuffSlideshow >> abstractClasses: aSlide [
 HowToFindStuffSlideshow >> abstractCollectionPackageMethods: aSlide [
 	<gtSlide>
 	<text:
+
 'If instead we want to find all the abstract methods in classes within all the Collection packages, we can specify a different filter.
 
 *(Evaluate it.)*'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractCollectionPackageMethods:);
 		heading: 'Finding abstract methods in Collection packages';
@@ -42,7 +47,9 @@ HowToFindStuffSlideshow >> abstractCollectionPackageMethods: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> abstractMethods: aSlide [
 	<gtSlide>
-	<text: 'We already saw that we can find the abstract methods of a class by asking for those that send “subclassResponsibility”.
+	<text:
+
+'We already saw that we can find the abstract methods of a class by asking for those that send “subclassResponsibility”.
 
 *(Evaluate the first snippet.)*
 
@@ -53,6 +60,7 @@ Alternatively we can just select those that respond “true” to the “isAbstr
 So now we can query a hierarchy for all its classes that have at least one abstract method.
 
 *(Last snippet.)*'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractMethods:);
 		heading: 'Which methods are abstract?';
@@ -71,13 +79,16 @@ So now we can query a hierarchy for all its classes that have at least one abstr
 { #category : #slides }
 HowToFindStuffSlideshow >> abstractMethodsQuery: aSlide [
 	<gtSlide>
-	<text: 'For example, this query returns all the senders of the subclassResponsibility message.
+	<text:
+
+'For example, this query returns all the senders of the subclassResponsibility message.
 
 In the metrics view we can see that there are over 4000 abstract methods in the system.
 
 *(Evaluate and click on the Metrics view.)*
 
 Suppose we just want to find the abstract methods in the String class. In that case we can compose this query as follows.'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractMethodsQuery:);
 		heading: 'Finding all abstract methods';
@@ -87,9 +98,12 @@ Suppose we just want to find the abstract methods in the String class. In that c
 { #category : #slides }
 HowToFindStuffSlideshow >> abstractStringMethods: aSlide [
 	<gtSlide>
-	<text: 'Here we apply a filter to the previous query, restricting the scope of the result to the String class. As expected, we find just four abstract methods.
+	<text: 
+
+'Here we apply a filter to the previous query, restricting the scope of the result to the String class. As expected, we find just four abstract methods.
 
 *(Evaluate it.)*'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #abstractStringMethods:);
 		heading: 'Finding abstract methods in the String class';
@@ -135,7 +149,9 @@ Thanks for listening.'>
 { #category : #slides }
 HowToFindStuffSlideshow >> concatenateStrings: aSlide [
 	<gtSlide>
-	<text: 'For example, suppose we don''t remember how to concatenate two Strings, or two collections.
+	<text:
+
+'For example, suppose we don''t remember how to concatenate two Strings, or two collections.
 
 To find this, we just create a new instance of MethodFinder, and send it “#findMethodsByExampleInput:andExpectedResult:”.
 
@@ -144,6 +160,7 @@ In this case we are looking for a message to send to “foo” with argument “
 *(Evaluate it.)*
 
 The answer we are looking for is the comma operator., which works for any kind of collection, not just Strings.'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #concatenateStrings:);
 		heading: 'How do I concatenate two Strings?';
@@ -155,7 +172,9 @@ The answer we are looking for is the comma operator., which works for any kind o
 { #category : #slides }
 HowToFindStuffSlideshow >> concreteClassAbstractMethods: aSlide [
 	<gtSlide>
-	<text: 'Now we can ask the interesting question, which classes are not flagged as abstract, but do have abstract methods?
+	<text:
+
+'Now we can ask the interesting question, which classes are not flagged as abstract, but do have abstract methods?
 
 *(First snippet.)*
 
@@ -164,6 +183,7 @@ There are several Collection classes that really should be abstract, including S
 *(Second snippet.)*
 
 And there are over a thousand in the system as a whole, suggesting we may be wise not to trust the “isAbstract” message for classes.'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #concreteClassAbstractMethods:);
 		heading: 'Which “concrete” classes have abstract methods?';
@@ -180,7 +200,12 @@ And there are over a thousand in the system as a whole, suggesting we may be wis
 { #category : #slides }
 HowToFindStuffSlideshow >> drilling: aSlide [
 	<gtSlide>
-	<text: 'Sometimes you want to find code behind the UI, but you don''t know where to start looking. In this case you can “drill” into the UI and explore the tree of elements.'>
+	<text:
+
+'# Drilling into UI code
+
+Sometimes you want to find code behind the UI, but you don''t know where to start looking. In this case you can “drill” into the UI and explore the tree of elements.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #drilling:);
 		titleWithFormat: (self asHeader: 'Drilling into UI code')
@@ -189,7 +214,9 @@ HowToFindStuffSlideshow >> drilling: aSlide [
 { #category : #initialization }
 HowToFindStuffSlideshow >> exploringCharacterViews: aSlide [
 	<gtSlide>
-	<text: 'If we explore the ''hello'' String, we find that individual characters have a unicode representation. By Option- (or Alt-) clicking on the “Details” tab, we can see the code that generates this view.
+	<text:
+
+'If we explore the ''hello'' String, we find that individual characters have a unicode representation. By Option- (or Alt-) clicking on the “Details” tab, we can see the code that generates this view.
 
 *(Navigate to the $h character, go to the Details tab, and see the source code.)*
 
@@ -204,6 +231,7 @@ This also works for buttons. For example, we can explore the code of the “Insp
 ... and we can verify that it works.
 
 *(Copy-paste the ''(GtPager ...'' code and do it.)*'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #exploringCharacterViews:);
 		startPage: (self db pageNamed: 'Exploring Character views');
@@ -224,7 +252,12 @@ HowToFindStuffSlideshow >> exploringCharacterViewsPage [
 { #category : #slides }
 HowToFindStuffSlideshow >> exploringViewCode: aSlide [
 	<gtSlide>
-	<text: 'Sometimes you see a view of an object and wonder “How was that computed?”'>
+	<text:
+
+'# Exploring view code
+
+Sometimes you see a view of an object and wonder “How was that computed?”'>
+
 	^ aSlide title
 		priority: (self priorityFor: #exploringViewCode:);
 		titleWithFormat: (self asHeader: 'Exploring view code')
@@ -242,7 +275,9 @@ HowToFindStuffSlideshow >> findingShortcuts: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> findingShortcutsEmpty: aSlide [
 	<gtSlide>
-	<text: 'We can increase or decrease the font size of a Lepiter page by typing CMD = or CMD -, but how does it work?
+	<text:
+
+'We can increase or decrease the font size of a Lepiter page by typing CMD = or CMD -, but how does it work?
 
 *(Demonstrate this. Open the `Finding shortcuts` page in a new window.)*
 
@@ -263,6 +298,7 @@ We see that “self increaseFontSize” is sent to the LePageToolContentTreeElem
 We can try out the code to verify it.
 
 *(Copy the “self increaseFontSize” code. Inspect the LePageToolContentTreeElement instance in a new window. Close the drilling view of the page. Paste the code into the tree element''s playground and do it to verify that the page changes its font size.)*'>
+
 	^ aSlide empty priority: (self priorityFor: #findingShortcutsEmpty:)
 ]
 
@@ -286,7 +322,12 @@ HowToFindStuffSlideshow >> findingShortcutsPage [
 { #category : #slides }
 HowToFindStuffSlideshow >> gtQueries: aSlide [
 	<gtSlide>
-	<text: 'What if we are looking for something more complex, like all the abstract methods within a package? In this case GT queries are useful.'>
+	<text:
+
+'# GT queries
+
+What if we are looking for something more complex, like all the abstract methods within a package? In this case GT queries are useful.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #gtQueries:);
 		titleWithFormat: (self asHeader: 'GT queries')
@@ -301,7 +342,9 @@ HowToFindStuffSlideshow >> initializeDb [
 { #category : #slides }
 HowToFindStuffSlideshow >> isAbstract: aSlide [
 	<gtSlide>
-	<text: 'Suppose, for example, we have learned that classes respond to the message “isAbstract”.
+	<text:
+
+'Suppose, for example, we have learned that classes respond to the message “isAbstract”.
 
 For instance the Collection class is abstract.
 
@@ -310,6 +353,7 @@ For instance the Collection class is abstract.
 Curiously, String is not abstract, though its asByteArray method is.
 
 *(and the next two.)*'>
+
 	^ aSlide headingAndCode
 		priority: (self priorityFor: #isAbstract:);
 		headingWithFormat: (self asHeading: 'Classes and methods respond to ')
@@ -322,7 +366,12 @@ Curiously, String is not abstract, though its asByteArray method is.
 { #category : #slides }
 HowToFindStuffSlideshow >> methodFinder: aSlide [
 	<gtSlide>
-	<text: 'Sometimes you are looking for a method that does something you want, but you have no idea what message to send. In this case the MethodFinder is handy.'>
+	<text:
+
+'# MethodFinder
+
+Sometimes you are looking for a method that does something you want, but you have no idea what message to send. In this case the MethodFinder is handy.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #methodFinder:);
 		titleWithFormat: (self asBigCode: 'MethodFinder')
@@ -340,6 +389,10 @@ HowToFindStuffSlideshow >> openFindingShortcutsPageInWindow [
 { #category : #accessing }
 HowToFindStuffSlideshow >> queryingPharoCodePage: aSlide [
 	<gtSlide>
+	<text:
+
+'... Querying Pharo code'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #queryingPharoCodePage:);
 		pageNamed: 'Querying Pharo code' from: self gtBookName;
@@ -349,16 +402,26 @@ HowToFindStuffSlideshow >> queryingPharoCodePage: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> queryingSmalltalk: aSlide [
 	<gtSlide>
-	<text: 'To answer certain questions about the code, you may have to directly query the classes and methods of the system.'>
+	<text:
+
+'# Querying Smalltalk classes and methods
+
+To answer certain questions about the code, you may have to directly query the classes and methods of the system.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #queryingSmalltalk:);
-		titleWithFormat: (self asHeader: 'Querying Smalltalk classes and methods ')
+		titleWithFormat: (self asHeader: 'Querying Smalltalk classes and methods')
 ]
 
 { #category : #slides }
 HowToFindStuffSlideshow >> sendersAndImplementors: aSlide [
 	<gtSlide>
-	<text: 'We can also quickly find senders and implementors of messages using keyboard shortcuts — command N for seNders, and command M for iMplementors.'>
+	<text:
+
+'# seNders and iMplementors
+
+We can also quickly find senders and implementors of messages using keyboard shortcuts — command N for seNders, and command M for iMplementors.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #sendersAndImplementors:);
 		titleWithFormat: (self asHeader: 'seNders and iMplementors')
@@ -410,7 +473,12 @@ HowToFindStuffSlideshow >> slidePriorities [
 { #category : #slides }
 HowToFindStuffSlideshow >> spotter: aSlide [
 	<gtSlide>
-	<text: 'Let''s start with Spotter, a tool that allows you to search for entities by name.'>
+	<text:
+
+'# Spotter
+
+Let''s start with Spotter, a tool that allows you to search for entities by name.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #spotter:);
 		titleWithFormat: (self asHeader: 'Spotter')
@@ -419,7 +487,9 @@ HowToFindStuffSlideshow >> spotter: aSlide [
 { #category : #slides }
 HowToFindStuffSlideshow >> spotterExample: aSlide [
 	<gtSlide>
-	<text: 'For example, we can search for “String”, which will find us the String class, and open a Coder for us.
+	<text:
+
+'For example, we can search for “String”, which will find us the String class, and open a Coder for us.
 
 *(Enter “String” and accept to open a Coder.)*
 
@@ -452,6 +522,7 @@ This means that the method is abstract.
 If we search for “subclassResponsibility” we see that there is just one implementor, but over 4000 senders. If we dive into the senders and query for “String”, we see it has four abstract methods.
 
 *(Dive into the senders and query for “String”. Select the asByteArray method to open the coder.)*'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #spotterExample:);
 		element: [ GtSpotterLiveSlide new asElement ]
@@ -460,7 +531,9 @@ If we search for “subclassResponsibility” we see that there is just one impl
 { #category : #slides }
 HowToFindStuffSlideshow >> stringAsByteArray: aSlide [
 	<gtSlide>
-	<text: 'From the Coder view of the String>>#asByteArray method, we can position the mouse in any message and type Command-M to find the implementors. For example, we can quickly see that there is just one method that implements “subclassResponsibility”, and there are many senders.
+	<text:
+
+'From the Coder view of the String>>#asByteArray method, we can position the mouse in any message and type Command-M to find the implementors. For example, we can quickly see that there is just one method that implements “subclassResponsibility”, and there are many senders.
 
 *(Click inside “subclassResponsibility” and perform Cmd-M and then Cmd-N)*
 
@@ -469,6 +542,7 @@ Searching for senders is especially useful to understand how to use an API.
 For example, if we ask for senders of “allRangesOfRegexMatches:”, we immediately find a test that illustrates its usage.
 
 *(Open the allRangesOfRegexMatches: method, Cmd-N, and look at RxMatcherTest>>#testStringAllRangesOfRegexMatches.)*'>
+
 	^ aSlide element
 		priority: (self priorityFor: #stringAsByteArray:);
 		element: [ (GtCoder forClass: String) createInPager maximized asElement ]
@@ -477,7 +551,10 @@ For example, if we ask for senders of “allRangesOfRegexMatches:”, we immedia
 { #category : #slides }
 HowToFindStuffSlideshow >> titleSlide: aSlide [
 	<gtSlide>
-	<text: 'Hello. My name is Oscar Nierstrasz. Today I''d like to show you how to find things in GT.'>
+	<text:
+
+'Hello. My name is Oscar Nierstrasz. Today I''d like to show you how to find things in GT.'>
+
 	^ aSlide title
 		priority: (self priorityFor: #titleSlide:);
 		titleWithFormat: (self asTitle: 'How to find stuff in GT in 7''')
@@ -486,6 +563,10 @@ HowToFindStuffSlideshow >> titleSlide: aSlide [
 { #category : #accessing }
 HowToFindStuffSlideshow >> understandingCollectionsPage: aSlide [
 	<gtSlide>
+	<text:
+
+'... Understanding Smalltalk classes and metaclasses'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #understandingCollectionsPage:);
 		pageNamed: 'Understanding Smalltalk classes and metaclasses'
@@ -496,6 +577,10 @@ HowToFindStuffSlideshow >> understandingCollectionsPage: aSlide [
 { #category : #accessing }
 HowToFindStuffSlideshow >> workingWithCollectionsPage: aSlide [
 	<gtSlide>
+	<text:
+
+'... Working with collections in Pharo'>
+
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #workingWithCollectionsPage:);
 		pageNamed: 'Working with collections in Pharo' from: self gtBookName;
