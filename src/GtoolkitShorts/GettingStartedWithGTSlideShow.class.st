@@ -13,7 +13,7 @@ GettingStartedWithGTSlideShow >> blindMenWithElephantSlide: aSlide [
 
 'The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
 
-This means that, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the greater picture.'>
+However, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the big picture.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #blindMenWithElephantSlide:);
@@ -51,8 +51,6 @@ GettingStartedWithGTSlideShow >> coder: aSlide [
 	<text:
 'With the Coder you can create classes,
 
-*(NB: this should go quickly, just to introduce the key features.)*
-
 *(Create a HelloWorld class in a Hello package.)*
 
 add methods,
@@ -74,8 +72,9 @@ run code directly from the browser,
 create example methods,
 
 *(Add a method like this one.)*
+
 ```
-"instance"
+instance
 	| example |
 	<gtExample>
 	example := HelloWorld new.
@@ -85,7 +84,7 @@ create example methods,
 
 run examples as tests,
 
-*(Run the examples.)
+*(Run the examples.)*
 
 search for methods,
 
@@ -93,7 +92,8 @@ search for methods,
 
 and search for classes.
 
-*(Search for String in the package spotter.)'>
+*(Search for String in the package spotter.)*'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #coder:);
 		newFadedText: ('Getting started with the Coder' asRopedText);
@@ -107,23 +107,23 @@ GettingStartedWithGTSlideShow >> creatingNotes: aSlide [
 	<gtSlide>
 	<text:
 
-'We can also create a Note, which is just like a Playground, except that it starts with a text snippet, and we normally give it a title.
+'A Note is just like a Playground, except that it starts with a text snippet, and should be given a name.
 
 *(Add a title and some text.)*
 
-Just like with a Playground, we can add new snippets, by clicking on the `+` or using keyboard shortcuts.
+As  before, we can add new snippets with the `+` button, or using keyboard shortcuts.
 
 *(Add a code snippet.)*
 
-We can move snippets around with the menu in the bottom right, or with shortcuts.
+We can move snippets around with the menu at the bottom right, or with shortcuts.
 
 *(Move the code snippet up and down, indent and dedent.)*
 
-The Playgrounds and Notes that you create are saved in your personal Lepiter database.
+All your Notes and Playgrounds are automatically stored in your personal Lepiter database.
 
 *(Show the db and show the pages are there in the Pages view.)*
 
-I use my Lepiter database to keep track of projects, tasks, frequently asked questions and random notes.
+I use my Lepiter database to track projects, tasks, frequently asked questions and random notes.
 
 *(Go back to the ToC view.)*
 
@@ -135,7 +135,9 @@ A page is a live object, which you can inspect.
 
 *(Click on the `(i)` button.)*
 
-We can explore various views, such as the *Snippets* view or the *StoreString*, which will programmatically generate a copy of the page.
+A Lepiter page has many views, such as the *Snippets* view, or *StoreString*, which will programmatically generate a copy of the page.
+
+*(Inspect the `StoreString` to see the result.)*
 
 Lepiter pages are saved to the file system.
 
@@ -158,21 +160,21 @@ GettingStartedWithGTSlideShow >> creatingPlaygrounds: aSlide [
 	<gtSlide>
 	<text:
 
-'A Playground is Lepiter page with a snippet where you can experiment with Pharo code.
+'A Playground is Lepiter page of *Pharo code snippets*.
 
 *(Click on the Playground button.)*
 
-For example, we can enter code like `3 + 4`, and `Inspect` the result.
+We can enter code like `3 + 4`, and `Inspect` the result.
 
 *(Do it.)*
 
-This opens a new pane with an Inspector showing numerous views of the result.
+This opens an Inspector offering various views of the result.
 
-We can add a new code snippet by clicking on the `+` and selecting a new Pharo snippet (or we can just type Command-Return in the existing snippet).
+We can add a new code snippet by clicking on the `+`, or we can just type Command-Return in the existing snippet.
 
 *(Add a new code snippet.)*
 
-If we enter the string `''hello''` into the new snippet and inspect it, we can go to the Items view and inspect each individual character.
+If we Inspect the string `''hello''`, and go to the *Items* view, we can inspect each individual character.
 
 *(Do it.)*
 
@@ -191,11 +193,9 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 
 '## GT is a Data Explorer
 
-An important use case for GT is as a tool for exploring arbitrary kinds of data.
+An important use case for GT is as a tool for modeling and exploring arbitrary kinds of data.
 
-Whether the data are on your file system or sitting on a network server, the approach is always the same:
-
-First you retrieve the raw data, then you wrap each kind of data to explore as an object, and then you define textual or graphical views to answers questions about the data and to enable easy navigation.'>
+The approach is always the same: wrap the data as domain objects, and then add custom views and actions to answer questions about the data, and able exploration of the domain model.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
@@ -213,7 +213,7 @@ Let''s take a tour of the various parts that make up GT.
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*
 
-The first thing to do is to download Glamorous Toolkit for your platform and start it up.'>
+The download Glamorous Toolkit for your platform and fire it up.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #downloadGt:);
 		newTextWithFormat: (self asHeader: 'Downloading GT');
@@ -230,11 +230,11 @@ GettingStartedWithGTSlideShow >> explainingSquarifiedTreemap: aSlide [
 	<gtSlide>
 	<text:
 
-'Finally, learn how to use Lepiter notebooks to document your questions and understanding, with the help of code snippets and live example methods.
+'Finally, learn to use notebooks to document your questions and understanding, using both code snippets and live example methods.
 
-There are case studies in the GT Book, but a good one to start with is the explanation of the squarified treemap algorithm.
+A good case study to start with is the squarified treemap algorithm.
 
-Look at how the notebook page explains the algorithm with the help of live, embedded examples, and domain-specific views.
+See how the notebook page explains the algorithm using live, embedded examples, and domain-specific views.
 
 *(Scroll down to the `squarifyWithSevenNodes` example. Inspect it, show the steps, and show the code again.)*'>
 
@@ -298,8 +298,7 @@ GettingStartedWithGTSlideShow >> gettingStartedSlideshow [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> git: aSlide [
 	<gtSlide>
-	<text:
-'You can version your code in a Git repository.
+	<text: 'You can version your code in a Git repository.
 
 *(Show the code being committed to a HelloWorld repo.)*
 
@@ -314,7 +313,12 @@ Metacello new
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #git:);
 		newFadedText: 'Getting started with the Git tool' asRopedText;
-		element: [ GtGitStencil new ]
+		element: [ (GtPager
+				createWrappedOn: (GtGitPhlowTool new repository: (GtGitRepository forRepoNamed: 'HelloWorld')))
+				maximized ]
+				
+				 ";
+		element: [ GtGitStencil new ]"
 ]
 
 { #category : #accessing }
@@ -322,9 +326,9 @@ GettingStartedWithGTSlideShow >> githubRestAPI: aSlide [
 	<gtSlide>
 	<text:
 
-'You can find a good example of how to do this in the GT book page on the GitHub REST API case study.
+'A good example in the GT book is the GitHub REST API case study.
 
-You can download the JSON data of an organization on GitHub using standard tools,
+You start by downloading the JSON data of an organization on GitHub using standard tools,
 
 *(Evaluate the first two snippets to get the JSON data.)*
 
@@ -332,11 +336,11 @@ parse the data,
 
 *(Inspect the parse snippet.)*
 
-and wrap it as an explorable object.
+and wrap it as an explorable domain object.
 
 *(Wrap as a GhOrganization object.)*
 
-We now have an explorable model of the feenk GitHub organization that shows us all its repositories, and for each repo
+By adding custom views, we obtain an explorable model of the feenk GitHub organization that shows us all its repositories, and for each repo
 
 *(Select the `gtoolkit` repo.)*
 
@@ -344,11 +348,11 @@ the events and contributors.
 
 *(Click on each of these.)*
 
-These views are cheap to create.
+These views are cheap to create,
 
 *(Alt-click on the *Repositories* tab.)*
 
-The *Repositories* views, for example, is defined by a few lines of boilerplate code.'>
+typically with a few lines of boilerplate code.'>
 
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #githubRestAPI:);
@@ -361,9 +365,9 @@ GettingStartedWithGTSlideShow >> graphQL: aSlide [
 	<gtSlide>
 	<text:
 
-'With the help of the language workbench, GT can be extended to provide support for other languages.
+'GT can be readily extended to support for other languages.
 
-Here we see a dedicated snippet for querying GitHub using the GraphQL query language.
+Here is a dedicated snippet for querying GitHub using the GraphQL query language.
 
 *(Evaluate the first two snippets, set the context and inspect the last snippet. Click on the *Fields* and *Type* views.)*'>
 
@@ -415,17 +419,17 @@ GettingStartedWithGTSlideShow >> gtBook: aSlide [
 	<gtSlide>
 	<text:
 
-'The Glamorous Toolkit Book is an example of a Lepiter database consisting of numerous linked Notebook pages that provide detailed documentation about GT.
+'The GT Book is a Lepiter database of linked Notebook pages providing detailed documentation about GT.
 
-You should start exploring GT by browsing the book.
+You can start exploring GT by browsing the book.
 
 *(Open the book.)*
 
-Each page consists of snippets that may contain markdown text, executable code, live examples, or other kinds of content.
+Each page consists of snippets of markdown text, executable code, live examples, or other kinds of content.
 
 *(Open the page *About this book*.)*
 
-For example, the page *About this book* contains a live Treemap with an overview of the organization of the book itself.
+This page contains a live Treemap with an overview of the organization of the book itself.
 
 *(Scroll down to the treemap and click on some of the squares.)*'>
 
@@ -440,7 +444,9 @@ GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 	<gtSlide>
 	<text:
 
-'When we open GT, we see an image populated with live objects, and a number of tools we can use to interact with these objects.
+'GT consists of an image populated with live objects.
+
+When you open GT, you see at the left a list of tools you can use to interact with these objects.
 
 *(If necessary, first hide the unneeded Home Sections.)*
 
@@ -448,15 +454,15 @@ GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 GtShortSlideshow disableHomeSections.
 ```
 
-At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to start up several of these tools.
+At the top right there is also a quick access menu.
 
 *(Click on the hamburger to reveal the tools.)*
 
-There is also a button to save the current state of the image, should we wish to do so.
+And there is a button to save the current state of the image, if you need to.
 
 *(Mouse over the *Save* button.)*
 
-At the center we also a see a GT Home card to quickly access a given project, in this case the GT Book.
+At the center there are one or more home cards to quickly access a given project, in this case the GT Book.
 
 *(Mouse over the Book card to reveal the tooltip.)*
 
@@ -536,7 +542,7 @@ GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 
 '## GT is a knowledge base
 
-One important use case for GT is as a knowledge base for system documentation.'>
+An important use case for GT is as a knowledge base for system documentation.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #knowledgeBase:);
@@ -551,9 +557,7 @@ GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 
 '## GT is a language workbench
 
-GT is not just a Smalltalk environment.
-
-It has been designed with modeling and analysis of legacy software in mind, so GT is also a language workbench.'>
+GT is also a language workbench, supporting the modeling, analysis and execution of multiple languages.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #languageWorkbench:);
@@ -566,13 +570,13 @@ GettingStartedWithGTSlideShow >> learningPharo: aSlide [
 	<gtSlide>
 	<text: 'How can you get started with moldable development?
 
-Regardless of the specific use case, moldable development implies programming.
+Regardless of the specific use case, moldable development implies *programming*.
 
-And when it comes to Glamorous Toolkit, this programming happens in Pharo, so first you should develop some skills in programming with Pharo and GT.
+And when it comes to GT, this programming happens in Pharo, so first you should develop some skills in programming with Pharo and GT.
 
 There are numerous pages in the GT book to help you get started with this.'>
 	^ aSlide element
-		priority: (self priorityFor: #maximizedPage:);
+		priority: (self priorityFor: #learningPharo:);
 		element: [ (GtPager
 				createWrappedOn: (LePagePhlowTool
 						page: (LeStorageExamples new gtBook
@@ -655,9 +659,9 @@ GettingStartedWithGTSlideShow >> petitParser: aSlide [
 	<gtSlide>
 	<text:
 
-'While SmaCC offers extensive tools for generating parsers from grammar specifications, for small tasks, it can be easier to start with PetitParser, a framework for building composable parsers.
+'While SmaCC can generate parsers from complex grammar specifications, for small tasks, it can be easier to start with PetitParser, a framework for building composable parsers.
 
-Here we see a tiny parser that will recognize and compute arithmetic sums.
+Here is a tiny parser to recognize and compute arithmetic sums.
 
 *(Inspect the result.)*'>
 
