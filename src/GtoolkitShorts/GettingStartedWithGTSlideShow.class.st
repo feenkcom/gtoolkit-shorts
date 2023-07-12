@@ -51,7 +51,7 @@ GettingStartedWithGTSlideShow >> coder: aSlide [
 	<text:
 'With the Coder you can create classes,
 
-*(Create a HelloWorld class in a Hello package.)*
+*(Create a Hello class in a HelloWorld package.)*
 
 add methods,
 
@@ -77,7 +77,7 @@ create example methods,
 instance
 	| example |
 	<gtExample>
-	example := HelloWorld new.
+	example := Hello new.
 	self assert: example hello equals: ''hello''.
 	^ example
 ```
@@ -195,7 +195,7 @@ GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 
 An important use case for GT is as a tool for modeling and exploring arbitrary kinds of data.
 
-The approach is always the same: wrap the data as domain objects, and then add custom views and actions to answer questions about the data, and able exploration of the domain model.'>
+The approach is always the same: wrap the data as domain objects, and then add custom views and actions to answer questions about the data, and enable exploration of the domain model.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #dataExplorer:);
@@ -213,7 +213,8 @@ Let''s take a tour of the various parts that make up GT.
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*
 
-The download Glamorous Toolkit for your platform and fire it up.'>
+First download Glamorous Toolkit for your platform and fire it up.'>
+
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #downloadGt:);
 		newTextWithFormat: (self asHeader: 'Downloading GT');
@@ -365,7 +366,7 @@ GettingStartedWithGTSlideShow >> graphQL: aSlide [
 	<gtSlide>
 	<text:
 
-'GT can be readily extended to support for other languages.
+'GT can be readily extended to support other languages.
 
 Here is a dedicated snippet for querying GitHub using the GraphQL query language.
 
