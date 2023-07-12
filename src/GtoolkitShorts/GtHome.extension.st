@@ -2,7 +2,7 @@ Extension { #name : #GtHome }
 
 { #category : #'*GtoolkitShorts' }
 GtHome >> getGtShortsSection [
-	<gtHomeSection>
+	"<gtHomeSection>"
 	^ GtHomeShortsSection new
 		priority: 12
 ]

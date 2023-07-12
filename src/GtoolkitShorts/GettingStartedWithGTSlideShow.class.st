@@ -13,9 +13,7 @@ GettingStartedWithGTSlideShow >> blindMenWithElephantSlide: aSlide [
 
 'The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
 
-This means that, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the greater picture.
-
-Let''s take a tour of the various parts that make up GT.'>
+This means that, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the greater picture.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #blindMenWithElephantSlide:);
@@ -211,9 +209,11 @@ GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<text: 
 '## Downloading GT
 
-The first thing to do is to download Glamorous Toolkit for your platform and start it up.
+Let''s take a tour of the various parts that make up GT.
 
-*(Open [](https://gtoolkit.com), download GT and run it.)*'>
+*(Open [](https://gtoolkit.com), download GT and run it.)*
+
+The first thing to do is to download Glamorous Toolkit for your platform and start it up.'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #downloadGt:);
 		newTextWithFormat: (self asHeader: 'Downloading GT');
@@ -249,15 +249,9 @@ GettingStartedWithGTSlideShow >> exploringSlideshow: aSlide [
 	<gtSlide>
 	<text:
 
-'How can you get started with moldable development?
+'Then, when you are programming, try to *focus on live objects* rather than code.
 
-First of all, you should develop some skills in programming with Pharo and GT.
-
-There are numerous pages in the GT book to help you get started with this.
-
-Then, when you are programming, try to *focus on live objects* rather than code.
-
-Instead of using the Coder to write code, get used to working in the Inspector.
+Instead of using the Coder to program, get used to working in the Inspector.
 
 Here we are inspecting a live instance of this slideshow instead of looking at the code that generates it.
 
@@ -307,7 +301,16 @@ GettingStartedWithGTSlideShow >> git: aSlide [
 	<text:
 'You can version your code in a Git repository.
 
-*(Show the code being committed to a HelloWorld repo.)*'>
+*(Show the code being committed to a HelloWorld repo.)*
+
+*(You may need to load it first.*)
+
+```
+Metacello new
+	repository: ''github://onierstrasz/HelloWorld:main/src'';
+	baseline: ''HelloWorld'';
+	load
+```'>
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #git:);
 		newFadedText: 'Getting started with the Git tool' asRopedText;
@@ -333,7 +336,7 @@ and wrap it as an explorable object.
 
 *(Wrap as a GhOrganization object.)*
 
-We now have an explorable model of the feenk GitHub organization that shows us all it repositories, and for each repo
+We now have an explorable model of the feenk GitHub organization that shows us all its repositories, and for each repo
 
 *(Select the `gtoolkit` repo.)*
 
@@ -445,7 +448,7 @@ GettingStartedWithGTSlideShow >> gtWorld: aSlide [
 GtShortSlideshow disableHomeSections.
 ```
 
-At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to access several of these tools.
+At the left there is a list of such tools that we can fire up, and also at the top right there is a quick access menu to start up several of these tools.
 
 *(Click on the hamburger to reveal the tools.)*
 
@@ -453,7 +456,7 @@ There is also a button to save the current state of the image, should we wish to
 
 *(Mouse over the *Save* button.)*
 
-At the center we also a see a GT Home card to quickly access a given project.
+At the center we also a see a GT Home card to quickly access a given project, in this case the GT Book.
 
 *(Mouse over the Book card to reveal the tooltip.)*
 
@@ -507,7 +510,7 @@ GettingStartedWithGTSlideShow >> ide: aSlide [
 
 '## GT is an IDE
 
-GT can also be seen as a new kind of IDE.'>
+GT can also be seen as a new kind of Integrated Development Environment.'>
 
 	^ aSlide labelAndElement
 		priority: (self priorityFor: #ide:);
@@ -556,6 +559,24 @@ It has been designed with modeling and analysis of legacy software in mind, so G
 		priority: (self priorityFor: #languageWorkbench:);
 		newTextWithFormat: (self asHeader: 'GT is a language workbench');
 		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
+]
+
+{ #category : #slides }
+GettingStartedWithGTSlideShow >> learningPharo: aSlide [
+	<gtSlide>
+	<text: 'How can you get started with moldable development?
+
+Regardless of the specific use case, moldable development implies programming.
+
+And when it comes to Glamorous Toolkit, this programming happens in Pharo, so first you should develop some skills in programming with Pharo and GT.
+
+There are numerous pages in the GT book to help you get started with this.'>
+	^ aSlide element
+		priority: (self priorityFor: #maximizedPage:);
+		element: [ (GtPager
+				createWrappedOn: (LePagePhlowTool
+						page: (LeStorageExamples new gtBook
+								pageNamed: 'A gentle introduction to Pharo Smalltalk'))) maximized ]
 ]
 
 { #category : #accessing }
@@ -614,7 +635,7 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 
 '## GT is a Moldable Development Environment
 
-Although our seven minutes are up, we need to go into overtime to address an important point.
+Although our seven minutes are up, we need to go into a bit of overtime to address an important point.
 
 While all of these perspectives are valid, they miss the big picture.
 
@@ -638,9 +659,7 @@ GettingStartedWithGTSlideShow >> petitParser: aSlide [
 
 Here we see a tiny parser that will recognize and compute arithmetic sums.
 
-*(Inspect the result.)*
-
-The GT Book offers a tutorial and an in-depth case study showing how to build an interpreter for a small language using PetitParser.'>
+*(Inspect the result.)*'>
 
 	^ aSlide lepiterPage
 		priority: (self priorityFor: #petitParser:);
@@ -660,6 +679,19 @@ sum := (number trim , $+ asPParser trim , number trim)
 
 sum parse: ''3 + 4''.';
 				yourself);
+		yourself
+]
+
+{ #category : #accessing }
+GettingStartedWithGTSlideShow >> petitParserTutorial: aSlide [
+	<gtSlide>
+	<text:
+
+'The GT Book offers a tutorial and an in-depth case study showing how to build an interpreter for a small language using PetitParser.'>
+
+	^ aSlide lepiterPage
+		priority: (self priorityFor: #petitParserTutorial:);
+		pageNamed: 'Parsing with PetitParser2' from: self gtBookName;
 		yourself
 ]
 
@@ -718,8 +750,10 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 			howToParseOtherLanguages:
 			graphQL:
 			petitParser:
+			petitParserTutorial:
 
 		moldableIDE:
+			learningPharo:
 			exploringSlideshow:
 			explainingSquarifiedTreemap:
 
