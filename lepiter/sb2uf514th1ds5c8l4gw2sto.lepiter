@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-23T09:56:40.96828+01:00"
+						"dateAndTimeString" : "2023-07-13T13:42:09.904203+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[howto]] [[Q]] "
+				"string" : "[[howt"
 			},
 			{
 				"__type" : "textSnippet",
@@ -256,7 +256,8 @@
 					"uidString" : "t0Y2GoGqDQC60n5lADFIDQ=="
 				},
 				"search" : "x isNil ifTrue: [] ",
-				"replace" : ""
+				"replace" : "",
+				"isMethodPattern" : false
 			},
 			{
 				"__type" : "textSnippet",
@@ -427,12 +428,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-23T09:56:32.413569+01:00"
+			"dateAndTimeString" : "2023-07-13T13:41:44.691545+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Q How to make a MethodFinder snippet"
+		"title" : "How to make a MethodFinder snippet"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T10:00:55.505215+01:00"
+						"dateAndTimeString" : "2023-07-13T13:51:59.975607+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]  [[rpn]] [[series]] "
+				"string" : "[[Planned]]  [[rpn]] [[Series]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -331,7 +331,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-04-07T08:08:59.965335+02:00"
+									"dateAndTimeString" : "2023-06-28T15:08:00.39253+02:00"
 								}
 							},
 							"uid" : {
@@ -341,7 +341,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[How to set up a GT GitHub repo in 7']] (do this later — for now just create the first version in this repo)"
+							"string" : "[[How to set up a GT GitHub repo in 7' (obsolete)]] (do this later — for now just create the first version in this repo)"
 						},
 						{
 							"__type" : "textSnippet",

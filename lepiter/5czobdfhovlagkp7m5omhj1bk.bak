@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T09:19:46.006888+01:00"
+						"dateAndTimeString" : "2022-11-22T16:01:55.680844+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-27T09:19:55.155244+01:00"
+						"dateAndTimeString" : "2023-07-13T13:51:59.978826+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "R8FLQJyvDQCjhRmfC2v3Zg=="
+					"uidString" : "SJBuMHKqDQCPjmfJDSeNWg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Currently working on these."
+				"string" : "[[Planned]] [[Short]] "
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-27T09:18:45.671164+01:00"
+			"dateAndTimeString" : "2022-11-22T16:01:52.753398+01:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-01-27T09:18:45.671164+01:00"
+			"dateAndTimeString" : "2022-11-22T16:01:52.753398+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "To do next"
+		"title" : "How to build a Mondrian visualization"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "67404b40-9caf-0d00-a384-9a1d0b6bf766"
+		"uuid" : "70166e30-72aa-0d00-8f8d-f02e0d278d5a"
 	}
 }

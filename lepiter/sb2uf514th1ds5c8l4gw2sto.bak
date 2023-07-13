@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-11-23T09:56:36.294224+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-13T13:42:02.306378+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fujIM4GqDQC67MYZADFIDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[howto]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-11-23T09:48:42.331606+01:00"
 					}
 				},
@@ -219,7 +256,8 @@
 					"uidString" : "t0Y2GoGqDQC60n5lADFIDQ=="
 				},
 				"search" : "x isNil ifTrue: [] ",
-				"replace" : ""
+				"replace" : "",
+				"isMethodPattern" : false
 			},
 			{
 				"__type" : "textSnippet",
@@ -390,7 +428,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-23T09:47:26.692128+01:00"
+			"dateAndTimeString" : "2023-07-13T13:41:44.691545+02:00"
 		}
 	},
 	"pageType" : {

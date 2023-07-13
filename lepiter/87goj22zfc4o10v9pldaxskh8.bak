@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:49:54.622711+01:00"
+						"dateAndTimeString" : "2023-07-13T13:41:09.043786+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Q]] *How to programmatically zoom into a lepiter page included in a slide?* "
+				"string" : "# How to programmatically zoom into a lepiter page included in a slide?"
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T10:50:18.910865+01:00"
+						"dateAndTimeString" : "2023-07-13T13:41:33.63684+02:00"
 					}
 				},
 				"uid" : {
@@ -113,44 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "EOG suggests to try using `fontSize:`. See [slack thread](https://feenk.slack.com/archives/CNT0ZB7T9/p1666627036418079?thread_ts=1666617142.589249&cid=CNT0ZB7T9)."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:11:49.912554+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-31T17:11:49.912554+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "BGgXmrioDQCE9ipDAmd9wA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"string" : "EOG suggests to try using `fontSize:`. See [slack thread](https://feenk.slack.com/archives/CNT0ZB7T9/p1666627036418079?thread_ts=1666617142.589249&cid=CNT0ZB7T9)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -457,7 +420,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-10-31T10:49:49.165597+01:00"
+			"dateAndTimeString" : "2023-07-13T13:40:49.147201+02:00"
 		}
 	},
 	"pageType" : {

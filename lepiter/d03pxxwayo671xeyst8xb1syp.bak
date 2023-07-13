@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-28T15:13:12.545745+02:00"
+						"dateAndTimeString" : "2023-07-13T13:46:36.098253+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[short]] "
+				"string" : "[[Short]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -620,12 +620,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-06-28T15:09:51.26712+02:00"
+			"dateAndTimeString" : "2023-06-28T15:59:29.517894+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Update slideshows to incorporate scripts"
+		"title" : "* Update slideshows to incorporate scripts"
 	},
 	"uid" : {
 		"__type" : "uuid",

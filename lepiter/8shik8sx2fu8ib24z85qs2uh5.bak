@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:58:52.353118+01:00"
+						"dateAndTimeString" : "2023-07-13T13:48:08.745286+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]]  [[rpn]] [[series]] "
+				"string" : "[[ToDo]]  [[rpn]] [[Series]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-08T11:46:32.306908+01:00"
+						"dateAndTimeString" : "2022-12-08T11:49:58.890397+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "An idea is to implement an [[RPN calculator (or Ludo game?)]] as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
+				"string" : "An idea is to implement an [[RPN calculator]] as a stack machine, with the possibility to store macros as sequences of commands. Think of FORTH and Postscript."
 			},
 			{
 				"__type" : "textSnippet",

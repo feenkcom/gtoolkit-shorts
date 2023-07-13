@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-24T10:20:40.997455+01:00"
+						"dateAndTimeString" : "2023-07-13T13:46:36.104787+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[short]]  [[completed]] "
+				"string" : "[[Short]]  [[Completed]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-28T15:08:20.122697+02:00"
+						"dateAndTimeString" : "2023-06-28T15:08:26.828046+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This slideshow has been supersed"
+				"string" : "This slideshow has been superseded by [[Setting up a GitHub repo REDUX]]. "
 			},
 			{
 				"__type" : "textSnippet",

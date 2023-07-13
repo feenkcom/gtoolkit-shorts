@@ -8,7 +8,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:05:24.524278+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:05:25.064021+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fczl4b68DQCoggTbCvpPyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[*** Getting started with GT]] "
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -18,7 +56,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-02T16:52:50.326643+01:00"
+						"dateAndTimeString" : "2023-07-13T14:04:49.969092+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +67,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-13T14:31:31.800216+02:00"
+						"dateAndTimeString" : "2023-07-13T14:05:04.937082+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jtZOkeCoDQCvcOjoDmJ/TA=="
+					"uidString" : "1aNJ4L68DQCnmZx1CvpPyw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Dormant]] [[rpn]] [[Shorts]] "
+				"string" : "# Shorts currently in development"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +93,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:43:01.168954+01:00"
+						"dateAndTimeString" : "2023-07-13T14:05:05.427335+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,54 +104,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:43:08.255541+01:00"
+						"dateAndTimeString" : "2023-07-13T14:05:05.427335+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Xb4TkuCoDQCvf/yiDmJ/TA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Todo: implement a GUI for the RPN"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-02T16:52:54.415609+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-02T16:52:54.415609+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "E9kXkuCoDQCvgcyMDmJ/TA=="
+					"uidString" : "aoI14b68DQCoc2r/CvpPyw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-13T14:05:10.816909+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-13T14:05:11.246937+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3byH4b68DQCoeCH4CvpPyw=="
+				},
+				"code" : "thisSnippet page explicitReferences\r\tdifference: thisSnippet page allOutgoingTargets"
 			}
 		]
 	},
@@ -125,7 +160,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-02T16:52:41.209394+01:00"
+			"dateAndTimeString" : "2023-07-13T14:04:49.935378+02:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +171,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2022-11-02T16:52:41.209394+01:00"
+			"dateAndTimeString" : "2023-07-13T14:04:49.935378+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Implementing a GUI"
+		"title" : "InProgress"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "cf554e91-e0a8-0d00-af6f-36680e627f4c"
+		"uuid" : "741f49e0-bebc-0d00-a798-e5b40afa4fcb"
 	}
 }

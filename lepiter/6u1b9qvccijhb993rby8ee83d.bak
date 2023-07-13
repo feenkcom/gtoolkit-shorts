@@ -224,7 +224,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-06-28T14:04:17.258558+02:00"
+												"dateAndTimeString" : "2023-06-28T14:04:31.557392+02:00"
 											}
 										},
 										"uid" : {
@@ -234,7 +234,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "NB: Use the `<text: '...'>` annotation in the slide methods. Then when you inspect the slideshow you will see the script"
+										"string" : "NB: Use the `<text: '...'>` annotation in the slide methods. Then when you inspect the slideshow you will see the script with the slides, and metrics for the estimated time."
 									}
 								]
 							},

@@ -23,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T15:31:54.088619+02:00"
+									"dateAndTimeString" : "2023-07-13T14:01:19.1248+02:00"
 								}
 							},
 							"editEmail" : {
@@ -34,51 +34,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T15:57:43.758461+02:00"
+									"dateAndTimeString" : "2023-07-13T14:01:28.857508+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "693Xwi27DQCfAouABzx0aA=="
+								"uidString" : "+2e40768DQCkw8TPCvpPyw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Comment out the pragmas in the {{gtClass:name=GtHome}} card section methods."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T16:01:15.559616+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T16:01:32.597018+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ZcnVKy67DQCoRyfKBzx0aA=="
-							},
-							"code" : "GtShortSlideshow disableHomeSections"
+							"string" : "General tasks, not shorts per se"
 						},
 						{
 							"__type" : "textSnippet",
@@ -94,7 +60,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T15:57:23.513485+02:00"
+									"dateAndTimeString" : "2023-07-13T14:03:04.480482+02:00"
 								}
 							},
 							"editEmail" : {
@@ -105,20 +71,20 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T15:57:27.506911+02:00"
+									"dateAndTimeString" : "2023-07-13T14:03:05.471095+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "SQcBHi67DQCm3f5CBzx0aA=="
+								"uidString" : "RQAA2r68DQCmX83rCvpPyw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Restore them:"
+							"string" : "[[* Update slideshows to incorporate scripts]] "
 						},
 						{
-							"__type" : "pharoSnippet",
+							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -131,7 +97,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T16:01:51.469609+02:00"
+									"dateAndTimeString" : "2023-07-13T14:10:06.59848+02:00"
 								}
 							},
 							"editEmail" : {
@@ -142,14 +108,91 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-23T16:01:57.874074+02:00"
+									"dateAndTimeString" : "2023-07-13T14:10:06.601944+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "uLr5LS67DQCoyGGPBzx0aA=="
+								"uidString" : "mF3w8r68DQCusag1CvpPyw=="
 							},
-							"code" : "GtShortSlideshow restoreHomeSections"
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Pages to move to transient databases]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:02:00.39198+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:02:01.517271+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nodX1L68DQClbKnECvpPyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Fix sceneries]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:01:56.778388+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:01:56.778388+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6fL21b68DQClg3C/CvpPyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},
@@ -161,7 +204,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-20T10:37:37.222578+02:00"
+						"dateAndTimeString" : "2023-07-13T14:01:07.038369+02:00"
 					}
 				},
 				"editEmail" : {
@@ -172,20 +215,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T15:31:17.767183+02:00"
+						"dateAndTimeString" : "2023-07-13T14:01:18.253044+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "GE/gnZ2nDQChuwFFAdl+lA=="
+					"uidString" : "vvz/0r68DQCkGyiCCvpPyw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# How to disable unneeded home cards"
+				"string" : "# Stuff to do (other than shorts)"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -198,7 +241,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:35:03.064185+02:00"
+						"dateAndTimeString" : "2023-07-13T14:01:49.534121+02:00"
 					}
 				},
 				"editEmail" : {
@@ -209,91 +252,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:35:03.064185+02:00"
+						"dateAndTimeString" : "2023-07-13T14:01:50.108509+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "oq4ynp2nDQChvfRsAdl+lA=="
+					"uidString" : "VGiI1b68DQCldRqkCvpPyw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:34:51.928987+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:34:51.928987+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "r8WInZ2nDQChudIvAdl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:33:58.223815+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-10-17T16:33:58.223815+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "70tVmp2nDQCht9xLAdl+lA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "thisSnippet page explicitReferences\r\tdifference: thisSnippet page allOutgoingTargets"
 			}
 		]
 	},
@@ -305,7 +271,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-06-23T16:03:29.115264+02:00"
+			"dateAndTimeString" : "2023-07-13T14:01:07.005569+02:00"
 		}
 	},
 	"editEmail" : {
@@ -316,15 +282,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-06-23T16:03:29.115264+02:00"
+			"dateAndTimeString" : "2023-07-13T14:01:07.005569+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "How to disable unneeded home cards"
+		"title" : "ToDo"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "01b0cb33-2ebb-0d00-a931-5220073c7468"
+		"uuid" : "187cffd2-bebc-0d00-a41a-83e40afa4fcb"
 	}
 }

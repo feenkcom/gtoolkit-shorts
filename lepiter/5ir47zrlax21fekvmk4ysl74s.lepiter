@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-13T14:39:05.852187+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-13T14:39:06.358053+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GHedWr+8DQCBwQuKCvpPyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[HowTo]] "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2023-02-13T09:24:14.430271+01:00"
 					}
 				},
@@ -29,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T17:26:45.630813+01:00"
+						"dateAndTimeString" : "2023-07-13T14:40:18.436271+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "For the [[Understanding Lepiter]] short we need to hide the home section."
+				"string" : "For [[Understanding Lepiter]] and [[*** Getting started with GT]] we need to hide the home section."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -66,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T09:23:58.200368+01:00"
+						"dateAndTimeString" : "2023-07-13T14:40:27.428155+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Qr8vTvKwDQCN73A1CUpBXQ=="
 				},
-				"code" : "GtHome compile: 'getGtShortsSection\r\t\"<gtHomeSection>\"\r\t^ GtHomeShortsSection new\r\t\tpriority: 12'"
+				"code" : "GtShortSlideshow disableHomeSections."
 			},
 			{
 				"__type" : "textSnippet",
@@ -137,14 +174,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-02-13T09:24:07.456779+01:00"
+						"dateAndTimeString" : "2023-07-13T14:40:38.884669+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "IhdWTvKwDQCN962rCUpBXQ=="
 				},
-				"code" : "GtHome compile: 'getGtShortsSection\r\t<gtHomeSection>\r\t^ GtHomeShortsSection new\r\t\tpriority: 12'"
+				"code" : "GtShortSlideshow restoreHomeSections."
 			}
 		]
 	},
@@ -167,12 +204,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-02-13T09:23:28.3348+01:00"
+			"dateAndTimeString" : "2023-07-13T14:39:52.734919+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Turn Home section on or off"
+		"title" : "How to turn Home section on or off"
 	},
 	"uid" : {
 		"__type" : "uuid",

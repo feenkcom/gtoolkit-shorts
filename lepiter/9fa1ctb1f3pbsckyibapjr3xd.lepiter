@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:59:23.111429+01:00"
+						"dateAndTimeString" : "2023-07-13T13:47:06.98669+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-01-13T16:26:00.778294+01:00"
+						"dateAndTimeString" : "2023-07-13T13:47:36.802632+02:00"
 					}
 				},
 				"uid" : {
@@ -39,10 +39,10 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[tags]]  "
+				"string" : "# RPN calculator exercise series"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:59:23.930915+01:00"
+						"dateAndTimeString" : "2023-07-13T13:46:59.314152+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-11-21T09:59:23.930915+01:00"
+						"dateAndTimeString" : "2023-07-13T13:46:59.854214+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "QAVCAlmqDQCV6bJyAcy9tA=="
+					"uidString" : "c7p4oL68DQCZwq94CvpPyw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "thisSnippet page explicitReferences\r\tdifference: thisSnippet page allOutgoingTargets"
 			}
 		]
 	},

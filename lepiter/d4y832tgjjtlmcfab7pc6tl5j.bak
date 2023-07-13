@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-14T16:19:40.39762+01:00"
+						"dateAndTimeString" : "2023-07-13T13:51:59.971965+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[todo]] [[howto]] "
+				"string" : "[[Planned]] [[HowTo]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-15T16:06:42.125261+01:00"
+									"dateAndTimeString" : "2022-12-16T14:29:08.898332+01:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "A {{gtClass:name=Typist}}  can type on a given lpieter page."
+							"string" : "A {{gtClass:name=Typist}}  can type on a given lepiter page. In this case the [[Test page]]."
 						},
 						{
 							"__type" : "pharoSnippet",
