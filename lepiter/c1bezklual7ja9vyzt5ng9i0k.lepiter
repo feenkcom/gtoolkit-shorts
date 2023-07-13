@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:05:25.064021+02:00"
+									"dateAndTimeString" : "2023-07-13T14:45:35.481258+02:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Getting started with GT]] "
+							"string" : "[[* Getting started with GT]] "
 						}
 					]
 				},
@@ -171,12 +171,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-13T14:04:49.935378+02:00"
+			"dateAndTimeString" : "2023-07-13T14:45:09.540998+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "InProgress"
+		"title" : "*InProgress"
 	},
 	"uid" : {
 		"__type" : "uuid",

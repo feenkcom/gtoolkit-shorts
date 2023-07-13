@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-13T14:40:18.436271+02:00"
+						"dateAndTimeString" : "2023-07-13T14:45:38.864779+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "For [[Understanding Lepiter]] and [[*** Getting started with GT]] we need to hide the home section."
+				"string" : "For [[Understanding Lepiter]] and [[* Getting started with GT]] we need to hide the home section."
 			},
 			{
 				"__type" : "pharoSnippet",
