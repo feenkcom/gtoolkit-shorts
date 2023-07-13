@@ -640,8 +640,6 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 
 '## GT is a Moldable Development Environment
 
-Although our seven minutes are up, we need to go into a bit of overtime to address an important point.
-
 While all of these perspectives are valid, they miss the big picture.
 
 GT is really an environment to support *moldable development*.
