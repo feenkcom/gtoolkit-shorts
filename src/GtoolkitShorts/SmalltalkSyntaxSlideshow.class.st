@@ -23,7 +23,7 @@ SmalltalkSyntaxSlideshow >> binaryMessages: aSlide [
 
 `3+4` sends the message `+` to the object `3` with the argument `4`.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #binaryMessages:);
+		setPriority;
 		heading: 'Binary messages';
 		addCodeSnippet: '3 + 4 '
 ]
@@ -35,7 +35,7 @@ SmalltalkSyntaxSlideshow >> blocks: aSlide [
 
 You can evaluate a block by sending it the message `value`. The value returned is that of the last statement in the block, in this case, the value of `3+4`.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #blocks:);
+		setPriority;
 		heading: 'Blocks';
 		addCodeSnippet: '[ 3 + 4 ]';
 		addCodeSnippet: '[ 3 + 4 ] value '
@@ -48,7 +48,7 @@ SmalltalkSyntaxSlideshow >> blocksWithArguments: aSlide [
 
 This block increments its argument. We evaluate it by sending the message `value:` with an argument.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #blocksWithArguments:);
+		setPriority;
 		heading: 'Blocks with arguments';
 		addCodeSnippet: '[ :n | n + 1 ] value: 41'
 ]
@@ -62,7 +62,7 @@ To evaluate it, we send it `value:value:` with two arguments.
 
 As you might guess, this generalizes to yet more arguments.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #blocksWithMultipleArguments:);
+		setPriority;
 		heading: 'Blocks with multiple arguments';
 		addCodeSnippet: '[ :a :b |
 	| c |
@@ -75,7 +75,7 @@ SmalltalkSyntaxSlideshow >> byteArrays: aSlide [
 	<gtSlide>
 	<text: 'A byte array is similar but uses square brackets, and can only contain 8-bit integers.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #byteArrays:);
+		setPriority;
 		heading: 'Byte arrays';
 		addCodeSnippet: '#[1 2 2r11]';
 		addCodeSnippet: '#[1 $a foo ''Hello World''] "Not valid"'
@@ -88,7 +88,7 @@ SmalltalkSyntaxSlideshow >> cascades: aSlide [
 
 Here we send three `add:` messages to a new `OrderedCollection`, followed by a `reversed` *message. The result is a reversed collection.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #cascades:);
+		setPriority;
 		heading: 'Cascades';
 		addCodeSnippet: 'OrderedCollection new
 	add: 3;
@@ -106,7 +106,7 @@ This is the letter `a`.
 
 Just ask the Character class for a non-typeable character such as a tab or a newline.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #characters:);
+		setPriority;
 		heading: 'Characters';
 		addCodeSnippet: '$a';
 		addCodeSnippet: 'Character tab '
@@ -119,7 +119,7 @@ SmalltalkSyntaxSlideshow >> closing: aSlide [
 
 Thanks for listening.'>
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -139,7 +139,7 @@ SmalltalkSyntaxSlideshow >> controlConstructs: aSlide [
 
 Here we ask if there are fewer than 1000 classes in the system, and then we send that boolean object the message `#ifTrue:ifFalse`. If it''s true, we get one string back, else the other.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #controlConstructs:);
+		setPriority;
 		heading: 'Control constructs';
 		addCodeSnippet: 'Smalltalk allClasses size < 1000
 	ifTrue: [ ''not so many'' ]
@@ -149,8 +149,7 @@ Here we ask if there are fewer than 1000 classes in the system, and then we send
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> creatingClasses: aSlide [
 	<gtSlide>
-	<text: 
-'There is also no syntax for defining classes.
+	<text: 'There is also no syntax for defining classes.
 
 Here we send a message to the class `Object`, asking it to create the `HelloWorld` subclass for us.
 
@@ -159,7 +158,7 @@ Of course we can also create classes using the coding tools.
 Class names start with an upper-case letter, and are globally visible.'>
 	self removeClass: #HelloWorld.
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #creatingClasses:);
+		setPriority;
 		heading: 'Creating classes';
 		addCodeSnippet: 'Object
 	subclass: #HelloWorld
@@ -183,7 +182,7 @@ GtShortSlideshow new fileIn: ''Hello-2-HelloWithArgument.st''
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	self fileIn: 'Hello-2-HelloWithArgument.st'.
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #definingKeywordMethods:);
+		setPriority;
 		heading: 'Defining keyword methods';
 		addCodeSnippet: 'HelloWorld new hello: ''Oscar''';
 		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello.
@@ -193,8 +192,7 @@ GtShortSlideshow new fileIn: ''Hello-2-HelloWithArgument.st''
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> definingMethods: aSlide [
 	<gtSlide>
-	<text: 
-'Methods can be defined programmatically, just like classes, or using the IDE.
+	<text: 'Methods can be defined programmatically, just like classes, or using the IDE.
 
 Now we''ll create one as a fixit.
 
@@ -203,7 +201,7 @@ In this snippet we see a monkey wrench icon next to the `hello` message, indicat
 We can click on the icon to fix it.'>
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #definingMethods:);
+		setPriority;
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
 		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello ]
@@ -237,7 +235,7 @@ Here we just return the `''Hello world''` string.'>
 	self ensureEmptyClass: #HelloWorld inPackage: #Hello.
 	self fileIn: 'Hello-1-HelloWithHelloMethod.st'.
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #definingMethodsAfter:);
+		setPriority;
 		heading: 'Defining methods';
 		addCodeSnippet: 'HelloWorld new hello ';
 		onEveryAddToSceneGraphDo: [ self ensureEmptyClass: #HelloWorld inPackage: #Hello.
@@ -251,7 +249,7 @@ SmalltalkSyntaxSlideshow >> dynamicArrays: aSlide [
 
 Don''t confuse literal and dynamic arrays! A literal array treats every token inside it as a literal, not an expression.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #dynamicArrays:);
+		setPriority;
 		heading: 'Dynamic arrays';
 		addCodeSnippet: '{ 3 + 4 . 2 raisedTo: 10 }';
 		addCodeSnippet: '#( 3 + 4 . 2 raisedTo: 10 ) '
@@ -264,7 +262,7 @@ SmalltalkSyntaxSlideshow >> expressions: aSlide [
 
 There are three kinds of messages: unary, binary, and keyword.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #expressions:);
+		setPriority;
 		heading: 'Expressions';
 		addCodeSnippet: '3 factorial';
 		addCodeSnippet: '3 + 4';
@@ -276,7 +274,7 @@ SmalltalkSyntaxSlideshow >> floats: aSlide [
 	<gtSlide>
 	<text: 'and various kinds of floats,'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #floats:);
+		setPriority;
 		heading: 'Floats';
 		addCodeSnippet: '3.14';
 		addCodeSnippet: '3.14e2';
@@ -288,7 +286,7 @@ SmalltalkSyntaxSlideshow >> integers: aSlide [
 	<gtSlide>
 	<text: 'As you would expect, Smalltalk not only supports integers'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #integers:);
+		setPriority;
 		heading: 'Integers';
 		addCodeSnippet: '1';
 		addCodeSnippet: '42'
@@ -301,7 +299,7 @@ SmalltalkSyntaxSlideshow >> keywordMessages: aSlide [
 
 `''Hello world'' copyReplaceAll: ''world'' with: ''folks''` sends the message `#copyReplaceAll:with:` to the string `''Hello world''` with the two arguments `''world''` and `''folks''` '>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #keywordMessages:);
+		setPriority;
 		heading: 'Keyword messages';
 		addCodeSnippet: '''Hello world'' copyReplaceAll: ''world'' with: ''folks'''
 ]
@@ -313,7 +311,7 @@ SmalltalkSyntaxSlideshow >> literalArrays: aSlide [
 
 Literal arrays can be nested.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #literalArrays:);
+		setPriority;
 		heading: 'Literal arrays';
 		addCodeSnippet: '#(1 2 3)';
 		addCodeSnippet: '#(1 $a foo ''Hello World'')';
@@ -329,7 +327,7 @@ SmalltalkSyntaxSlideshow >> literals: aSlide [
 	<gtSlide>
 	<text: 'Let''s start with syntax for all kinds of literal values.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #literals:);
+		setPriority;
 		heading: 'Literals';
 		addCodeSnippet: '3';
 		addCodeSnippet: '''hello''';
@@ -341,7 +339,7 @@ SmalltalkSyntaxSlideshow >> postCardImageSlide: aSlide [
 	<gtSlide>
 	<text: 'Smalltalk syntax is quite compact, and famously fits on a postcard.'>
 	^ aSlide filePicture
-		priority: (self priorityFor: #postCardImageSlide:);
+		setPriority;
 		fileReference: (GtResourcesUtility
 				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/postcardsyntax.png')
 ]
@@ -369,7 +367,7 @@ We use `self`, `super` and `thisContext`,
 
 we have both dynamic and literal arrays, integers, floats, characters, and so on.'>
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #postcardSyntaxExplanation:);
+		setPriority;
 		newFadedText: 'The postcard again';
 		element: [ (BrVerticalPane new
 				exact: 1200 @ 800;
@@ -389,8 +387,7 @@ we have both dynamic and literal arrays, integers, floats, characters, and so on
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> pragmas: aSlide [
 	<gtSlide>
-	<text:
-'```
+	<text: '```
 GtShortSlideshow new fileIn: ''Hello-3-HelloGtExample.st''
 ```
 
@@ -407,7 +404,7 @@ And statements are separated by periods.
 In GT we can directly evaluate and inspect the example.'>
 	self fileIn: 'Hello-3-HelloGtExample.st'.
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #pragmas:);
+		setPriority;
 		heading: 'Pragmas';
 		addExampleSnippet: HelloWorld >> #helloExample;
 		onEveryAddToSceneGraphDo: [ self fileIn: 'Hello-3-HelloGtExample.st' ]
@@ -416,12 +413,11 @@ In GT we can directly evaluate and inspect the example.'>
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> precedence: aSlide [
 	<gtSlide>
-	<text:
-'Within a complex expression, first unary messages are evaluated, left to right, then binary messages, and last of all, keyword messages.
+	<text: 'Within a complex expression, first unary messages are evaluated, left to right, then binary messages, and last of all, keyword messages.
 
 `2 raisedTo: 1 + 3 factorial ` is the same as the second expression here with parentheses.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #precedence:);
+		setPriority;
 		heading: 'Precedence';
 		addCodeSnippet: '2 raisedTo: 1 + 3 factorial ';
 		addCodeSnippet: '2 raisedTo: (1 + (3 factorial))'
@@ -432,7 +428,7 @@ SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
 	<gtSlide>
 	<text: 'but also radix numbers with an explicit base. Here we see the number 42 in binary, octal and hex.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #radixNumbers:);
+		setPriority;
 		heading: 'Radix numbers';
 		addCodeSnippet: '2r101010';
 		addCodeSnippet: '8r52';
@@ -442,12 +438,11 @@ SmalltalkSyntaxSlideshow >> radixNumbers: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> readAloud: aSlide [
 	<gtSlide>
-	<text:
-'Smalltalk syntax is designed so that you can read it aloud, and it should make sense.
+	<text: 'Smalltalk syntax is designed so that you can read it aloud, and it should make sense.
 
 For example: `Smalltalk allClasses select: #isAbstract` returns all the abstract classes in the Smalltalk system.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #readAloud:);
+		setPriority;
 		heading: 'Smalltalk is designed to be read aloud';
 		addCodeSnippet: 'Smalltalk allClasses select: #isAbstract'
 ]
@@ -457,7 +452,7 @@ SmalltalkSyntaxSlideshow >> reservedWords: aSlide [
 	<gtSlide>
 	<text: 'Pharo Smalltalk has just six reserved keywords, whose meanings should be obvious, except for* `thisContext`*, which is used in metaprogramming to access the run-time stack.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #reservedWords:);
+		setPriority;
 		heading: 'Reserved words';
 		addCodeSnippet: 'true';
 		addCodeSnippet: 'false';
@@ -522,7 +517,7 @@ SmalltalkSyntaxSlideshow >> statements: aSlide [
 
 We can also declare temporary variables, such as `a`, `b` and `c` here, and assign values of expressions to them.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #statements:);
+		setPriority;
 		heading: 'Statements';
 		addCodeSnippet: '| a b c |	"temporaries (local variables)"
 a := 3.      "assignments using := "
@@ -537,7 +532,7 @@ SmalltalkSyntaxSlideshow >> strings: aSlide [
 
 Type two of them to get a single quote within a string.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #strings:);
+		setPriority;
 		heading: 'Strings';
 		addCodeSnippet: '''Hello world''';
 		addCodeSnippet: '''That''''s right'''
@@ -546,14 +541,13 @@ Type two of them to get a single quote within a string.'>
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> symbols: aSlide [
 	<gtSlide>
-	<text:
-'A symbol is a sequence of a characters starting with a hash.
+	<text: 'A symbol is a sequence of a characters starting with a hash.
 
 Symbols are pretty much like strings, except that they are unique.
 
 You can have many strings with the same value, but only one symbol.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #symbols:);
+		setPriority;
 		heading: 'Symbols';
 		addCodeSnippet: '#a';
 		addCodeSnippet: '#HelloWorld'
@@ -568,7 +562,7 @@ My name is Oscar Nierstrasz.
 
 Today I''d like to give you quick guided tour of the syntax of Smalltalk.'>
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'Smalltalk Syntax in 7''')
 ]
 
@@ -577,7 +571,7 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 	<gtSlide>
 	<text: '`3 factorial` is a unary message. It sends the message `factorial` to the object `3`.'>
 	^ aSlide headingAndCode
-		priority: (self priorityFor: #unaryMessages:);
+		setPriority;
 		heading: 'Unary messages';
 		addCodeSnippet: '3 factorial '
 ]
@@ -585,17 +579,17 @@ SmalltalkSyntaxSlideshow >> unaryMessages: aSlide [
 { #category : #slides }
 SmalltalkSyntaxSlideshow >> whatsNext: aSlide [
 	"<gtSlide>"
+
 	^ aSlide textAndElement
 		elementWeight: 0.5;
-		priority: (self priorityFor: #whatsNext:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'What''s next?') bold
 				, (self
 						asText: '
 
 See more GT in 7'' videos on YouTube.
 Explore GT at gtoolkit.com.');
-		"element: [ aSlide world ]"
 		element: [ GtFilePictureLiveSlide new
 				fileReference: (GtResourcesUtility
-						resourceAtPath: self picturesDirectoryPath / 'gt-shorts-playlist.png') ]
+						resourceAtPath: self picturesDirectoryPath / 'gt-shorts-playlist.png') ]	"element: [ aSlide world ]"
 ]

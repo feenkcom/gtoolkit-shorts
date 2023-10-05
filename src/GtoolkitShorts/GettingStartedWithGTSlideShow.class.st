@@ -9,14 +9,11 @@ GettingStartedWithGTSlideShow >> blindMenWithElephantSlide: aSlide [
 	"Blind monks examining an elephant, an ukiyo-e print by Hanabusa Itchō (1652–1724). https://en.wikipedia.org/wiki/Hanabusa_Itchō"
 
 	<gtSlide>
-	<text:
-
-'The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
+	<text: 'The Glamorous Toolkit is a *moldable development environment*, which means that it can be easily and cheaply adapted to variety of needs.
 
 However, as in the parable of the blind men and the elephant, if you look too closely at one part, you may miss the big picture.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #blindMenWithElephantSlide:);
+		setPriority;
 		newFadedText: 'Blind monks examining an elephant';
 		element: [ self elementForPicture: 'Blind_monks_examining_an_elephant.jpg' ]
 ]
@@ -24,15 +21,13 @@ However, as in the parable of the blind men and the elephant, if you look too cl
 { #category : #slides }
 GettingStartedWithGTSlideShow >> closing: aSlide [
 	<gtSlide>
-	<text:
-'# Closing
+	<text: '# Closing
 
 You''ll find more GT in 7'' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.
 
 Thanks for listening.'>
-
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -48,8 +43,7 @@ Thanks for listening.'>
 { #category : #slides }
 GettingStartedWithGTSlideShow >> coder: aSlide [
 	<gtSlide>
-	<text:
-'With the Coder you can create classes,
+	<text: 'With the Coder you can create classes,
 
 *(Create a Hello class in a HelloWorld package.)*
 
@@ -93,11 +87,10 @@ search for methods,
 and search for classes.
 
 *(Search for String in the package spotter.)*'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #coder:);
-		newFadedText: ('Getting started with the Coder' asRopedText);
-		element: [GtCoder new createInPager maximized].
+		setPriority;
+		newFadedText: 'Getting started with the Coder' asRopedText;
+		element: [ GtCoder new createInPager maximized ]
 ]
 
 { #category : #slides }
@@ -105,9 +98,7 @@ GettingStartedWithGTSlideShow >> creatingNotes: aSlide [
 	"How to open a slide on the World with the book open?"
 
 	<gtSlide>
-	<text:
-
-'A Note is just like a Playground, except that it starts with a text snippet, and should be given a name.
+	<text: 'A Note is just like a Playground, except that it starts with a text snippet, and should be given a name.
 
 *(Add a title and some text.)*
 
@@ -148,9 +139,8 @@ We can also interact with the page by sending it messages.
 *(Open the playground and inspect `self database`.)*
 
 Here we can inspect the Lepiter database of this page.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #creatingNotes:);
+		setPriority;
 		newFadedText: 'Creating Notes';
 		element: [ aSlide world ]
 ]
@@ -158,9 +148,7 @@ Here we can inspect the Lepiter database of this page.'>
 { #category : #slides }
 GettingStartedWithGTSlideShow >> creatingPlaygrounds: aSlide [
 	<gtSlide>
-	<text:
-
-'A Playground is Lepiter page of *Pharo code snippets*.
+	<text: 'A Playground is Lepiter page of *Pharo code snippets*.
 
 *(Click on the Playground button.)*
 
@@ -179,9 +167,8 @@ If we Inspect the string `''hello''`, and go to the *Items* view, we can inspect
 *(Do it.)*
 
 The Inspector can always be used like this to explore arbitrary nested objects.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #creatingPlaygrounds:);
+		setPriority;
 		newFadedText: 'Creating Playgrounds';
 		element: [ aSlide world ]
 ]
@@ -189,16 +176,13 @@ The Inspector can always be used like this to explore arbitrary nested objects.'
 { #category : #slides }
 GettingStartedWithGTSlideShow >> dataExplorer: aSlide [
 	<gtSlide>
-	<text: 
-
-'## GT is a Data Explorer
+	<text: '## GT is a Data Explorer
 
 An important use case for GT is as a tool for modeling and exploring arbitrary kinds of data.
 
 The approach is always the same: wrap the data as domain objects, and then add custom views and actions to answer questions about the data, and enable exploration of the domain model.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #dataExplorer:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is a Data Explorer');
 		element: [ self elementForPicture: 'blind-monks-ear.jpg' ]
 ]
@@ -206,19 +190,17 @@ The approach is always the same: wrap the data as domain objects, and then add c
 { #category : #slides }
 GettingStartedWithGTSlideShow >> downloadGt: aSlide [
 	<gtSlide>
-	<text: 
-'## Downloading GT
+	<text: '## Downloading GT
 
 Let''s take a tour of the various parts that make up GT.
 
 *(Open [](https://gtoolkit.com), download GT and run it.)*
 
 First download Glamorous Toolkit for your platform and fire it up.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #downloadGt:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'Downloading GT');
-		element: [ (self elementForPicture: 'blind-monks-trunk.jpg')  size: 500@300 ]
+		element: [ (self elementForPicture: 'blind-monks-trunk.jpg') size: 500 @ 300 ]
 ]
 
 { #category : #accessing }
@@ -229,28 +211,24 @@ GettingStartedWithGTSlideShow >> elementForPicture: aFilename [
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> explainingSquarifiedTreemap: aSlide [
 	<gtSlide>
-	<text:
-
-'Finally, learn to use notebooks to document your questions and understanding, using both code snippets and live example methods.
+	<text: 'Finally, learn to use notebooks to document your questions and understanding, using both code snippets and live example methods.
 
 A good case study to start with is the squarified treemap algorithm.
 
 See how the notebook page explains the algorithm using live, embedded examples, and domain-specific views.
 
 *(Scroll down to the `squarifyWithSevenNodes` example. Inspect it, show the steps, and show the code again.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #explainingSquarifiedTreemap:);
-		pageNamed: 'Explaining the squarified treemap algorithm' from: self gtBookName;
+		setPriority;
+		pageNamed: 'Explaining the squarified treemap algorithm'
+			from: self gtBookName;
 		yourself
 ]
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> exploringSlideshow: aSlide [
 	<gtSlide>
-	<text:
-
-'Then, when you are programming, try to *focus on live objects* rather than code.
+	<text: 'Then, when you are programming, try to *focus on live objects* rather than code.
 
 Instead of using the Coder to program, get used to working in the Inspector.
 
@@ -267,9 +245,8 @@ Next, learn how to *adapt the tools* by adding custom, domain-specific extension
 Custom views, actions, and searches are all examples of simple adaptations written as short methods for your domain objects.
 
 *(Show the code of the *Slide with text* view. Then show the slide search and its code, and the *Play slideshow* button and its code. Each time highlight the pragma line.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringSlideshow:);
+		setPriority;
 		startPage: (self db pageNamed: 'Exploring the slideshow')
 ]
 
@@ -312,22 +289,18 @@ Metacello new
 	load
 ```'>
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #git:);
+		setPriority;
 		newFadedText: 'Getting started with the Git tool' asRopedText;
-		element: [ (GtPager
+		element: [  ";
+		element: [ GtGitStencil new ]"(GtPager
 				createWrappedOn: (GtGitPhlowTool new repository: (GtGitRepository forRepoNamed: 'HelloWorld')))
 				maximized ]
-				
-				 ";
-		element: [ GtGitStencil new ]"
 ]
 
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> githubRestAPI: aSlide [
 	<gtSlide>
-	<text:
-
-'A good example in the GT book is the GitHub REST API case study.
+	<text: 'A good example in the GT book is the GitHub REST API case study.
 
 You start by downloading the JSON data of an organization on GitHub using standard tools,
 
@@ -354,26 +327,23 @@ These views are cheap to create,
 *(Alt-click on the *Repositories* tab.)*
 
 typically with a few lines of boilerplate code.'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #githubRestAPI:);
-		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBookName;
+		setPriority;
+		pageNamed: 'Working with a REST API: the GitHub case study'
+			from: self gtBookName;
 		yourself
 ]
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> graphQL: aSlide [
 	<gtSlide>
-	<text:
-
-'GT can be readily extended to support other languages.
+	<text: 'GT can be readily extended to support other languages.
 
 Here is a dedicated snippet for querying GitHub using the GraphQL query language.
 
 *(Evaluate the first two snippets, set the context and inspect the last snippet. Click on the *Fields* and *Type* views.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #graphQL:);
+		setPriority;
 		startPage: (self db pageNamed: 'GraphQL')
 ]
 
@@ -418,9 +388,7 @@ githubAccessKey := githubAccessKeyFile contents trimBoth.';
 { #category : #slides }
 GettingStartedWithGTSlideShow >> gtBook: aSlide [
 	<gtSlide>
-	<text:
-
-'The GT Book is a Lepiter database of linked Notebook pages providing detailed documentation about GT.
+	<text: 'The GT Book is a Lepiter database of linked Notebook pages providing detailed documentation about GT.
 
 You can start exploring GT by browsing the book.
 
@@ -433,19 +401,18 @@ Each page consists of snippets of markdown text, executable code, live examples,
 This page contains a live Treemap with an overview of the organization of the book itself.
 
 *(Scroll down to the treemap and click on some of the squares.)*'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #gtBook:);
+		setPriority;
 		newFadedText: 'GT Book';
 		element: [ aSlide world ]
 ]
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> gtWorld: aSlide [
-	<gtSlide>
-	<text:
+	"GtShortSlideshow disableHomeSections."
 
-'GT consists of an image populated with live objects.
+	<gtSlide>
+	<text: 'GT consists of an image populated with live objects.
 
 When you open GT, you see at the left a list of tools you can use to interact with these objects.
 
@@ -468,13 +435,10 @@ At the center there are one or more home cards to quickly access a given project
 *(Mouse over the Book card to reveal the tooltip.)*
 
 Now let''s explore some of the classical use cases for GT.'>
-
-	"GtShortSlideshow disableHomeSections."
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #gtWorld:);
+		setPriority;
 		newFadedText: 'GT World';
-		element: [  aSlide world ]
+		element: [ aSlide world ]
 ]
 
 { #category : #accessing }
@@ -485,27 +449,22 @@ GettingStartedWithGTSlideShow >> headerSize [
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> howToParseOtherLanguages: aSlide [
 	<gtSlide>
-	<text:
-
-'GT can parse numerous languages out of the box using SmaCC, the Smalltalk compiler compiler.
+	<text: 'GT can parse numerous languages out of the box using SmaCC, the Smalltalk compiler compiler.
 
 *(Inspect the Rust snippet.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #howToParseOtherLanguages:);
-		pageNamed: 'How to parse sources in different languages' from: self gtBookName;
+		setPriority;
+		pageNamed: 'How to parse sources in different languages'
+			from: self gtBookName;
 		yourself
 ]
 
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
-	<text:
-
-'There are detailed instructions in the GT Book on how to work with GitHub.'>
-
+	<text: 'There are detailed instructions in the GT Book on how to work with GitHub.'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #howToWorkWithGitHub:);
+		setPriority;
 		pageNamed: 'How to work with GitHub' from: self gtBookName;
 		yourself
 ]
@@ -513,14 +472,11 @@ GettingStartedWithGTSlideShow >> howToWorkWithGitHub: aSlide [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> ide: aSlide [
 	<gtSlide>
-	<text:
-
-'## GT is an IDE
+	<text: '## GT is an IDE
 
 GT can also be seen as a new kind of Integrated Development Environment.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #ide:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is an IDE');
 		element: [ self elementForPicture: 'blind-monks-back.jpg' ]
 ]
@@ -539,14 +495,11 @@ GettingStartedWithGTSlideShow >> initializeDb [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
-	<text: 
-
-'## GT is a knowledge base
+	<text: '## GT is a knowledge base
 
 An important use case for GT is as a knowledge base for system documentation.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #knowledgeBase:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is a knowledge base');
 		element: [ self elementForPicture: 'blind-monks-head.jpg' ]
 ]
@@ -554,14 +507,11 @@ An important use case for GT is as a knowledge base for system documentation.'>
 { #category : #slides }
 GettingStartedWithGTSlideShow >> languageWorkbench: aSlide [
 	<gtSlide>
-	<text: 
-
-'## GT is a language workbench
+	<text: '## GT is a language workbench
 
 GT is also a language workbench, supporting the modeling, analysis and execution of multiple languages.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #languageWorkbench:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is a language workbench');
 		element: [ self elementForPicture: 'blind-monks-leg.jpg' ]
 ]
@@ -577,7 +527,7 @@ And when it comes to GT, this programming happens in Pharo, so first you should 
 
 There are numerous pages in the GT book to help you get started with this.'>
 	^ aSlide element
-		priority: (self priorityFor: #learningPharo:);
+		setPriority;
 		element: [ (GtPager
 				createWrappedOn: (LePagePhlowTool
 						page: (LeStorageExamples new gtBook
@@ -587,12 +537,10 @@ There are numerous pages in the GT book to help you get started with this.'>
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> ludoGame: aSlide [
 	"<gtSlide>"
-	<text:
 
-'**TODO**'>
-
+	<text: '**TODO**'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #ludoGame:);
+		setPriority;
 		startPage: (self db pageNamed: 'An explorable Ludo game')
 ]
 
@@ -613,20 +561,17 @@ GettingStartedWithGTSlideShow >> ludoGamePage [
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> modelBuilder: aSlide [
-
 	"I think we don't need this example as it overlaps with (1) the data explorer slides and (2) the moldable IDE slides at the end."
 
 	"<gtSlide>"
-	<text: 
 
-'## GT is a model builder
+	<text: '## GT is a model builder
 
 GT can also be used to build arbitrary kinds of explorable models.
 
 Instead of exploring pre-existing data, we just generate the model entities of interest.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #modelBuilder:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is a model builder');
 		element: [ self elementForPicture: 'blind-monks-tail.jpg' ]
 ]
@@ -636,18 +581,15 @@ GettingStartedWithGTSlideShow >> moldableIDE: aSlide [
 	"https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg"
 
 	<gtSlide>
-	<text:
-
-'## GT is a Moldable Development Environment
+	<text: '## GT is a Moldable Development Environment
 
 While all of these perspectives are valid, they miss the big picture.
 
 GT is really an environment to support *moldable development*.
 
 The key idea is that you should be able to *adapt* the development tools to your domain to make it easier to understand and *explain* the system by exposing what is interesting.'>
-
 	^ aSlide labelAndElement
-		priority: (self priorityFor: #moldableIDE:);
+		setPriority;
 		newTextWithFormat: (self asHeader: 'GT is a Moldable Development Environment');
 		element: [ self
 				elementForPicture: 'Brooklyn_Museum_-_Blind_Men_Appraising_an_Elephant_-_Ohara_Donshu.jpg' ]
@@ -656,16 +598,13 @@ The key idea is that you should be able to *adapt* the development tools to your
 { #category : #slides }
 GettingStartedWithGTSlideShow >> petitParser: aSlide [
 	<gtSlide>
-	<text:
-
-'While SmaCC can generate parsers from complex grammar specifications, for small tasks, it can be easier to start with PetitParser, a framework for building composable parsers.
+	<text: 'While SmaCC can generate parsers from complex grammar specifications, for small tasks, it can be easier to start with PetitParser, a framework for building composable parsers.
 
 Here is a tiny parser to recognize and compute arithmetic sums.
 
 *(Inspect the result.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #petitParser:);
+		setPriority;
 		startPage: (self db pageNamed: 'Getting started with PetitParser')
 ]
 
@@ -688,12 +627,9 @@ sum parse: ''3 + 4''.';
 { #category : #accessing }
 GettingStartedWithGTSlideShow >> petitParserTutorial: aSlide [
 	<gtSlide>
-	<text:
-
-'The GT Book offers a tutorial and an in-depth case study showing how to build an interpreter for a small language using PetitParser.'>
-
+	<text: 'The GT Book offers a tutorial and an in-depth case study showing how to build an interpreter for a small language using PetitParser.'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #petitParserTutorial:);
+		setPriority;
 		pageNamed: 'Parsing with PetitParser2' from: self gtBookName;
 		yourself
 ]
@@ -767,24 +703,21 @@ GettingStartedWithGTSlideShow >> slidePriorities [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> titleSlide: aSlide [
 	<gtSlide>
-	<text: 
-'# Getting started with GT in 7''
+	<text: '# Getting started with GT in 7''
 
 Hello. My name is Oscar Nierstrasz.
 
 Today I''d like to show you how to get started with the Glamorous Toolkit.'>
-
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'Getting started with GT in 7''')
 ]
 
 { #category : #slides }
 GettingStartedWithGTSlideShow >> treemapModel: aSlide [
 	"<gtSlide>"
-	<text:
 
-'In this example we model an algorithm that produces a nicely proportioned TreeMap visualization.
+	<text: 'In this example we model an algorithm that produces a nicely proportioned TreeMap visualization.
 
 We can explore the final results or an overview of the individual steps.
 
@@ -794,7 +727,7 @@ Or we can play through the steps to simulate the algorithm.
 
 *(Go to *Steps list* view and walk through the steps.)*'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #treemapModel:);
+		setPriority;
 		startPage: (self db pageNamed: 'The Squarified Treemap algorithm')
 ]
 
@@ -813,9 +746,8 @@ GettingStartedWithGTSlideShow >> treemapPage [
 { #category : #slides }
 GettingStartedWithGTSlideShow >> uhmoModel: aSlide [
 	"<gtSlide>"
-	<text:
 
-'In this case study, we explore how to model communication paths inside a typical restaurant.
+	<text: 'In this case study, we explore how to model communication paths inside a typical restaurant.
 
 *(NB: The UHMO model should have first been loaded.)*
 
@@ -829,7 +761,7 @@ Metacello new
 
 Here Alice has ordered a steak and the order has propagated via John the waiter to Jeff the cook.'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #uhmoModel:);
+		setPriority;
 		startPage: (self db pageNamed: 'Modeling the Cozy Corner restaurant')
 ]
 

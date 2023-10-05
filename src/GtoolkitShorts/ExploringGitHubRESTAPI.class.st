@@ -12,7 +12,7 @@ Class {
 ExploringGitHubRESTAPI >> apiEndpoint: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #apiEndpoint:);
+		setPriority;
 		titleWithFormat: (self asBigCode: 'https://api.github.com/orgs/feenkcom')
 ]
 
@@ -20,7 +20,7 @@ ExploringGitHubRESTAPI >> apiEndpoint: aSlide [
 ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringTheDataPage:);
+		setPriority;
 		startPage: (self db pageNamed: 'Exploring the GitHub REST API')
 ]
 
@@ -28,7 +28,7 @@ ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #gettingRawData:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Getting the raw data')
 ]
 
@@ -42,13 +42,13 @@ ExploringGitHubRESTAPI >> introEmpty: aSlide [
 	"Empty slide to show github rest api docs in foreground"
 
 	<gtSlide>
-	^ aSlide empty priority: (self priorityFor: #introEmpty:)
+	^ aSlide empty setPriority
 ]
 
 { #category : #slides }
 ExploringGitHubRESTAPI >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'Exploring the GitHub REST API in 7''')
 ]

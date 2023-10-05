@@ -18,7 +18,7 @@ ExploringGitHubRESTAPIpartial class >> show [
 ExploringGitHubRESTAPIpartial >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -35,7 +35,7 @@ ExploringGitHubRESTAPIpartial >> closing: aSlide [
 ExploringGitHubRESTAPIpartial >> creatingAView: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #creatingAView:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Creating a view')
 ]
 
@@ -44,7 +44,7 @@ ExploringGitHubRESTAPIpartial >> exploringData: aSlide number: aNumber [
 	"Not used"
 
 	^ aSlide filePicture
-		priority: (self priorityFor: #exploringData , aNumber asString , ':');
+		setPriority;
 		fileReference: (GtResourcesUtility
 				resourceAtPath: 'feenkcom/gtoolkit-shorts/doc/exploringData/exploringData.00' , aNumber asString
 						, '.png')
@@ -54,8 +54,8 @@ ExploringGitHubRESTAPIpartial >> exploringData: aSlide number: aNumber [
 ExploringGitHubRESTAPIpartial >> exploringDataScenery: aSlide [
 	<gtSlide>
 	^ aSlide element
-		priority: (self priorityFor: #exploringDataScenery:);
-		element: [  self exploringScenery ]
+		setPriority;
+		element: [ self exploringScenery ]
 ]
 
 { #category : #rest }
@@ -120,7 +120,7 @@ ExploringGitHubRESTAPIpartial >> exploringScenery [
 ExploringGitHubRESTAPIpartial >> exploringTheData: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #exploringTheData:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Exploring the data')
 ]
 
@@ -128,7 +128,7 @@ ExploringGitHubRESTAPIpartial >> exploringTheData: aSlide [
 ExploringGitHubRESTAPIpartial >> extractingNavigationCode: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #extractingNavigationCode:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Extracting the navigation code')
 ]
 
@@ -168,7 +168,7 @@ ExploringGitHubRESTAPIpartial >> finalExploringDataPage [
 ExploringGitHubRESTAPIpartial >> fullExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #fullExample:);
+		setPriority;
 		startPage: (self db pageNamed: 'An executable GitHub REST API model')
 ]
 
@@ -203,7 +203,7 @@ ExploringGitHubRESTAPIpartial >> initializeDb [
 ExploringGitHubRESTAPIpartial >> introducingANewEntity: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #introducingANewEntity:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Introducing a new domain entity')
 ]
 
@@ -302,10 +302,9 @@ ExploringGitHubRESTAPIpartial >> slidePriorities [
 ExploringGitHubRESTAPIpartial >> summary: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #summary:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Moldable development');
-		subtitleWithFormat: (self
-				asHeader: 'of executable domain models')
+		subtitleWithFormat: (self asHeader: 'of executable domain models')
 ]
 
 { #category : #rest }
@@ -363,7 +362,7 @@ ExploringGitHubRESTAPIpartial >> testScenery [
 ExploringGitHubRESTAPIpartial >> updatingTheView: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #updatingTheView:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Updating the view')
 ]
 
@@ -371,6 +370,6 @@ ExploringGitHubRESTAPIpartial >> updatingTheView: aSlide [
 ExploringGitHubRESTAPIpartial >> wrappingTheData: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #wrappingTheData:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Wrapping the raw data in a live object')
 ]

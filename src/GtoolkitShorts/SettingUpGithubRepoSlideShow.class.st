@@ -14,7 +14,7 @@ SettingUpGithubRepoSlideShow class >> show [
 SettingUpGithubRepoSlideShow >> addingALepiterDatabase: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #addingALepiterDatabase:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Adding a Lepiter database')
 ]
 
@@ -22,7 +22,7 @@ SettingUpGithubRepoSlideShow >> addingALepiterDatabase: aSlide [
 SettingUpGithubRepoSlideShow >> addingPackages: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #addingPackages:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Adding source and baseline packages')
 ]
 
@@ -30,7 +30,7 @@ SettingUpGithubRepoSlideShow >> addingPackages: aSlide [
 SettingUpGithubRepoSlideShow >> addingProjectMetadata: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #addingProjectMetadata:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Adding the project metadata')
 ]
 
@@ -38,7 +38,7 @@ SettingUpGithubRepoSlideShow >> addingProjectMetadata: aSlide [
 SettingUpGithubRepoSlideShow >> automatingTheLoadProcess: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #automatingTheLoadProcess:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Automating the load process')
 ]
 
@@ -46,7 +46,7 @@ SettingUpGithubRepoSlideShow >> automatingTheLoadProcess: aSlide [
 SettingUpGithubRepoSlideShow >> cloningTheRepo: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #cloningTheRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Cloning the repo in GT')
 ]
 
@@ -54,7 +54,7 @@ SettingUpGithubRepoSlideShow >> cloningTheRepo: aSlide [
 SettingUpGithubRepoSlideShow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -71,7 +71,7 @@ SettingUpGithubRepoSlideShow >> closing: aSlide [
 SettingUpGithubRepoSlideShow >> creatingTheGitHubRepo: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #creatingTheGitHubRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Creating the GitHub repo')
 ]
 
@@ -79,7 +79,7 @@ SettingUpGithubRepoSlideShow >> creatingTheGitHubRepo: aSlide [
 SettingUpGithubRepoSlideShow >> gitCredentials: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #gitCredentials:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Setting up the git credentials')
 ]
 
@@ -87,7 +87,7 @@ SettingUpGithubRepoSlideShow >> gitCredentials: aSlide [
 SettingUpGithubRepoSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #howToWorkWithGitHub:);
+		setPriority;
 		pageNamed: 'How to work with GitHub' from: self gtBookName;
 		yourself
 ]
@@ -96,7 +96,7 @@ SettingUpGithubRepoSlideShow >> howToWorkWithGitHub: aSlide [
 SettingUpGithubRepoSlideShow >> loadingTheRepo: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #loadingTheRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Loading the repo')
 ]
 
@@ -129,7 +129,7 @@ SettingUpGithubRepoSlideShow >> slidePriorities [
 SettingUpGithubRepoSlideShow >> sshAdd: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #sshAdd:);
+		setPriority;
 		titleWithFormat: (self asBigCode: 'ssh-add ~/.ssh/id_rsa')
 ]
 
@@ -137,6 +137,6 @@ SettingUpGithubRepoSlideShow >> sshAdd: aSlide [
 SettingUpGithubRepoSlideShow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'How to set up a GT GitHub repo in 7''')
 ]

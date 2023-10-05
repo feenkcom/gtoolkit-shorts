@@ -14,7 +14,7 @@ UnderstandingLepiterSlideshow class >> show [
 UnderstandingLepiterSlideshow >> annotations: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #annotations:);
+		setPriority;
 		startPage: (self db pageNamed: 'Lepiter annotations');
 		yourself
 ]
@@ -34,7 +34,7 @@ UnderstandingLepiterSlideshow >> annotationsPage [
 UnderstandingLepiterSlideshow >> annotationsTitle: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #annotationsTitle:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Markdown annotations')
 ]
 
@@ -42,8 +42,9 @@ UnderstandingLepiterSlideshow >> annotationsTitle: aSlide [
 UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #caseStudyExamplePage:);
-		pageNamed: 'Working with a REST API: the GitHub case study' from: self gtBookName;
+		setPriority;
+		pageNamed: 'Working with a REST API: the GitHub case study'
+			from: self gtBookName;
 		yourself
 ]
 
@@ -51,7 +52,7 @@ UnderstandingLepiterSlideshow >> caseStudyExamplePage: aSlide [
 UnderstandingLepiterSlideshow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -68,8 +69,9 @@ UnderstandingLepiterSlideshow >> closing: aSlide [
 UnderstandingLepiterSlideshow >> documentationExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #documentationExamplePage:);
-		pageNamed: 'Geometry, visual and layout bounds explained' from: self gtBookName;
+		setPriority;
+		pageNamed: 'Geometry, visual and layout bounds explained'
+			from: self gtBookName;
 		yourself
 ]
 
@@ -77,7 +79,7 @@ UnderstandingLepiterSlideshow >> documentationExamplePage: aSlide [
 UnderstandingLepiterSlideshow >> editingPages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #editingPages:);
+		setPriority;
 		startPage: (self db pageNamed: 'Editing Lepiter pages');
 		yourself
 ]
@@ -97,7 +99,7 @@ UnderstandingLepiterSlideshow >> editingPagesPage [
 UnderstandingLepiterSlideshow >> editingPagesTitle: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #editingPagesTitle:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Editing Lepiter pages')
 ]
 
@@ -105,7 +107,7 @@ UnderstandingLepiterSlideshow >> editingPagesTitle: aSlide [
 UnderstandingLepiterSlideshow >> exampleSnippets: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exampleSnippets:);
+		setPriority;
 		startPage: (self db pageNamed: 'Example snippets');
 		yourself
 ]
@@ -125,7 +127,7 @@ UnderstandingLepiterSlideshow >> exampleSnippetsPage [
 UnderstandingLepiterSlideshow >> exampleSnippetsTitle: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #exampleSnippetsTitle:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Example snippets')
 ]
 
@@ -133,7 +135,7 @@ UnderstandingLepiterSlideshow >> exampleSnippetsTitle: aSlide [
 UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #faqExamplePage:);
+		setPriority;
 		pageNamed: 'How to set up a new GitHub repo' from: self gtBookName;
 		yourself
 ]
@@ -181,7 +183,7 @@ githubAccessKey := githubAccessKeyFile contents trimBoth.';
 UnderstandingLepiterSlideshow >> graphQL: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #graphQL:);
+		setPriority;
 		startPage: (self db pageNamed: 'GraphQL snippet');
 		yourself
 ]
@@ -204,18 +206,16 @@ githubAccessKey := githubAccessKeyFile contents trimBoth.';
 { #category : #slides }
 UnderstandingLepiterSlideshow >> gtWorld2: aSlide [
 	<gtSlide>
-	
-	^ (aSlide element)
-		priority: (self priorityFor: #gtWorld2:);
+	^ aSlide element
+		setPriority;
 		element: [ aSlide world ]
 ]
 
 { #category : #slides }
 UnderstandingLepiterSlideshow >> gtWorld: aSlide [
 	<gtSlide>
-	
-	^ (aSlide element)
-		priority: (self priorityFor: #gtWorld:);
+	^ aSlide element
+		setPriority;
 		element: [ aSlide world ]
 ]
 
@@ -236,7 +236,7 @@ UnderstandingLepiterSlideshow >> initializeDb [
 UnderstandingLepiterSlideshow >> lepiterAPI: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #lepiterAPI:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'The Lepiter API')
 ]
 
@@ -244,7 +244,7 @@ UnderstandingLepiterSlideshow >> lepiterAPI: aSlide [
 UnderstandingLepiterSlideshow >> lepiterAsAKnowledgeBase: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #lepiterAsAKnowledgeBase:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Lepiter as a knowledge base')
 ]
 
@@ -252,7 +252,7 @@ UnderstandingLepiterSlideshow >> lepiterAsAKnowledgeBase: aSlide [
 UnderstandingLepiterSlideshow >> lepiterAsANotebook: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #lepiterAsANotebook:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Lepiter as a notebook')
 ]
 
@@ -260,7 +260,7 @@ UnderstandingLepiterSlideshow >> lepiterAsANotebook: aSlide [
 UnderstandingLepiterSlideshow >> lepiterDatabaseInRepo: aSlide [
 	<gtSlide>
 	^ aSlide element
-		priority: (self priorityFor: #lepiterDatabaseInRepo:);
+		setPriority;
 		element: [ (GtGitElement new
 				repository: (GtGitRepository forPackage: GtShortSlideshow package))
 				createInPager maximized ]
@@ -270,7 +270,7 @@ UnderstandingLepiterSlideshow >> lepiterDatabaseInRepo: aSlide [
 UnderstandingLepiterSlideshow >> markdownSyntax: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #markdownSyntax:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Use Markdown syntax in text snippets')
 ]
 
@@ -566,7 +566,7 @@ bibFile end parse: input.';
 UnderstandingLepiterSlideshow >> projectExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #projectExamplePage:);
+		setPriority;
 		startPage: (self db pageNamed: 'Parsing Bibtex');
 		yourself
 ]
@@ -575,7 +575,7 @@ UnderstandingLepiterSlideshow >> projectExamplePage: aSlide [
 UnderstandingLepiterSlideshow >> queryingLepiter: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #queryingLepiter:);
+		setPriority;
 		startPage: (self db pageNamed: 'Querying Lepiter');
 		yourself
 ]
@@ -663,7 +663,7 @@ UnderstandingLepiterSlideshow >> queryingLepiterPageComplete [
 UnderstandingLepiterSlideshow >> randomNoteExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #randomNoteExample:);
+		setPriority;
 		startPage: (self db pageNamed: 'Where are buttons implemented?');
 		yourself
 ]
@@ -844,7 +844,7 @@ UnderstandingLepiterSlideshow >> slidePriorities [
 UnderstandingLepiterSlideshow >> snippetLanguage: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #snippetLanguage:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Snippets have their own language')
 ]
 
@@ -852,7 +852,7 @@ UnderstandingLepiterSlideshow >> snippetLanguage: aSlide [
 UnderstandingLepiterSlideshow >> snippetTypes: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #snippetTypes:);
+		setPriority;
 		startPage: (self db pageNamed: 'Snippet types');
 		yourself
 ]
@@ -882,7 +882,7 @@ UnderstandingLepiterSlideshow >> snippetTypesPage [
 UnderstandingLepiterSlideshow >> snippetTypesTitle: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #snippetTypesTitle:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Snippet types')
 ]
 
@@ -890,7 +890,7 @@ UnderstandingLepiterSlideshow >> snippetTypesTitle: aSlide [
 UnderstandingLepiterSlideshow >> textSnippetPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #textSnippetPage:);
+		setPriority;
 		pageNamed: 'Text snippet' from: self gtBookName;
 		yourself
 ]
@@ -899,7 +899,7 @@ UnderstandingLepiterSlideshow >> textSnippetPage: aSlide [
 UnderstandingLepiterSlideshow >> tips: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #tips:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Tips')
 ]
 
@@ -907,7 +907,7 @@ UnderstandingLepiterSlideshow >> tips: aSlide [
 UnderstandingLepiterSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'Understanding Lepiter in 7''')
 ]
 
@@ -915,7 +915,7 @@ UnderstandingLepiterSlideshow >> titleSlide: aSlide [
 UnderstandingLepiterSlideshow >> todoExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #todoExample:);
+		setPriority;
 		startPage: (self db pageNamed: 'Prepare a “What is GT anyway?” short');
 		yourself
 ]
@@ -986,7 +986,7 @@ UnderstandingLepiterSlideshow >> todoExamplePage [
 UnderstandingLepiterSlideshow >> tutorialExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #tutorialExamplePage:);
+		setPriority;
 		pageNamed: 'Working with collections in Pharo' from: self gtBookName;
 		yourself
 ]
@@ -995,7 +995,7 @@ UnderstandingLepiterSlideshow >> tutorialExamplePage: aSlide [
 UnderstandingLepiterSlideshow >> understandingLepiterPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #understandingLepiterPage:);
+		setPriority;
 		pageNamed: 'Understanding Lepiter' from: self gtShortsLepiterDB;
 		yourself
 ]
@@ -1004,7 +1004,7 @@ UnderstandingLepiterSlideshow >> understandingLepiterPage: aSlide [
 UnderstandingLepiterSlideshow >> wardleyMapPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #wardleyMapPage:);
+		setPriority;
 		pageNamed: 'Mapping Moldable Development' from: self gtBookName;
 		yourself
 ]

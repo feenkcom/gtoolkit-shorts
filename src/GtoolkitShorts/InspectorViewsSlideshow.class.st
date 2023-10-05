@@ -14,7 +14,7 @@ InspectorViewsSlideshow class >> show [
 InspectorViewsSlideshow >> closing: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -31,7 +31,7 @@ InspectorViewsSlideshow >> closing: aSlide [
 InspectorViewsSlideshow >> customViewsForSubtitles: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #customViewsForSubtitles:);
+		setPriority;
 		startPage: (self db pageNamed: 'Custom views for subtitles');
 		yourself
 ]
@@ -54,7 +54,7 @@ InspectorViewsSlideshow >> customViewsForSubtitlesPage [
 InspectorViewsSlideshow >> exploringCartoonAddresses: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringCartoonAddresses:);
+		setPriority;
 		startPage: (self db pageNamed: 'Exploring an AddressBook object');
 		yourself
 ]
@@ -74,7 +74,7 @@ InspectorViewsSlideshow >> exploringCartoonAddressesPage [
 InspectorViewsSlideshow >> exploringTheAPI: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #exploringTheAPI:);
+		setPriority;
 		startPage: (self db pageNamed: 'Exploring the Inspector view API');
 		yourself
 ]
@@ -195,6 +195,6 @@ InspectorViewsSlideshow >> slidePriorities [
 InspectorViewsSlideshow >> titleSlide: aSlide [
 	<gtSlide>
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'Inspecting objects with custom views in 7''')
 ]

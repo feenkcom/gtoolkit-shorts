@@ -7,8 +7,7 @@ Class {
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> addingCode: aSlide [
 	<gtSlide>
-	<text:
-'# Adding code
+	<text: '# Adding code
 
 Our  repo has been initialized, but it contains no code and no documentation, so let''s add something.
 
@@ -45,17 +44,15 @@ Finally we commit,
 
 and don''t forget to push!
 '>
-
 	^ aSlide title
-		priority: (self priorityFor: #addingCode:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Adding code')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> addingProjectMetadata: aSlide [
 	<gtSlide>
-	<text:
-'# Adding the project metadata
+	<text: '# Adding the project metadata
 
 Now we will turn the GitHub repo into an Iceberg project repo.
 
@@ -85,41 +82,36 @@ Finally we commit our changes and push them to the repo.
 We can verify that the changes have indeed been pushed.
 
 *(Go to [](https://github.com/onierstrasz/gt-stuff) and see the changes.)*'>
-
 	^ aSlide title
-		priority: (self priorityFor: #addingProjectMetadata:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Adding the project metadata')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> cloningTheRepo: aSlide [
 	<gtSlide>
-	<text:
-'# Cloning the repo in GT
+	<text: '# Cloning the repo in GT
 
 Next we clone the repo in GT using the SSH protocol.
 
 We open the git tool in GT and clone the repo using the copied SSH URL.
 
 *(Do this in the downloaded image.)*'>
-
 	^ aSlide title
-		priority: (self priorityFor: #cloningTheRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Cloning the repo in GT')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> closing: aSlide [
 	<gtSlide>
-	<text:
-'# Closing
+	<text: '# Closing
 
 You''ll find more GT in 7'' videos on our YouTube channel, or you can explore GT by downloading it from gtoolkit.com.
 
 Thanks for listening.'>
-
 	^ aSlide title
-		priority: (self priorityFor: #closing:);
+		setPriority;
 		titleWithFormat: ('glamoroustoolkit' asRopedText
 				fontSize: 80;
 				glamorousRegularFont;
@@ -135,8 +127,7 @@ Thanks for listening.'>
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> creatingTheGitHubRepo: aSlide [
 	<gtSlide>
-	<text:
-'# Creating the GitHub repo
+	<text: '# Creating the GitHub repo
 
 Next we create a repo on GitHub.
 
@@ -145,17 +136,15 @@ Here we create the gt-stuff repo and initialize it with a README.
 *(Go to [](https://github.com) and do it.)*
 
 We commit the README, and copy the SSH link.'>
-
 	^ aSlide title
-		priority: (self priorityFor: #creatingTheGitHubRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Creating the GitHub repo')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> downloadGt: aSlide [
 	<gtSlide>
-	<text:
-'# Download GT
+	<text: '# Download GT
 
 The first thing to do is to download Glamorous Toolkit for your platform and start it up.
 
@@ -163,7 +152,7 @@ The first thing to do is to download Glamorous Toolkit for your platform and sta
 
 *(Switch to full screen mode and run the Zoom script.)*'>
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #downloadGt:);
+		setPriority;
 		startPage: (self db pageNamed: 'Download and start GT')
 ]
 
@@ -183,25 +172,22 @@ SettingUpGithubReduxSlideShow >> downloadGtPage [
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> gitCredentials: aSlide [
 	<gtSlide>
-	<text:
-'# Set up git credentials
+	<text: '# Set up git credentials
 
 I''ll assume that you already have a GitHub account and have added an SSH key to that account.
 
 If not, you should first create a GitHub account and read the GitHub page about [“Adding a new SSH key to your GitHub account”](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 *(Open it in your web browser.)*'>
-
 	^ aSlide title
-		priority: (self priorityFor: #gitCredentials:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Setting up the git credentials')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> howToWorkWithGitHub: aSlide [
 	<gtSlide>
-	<text:
-'# Configuring git within GT
+	<text: '# Configuring git within GT
 
 Alternatively you can configure the ssh credentials directly within GT.
 
@@ -226,10 +212,10 @@ It''s a good idea to copy the script to your private Lepiter database, so it''s 
 Just modify the script to use your ssh credentials, for example `id_rsa.pub` and `id_rsa`.
 
 *(Modify the script, run it, and check the result back on the GT Book page.)*'>
-
 	^ aSlide lepiterPage
-		priority: (self priorityFor: #howToWorkWithGitHub:);
-		pageNamed: 'How to configure GitHub SSH key authentication' from: self gtBookName;
+		setPriority;
+		pageNamed: 'How to configure GitHub SSH key authentication'
+			from: self gtBookName;
 		yourself
 ]
 
@@ -242,8 +228,7 @@ SettingUpGithubReduxSlideShow >> initializeDb [
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> loadingTheRepo: aSlide [
 	<gtSlide>
-	<text:
-'# Loading the repo
+	<text: '# Loading the repo
 
 Now let''s verify that we can load our project back into a fresh image.
 
@@ -266,17 +251,15 @@ We evaluate or inspect the two snippets, and now we can see that our code is bac
 *(Open the Git tool, and then the Lepiter tool.)*
 
 *(Inspect the `HelloWorld new hello` snippet as before.)*'>
-
 	^ aSlide title
-		priority: (self priorityFor: #loadingTheRepo:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Loading the repo')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> settingUpAHomeSection: aSlide [
 	<gtSlide>
-	<text:
-'# Setting up a Home section
+	<text: '# Setting up a Home section
 
 Since that took us less than 7 minutes, let''s have a quick look at how you can add a card for your project to GT''s Home section.
 
@@ -308,9 +291,8 @@ Now if we go to the home section, we will see a card that takes us straight to o
 Don''t forget to commit and push the extension method.
 
 *(Go to the `HelloWorld` class in the snippet, go to the repo and push the changes.)*'>
-
 	^ aSlide title
-		priority: (self priorityFor: #settingUpAHomeSection:);
+		setPriority;
 		titleWithFormat: (self asHeader: 'Setting up a Home section')
 ]
 
@@ -343,31 +325,27 @@ SettingUpGithubReduxSlideShow >> slidePriorities [
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> sshAdd: aSlide [
 	<gtSlide>
-	<text:
-'# Informing GT of your git credentials
+	<text: '# Informing GT of your git credentials
 
 Before you can can use git within GT, you have to inform it of your git credentials.
 
 On Unix platforms, like the Mac, you should run this command before starting GT.
 
 (Or add it to your login script.)'>
-
 	^ aSlide title
-		priority: (self priorityFor: #sshAdd:);
+		setPriority;
 		titleWithFormat: (self asBigCode: 'ssh-add --apple-use-keychain ~/.ssh/id_rsa')
 ]
 
 { #category : #slides }
 SettingUpGithubReduxSlideShow >> titleSlide: aSlide [
 	<gtSlide>
-	<text: 
-'# How to set up a GT GitHub repo in 7''
+	<text: '# How to set up a GT GitHub repo in 7''
 
 Hello. My name is Oscar Nierstrasz.
 
 Today I''d like to show you how to set up a GitHub repository to manage your Glamorous Toolkit code and Lepiter pages.'>
-
 	^ aSlide title
-		priority: (self priorityFor: #titleSlide:);
+		setPriority;
 		titleWithFormat: (self asTitle: 'How to set up a GT GitHub repo in 7''')
 ]
