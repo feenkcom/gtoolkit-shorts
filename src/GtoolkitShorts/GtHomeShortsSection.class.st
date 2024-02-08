@@ -1,23 +1,24 @@
 Class {
 	#name : #GtHomeShortsSection,
-	#superclass : #GtHomeSection,
+	#superclass : #GtHomeMultiCardSection,
 	#category : #'GtoolkitShorts-Sections'
 }
 
 { #category : #accessing }
-GtHomeShortsSection >> create [
-	| sectionContainer cardsContainer |
-	sectionContainer := self newSectionContainer.
-	sectionContainer addChild: (self newSectionTitle: 'Get started').
-	cardsContainer := self newCardsContainer.
+GtHomeShortsSection >> overviewCard [
+	<gtSectionCard>
+	<gtExample>
+	^ GtHomeCard page
+		title: 'GT Shorts Overview';
+		description: 'GT Shorts Overview';
+		priority: 10;
+		pageName: 'GT Shorts Overview';
+		databaseName: 'GT Shorts Notebook';
+		assertInvariant;
+		yourself
+]
 
-	cardsContainer
-		addChild: (self
-				newLepiterPageCardForPageNamed: 'GT Shorts Overview'
-				inDatabaseNamed: 'GT Shorts Notebook'
-				withTitle: 'GT Shorts Overview'
-				andDescription: 'GT Shorts Overview').
-
-	sectionContainer addChild: cardsContainer.
-	^ sectionContainer
+{ #category : #accessing }
+GtHomeShortsSection >> sectionTitle [
+	^ 'GT Shorts Notebook'
 ]
