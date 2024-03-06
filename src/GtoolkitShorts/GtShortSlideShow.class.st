@@ -61,6 +61,11 @@ GtShortSlideshow >> fileOuts [
 		/ 'fileOuts'
 ]
 
+{ #category : #constants }
+GtShortSlideshow >> gtBookName [
+	^ 'Glamorous Toolkit Book'
+]
+
 { #category : #accessing }
 GtShortSlideshow >> gtShortsLepiterDB [
 	"^ 'feenkcom/gtoolkit-shorts/lepiter'"
