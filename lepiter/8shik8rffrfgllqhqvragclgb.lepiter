@@ -23,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:16:35.022932+02:00"
+									"dateAndTimeString" : "2023-07-13T13:53:46.409669+02:00"
 								}
 							},
 							"editEmail" : {
@@ -34,54 +34,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:16:35.024976+02:00"
+									"dateAndTimeString" : "2023-07-13T13:53:47.828072+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "LN0bCr+8DQCywaW2CvpPyw=="
+								"uidString" : "53UbuL68DQChX9VVCvpPyw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Inspecting objects with custom views in 7']]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:16:40.613436+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:16:46.576766+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "VAxbCr+8DQCy8G0nCvpPyw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Building composable parsers with PetitParser]] "
+							"string" : "[[Examples by example]] "
 						}
 					]
 				},
@@ -121,6 +84,43 @@
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:16:40.613436+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T14:16:46.576766+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VAxbCr+8DQCy8G0nCvpPyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Building composable parsers with PetitParser]] "
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -231,43 +231,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Building composable parsers with PetitParser]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T13:53:46.409669+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T13:53:47.828072+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "53UbuL68DQChX9VVCvpPyw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Examples by example]] "
 						},
 						{
 							"__type" : "textSnippet",

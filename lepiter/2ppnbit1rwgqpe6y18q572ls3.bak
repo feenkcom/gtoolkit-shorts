@@ -230,43 +230,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Then got into a debate about cycles in the model, but never looked at the code!"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-09T12:09:36.565186+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2022-12-09T12:09:36.565186+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "/RsS7cSrDQCpKjoaBlggVA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
 						}
 					]
 				},
@@ -289,7 +252,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-12-09T12:07:36.770348+01:00"
+						"dateAndTimeString" : "2022-12-09T12:12:28.449262+01:00"
 					}
 				},
 				"uid" : {
@@ -299,7 +262,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Have a look at the [youtube video](https://www.youtube.com/watch?v=LRB0KjQWOVs&list=PL4aJznIeHN6xtVARPWgT8SkbB2hh1I_0h) experiment with Eric Normand"
+				"string" : "Have a look at the [youtube video](https://www.youtube.com/watch?v=LRB0KjQWOVs&list=PL4aJznIeHN6xtVARPWgT8SkbB2hh1I_0h) experiment with Eric Normand for some ideas"
 			}
 		]
 	},
