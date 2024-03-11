@@ -132,17 +132,46 @@ ExampleDrivenSlideshow >> factoryMethod: aSlide [
 
 ## Create a factory method
 
-100 euros asPrice.
+We would  like to be able to create a price object by sending `asPrice` to a Money instance.
 
-'>
-	^ aSlide paragraph
+We start by inspecting the Money instance.
+
+We prototype the code to create the Price instance.
+
+We try it out.
+
+And we extract the factory method.
+
+We change the method to be an extension from the `EDDPrices` package.
+
+Now we can simply write `100 euros asPrice`.'>
+<demo:
+'Inspect the money.
+Open the playground.
+Code up `ConcretePrice new money: self; yourself`
+Inspect the result.
+Extract the `asPrice` method.
+Browse the new method.
+Change the category to `*EDDPrices`.
+Go back to the page and change the code to `100 euros asPrice` and inspect it.'>
+	^ aSlide lepiterPage
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		startPage: (self db pageNamed: 'Create a factory method')
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> factoryMethodPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Create a factory method')
+	addSnippet: (LeTextSnippet new
+			string: 'We want to be able to create a Price object by sending `asPrice` to a Money instance.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: '100 euros.';
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
@@ -165,7 +194,7 @@ And for audit purposes, we want to track all operations that lead to a concrete 
 ')
 ]
 
-{ #category : #slides }
+{ #category : #page }
 ExampleDrivenSlideshow >> moneyClasses: aSlide [
 	<gtSlide>
 	<text: '## Money classes
@@ -181,13 +210,34 @@ A *zero* amount of money doesn''t have a currency.
 
 All these classes have a common abstract *Money* superclass for shared behavior.
 '>
-	^ aSlide headingAndCode
+	^ aSlide lepiterPage
 		setPriority;
-		heading: 'Money classes';
-		addTextSnippet: 'We already have classes that model amounts of money.';
-		addCodeSnippet: '42 euros.';
-		addCodeSnippet: '42 euros + 10 usd.';
-		addElementSnippet: 'GtTMoneyUML new umlDiagram' height: 200
+		startPage: (self db pageNamed: 'Money classes')
+		
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> moneyClassesPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Money classes')
+	addSnippet: (LeTextSnippet new
+			string: 'We already have classes that model amounts of money.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: '42 euros.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: '42 euros + 10 usd.';
+			yourself);
+	addSnippet: (LeElementSnippet new
+			code: 'GtTMoneyUML new umlDiagram.';
+			codeVisible: false;
+			elementHeight: 226;
+			codeHeight: 50;
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
@@ -265,26 +315,40 @@ ExampleDrivenSlideshow >> slidePriorities [
 ExampleDrivenSlideshow >> startFromAnObject: aSlide [
 	<gtSlide>
 	<text:
-'TODO
-
-## Start from an object
+'## Start from an object
 
 Instead of starting by imagining and writing a test case as an example method, we start by creating an instance of the class we need.
 
+We first simply ask how we want to create our concrete instance of a price, and we write that code in a snippet.
 
+Neither the class nor the constructor exist, so we create them as fixit operations.
 
-
-ConcretePrice new money: 100 euros.  
-
-'>
-	^ aSlide paragraph
+Now we have a first concrete Price object!'>
+<demo:
+'Create the ConcretePrice class as a fixit.
+Give it the `EDDPrices` package, the `Model` tag, and a `money` slot.
+Create the accessors.
+Change the argument of `money:` to `aMoney`.
+Inspect the result.
+Inspect its `money` slot.'>
+	^ aSlide lepiterPage
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Start from an object');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		startPage: (self db pageNamed: 'Start from an object')
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> startFromAnObjectPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Start from an object')
+	addSnippet: (LeTextSnippet new
+			string: 'As a first step, we just have to get an object to work with.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: 'ConcretePrice new money: 100 euros.';
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
