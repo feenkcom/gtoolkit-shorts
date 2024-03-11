@@ -12,38 +12,83 @@ ExampleDrivenSlideshow >> addingAssertions: aSlide [
 
 ## Adding assertions
 
+We now have an example, but we aren''t testing anything yet.
+
+Rather than directly adding tests to the example method, let''s explore first.
+
+We expect that a price object should equal another price object with the same money value.
+
+We see that this fails.
+
+
+
 '>
-	^ aSlide paragraph
+<demo:
+'Inspect the example and open the playground.
+Evaluate `self = 100 euros asPrice`
+
+'>
+
+	^ aSlide lepiterPage
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		startPage: (self db pageNamed: 'Adding assertions')
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> addingAssertionsPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Adding assertions')
+	addSnippet: (LeTextSnippet new
+			string: 'Let''s introduce some tests.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: 'PriceExamples new hundredEuros.';
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
 ExampleDrivenSlideshow >> addingViews: aSlide [
 	<gtSlide>
 	<text:
-'TODO
+'## Adding a view
 
-## Adding a view
+Our new Price object has only an ugly generic view, but its money slot has a nice  view we could reuse.
 
-NB: our example is a moldable object
+We go to the `Meta` view ofthe Price object and add a new view method that forwards itself to the Details view of its `money` slot.
 
-Forward to Money
+A view is just a method that takes a view object as an argument, has a `<gtView>` pragma, and uses the view API to create the view we want, in this case a `forward` view.
 
+We set the title of the view to `Money`, the priority to 10 so it appears early in the list of views, the object we want to forward to is the money slot, and the view is its `gtDisplayFor:` view.
+The moment we commit the view code, the view becomes available.'>
+<demo:
+'Inspect the price object.
+Inspect the money slot and view the `Details` view code.
+Copy the method name.
+Go back to the Price inspector and switch to the `Meta` view.
+Add a forwarding `gtMoneyFor:` method.
+Show the new view.
 '>
-	^ aSlide paragraph
+	^ aSlide lepiterPage
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		startPage: (self db pageNamed: 'Adding a view')
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> addingViewsPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Adding a view')
+	addSnippet: (LeTextSnippet new
+			string: 'We want to lift the money details view to our Price object.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: '100 euros asPrice.';
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
@@ -109,28 +154,47 @@ Possibly over multiple lines.
 ExampleDrivenSlideshow >> extractingExamples: aSlide [
 	<gtSlide>
 	<text:
-'TODO
+'## Extracting an example
 
-## Extracting an example
+At this point it looks like we have a nice example for testing, so let''s extract it as an example.
 
+We introduce a new class to hold our examples, and give the example a suitable name.
+
+Note that the extracted example method has a `<gtExample>` pragma, and unlike a usual test method, it returns an instance.'>
+<demo:
+'Select all the code, right-click and *Extract example*
+Set the receiver to `PriceExamples` and the selector to `hundredEuros`.
+Choose `EDDPrices` as the package and `Examples` as the tag.
+Accept the refactoring.
+Inspect the result.
+Browse the code bubble.
 '>
-	^ aSlide paragraph
+
+	^ aSlide lepiterPage
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		startPage: (self db pageNamed: 'Extracting an example')
+]
+
+{ #category : #page }
+ExampleDrivenSlideshow >> extractingExamplesPage [
+	<lePage>
+	<gtExample>
+	<noTest>
+	^ (LePage named: 'Extracting an example')
+	addSnippet: (LeTextSnippet new
+			string: 'This could make a nice example for testing.';
+			yourself);
+	addSnippet: (LePharoSnippet new
+			code: '100 euros asPrice.';
+			yourself);
+	yourself
 ]
 
 { #category : #slides }
 ExampleDrivenSlideshow >> factoryMethod: aSlide [
 	<gtSlide>
 	<text:
-'TODO
-
-## Create a factory method
+'## Create a factory method
 
 We would  like to be able to create a price object by sending `asPrice` to a Money instance.
 
