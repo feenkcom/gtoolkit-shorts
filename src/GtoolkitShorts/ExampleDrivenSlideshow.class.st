@@ -8,9 +8,7 @@ Class {
 ExampleDrivenSlideshow >> addingAssertions: aSlide [
 	<gtSlide>
 	<text:
-'TODO
-
-## Adding assertions
+'## Adding assertions
 
 We now have an example, but we aren''t testing anything yet.
 
@@ -20,14 +18,23 @@ We expect that a price object should equal another price object with the same mo
 
 We see that this fails.
 
+Let''s have a look at the `=` method. It''s testing for object identity.
 
+Now let''s see what happens if we directly compare the `money` slots.
 
+This passes. We see that Money has implemented `=`, so we should do the same.
+
+We have the code we want right here, so let''s extract it.
+
+Now we can go back to the example and add a test.
 '>
 <demo:
 'Inspect the example and open the playground.
-Evaluate `self = 100 euros asPrice`
-
-'>
+Evaluate `other := 100 euros asPrice. self = other` and see it fails.
+Open the code bubble for `=` (alternatively search for `=` in the Meta view).
+Evaluate a new snippet `self money = other money` and see it passes.
+Browse the `=` method of money and see it has been overridden.
+Rewrite the `hundredEuros` example, adding the assertion.'>
 
 	^ aSlide lepiterPage
 		setPriority;
@@ -92,22 +99,31 @@ ExampleDrivenSlideshow >> addingViewsPage [
 ]
 
 { #category : #slides }
-ExampleDrivenSlideshow >> complexScenario: aSlide [
+ExampleDrivenSlideshow >> composingExamples: aSlide [
 	<gtSlide>
 	<text:
-'# TODO
+'# Composing Examples
 
-# A complex scenario
+Here we see a version of the Price implementation after several more iterations, with examples covering all the cases.
+
+Each example method exercises an object, performs assertions, and also *returns an example object*.
+
+Each example can then be used as a setup for another example.
+
+This leads to a forest of composed examples.
 
 '>
-	^ aSlide paragraph
+<demo:
+'Open the first example, inspect the result.
+Open the second example and see how it is composed.
+Show the examples map and pick the root of a chain of 4 examples.
+Evaluate and open the code bubbles.
+'>
+
+		^ aSlide labelAndElement
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
+		newFadedText: 'Composing Examples';
+		element: [ (GtCoderElement forClass: GtDPriceExamples) createInPager "maximized" ]
 ]
 
 { #category : #slides }
@@ -128,25 +144,6 @@ We''ll start with an example of a concrete (as opposed to an abstract) Price obj
 A price can be something like 100 EUR.
 Prices can be added or multiplied.
 ...
-')
-]
-
-{ #category : #slides }
-ExampleDrivenSlideshow >> extractSuperclass: aSlide [
-	<gtSlide>
-	<text:
-'# TODO
-
-## Refactoring to a common superclass
-
-'>
-	^ aSlide paragraph
-		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
 ')
 ]
 
@@ -328,7 +325,7 @@ Go to the Examples map to show all the depenencies.
 
 { #category : #slides }
 ExampleDrivenSlideshow >> placeholder: aSlide [
-	<gtSlide>
+	"<gtSlide>"
 	<text:
 'TODO
 
@@ -361,17 +358,12 @@ ExampleDrivenSlideshow >> slidePriorities [
 			addingViews:
 			extractingExamples:
 			addingAssertions:
-			supportingArithmetic:
 		
-		complexScenario:
-			subclassQuickFix:
-			extractSuperclass:
-			subclassDiscountPercent:
+		composingExamples:
 		
+		summarySlide:
 		
-		"summarySlide:"
-		
-		placeholder:
+		"placeholder:"
 	)
 ]
 
@@ -416,59 +408,35 @@ ExampleDrivenSlideshow >> startFromAnObjectPage [
 ]
 
 { #category : #slides }
-ExampleDrivenSlideshow >> subclassDiscountPercent: aSlide [
+ExampleDrivenSlideshow >> summarySlide: aSlide [
 	<gtSlide>
 	<text:
-'# TODO
+'# EDD in a Nutshell
 
-## Adding discount by percent as a subclass
+Summing up, instead of starting by writing a test, we first create a live object to explore.
 
-'>
+We prototype any behavior in the playground of the live object, and then extract methods that work.
+
+We create views that explain what is interesting about the object.
+
+We extract interesting instances as example methods of a dedicated examples class.
+
+We prototype tests in the playground of the live example, before adding them as assertions to an example.
+
+Iterate until we are done!'>
+
 	^ aSlide paragraph
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
+		subtitleWithFormat: (self asSubtitle: 'EDD in a Nutshell');
 		paragraphWithFormat: (self
 				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
-]
-
-{ #category : #slides }
-ExampleDrivenSlideshow >> subclassQuickFix: aSlide [
-	<gtSlide>
-	<text:
-'# TODO
-
-## Adding discounted price as a subclass
-
-'>
-	^ aSlide paragraph
-		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
-')
-]
-
-{ #category : #slides }
-ExampleDrivenSlideshow >> supportingArithmetic: aSlide [
-	<gtSlide>
-	<text:
-'TODO
-
-## Supporting arithmetic
-
-'>
-	^ aSlide paragraph
-		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'Outline');
-		paragraphWithFormat: (self
-				asText: 
-'Paragraph body.
-Possibly over multiple lines.
+'
+• Start with an object
+• Prototype behavior in the playground
+• Extract methods
+• Introduce useful views
+• Extract examples
+• Prototype assertions in the playground
 ')
 ]
 
