@@ -1,0 +1,1 @@
+Object subclass: #ConcretePrice	instanceVariableNames: 'money'	classVariableNames: ''	package: 'EDDPrices-Model'!!ConcretePrice methodsFor: 'accessing' stamp: 'GlamorousAuthor 3/11/2024 09:00'!money	^ money! !!ConcretePrice methodsFor: 'accessing' stamp: 'GlamorousAuthor 3/11/2024 09:00'!money: aMoney	money := aMoney! !
