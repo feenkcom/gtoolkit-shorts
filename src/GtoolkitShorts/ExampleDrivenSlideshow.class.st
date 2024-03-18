@@ -64,6 +64,7 @@ We go to the `Meta` view of the Price object and add a new view method that forw
 A view is just a method that takes a view object as an argument, has a `<gtView>` pragma, and uses the view API to create the view we want, in this case a `forward` view.
 
 We set the title of the view to `Money`, the priority to 10 so it appears early in the list of views, the object we want to forward to is the money slot, and the view is its `gtDisplayFor:` view.
+
 The moment we commit the view code, the view becomes available.'>
 	<demo: 'Inspect the price object.
 Inspect the money slot and view the `Details` view code.
@@ -99,7 +100,7 @@ ExampleDrivenSlideshow >> composingExamples: aSlide [
 
 Here we see a version of the Price implementation after several more iterations, with examples covering all the cases.
 
-Each example method exercises an object, performs assertions, and also *returns an example object*.
+Each example method exercises an object, performs assertions, and also returns an example object.
 
 Each example can then be used as a setup for another example.
 
@@ -222,8 +223,7 @@ ExampleDrivenSlideshow >> modelingPrices: aSlide [
 	<gtSlide>
 	<text: '# Modeling prices
 
-Let''s work through an example where we want to model *prices* for goods, that may be *discounted* by fixed amounts, or percentages, or even combinations of different types of discounts.
-'>
+Let''s work through an example where we want to model *prices* for goods, that may be *discounted* by fixed amounts, or percentages, or even combinations of different types of discounts.'>
 	^ aSlide paragraph
 		setPriority;
 		subtitleWithFormat: (self asSubtitle: 'Modeling prices');
@@ -402,7 +402,7 @@ We extract interesting instances as example methods of a dedicated examples clas
 
 We prototype tests in the playground of the live example, before adding them as assertions to an example.
 
-Iterate until we are done!'>
+We iterate until we''re done!'>
 	^ aSlide paragraph
 		setPriority;
 		subtitleWithFormat: (self asSubtitle: 'EDD in a Nutshell');
