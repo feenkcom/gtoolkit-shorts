@@ -246,7 +246,7 @@ To simplify our task, we assume that we already have classes that model differen
 
 An amount of money is always in a *currency* such as euros or US dollars.
 
-A *bag* of money consists of amounts of mized currencies.
+A *bag* of money consists of amounts of mixed currencies.
 
 A *zero* amount of money doesn''t have a currency.
 
@@ -291,7 +291,7 @@ ExampleDrivenSlideshow >> moneyExamples: aSlide [
 
 The money classes are heavily covered by examples, which are essentially unit tests that also return example objects.
 
-This means that a passing test is not just green, but also returns an object that can be explored, resued as a setup for another example, or embedded into live documentation.
+This means that a passing test is not just green, but also returns an object that can be explored, reused as a setup for another example, or embedded into live documentation.
 
 Unlike tests, however, examples don''t come “first” but they are extracted during the example-driven development process.'>
 	<demo: 'Run all the examples.
