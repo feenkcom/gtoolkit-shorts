@@ -87,3 +87,8 @@ GtShortSlideshow >> removeAllMethods: aClassSymbol [
 GtShortSlideshow >> removeClass: aClassSymbol [
 	[ aClassSymbol asClass removeFromSystem ] onErrorDo: [  ]
 ]
+
+{ #category : #utility }
+GtShortSlideshow >> removePackage: aPackageSymbol [
+	[ aPackageSymbol asPackage removeFromSystem ] onErrorDo: [  ]
+]
