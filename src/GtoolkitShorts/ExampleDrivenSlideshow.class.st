@@ -403,11 +403,13 @@ We extract interesting instances as example methods of a dedicated examples clas
 We prototype tests in the playground of the live example, before adding them as assertions to an example.
 
 We iterate until we''re done!'>
-	^ aSlide paragraph
+	<demo: 'We leave room at the right of the slide for overviews of the points.'>
+	^ aSlide textAndElement
+		elementWeight: 0.3;
 		setPriority;
-		subtitleWithFormat: (self asSubtitle: 'EDD in a Nutshell');
-		paragraphWithFormat: (self
-				asText: '
+		newTextWithFormat: (self asSubtitle: 'EDD in a Nutshell') , self cr
+				, (self
+						asText: '
 • Start with an object
 • Prototype behavior in the playground
 • Extract methods
