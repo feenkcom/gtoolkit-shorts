@@ -76,19 +76,3 @@ GtShortSlideshow >> gtShortsLepiterDB [
 GtShortSlideshow >> picturesDirectoryPath [
 	^ Path * 'feenkcom' / 'gtoolkit-shorts' / 'doc'
 ]
-
-{ #category : #utility }
-GtShortSlideshow >> removeAllMethods: aClassSymbol [
-	[ aClassSymbol asClass selectors
-		do: [ :each | aClassSymbol asClass removeSelector: each ] ] onErrorDo: [  ]
-]
-
-{ #category : #utility }
-GtShortSlideshow >> removeClass: aClassSymbol [
-	[ aClassSymbol asClass removeFromSystem ] onErrorDo: [  ]
-]
-
-{ #category : #utility }
-GtShortSlideshow >> removePackage: aPackageSymbol [
-	[ aPackageSymbol asPackage removeFromSystem ] onErrorDo: [  ]
-]
