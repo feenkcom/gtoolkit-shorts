@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-13T18:24:15.007466+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-13T18:24:22.806474+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AStVc/vnDQCY51vFCzYmRg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Notes from 2023-02-10"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-13T18:24:23.264844+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-13T18:24:32.440952+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zijTc/vnDQCZUxZzCzYmRg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Lepiter in 7'\n\nLepiter \nNot just a notebook, but the starting point for any task.\n\nTG feedback: it would be useful to point out that the text snippet (and markdown) is just a language, and that Lepiter is made to be extensible:\nevery snippet has its own language\neven the markdown is extensible\nIt would also be useful to point out that Lepiter is programmable (to a good extent, from within itself). We do not need to get into the details here, but inspecting a page/snippet could be a nice way to mention this.\nInteresting snippet types:\nexamples: allows one to build narratives out of testing effort\nwardley map: it’s a visual language that is still understood by lepiter.\nmaybe graphQL?\nI would not show the ToC too explicitly because it’s still mostly a bit of a hack, but I do not have strong opinions\n\n# GT Book\nGT Book is a lepiter database.\nEach database is a notebook of pages containing markdown text and various kinds of live code snippets.\nPages may contain links to other pages, to code, and to other resources.\n\nShow one or two initial pages.\n\nThe GT book is an example of lepiter used as a knowledge base.\nIt contains tutorials, documentation, descriptions of case studies, and answers to frequently asked questions.\n\n# Own Lepiter database / notebook\nBut it's also a notebook.\nEvery user has their own lepiter database, which is automatically backed up, and persists from session to session.\n\nYou can use it to manage notes and todos, but also to keep track of your progress in tasks and projects.\n\nWhen you open a playground or a note, it is just a page in your private lepiter database.\n\nA playground is just an unnamed note with an empty code snippet.\nIf you give it a title, it becomes a note.\n\n# Basic Syntax\nUse markdown\nMost of markdown is supported (headings, italic, bold, code, internal and external links ...)\nType a few.\n\nLinks to new pages\n\n# Editing\nMoving snippets — up, down, indent\nYou can create a new code (Pharo) snippet by clicking on the +.\nCode snippets\n\n# Syntax extensions\nSpecial annotations {{}} getMethod etc. Todos\n\nQ What kinds of annotations exist? What are their parameters?\n\n# Snippet types\n\nQ Todo? Other specialized snippets — where are they documented?\nQ Todo? Where are the parameters to snippets documented?\n\n# Inspecting Lepiter pages\n\nAdding a page as a TOC\nLinks to pages in other databases (check is this only in the inspector view?)\n\nQ Other features from inspector views?\n\n# Programmatic interface\n\nQuerying pages — searching for a database\nSearching for pages containing open todos\n\n# Tips and tricks\nAlways start any task from a Lepiter page\nUsing tags as pages to cross reference and find pages\nAdding todos to pages\nSave your lepiter db in a github repo\nAdd a lepiter db to each github project\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-01-13T18:24:14.974274+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-01-13T18:24:14.974274+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Planning notes for Lepiter in 7'"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "bda85473-fbe7-0d00-98e6-d67b0b362646"
+	}
+}
