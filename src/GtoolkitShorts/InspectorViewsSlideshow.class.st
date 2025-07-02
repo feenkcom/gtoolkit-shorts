@@ -32,13 +32,14 @@ InspectorViewsSlideshow >> customViewsForSubtitles: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Custom views for subtitles');
+		startPage: (self database pageNamed: 'Custom views for subtitles');
 		yourself
 ]
 
 { #category : #page }
 InspectorViewsSlideshow >> customViewsForSubtitlesPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Custom views for subtitles')
 		addSnippet: (LeTextSnippet new
@@ -55,13 +56,14 @@ InspectorViewsSlideshow >> exploringCartoonAddresses: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Exploring an AddressBook object');
+		startPage: (self database pageNamed: 'Exploring an AddressBook object');
 		yourself
 ]
 
 { #category : #page }
 InspectorViewsSlideshow >> exploringCartoonAddressesPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Exploring an AddressBook object')
 		addSnippet: (LePharoSnippet new
@@ -75,13 +77,14 @@ InspectorViewsSlideshow >> exploringTheAPI: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Exploring the Inspector view API');
+		startPage: (self database pageNamed: 'Exploring the Inspector view API');
 		yourself
 ]
 
 { #category : #page }
 InspectorViewsSlideshow >> exploringTheAPIPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Exploring the Inspector view API')
 		addSnippet: (LeTextSnippet new
@@ -167,13 +170,6 @@ InspectorViewsSlideshow >> fullExploringTheAPIPage [
 	asBag sortedCounts';
 				yourself);
 		yourself
-]
-
-{ #category : #initialization }
-InspectorViewsSlideshow >> initializeDb [
-	self db addPage: self customViewsForSubtitlesPage.
-	self db addPage: self exploringCartoonAddressesPage.
-	self db addPage: self exploringTheAPIPage
 ]
 
 { #category : #accessing }

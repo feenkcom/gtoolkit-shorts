@@ -21,7 +21,7 @@ ExploringGitHubRESTAPI >> exploringTheDataPage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Exploring the GitHub REST API')
+		startPage: (self database pageNamed: 'Exploring the GitHub REST API')
 ]
 
 { #category : #slides }
@@ -30,11 +30,6 @@ ExploringGitHubRESTAPI >> gettingRawData: aSlide [
 	^ aSlide title
 		setPriority;
 		titleWithFormat: (self asHeader: 'Getting the raw data')
-]
-
-{ #category : #initialization }
-ExploringGitHubRESTAPI >> initializeDb [
-	super initializeDb
 ]
 
 { #category : #slides }

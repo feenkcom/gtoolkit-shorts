@@ -15,13 +15,14 @@ UnderstandingLepiterSlideshow >> annotations: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Lepiter annotations');
+		startPage: (self database pageNamed: 'Lepiter annotations');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> annotationsPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Lepiter annotations')
 		addSnippet: (LeTextSnippet new
@@ -80,13 +81,14 @@ UnderstandingLepiterSlideshow >> editingPages: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Editing Lepiter pages');
+		startPage: (self database pageNamed: 'Editing Lepiter pages');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> editingPagesPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Editing Lepiter pages')
 		addSnippet: (LeTextSnippet new
@@ -108,13 +110,14 @@ UnderstandingLepiterSlideshow >> exampleSnippets: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Example snippets');
+		startPage: (self database pageNamed: 'Example snippets');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> exampleSnippetsPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Example snippets')
 		addSnippet: (LeTextSnippet new
@@ -143,6 +146,7 @@ UnderstandingLepiterSlideshow >> faqExamplePage: aSlide [
 { #category : #page }
 UnderstandingLepiterSlideshow >> finalGraphQLPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'GraphQL snippet')
 		addSnippet: (LeTextSnippet new
@@ -184,13 +188,14 @@ UnderstandingLepiterSlideshow >> graphQL: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'GraphQL snippet');
+		startPage: (self database pageNamed: 'GraphQL snippet');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> graphQLPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'GraphQL snippet')
 		addSnippet: (LeTextSnippet new
@@ -217,19 +222,6 @@ UnderstandingLepiterSlideshow >> gtWorld: aSlide [
 	^ aSlide element
 		setPriority;
 		element: [ aSlide world ]
-]
-
-{ #category : #initialization }
-UnderstandingLepiterSlideshow >> initializeDb [
-	self db addPage: self annotationsPage.
-	self db addPage: self graphQLPage.
-	self db addPage: self editingPagesPage.
-	self db addPage: self exampleSnippetsPage.
-	self db addPage: self parsingBibtexPage.
-	self db addPage: self queryingLepiterPage.
-	self db addPage: self randomNoteExamplePage.
-	self db addPage: self snippetTypesPage.
-	self db addPage: self todoExamplePage.
 ]
 
 { #category : #slides }
@@ -282,6 +274,7 @@ UnderstandingLepiterSlideshow >> oscarsLepiterDB [
 { #category : #page }
 UnderstandingLepiterSlideshow >> parsingBibtexPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Parsing Bibtex')
 		addSnippet: (LeTextSnippet new
@@ -567,7 +560,7 @@ UnderstandingLepiterSlideshow >> projectExamplePage: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Parsing Bibtex');
+		startPage: (self database pageNamed: 'Parsing Bibtex');
 		yourself
 ]
 
@@ -576,13 +569,14 @@ UnderstandingLepiterSlideshow >> queryingLepiter: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Querying Lepiter');
+		startPage: (self database pageNamed: 'Querying Lepiter');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> queryingLepiterPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Querying Lepiter')
 		addSnippet: (LeTextSnippet new
@@ -596,6 +590,7 @@ UnderstandingLepiterSlideshow >> queryingLepiterPageComplete [
 	"The final state of the page"
 
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Querying Lepiter')
 		addSnippet: (LeTextSnippet new
@@ -664,13 +659,14 @@ UnderstandingLepiterSlideshow >> randomNoteExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Where are buttons implemented?');
+		startPage: (self database pageNamed: 'Where are buttons implemented?');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> randomNoteExamplePage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Where are buttons implemented?')
 		addSnippet: (LeTextSnippet new
@@ -853,13 +849,14 @@ UnderstandingLepiterSlideshow >> snippetTypes: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Snippet types');
+		startPage: (self database pageNamed: 'Snippet types');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> snippetTypesPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Snippet types')
 		addSnippet: (LeTextSnippet new
@@ -916,13 +913,14 @@ UnderstandingLepiterSlideshow >> todoExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Prepare a “What is GT anyway?” short');
+		startPage: (self database pageNamed: 'Prepare a “What is GT anyway?” short');
 		yourself
 ]
 
 { #category : #page }
 UnderstandingLepiterSlideshow >> todoExamplePage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Prepare a “What is GT anyway?” short')
 		addSnippet: (LeTextSnippet new
@@ -993,10 +991,11 @@ UnderstandingLepiterSlideshow >> tutorialExamplePage: aSlide [
 
 { #category : #slides }
 UnderstandingLepiterSlideshow >> understandingLepiterPage: aSlide [
+	"This slide should not reference an external page ..."
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		pageNamed: 'Understanding Lepiter' from: self gtShortsLepiterDB;
+		pageNamed: 'Understanding Lepiter in 7''' from: self gtShortsLepiterDB;
 		yourself
 ]
 

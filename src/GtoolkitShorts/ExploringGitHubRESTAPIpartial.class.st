@@ -132,9 +132,10 @@ ExploringGitHubRESTAPIpartial >> extractingNavigationCode: aSlide [
 		titleWithFormat: (self asHeader: 'Extracting the navigation code')
 ]
 
-{ #category : #accessing }
+{ #category : #page }
 ExploringGitHubRESTAPIpartial >> finalExploringDataPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Exploring the GitHub REST API')
 		addSnippet: (LeTextSnippet new
@@ -169,12 +170,13 @@ ExploringGitHubRESTAPIpartial >> fullExample: aSlide [
 	<gtSlide>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'An executable GitHub REST API model')
+		startPage: (self database pageNamed: 'An executable GitHub REST API model')
 ]
 
-{ #category : #slides }
+{ #category : #page }
 ExploringGitHubRESTAPIpartial >> fullExamplePage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'An executable GitHub REST API model')
 		addSnippet: (LePharoSnippet new
@@ -191,12 +193,6 @@ ExploringGitHubRESTAPIpartial >> gtoolkitData [
 		fromString: (ZnClient new
 				username: '' password: self password;
 				get: 'https://api.github.com/repos/feenkcom/gtoolkit')
-]
-
-{ #category : #initialization }
-ExploringGitHubRESTAPIpartial >> initializeDb [
-	self db addPage: self fullExamplePage.
-	self db addPage: self finalExploringDataPage
 ]
 
 { #category : #slides }

@@ -247,12 +247,13 @@ Custom views, actions, and searches are all examples of simple adaptations writt
 *(Show the code of the *Slide with text* view. Then show the slide search and its code, and the *Play slideshow* button and its code. Each time highlight the pragma line.)*'>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Exploring the slideshow')
+		startPage: (self database pageNamed: 'Exploring the slideshow')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> exploringSlideshowPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'Exploring the slideshow')
 		addSnippet: (LeTextSnippet new
 				string: '';
@@ -344,12 +345,13 @@ Here is a dedicated snippet for querying GitHub using the GraphQL query language
 *(Evaluate the first two snippets, set the context and inspect the last snippet. Click on the *Fields* and *Type* views.)*'>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'GraphQL')
+		startPage: (self database pageNamed: 'GraphQL')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> graphQLPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'GraphQL')
 		addSnippet: (LeTextSnippet new
 				string: 'Get your GitHub personal access token:';
@@ -481,17 +483,6 @@ GT can also be seen as a new kind of Integrated Development Environment.'>
 		element: [ self elementForPicture: 'blind-monks-back.jpg' ]
 ]
 
-{ #category : #initialization }
-GettingStartedWithGTSlideShow >> initializeDb [
-	db := nil.
-	self db addPage: self uhmoPage.
-	self db addPage: self ludoGamePage.
-	self db addPage: self treemapPage.
-	self db addPage: self petitParserPage.
-	self db addPage: self graphQLPage.
-	self db addPage: self exploringSlideshowPage.
-]
-
 { #category : #slides }
 GettingStartedWithGTSlideShow >> knowledgeBase: aSlide [
 	<gtSlide>
@@ -544,9 +535,10 @@ GettingStartedWithGTSlideShow >> ludoGame: aSlide [
 		startPage: (self db pageNamed: 'An explorable Ludo game')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> ludoGamePage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'An explorable Ludo game')
 		addSnippet: (LeTextSnippet new
 				string: '';
@@ -605,12 +597,13 @@ Here is a tiny parser to recognize and compute arithmetic sums.
 *(Inspect the result.)*'>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Getting started with PetitParser')
+		startPage: (self database pageNamed: 'Getting started with PetitParser')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> petitParserPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'Getting started with PetitParser')
 		addSnippet: (LePharoSnippet new
 				code: 'number := #digit asPParser star flatten
@@ -642,9 +635,10 @@ GettingStartedWithGTSlideShow >> picturesFolder [
 		resourceAtPath: self picturesDirectoryPath / 'GettingStarted'
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> placeholderPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'PLACEHOLDER page')
 		addSnippet: (LeTextSnippet new
 				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
@@ -731,9 +725,10 @@ Or we can play through the steps to simulate the algorithm.
 		startPage: (self db pageNamed: 'The Squarified Treemap algorithm')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> treemapPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'The Squarified Treemap algorithm')
 		addSnippet: (LeExampleSnippet new
 				exampleBehaviorName: #GtGraphTreemapLayoutExamples;
@@ -765,9 +760,10 @@ Here Alice has ordered a steak and the order has propagated via John the waiter 
 		startPage: (self db pageNamed: 'Modeling the Cozy Corner restaurant')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 GettingStartedWithGTSlideShow >> uhmoPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'Modeling the Cozy Corner restaurant')
 		addSnippet: (LeExampleSnippet new
 				exampleBehaviorName: #UCozyCornerExamples;

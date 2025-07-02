@@ -23,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:01:19.1248+02:00"
+									"dateAndTimeString" : "2025-07-02T15:17:15.593989+02:00"
 								}
 							},
 							"editEmail" : {
@@ -34,7 +34,44 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:01:28.857508+02:00"
+									"dateAndTimeString" : "2025-07-02T15:17:15.593989+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4I8M0VP1DQCAMZxDCKiQow=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "General tasks, not shorts per se"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T15:32:09.328752+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T15:32:18.407025+02:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "General tasks, not shorts per se"
+							"string" : "[[Fixed the database initialization]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -108,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-13T14:10:06.601944+02:00"
+									"dateAndTimeString" : "2023-07-13T14:10:31.053838+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Pages to move to transient databases]]"
+							"string" : "[[Move slideshow pages to transient databases]] "
 						},
 						{
 							"__type" : "textSnippet",

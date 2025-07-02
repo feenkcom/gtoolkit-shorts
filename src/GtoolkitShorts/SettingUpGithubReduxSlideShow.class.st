@@ -153,12 +153,13 @@ The first thing to do is to download Glamorous Toolkit for your platform and sta
 *(Switch to full screen mode and run the Zoom script.)*'>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Download and start GT')
+		startPage: (self database pageNamed: 'Download and start GT')
 ]
 
-{ #category : #initialization }
+{ #category : #page }
 SettingUpGithubReduxSlideShow >> downloadGtPage [
 	<gtExample>
+	<lePage>
 	^ (LePage named: 'Download and start GT')
 		addSnippet: (LeTextSnippet new
 				string: 'Start by downloading GT for your platform from [](https://gtoolkit.com).';
@@ -217,12 +218,6 @@ Just modify the script to use your ssh credentials, for example `id_rsa.pub` and
 		pageNamed: 'How to configure GitHub SSH key authentication'
 			from: self gtBookName;
 		yourself
-]
-
-{ #category : #initialization }
-SettingUpGithubReduxSlideShow >> initializeDb [
-	db := nil.
-	self db addPage: self downloadGtPage.
 ]
 
 { #category : #slides }

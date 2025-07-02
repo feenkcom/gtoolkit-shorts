@@ -207,13 +207,14 @@ This also works for buttons. For example, we can explore the code of the “Insp
 *(Copy-paste the ''(GtPager ...'' code and do it.)*'>
 	^ aSlide lepiterPage
 		setPriority;
-		startPage: (self db pageNamed: 'Exploring Character views');
+		startPage: (self database pageNamed: 'Exploring Character views');
 		yourself
 ]
 
 { #category : #page }
 HowToFindStuffSlideshow >> exploringCharacterViewsPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Exploring Character views')
 		addSnippet: (LePharoSnippet new
@@ -273,6 +274,7 @@ We can try out the code to verify it.
 { #category : #page }
 HowToFindStuffSlideshow >> findingShortcutsPage [
 	<gtExample>
+	<lePage>
 	<noTest>
 	^ (LePage named: 'Finding shortcuts')
 		addSnippet: (LeTextSnippet new
@@ -296,12 +298,6 @@ What if we are looking for something more complex, like all the abstract methods
 	^ aSlide title
 		setPriority;
 		titleWithFormat: (self asHeader: 'GT queries')
-]
-
-{ #category : #initialization }
-HowToFindStuffSlideshow >> initializeDb [
-	self db addPage: self exploringCharacterViewsPage.
-	self db addPage: self findingShortcutsPage.
 ]
 
 { #category : #slides }
@@ -351,7 +347,7 @@ HowToFindStuffSlideshow >> queryingPharoCodePage: aSlide [
 	<text: '... Querying Pharo code'>
 	^ aSlide lepiterPage
 		setPriority;
-		pageNamed: 'Querying Pharo code' from: self gtBookName;
+		pageNamed: 'Querying Pharo code with GT filters' from: self gtBookName;
 		yourself
 ]
 
