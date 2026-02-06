@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-06T14:45:03.582608+01:00"
+						"dateAndTimeString" : "2026-02-06T09:01:17.523718+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Shorts]] [[InProgress]]"
+				"string" : "[[Shorts]] [[Planned]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-03-06T14:29:26.463926+01:00"
+						"dateAndTimeString" : "2026-02-06T08:58:20.937445+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The idea is to loosely follow the {{gtPage:Example-Driven Development Tutorial|db=2j9m7db2i4oz116bexd7wbdxo}}, but quickly and showing the key flow."
+				"string" : "The idea is to loosely follow the {{gtPage:Example-driven development by example|db=2j9m7db2i4oz116bexd7wbdxo}}, but quickly and showing the key flow."
 			},
 			{
 				"__type" : "pharoSnippet",
